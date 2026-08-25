@@ -1,0 +1,1584 @@
+[
+  {
+    "id": "g_a1_01",
+    "pattern": "Subject + (很) + Adjective",
+    "pattern_zh": "形容词谓语句",
+    "tier": "A1",
+    "explanation_fr": "En chinois, un adjectif peut fonctionner directement comme prédicat, sans le verbe être (是). On ajoute souvent 很 devant l'adjectif ; il perd alors son sens de « très » et sert simplement à équilibrer la phrase.",
+    "explanation_en": "In Chinese, an adjective can function directly as the predicate of a sentence, without the verb 'to be' (是). 很 is often added before the adjective, losing its meaning of 'very' and simply balancing the sentence.",
+    "examples": [
+      {
+        "zh": "我很好。",
+        "pinyin": "Wǒ hěn hǎo.",
+        "fr": "Je vais bien."
+      },
+      {
+        "zh": "这个茶很热。",
+        "pinyin": "Zhège chá hěn rè.",
+        "fr": "Ce thé est chaud."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "reorder",
+        "words": [
+          "很",
+          "高",
+          "他"
+        ],
+        "answer": "他很高。"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "这个杯子___大。",
+        "answer": "很"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Ce thé est bon.",
+        "answer": "这个茶很好。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_02",
+    "pattern": "不 + Verb/Adjective (habitual/future); 没(有) + Verb (past/possession)",
+    "pattern_zh": "否定句：不 / 没",
+    "tier": "A1",
+    "explanation_fr": "不 nie une action habituelle, un état ou une intention future. 没(有) nie une action passée (qui n'a pas eu lieu) ou l'existence/la possession (没有).",
+    "explanation_en": "不 negates a habitual action, a state, or a future intention. 没(有) negates a past action (that did not happen) or existence/possession (没有).",
+    "examples": [
+      {
+        "zh": "我不喝酒。",
+        "pinyin": "Wǒ bù hē jiǔ.",
+        "fr": "Je ne bois pas d'alcool."
+      },
+      {
+        "zh": "我没有钱。",
+        "pinyin": "Wǒ méiyǒu qián.",
+        "fr": "Je n'ai pas d'argent."
+      },
+      {
+        "zh": "他昨天没来。",
+        "pinyin": "Tā zuótiān méi lái.",
+        "fr": "Il n'est pas venu hier."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___喜欢喝酒。",
+        "answer": "不"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "他昨天___去学校。",
+        "answer": "没"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je n'ai pas de grand frère.",
+        "answer": "我没有哥哥。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_03",
+    "pattern": "Statement + 吗？ / Verb-不-Verb？ / Question word",
+    "pattern_zh": "疑问句",
+    "tier": "A1",
+    "explanation_fr": "Trois façons principales de poser une question : ajouter 吗 en fin de phrase affirmative ; répéter le verbe sous forme affirmative-négative (verbe+不+verbe) ; ou utiliser un mot interrogatif (谁, 什么, 哪儿, 怎么…) à la place de l'information recherchée.",
+    "explanation_en": "Three main ways to ask a question: add 吗 at the end of a statement; repeat the verb in affirmative-negative form (verb+不+verb); or use a question word (谁, 什么, 哪儿, 怎么…) in place of the information sought.",
+    "examples": [
+      {
+        "zh": "你是学生吗？",
+        "pinyin": "Nǐ shì xuésheng ma?",
+        "fr": "Es-tu étudiant ?"
+      },
+      {
+        "zh": "你去不去？",
+        "pinyin": "Nǐ qù bú qù?",
+        "fr": "Tu y vas ou pas ?"
+      },
+      {
+        "zh": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "fr": "Comment t'appelles-tu ?"
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "reorder",
+        "words": [
+          "吗",
+          "学生",
+          "你",
+          "是"
+        ],
+        "answer": "你是学生吗？"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "你去___去商店？",
+        "answer": "不"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Où habites-tu ?",
+        "answer": "你住在哪儿？"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_04",
+    "pattern": "Noun/Pronoun/Adjective + 的 + Noun",
+    "pattern_zh": "的字结构",
+    "tier": "A1",
+    "explanation_fr": "的 relie un possesseur, un déterminant ou un adjectif au nom qu'il qualifie, comme « de » en français. Il se place entre le déterminant et le nom qualifié.",
+    "explanation_en": "的 links a possessor, modifier, or adjective to the noun it describes, similar to 's/of' in English. It is placed between the modifier and the noun.",
+    "examples": [
+      {
+        "zh": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū.",
+        "fr": "C'est mon livre."
+      },
+      {
+        "zh": "红色的衣服很好看。",
+        "pinyin": "Hóngsè de yīfu hěn hǎokàn.",
+        "fr": "Les vêtements rouges sont jolis."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "reorder",
+        "words": [
+          "书",
+          "我",
+          "的",
+          "是",
+          "这"
+        ],
+        "answer": "这是我的书。"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "这是老师___书。",
+        "answer": "的"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "C'est la voiture de mon papa.",
+        "answer": "这是我爸爸的车。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_05",
+    "pattern": "Number + Classifier + Noun",
+    "pattern_zh": "量词",
+    "tier": "A1",
+    "explanation_fr": "En chinois, un nombre ne se met jamais directement devant un nom : il faut un classificateur entre les deux, choisi selon la nature de l'objet (个 pour la plupart des noms, 本 pour les livres, 杯 pour les boissons, 张 pour les objets plats, etc.).",
+    "explanation_en": "In Chinese, a number cannot be placed directly before a noun: a measure word (classifier) is required between them, chosen according to the nature of the object (个 for most nouns, 本 for books, 杯 for drinks, 张 for flat objects, etc.).",
+    "examples": [
+      {
+        "zh": "我要一本书。",
+        "pinyin": "Wǒ yào yì běn shū.",
+        "fr": "Je veux un livre."
+      },
+      {
+        "zh": "她买了三件衣服。",
+        "pinyin": "Tā mǎile sān jiàn yīfu.",
+        "fr": "Elle a acheté trois vêtements."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我要一___水。",
+        "answer": "杯"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "他买了两___书。",
+        "answer": "本"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "J'ai un grand frère.",
+        "answer": "我有一个哥哥。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_06",
+    "pattern": "Sentence + 吧",
+    "pattern_zh": "语气助词「吧」",
+    "tier": "A1",
+    "explanation_fr": "吧 en fin de phrase adoucit un ordre, propose une suggestion, ou exprime une supposition proche de la certitude.",
+    "explanation_en": "吧 at the end of a sentence softens a command, makes a suggestion, or expresses a near-certain assumption.",
+    "examples": [
+      {
+        "zh": "我们走吧。",
+        "pinyin": "Wǒmen zǒu ba.",
+        "fr": "Allons-y."
+      },
+      {
+        "zh": "你是法国人吧？",
+        "pinyin": "Nǐ shì fǎguórén ba?",
+        "fr": "Tu es français, n'est-ce pas ?"
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我们一起吃饭___。",
+        "answer": "吧"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "吧",
+          "坐",
+          "请"
+        ],
+        "answer": "请坐吧。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Allons-y !",
+        "answer": "我们走吧！"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_07",
+    "pattern": "Noun/Pronoun + 呢？ / Sentence + 呢",
+    "pattern_zh": "语气助词「呢」",
+    "tier": "A1",
+    "explanation_fr": "呢 pose une question elliptique (« et… ? ») en reprenant un sujet déjà mentionné, ou marque qu'une action est en train de se dérouler.",
+    "explanation_en": "呢 asks an elliptical question ('and...?') referring back to something already mentioned, or marks that an action is currently ongoing.",
+    "examples": [
+      {
+        "zh": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "fr": "Je vais bien, et toi ?"
+      },
+      {
+        "zh": "他在写字呢。",
+        "pinyin": "Tā zài xiězì ne.",
+        "fr": "Il est en train d'écrire."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我是学生，你___？",
+        "answer": "呢"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je bois du thé, et toi ?",
+        "answer": "我喝茶，你呢？"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "呢",
+          "写字",
+          "他",
+          "在"
+        ],
+        "answer": "他在写字呢。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_08",
+    "pattern": "Subject + Adverb (也/都/很/常/还/太) + Verb/Adjective",
+    "pattern_zh": "副词的位置",
+    "tier": "A1",
+    "explanation_fr": "Les adverbes comme 也 (aussi), 都 (tous), 很 (très), 常 (souvent), 还 (encore), 太 (trop) se placent toujours devant le verbe ou l'adjectif, jamais après.",
+    "explanation_en": "Adverbs such as 也 (also), 都 (all), 很 (very), 常 (often), 还 (still), 太 (too) are always placed before the verb or adjective, never after.",
+    "examples": [
+      {
+        "zh": "我也喜欢喝茶。",
+        "pinyin": "Wǒ yě xǐhuan hē chá.",
+        "fr": "Moi aussi j'aime le thé."
+      },
+      {
+        "zh": "他们都是学生。",
+        "pinyin": "Tāmen dōu shì xuésheng.",
+        "fr": "Ils sont tous étudiants."
+      },
+      {
+        "zh": "这个太贵了。",
+        "pinyin": "Zhège tài guì le.",
+        "fr": "C'est trop cher."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我们___是法国人。",
+        "answer": "都"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "喜欢",
+          "也",
+          "我",
+          "茶"
+        ],
+        "answer": "我也喜欢茶。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "C'est trop grand.",
+        "answer": "这个太大了。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_09",
+    "pattern": "Subject + 在/跟 + Object + Verb",
+    "pattern_zh": "介词「在」「跟」",
+    "tier": "A1",
+    "explanation_fr": "在 indique le lieu où se déroule une action (在 + lieu + verbe) ; 跟 indique la personne avec qui l'on fait quelque chose (跟 + personne + verbe).",
+    "explanation_en": "在 indicates the place where an action happens (在 + place + verb); 跟 indicates the person one does something with (跟 + person + verb).",
+    "examples": [
+      {
+        "zh": "我在家看书。",
+        "pinyin": "Wǒ zài jiā kànshū.",
+        "fr": "Je lis à la maison."
+      },
+      {
+        "zh": "我跟他一起去。",
+        "pinyin": "Wǒ gēn tā yìqǐ qù.",
+        "fr": "J'y vais avec lui."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___学校学习。",
+        "answer": "在"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "朋友",
+          "我",
+          "一起",
+          "去",
+          "跟"
+        ],
+        "answer": "我跟朋友一起去。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il travaille au restaurant.",
+        "answer": "他在饭馆工作。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_10",
+    "pattern": "Subject + Auxiliary verb (会/能/可以/想/要) + Verb",
+    "pattern_zh": "能愿动词",
+    "tier": "A1",
+    "explanation_fr": "会 (savoir faire, capacité acquise), 能 (pouvoir, capacité/permission), 可以 (avoir la permission de), 想 (avoir envie de), 要 (vouloir, avoir l'intention de) se placent devant le verbe principal.",
+    "explanation_en": "会 (know how to, learned ability), 能 (to be able to, capacity/permission), 可以 (to be allowed to), 想 (to feel like, to want), 要 (to want to, to intend to) are placed before the main verb.",
+    "examples": [
+      {
+        "zh": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō Hànyǔ.",
+        "fr": "Je sais parler chinois."
+      },
+      {
+        "zh": "我想去中国。",
+        "pinyin": "Wǒ xiǎng qù Zhōngguó.",
+        "fr": "J'ai envie d'aller en Chine."
+      },
+      {
+        "zh": "这儿可以坐吗？",
+        "pinyin": "Zhèr kěyǐ zuò ma?",
+        "fr": "Peut-on s'asseoir ici ?"
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___喝茶。（想要）",
+        "answer": "想"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "开车",
+          "他",
+          "会",
+          "不"
+        ],
+        "answer": "他不会开车。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je peux entrer ?",
+        "answer": "我可以进去吗？"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_11",
+    "pattern": "Verb + Verb / Verb + 一 + Verb",
+    "pattern_zh": "动词重叠",
+    "tier": "A1",
+    "explanation_fr": "Répéter un verbe (看看, 说说) ou insérer 一 (看一看) atténue le sens de l'action : cela suggère une action brève, légère ou informelle, souvent traduite par « un peu » ou « un instant ».",
+    "explanation_en": "Repeating a verb (看看, 说说) or inserting 一 (看一看) softens the action: it suggests a brief, light, or casual action, often translated as 'a bit' or 'for a moment'.",
+    "examples": [
+      {
+        "zh": "你看看这个。",
+        "pinyin": "Nǐ kànkan zhège.",
+        "fr": "Jette un coup d'œil à ça."
+      },
+      {
+        "zh": "我们想一想。",
+        "pinyin": "Wǒmen xiǎng yi xiǎng.",
+        "fr": "Réfléchissons un peu."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "reorder",
+        "words": [
+          "看看",
+          "这本书",
+          "你"
+        ],
+        "answer": "你看看这本书。"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "你___这个问题。（想一下，重叠）",
+        "answer": "想想"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Écoute un peu.",
+        "answer": "你听听。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_12",
+    "pattern": "Verb (+ Object + Verb) + 得 + Adjective/Adverb",
+    "pattern_zh": "程度补语「得」",
+    "tier": "A1",
+    "explanation_fr": "得 introduit un complément qui décrit comment se déroule l'action : Verbe + 得 + adjectif/adverbe. Si le verbe a un objet, celui-ci se place après le premier verbe, puis le verbe se répète avant 得 : Verbe + Objet + Verbe + 得 + adjectif.",
+    "explanation_en": "得 introduces a complement describing how an action is performed: Verb + 得 + adjective/adverb. If the verb has an object, the object comes first, then the verb repeats before 得: Verb + Object + Verb + 得 + adjective.",
+    "examples": [
+      {
+        "zh": "他说得很好。",
+        "pinyin": "Tā shuō de hěn hǎo.",
+        "fr": "Il parle très bien."
+      },
+      {
+        "zh": "她写字写得很快。",
+        "pinyin": "Tā xiě zì xiě de hěn kuài.",
+        "fr": "Elle écrit les caractères très vite."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他走___很快。",
+        "answer": "得"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "很好",
+          "说",
+          "得",
+          "他",
+          "汉语"
+        ],
+        "answer": "他汉语说得很好。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Elle chante très bien.",
+        "answer": "她唱歌唱得很好。"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_13",
+    "pattern": "Noun + 上/下/里/外/前/后 (+面/边)",
+    "pattern_zh": "方位词",
+    "tier": "A1",
+    "explanation_fr": "Pour situer un objet, on place un mot de position (上 dessus, 下 dessous, 里 dedans, 外 dehors, 前 devant, 后 derrière) après le nom, souvent suivi de 面 ou 边.",
+    "explanation_en": "To locate an object, a position word (上 on top, 下 below, 里 inside, 外 outside, 前 in front, 后 behind) is placed after the noun, often followed by 面 or 边.",
+    "examples": [
+      {
+        "zh": "书在桌子上。",
+        "pinyin": "Shū zài zhuōzi shàng.",
+        "fr": "Le livre est sur la table."
+      },
+      {
+        "zh": "猫在房间里。",
+        "pinyin": "Māo zài fángjiān lǐ.",
+        "fr": "Le chat est dans la chambre."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "钱包在书包___。",
+        "answer": "里"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "前面",
+          "学校",
+          "在",
+          "商店"
+        ],
+        "answer": "商店在学校前面。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il est derrière la porte.",
+        "answer": "他在门后面。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_01",
+    "pattern": "Verb + Resultative complement (完/好/到/见/懂)",
+    "pattern_zh": "结果补语",
+    "tier": "A2",
+    "explanation_fr": "Un complément résultatif, collé directement après le verbe, précise le résultat de l'action : 完 (terminé), 好 (bien fait, prêt), 到 (atteint, réussi à), 见 (perçu), 懂 (compris).",
+    "explanation_en": "A resultative complement, attached directly after the verb, specifies the result of the action: 完 (finished), 好 (well done, ready), 到 (achieved, managed to), 见 (perceived), 懂 (understood).",
+    "examples": [
+      {
+        "zh": "我吃完了。",
+        "pinyin": "Wǒ chīwán le.",
+        "fr": "J'ai fini de manger."
+      },
+      {
+        "zh": "你听懂了吗？",
+        "pinyin": "Nǐ tīngdǒng le ma?",
+        "fr": "As-tu compris (en écoutant) ?"
+      },
+      {
+        "zh": "我看见他了。",
+        "pinyin": "Wǒ kànjiàn tā le.",
+        "fr": "Je l'ai vu."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我做___作业了。",
+        "answer": "完"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "懂",
+          "听",
+          "你"
+        ],
+        "answer": "你听懂了。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "J'ai fini d'écrire.",
+        "answer": "我写完了。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_02",
+    "pattern": "Subject + 不 + Verb/Adjective + 了",
+    "pattern_zh": "不…了",
+    "tier": "A2",
+    "explanation_fr": "不…了 indique l'arrêt d'une action ou d'un état qui existait avant : « ne plus… ».",
+    "explanation_en": "不…了 indicates the stopping of an action or state that previously existed: 'not... anymore'.",
+    "examples": [
+      {
+        "zh": "我不喝酒了。",
+        "pinyin": "Wǒ bù hē jiǔ le.",
+        "fr": "Je ne bois plus d'alcool."
+      },
+      {
+        "zh": "他不来了。",
+        "pinyin": "Tā bù lái le.",
+        "fr": "Il ne vient plus."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___吃肉了。",
+        "answer": "不"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je ne travaille plus ici.",
+        "answer": "我不在这儿工作了。"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "不",
+          "学",
+          "汉语",
+          "他"
+        ],
+        "answer": "他不学汉语了。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_03",
+    "pattern": "是 + (Time/Place/Manner) + Verb + 的",
+    "pattern_zh": "是…的强调句",
+    "tier": "A2",
+    "explanation_fr": "是…的 met en valeur les circonstances (moment, lieu, manière) d'une action déjà réalisée et connue, et non l'action elle-même.",
+    "explanation_en": "是…的 emphasizes the circumstances (time, place, manner) of an action that has already happened and is known, rather than the action itself.",
+    "examples": [
+      {
+        "zh": "我是昨天来的。",
+        "pinyin": "Wǒ shì zuótiān lái de.",
+        "fr": "C'est hier que je suis arrivé."
+      },
+      {
+        "zh": "他是坐飞机来的。",
+        "pinyin": "Tā shì zuò fēijī lái de.",
+        "fr": "C'est en avion qu'il est venu."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___昨天来的。",
+        "answer": "是"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "的",
+          "来",
+          "昨天",
+          "是",
+          "我"
+        ],
+        "answer": "我是昨天来的。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "C'est avec mon papa que je suis venu.",
+        "answer": "我是跟我爸爸来的。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_04",
+    "pattern": "Verb + 了 + Object",
+    "pattern_zh": "动态助词「了」",
+    "tier": "A2",
+    "explanation_fr": "了 placé juste après le verbe indique qu'une action est accomplie ou terminée.",
+    "explanation_en": "了 placed right after the verb indicates that an action has been completed.",
+    "examples": [
+      {
+        "zh": "我买了一本书。",
+        "pinyin": "Wǒ mǎile yì běn shū.",
+        "fr": "J'ai acheté un livre."
+      },
+      {
+        "zh": "她喝了一杯茶。",
+        "pinyin": "Tā hēle yì bēi chá.",
+        "fr": "Elle a bu une tasse de thé."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他吃___一个面包。",
+        "answer": "了"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "书",
+          "了",
+          "一本",
+          "他",
+          "买"
+        ],
+        "answer": "他买了一本书。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "J'ai vu ce film.",
+        "answer": "我看了这个电影。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_05",
+    "pattern": "Verb + 着",
+    "pattern_zh": "动态助词「着」（持续）",
+    "tier": "A2",
+    "explanation_fr": "着 après un verbe indique qu'une action ou un état se poursuit, souvent traduit par « en train de » ou par un gérondif.",
+    "explanation_en": "着 after a verb indicates that an action or state is continuing, often translated as '-ing' or 'while doing'.",
+    "examples": [
+      {
+        "zh": "门开着。",
+        "pinyin": "Mén kāizhe.",
+        "fr": "La porte est ouverte (reste ouverte)."
+      },
+      {
+        "zh": "他坐着看书。",
+        "pinyin": "Tā zuòzhe kànshū.",
+        "fr": "Il lit assis."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "门开___。",
+        "answer": "着"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "着",
+          "坐",
+          "他",
+          "看书"
+        ],
+        "answer": "他坐着看书。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il parle en marchant.",
+        "answer": "他走着说话。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_06",
+    "pattern": "(快)要 + Verb/Adjective + 了",
+    "pattern_zh": "快要…了",
+    "tier": "A2",
+    "explanation_fr": "要…了 (ou 快要…了) indique qu'un événement est sur le point de se produire dans un futur proche.",
+    "explanation_en": "要…了 (or 快要…了) indicates that an event is about to happen in the near future.",
+    "examples": [
+      {
+        "zh": "要下雨了。",
+        "pinyin": "Yào xiàyǔ le.",
+        "fr": "Il va bientôt pleuvoir."
+      },
+      {
+        "zh": "我们快要到了。",
+        "pinyin": "Wǒmen kuàiyào dào le.",
+        "fr": "Nous allons bientôt arriver."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "火车___走了，快点！",
+        "answer": "要"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "要",
+          "开始",
+          "课"
+        ],
+        "answer": "课要开始了。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il va bientôt être midi.",
+        "answer": "要到中午了。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_07",
+    "pattern": "Sentence + 了 (new situation)",
+    "pattern_zh": "语气助词「了」（变化）",
+    "tier": "A2",
+    "explanation_fr": "了 en fin de phrase signale un changement de situation par rapport à avant : quelque chose de nouveau est vrai maintenant.",
+    "explanation_en": "了 at the end of a sentence signals a change of situation compared to before: something new is now true.",
+    "examples": [
+      {
+        "zh": "我现在是学生了。",
+        "pinyin": "Wǒ xiànzài shì xuésheng le.",
+        "fr": "Je suis étudiant maintenant."
+      },
+      {
+        "zh": "天冷了。",
+        "pinyin": "Tiān lěng le.",
+        "fr": "Il fait froid maintenant."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他会说汉语___。",
+        "answer": "了"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il est grand maintenant.",
+        "answer": "他高了。"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "懂",
+          "我"
+        ],
+        "answer": "我懂了。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_08",
+    "pattern": "Verb + (Object) + Time duration",
+    "pattern_zh": "时量补语",
+    "tier": "A2",
+    "explanation_fr": "Pour indiquer la durée d'une action, on place l'expression de temps après le verbe (et après l'objet répété si nécessaire) : Verbe + 了 + durée.",
+    "explanation_en": "To indicate how long an action lasts, the time expression is placed after the verb (and after the repeated object if needed): Verb + 了 + duration.",
+    "examples": [
+      {
+        "zh": "我学了两年汉语。",
+        "pinyin": "Wǒ xuéle liǎng nián Hànyǔ.",
+        "fr": "J'ai étudié le chinois pendant deux ans."
+      },
+      {
+        "zh": "他等了三个小时。",
+        "pinyin": "Tā děngle sān gè xiǎoshí.",
+        "fr": "Il a attendu pendant trois heures."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我学了两___汉语。",
+        "answer": "年"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "一个小时",
+          "看",
+          "书",
+          "我"
+        ],
+        "answer": "我看了一个小时书。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il a travaillé pendant cinq heures.",
+        "answer": "他工作了五个小时。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_09a",
+    "pattern": "A + 跟 + B + 一样 (+ Adjective)",
+    "pattern_zh": "比较句：跟…一样",
+    "tier": "A2",
+    "explanation_fr": "跟…一样 exprime l'égalité entre deux éléments comparés : A est identique à B (sur tel point).",
+    "explanation_en": "跟…一样 expresses equality between two compared elements: A is the same as B (in a certain respect).",
+    "examples": [
+      {
+        "zh": "我跟他一样高。",
+        "pinyin": "Wǒ gēn tā yíyàng gāo.",
+        "fr": "Je suis aussi grand que lui."
+      },
+      {
+        "zh": "这个跟那个不一样。",
+        "pinyin": "Zhège gēn nàge bù yíyàng.",
+        "fr": "Celui-ci est différent de celui-là."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___你一样喜欢喝茶。",
+        "answer": "跟"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "一样",
+          "高",
+          "我",
+          "他",
+          "跟"
+        ],
+        "answer": "我跟他一样高。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Ma maison est comme la tienne.",
+        "answer": "我的家跟你的一样。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_09b",
+    "pattern": "A + 比 + B + Adjective",
+    "pattern_zh": "比较句：比",
+    "tier": "A2",
+    "explanation_fr": "比 compare deux éléments pour indiquer une supériorité : A + 比 + B + adjectif, « A est plus … que B ».",
+    "explanation_en": "比 compares two elements to indicate superiority: A + 比 + B + adjective, 'A is more ... than B'.",
+    "examples": [
+      {
+        "zh": "他比我高。",
+        "pinyin": "Tā bǐ wǒ gāo.",
+        "fr": "Il est plus grand que moi."
+      },
+      {
+        "zh": "这本书比那本书贵。",
+        "pinyin": "Zhè běn shū bǐ nà běn shū guì.",
+        "fr": "Ce livre est plus cher que celui-là."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "今天___昨天热。",
+        "answer": "比"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "贵",
+          "比",
+          "这个",
+          "那个"
+        ],
+        "answer": "这个比那个贵。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Elle est plus jeune que moi.",
+        "answer": "她比我年轻。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_09c",
+    "pattern": "A + 没有 + B + (那么) + Adjective",
+    "pattern_zh": "比较句：没有…那么",
+    "tier": "A2",
+    "explanation_fr": "没有…（那么）exprime l'infériorité : A n'atteint pas le niveau de B sur tel point, « A n'est pas aussi … que B ».",
+    "explanation_en": "没有…（那么）expresses inferiority: A does not reach B's level in a certain respect, 'A is not as ... as B'.",
+    "examples": [
+      {
+        "zh": "我没有他那么高。",
+        "pinyin": "Wǒ méiyǒu tā nàme gāo.",
+        "fr": "Je ne suis pas aussi grand que lui."
+      },
+      {
+        "zh": "这儿没有北京那么冷。",
+        "pinyin": "Zhèr méiyǒu Běijīng nàme lěng.",
+        "fr": "Ici, il ne fait pas aussi froid qu'à Pékin."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他___我那么忙。",
+        "answer": "没有"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "那么",
+          "没有",
+          "快",
+          "他",
+          "我"
+        ],
+        "answer": "我没有他那么快。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Ce plat n'est pas aussi bon que celui-là.",
+        "answer": "这个菜没有那个那么好吃。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_10",
+    "pattern": "Verb + Number + 次/遍 (+ Object)",
+    "pattern_zh": "动量词「次」「遍」",
+    "tier": "A2",
+    "explanation_fr": "次 (fois) et 遍 (fois, du début à la fin) comptent le nombre d'occurrences d'une action. Ils se placent après le verbe, avant l'objet s'il s'agit d'un nom ordinaire.",
+    "explanation_en": "次 (occurrence) and 遍 (time, from beginning to end) count how many times an action occurs. They are placed after the verb, before the object if it is an ordinary noun.",
+    "examples": [
+      {
+        "zh": "我去过一次中国。",
+        "pinyin": "Wǒ qùguo yí cì Zhōngguó.",
+        "fr": "Je suis allé une fois en Chine."
+      },
+      {
+        "zh": "请你再说一遍。",
+        "pinyin": "Qǐng nǐ zài shuō yí biàn.",
+        "fr": "Répète encore une fois, s'il te plaît."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我看了三___这本书。",
+        "answer": "次"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "一遍",
+          "请",
+          "说",
+          "再"
+        ],
+        "answer": "请再说一遍。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je suis venu deux fois.",
+        "answer": "我来过两次。"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_11",
+    "pattern": "Verb + 得/不 + Complement",
+    "pattern_zh": "可能补语",
+    "tier": "A2",
+    "explanation_fr": "得 ou 不 inséré entre le verbe et son complément résultatif indique si l'action peut, ou non, aboutir à ce résultat.",
+    "explanation_en": "得 or 不 inserted between the verb and its resultative complement indicates whether the action can, or cannot, achieve that result.",
+    "examples": [
+      {
+        "zh": "我听得懂。",
+        "pinyin": "Wǒ tīng de dǒng.",
+        "fr": "Je peux comprendre (en écoutant)."
+      },
+      {
+        "zh": "这个字我看不懂。",
+        "pinyin": "Zhège zì wǒ kàn bu dǒng.",
+        "fr": "Je ne peux pas comprendre ce caractère."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我听___懂他说的话。",
+        "answer": "得"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "懂",
+          "看",
+          "不",
+          "我"
+        ],
+        "answer": "我看不懂。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Peux-tu entendre ?",
+        "answer": "你听得见吗？"
+      }
+    ]
+  },
+  {
+    "id": "g_a2_12",
+    "pattern": "Subject + 把 + Object + Verb + Complement",
+    "pattern_zh": "把字句",
+    "tier": "A2",
+    "explanation_fr": "把 déplace l'objet direct devant le verbe pour insister sur ce qui lui arrive : Sujet + 把 + Objet + Verbe + Complément. Le verbe doit être suivi d'un élément (complément, 了, etc.), il ne peut pas rester seul.",
+    "explanation_en": "把 moves the direct object before the verb to emphasize what happens to it: Subject + 把 + Object + Verb + Complement. The verb must be followed by something (a complement, 了, etc.) — it cannot stand alone.",
+    "examples": [
+      {
+        "zh": "请你把书放在桌子上。",
+        "pinyin": "Qǐng nǐ bǎ shū fàng zài zhuōzi shàng.",
+        "fr": "S'il te plaît, pose le livre sur la table."
+      },
+      {
+        "zh": "我把作业写完了。",
+        "pinyin": "Wǒ bǎ zuòyè xiěwán le.",
+        "fr": "J'ai fini d'écrire mes devoirs."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "reorder",
+        "words": [
+          "放",
+          "把",
+          "桌子上",
+          "书",
+          "请",
+          "在",
+          "你"
+        ],
+        "answer": "请你把书放在桌子上。"
+      },
+      {
+        "type": "gap_fill",
+        "prompt": "请你___书放在桌子上。",
+        "answer": "把"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Pose le livre sur la table.",
+        "answer": "把书放在桌子上。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_01",
+    "pattern": "Verb1 + 着 + Verb2 (manner); Verb + 着！(imperative)",
+    "pattern_zh": "着的进阶用法",
+    "tier": "B1",
+    "explanation_fr": "Au-delà de son usage de base (action en cours), 着 relie deux verbes pour indiquer la manière dont se déroule la deuxième action (Verbe1+着+Verbe2), ou s'emploie à l'impératif pour demander de maintenir un état.",
+    "explanation_en": "Beyond its basic use (ongoing action), 着 links two verbs to indicate the manner in which the second action takes place (Verb1+着+Verb2), or is used in imperatives to ask that a state be maintained.",
+    "examples": [
+      {
+        "zh": "他笑着说话。",
+        "pinyin": "Tā xiàozhe shuōhuà.",
+        "fr": "Il parle en souriant."
+      },
+      {
+        "zh": "你等着，我马上回来。",
+        "pinyin": "Nǐ děngzhe, wǒ mǎshàng huílái.",
+        "fr": "Attends, je reviens tout de suite."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他笑___说话。",
+        "answer": "着"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "着",
+          "笑",
+          "他",
+          "说话"
+        ],
+        "answer": "他笑着说话。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Reste assis.",
+        "answer": "你坐着。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_02",
+    "pattern": "虽然 + Clause1，但是 + Clause2",
+    "pattern_zh": "虽然…但是",
+    "tier": "B1",
+    "explanation_fr": "虽然…但是 relie deux propositions en concession : bien que la première soit vraie, la seconde reste vraie malgré tout.",
+    "explanation_en": "虽然…但是 links two clauses concessively: although the first is true, the second remains true nonetheless.",
+    "examples": [
+      {
+        "zh": "虽然天气很冷，但是我们还是去公园。",
+        "pinyin": "Suīrán tiānqì hěn lěng, dànshì wǒmen háishi qù gōngyuán.",
+        "fr": "Bien qu'il fasse froid, nous allons quand même au parc."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "虽然他很忙，___他每天都给我打电话。",
+        "answer": "但是"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "但是",
+          "虽然",
+          "很累",
+          "他",
+          "还在工作",
+          "他"
+        ],
+        "answer": "虽然他很累，但是他还在工作。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Bien qu'il soit malade, il va travailler.",
+        "answer": "虽然他病了，但是他去工作。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_03",
+    "pattern": "Verb + 了(1) + Object/Duration + 了(2)",
+    "pattern_zh": "了1 + 了2",
+    "tier": "B1",
+    "explanation_fr": "Quand 了 apparaît deux fois dans la même phrase (après le verbe et à la fin), l'action est à la fois accomplie et continue d'avoir un effet jusqu'à maintenant, souvent avec une expression de durée.",
+    "explanation_en": "When 了 appears twice in the same sentence (after the verb and at the end), the action is both completed and its effect continues up to now, often with a duration expression.",
+    "examples": [
+      {
+        "zh": "我学了三年汉语了。",
+        "pinyin": "Wǒ xuéle sān nián Hànyǔ le.",
+        "fr": "J'apprends le chinois depuis trois ans."
+      },
+      {
+        "zh": "他来了半个小时了。",
+        "pinyin": "Tā láile bàn gè xiǎoshí le.",
+        "fr": "Cela fait une demi-heure qu'il est arrivé."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我学了两年汉语___。",
+        "answer": "了"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il travaille ici depuis cinq ans.",
+        "answer": "他在这儿工作了五年了。"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "三个小时",
+          "看",
+          "书",
+          "他",
+          "了"
+        ],
+        "answer": "他看了三个小时书了。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_04",
+    "pattern": "不但 + Clause1，而且 + Clause2",
+    "pattern_zh": "不但…而且",
+    "tier": "B1",
+    "explanation_fr": "不但…而且 exprime une progression : non seulement la première chose est vraie, mais en plus la seconde l'est aussi (souvent avec 也/都).",
+    "explanation_en": "不但…而且 expresses a progression: not only is the first thing true, but the second is also true (often with 也/都).",
+    "examples": [
+      {
+        "zh": "他不但会说汉语，而且会写汉字。",
+        "pinyin": "Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.",
+        "fr": "Non seulement il sait parler chinois, mais il sait aussi écrire les caractères."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "这个菜不但好吃，___也不贵。",
+        "answer": "而且"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "而且",
+          "不但",
+          "漂亮",
+          "这件衣服",
+          "便宜"
+        ],
+        "answer": "这件衣服不但漂亮，而且便宜。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Non seulement il est intelligent, mais il travaille aussi beaucoup.",
+        "answer": "他不但聪明，而且很努力。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_05",
+    "pattern": "Verb + Directional complement + 得/不 + 了/来/去",
+    "pattern_zh": "可能补语（趋向式）",
+    "tier": "B1",
+    "explanation_fr": "Les compléments potentiels s'utilisent aussi avec les compléments directionnels : Verbe + 得/不 + complément directionnel, pour dire si l'action peut ou non aboutir à ce déplacement.",
+    "explanation_en": "Potential complements are also used with directional complements: Verb + 得/不 + directional complement, to say whether the action can or cannot achieve that movement.",
+    "examples": [
+      {
+        "zh": "这个箱子太重，我拿不起来。",
+        "pinyin": "Zhège xiāngzi tài zhòng, wǒ ná bu qǐlái.",
+        "fr": "Cette boîte est trop lourde, je n'arrive pas à la soulever."
+      },
+      {
+        "zh": "你回得来吗？",
+        "pinyin": "Nǐ huí de lái ma?",
+        "fr": "Peux-tu revenir ?"
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "东西太多，我拿___了。",
+        "answer": "不"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Peux-tu monter ?",
+        "answer": "你上得去吗？"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "回",
+          "得",
+          "来",
+          "你",
+          "吗"
+        ],
+        "answer": "你回得来吗？"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_06",
+    "pattern": "Verb + 上/下/进/出/回/过 + 来/去",
+    "pattern_zh": "趋向补语",
+    "tier": "B1",
+    "explanation_fr": "Un complément directionnel composé (montée/descente/entrée/sortie/retour/passage + 来 ou 去) précise la direction du déplacement par rapport au locuteur : 来 vers le locuteur, 去 dans le sens opposé.",
+    "explanation_en": "A compound directional complement (up/down/in/out/back/across + 来 or 去) specifies the direction of movement relative to the speaker: 来 towards the speaker, 去 away from the speaker.",
+    "examples": [
+      {
+        "zh": "请进来。",
+        "pinyin": "Qǐng jìnlái.",
+        "fr": "Entrez, je vous en prie."
+      },
+      {
+        "zh": "他走出去了。",
+        "pinyin": "Tā zǒu chūqù le.",
+        "fr": "Il est sorti."
+      },
+      {
+        "zh": "快跑上来！",
+        "pinyin": "Kuài pǎo shànglái!",
+        "fr": "Monte vite en courant !"
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他走___去了。（出）",
+        "answer": "出"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "回来",
+          "他",
+          "走"
+        ],
+        "answer": "他走回来。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il est monté en courant.",
+        "answer": "他跑上来了。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_07",
+    "pattern": "连 + Noun + 也/都 + Verb",
+    "pattern_zh": "连…也/都",
+    "tier": "B1",
+    "explanation_fr": "连…也/都 souligne un cas extrême pour renforcer une affirmation : « même … ».",
+    "explanation_en": "连…也/都 highlights an extreme case to reinforce a statement: 'even ...'.",
+    "examples": [
+      {
+        "zh": "他连水都不喝。",
+        "pinyin": "Tā lián shuǐ dōu bù hē.",
+        "fr": "Il ne boit même pas d'eau."
+      },
+      {
+        "zh": "我连他的名字也不知道。",
+        "pinyin": "Wǒ lián tā de míngzi yě bù zhīdào.",
+        "fr": "Je ne connais même pas son nom."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "他连饭___没吃。",
+        "answer": "都"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "也",
+          "不",
+          "连",
+          "他",
+          "去",
+          "北京"
+        ],
+        "answer": "他连北京也不去。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je ne sais même pas où il habite.",
+        "answer": "我连他住在哪儿也不知道。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_08",
+    "pattern": "Patient + 被 + (Agent) + Verb + Complement",
+    "pattern_zh": "被字句",
+    "tier": "B1",
+    "explanation_fr": "被 introduit la voix passive : le sujet grammatical subit l'action. Structure : Patient + 被 + (agent) + verbe + complément. Comme dans la construction 把, le verbe doit être suivi d'un élément.",
+    "explanation_en": "被 introduces the passive voice: the grammatical subject undergoes the action. Structure: Patient + 被 + (agent) + verb + complement. As in the 把 construction, the verb must be followed by something.",
+    "examples": [
+      {
+        "zh": "我的钱包被人拿走了。",
+        "pinyin": "Wǒ de qiánbāo bèi rén názǒu le.",
+        "fr": "Mon portefeuille a été pris par quelqu'un."
+      },
+      {
+        "zh": "那本书被他看完了。",
+        "pinyin": "Nà běn shū bèi tā kànwán le.",
+        "fr": "Ce livre a été lu jusqu'au bout par lui."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我的自行车___人骑走了。",
+        "answer": "被"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "被",
+          "吃",
+          "饭",
+          "猫"
+        ],
+        "answer": "饭被猫吃了。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "La porte a été ouverte par lui.",
+        "answer": "门被他打开了。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_09",
+    "pattern": "Verb + 过 + 了 (experiential + change of state)",
+    "pattern_zh": "过 + 了",
+    "tier": "B1",
+    "explanation_fr": "过 indique qu'une expérience a déjà eu lieu au moins une fois dans le passé ; combiné à 了 en fin de phrase, on souligne à la fois l'expérience acquise et un changement d'état par rapport à avant.",
+    "explanation_en": "过 indicates that an experience has already happened at least once in the past; combined with 了 at the end of the sentence, it emphasizes both the experience gained and a change of state compared to before.",
+    "examples": [
+      {
+        "zh": "我去过中国了，现在我想去日本。",
+        "pinyin": "Wǒ qùguo Zhōngguó le, xiànzài wǒ xiǎng qù Rìběn.",
+        "fr": "Je suis déjà allé en Chine, maintenant je veux aller au Japon."
+      },
+      {
+        "zh": "他吃过晚饭了。",
+        "pinyin": "Tā chīguo wǎnfàn le.",
+        "fr": "Il a déjà dîné."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我看___这个电影了，不想再看了。",
+        "answer": "过"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "了",
+          "过",
+          "这本书",
+          "看",
+          "我"
+        ],
+        "answer": "我看过这本书了。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Il a déjà mangé.",
+        "answer": "他吃过饭了。"
+      }
+    ]
+  },
+  {
+    "id": "g_b1_10",
+    "pattern": "Subject + Verb1 (+ Object1) + Verb2 (+ Object2)",
+    "pattern_zh": "连动句",
+    "tier": "B1",
+    "explanation_fr": "Une phrase à verbes en série enchaîne plusieurs verbes (avec leurs objets) dans l'ordre chronologique ou logique de l'action, sans conjonction : Sujet + Verbe1 (+Objet1) + Verbe2 (+Objet2).",
+    "explanation_en": "A serial verb sentence links several verbs (with their objects) in the chronological or logical order of the action, without a conjunction: Subject + Verb1 (+Object1) + Verb2 (+Object2).",
+    "examples": [
+      {
+        "zh": "我去商店买东西。",
+        "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+        "fr": "Je vais au magasin acheter des choses."
+      },
+      {
+        "zh": "他坐火车去北京看朋友。",
+        "pinyin": "Tā zuò huǒchē qù Běijīng kàn péngyou.",
+        "fr": "Il prend le train pour aller à Pékin voir des amis."
+      }
+    ],
+    "drill_items": [
+      {
+        "type": "gap_fill",
+        "prompt": "我___商店买衣服。",
+        "answer": "去"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "朋友",
+          "去",
+          "看",
+          "他",
+          "北京"
+        ],
+        "answer": "他去北京看朋友。"
+      },
+      {
+        "type": "translate",
+        "prompt_fr": "Je prends le bus pour aller travailler.",
+        "answer": "我坐公共汽车去上班。"
+      }
+    ]
+  }
+]
