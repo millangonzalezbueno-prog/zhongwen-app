@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 const TIER_OPTIONS = ['Tous', 'A1', 'A2', 'B1'];
 const SOURCE_OPTIONS = ['Caractères', 'Vocabulaire', 'Grammaire'];
 
-export default function BrowseView({ data }) {
+export default function BrowseView({ data, onCharClick }) {
   const [tierFilter, setTierFilter] = useState('Tous');
   const [sourceFilter, setSourceFilter] = useState('Caractères');
   const [search, setSearch] = useState('');
@@ -101,7 +101,7 @@ export default function BrowseView({ data }) {
       <p className="text-xs text-muted mb-3">{items.length} résultats</p>
 
       {selectedItem ? (
-        <DetailPanel item={selectedItem} onBack={() => setSelectedItem(null)} />
+        <DetailPanel item={selectedItem} onBack={() => setSelectedItem(null)} onCharClick={onCharClick} />
       ) : (
         <div className="grid gap-1.5">
           {items.slice(0, 100).map(item => (
@@ -129,14 +129,18 @@ export default function BrowseView({ data }) {
   );
 }
 
-function DetailPanel({ item, onBack }) {
+function DetailPanel({ item, onBack, onCharClick }) {
   const r = item.raw;
   return (
     <div className="bg-surface-alt rounded-2xl border border-border p-6">
       <button onClick={onBack} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
 
       <div className="text-center mb-6">
-        <p className="text-6xl hanzi-display font-medium mb-2">{item.primary}</p>
+        <p className="text-6xl hanzi-display font-medium mb-2">
+          {item.type === 'character' && onCharClick ? (
+            <button onClick={() => onCharClick(item.primary)} className="hover:text-accent transition-colors">{item.primary}</button>
+          ) : item.primary}
+        </p>
         <p className="text-xl text-accent font-medium">{r.pinyin_marked}</p>
         <TierBadge tier={item.tier} />
       </div>

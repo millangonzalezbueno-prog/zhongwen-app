@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { loadCharacters, loadVocab, loadGrammar } from './lib/data';
 import ReviewSession from './components/ReviewSession';
 import ExercisesView from './components/ExercisesView';
+import StrokePractice from './components/StrokePractice';
+import CharacterPopup from './components/CharacterPopup';
 import Dashboard from './components/Dashboard';
 import BrowseView from './components/BrowseView';
 
@@ -20,6 +22,7 @@ function App() {
   const [filters] = useState({
     directions: ['recognition', 'production', 'dictation'],
   });
+  const [popupChar, setPopupChar] = useState(null);
 
   useEffect(() => {
     Promise.all([loadCharacters(), loadVocab(), loadGrammar()])
@@ -98,15 +101,35 @@ function App() {
             <ExercisesView data={data} />
           </div>
         )}
+        {studyMode === 'strokes' && (
+          <div>
+            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
+            <StrokePractice data={data} onCharClick={(ch) => {
+              const found = data.characters.find(c => c.hanzi === ch);
+              if (found) setPopupChar(found);
+            }} />
+          </div>
+        )}
         {!studyMode && tab === 'home' && (
           <HomeView
             data={data}
             onSelectMode={setStudyMode}
           />
         )}
-        {!studyMode && tab === 'browse' && <BrowseView data={data} />}
+        {!studyMode && tab === 'browse' && <BrowseView data={data} onCharClick={(ch) => {
+          const found = data.characters.find(c => c.hanzi === ch);
+          if (found) setPopupChar(found);
+        }} />}
         {!studyMode && tab === 'dashboard' && <Dashboard data={data} />}
       </main>
+
+      {popupChar && (
+        <CharacterPopup
+          character={popupChar.hanzi}
+          charData={popupChar}
+          onClose={() => setPopupChar(null)}
+        />
+      )}
     </div>
   );
 }
@@ -120,7 +143,7 @@ function HomeView({ data, onSelectMode }) {
       <h2 className="text-2xl font-semibold mb-1">Bienvenue</h2>
       <p className="text-muted mb-8">Choisissez votre mode d'étude.</p>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <ModeCard
           title="Révision A1-A2"
           subtitle={`${charCountA1A2} caractères + vocabulaire`}
@@ -137,10 +160,17 @@ function HomeView({ data, onSelectMode }) {
         />
         <ModeCard
           title="Exercices"
-          subtitle="4 types d'activités"
-          description="Complétez des phrases, traduisez, identifiez les pinyin et plus."
+          subtitle="5 types d'activités"
+          description="Complétez, traduisez, ordonnez les mots et identifiez les pinyin."
           color="bg-accent"
           onClick={() => onSelectMode('exercises')}
+        />
+        <ModeCard
+          title="Tracé"
+          subtitle="Ordre des traits"
+          description="Apprenez l'ordre des traits avec animation, guidage et ardoise libre."
+          color="bg-success"
+          onClick={() => onSelectMode('strokes')}
         />
       </div>
     </div>
