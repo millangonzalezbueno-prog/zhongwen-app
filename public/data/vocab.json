@@ -1,0 +1,7026 @@
+[
+  {
+    "id": "v_001",
+    "word": "爸爸",
+    "pinyin_marked": "bàba",
+    "pinyin_plain": "baba",
+    "pos": "名词",
+    "gloss_fr": "papa",
+    "gloss_en": "dad",
+    "example_zh": "我爸爸是老师。",
+    "example_fr": "Mon papa est professeur.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "爸",
+      "爸"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_002",
+    "word": "妈妈",
+    "pinyin_marked": "māma",
+    "pinyin_plain": "mama",
+    "pos": "名词",
+    "gloss_fr": "maman",
+    "gloss_en": "mom",
+    "example_zh": "我妈妈很忙。",
+    "example_fr": "Ma maman est très occupée.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "妈",
+      "妈"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_003",
+    "word": "哥哥",
+    "pinyin_marked": "gēge",
+    "pinyin_plain": "gege",
+    "pos": "名词",
+    "gloss_fr": "grand frère",
+    "gloss_en": "older brother",
+    "example_zh": "我哥哥是学生。",
+    "example_fr": "Mon grand frère est étudiant.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "哥",
+      "哥"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_004",
+    "word": "儿子",
+    "pinyin_marked": "érzi",
+    "pinyin_plain": "erzi",
+    "pos": "名词",
+    "gloss_fr": "fils",
+    "gloss_en": "son",
+    "example_zh": "他们有一个儿子。",
+    "example_fr": "Ils ont un fils.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "儿",
+      "子"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_005",
+    "word": "女儿",
+    "pinyin_marked": "nǚ'ér",
+    "pinyin_plain": "nver",
+    "pos": "名词",
+    "gloss_fr": "fille",
+    "gloss_en": "daughter",
+    "example_zh": "我女儿八岁。",
+    "example_fr": "Ma fille a huit ans.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "女",
+      "儿"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_006",
+    "word": "孩子",
+    "pinyin_marked": "háizi",
+    "pinyin_plain": "haizi",
+    "pos": "名词",
+    "gloss_fr": "enfant",
+    "gloss_en": "child",
+    "example_zh": "这个孩子很可爱。",
+    "example_fr": "Cet enfant est adorable.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "孩",
+      "子"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_007",
+    "word": "父母",
+    "pinyin_marked": "fùmǔ",
+    "pinyin_plain": "fumu",
+    "pos": "名词",
+    "gloss_fr": "parents",
+    "gloss_en": "parents",
+    "example_zh": "我父母在中国。",
+    "example_fr": "Mes parents sont en Chine.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "父",
+      "母"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_008",
+    "word": "父亲",
+    "pinyin_marked": "fùqīn",
+    "pinyin_plain": "fuqin",
+    "pos": "名词",
+    "gloss_fr": "père",
+    "gloss_en": "father",
+    "example_zh": "他父亲是医生。",
+    "example_fr": "Son père est médecin.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "父",
+      "亲"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_009",
+    "word": "母亲",
+    "pinyin_marked": "mǔqīn",
+    "pinyin_plain": "muqin",
+    "pos": "名词",
+    "gloss_fr": "mère",
+    "gloss_en": "mother",
+    "example_zh": "她母亲很好看。",
+    "example_fr": "Sa mère est très belle.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "母",
+      "亲"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_010",
+    "word": "亲人",
+    "pinyin_marked": "qīnrén",
+    "pinyin_plain": "qinren",
+    "pos": "名词",
+    "gloss_fr": "proche, parent",
+    "gloss_en": "family member",
+    "example_zh": "他没有亲人在这儿。",
+    "example_fr": "Il n'a pas de proche ici.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "亲",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_011",
+    "word": "太太",
+    "pinyin_marked": "tàitai",
+    "pinyin_plain": "taitai",
+    "pos": "名词",
+    "gloss_fr": "madame, épouse",
+    "gloss_en": "wife, madam",
+    "example_zh": "这是我太太。",
+    "example_fr": "Voici mon épouse.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "太",
+      "太"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_012",
+    "word": "先生",
+    "pinyin_marked": "xiānsheng",
+    "pinyin_plain": "xiansheng",
+    "pos": "名词",
+    "gloss_fr": "monsieur, mari",
+    "gloss_en": "mister, husband",
+    "example_zh": "王先生你好。",
+    "example_fr": "Bonjour Monsieur Wang.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "先",
+      "生"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_013",
+    "word": "家人",
+    "pinyin_marked": "jiārén",
+    "pinyin_plain": "jiaren",
+    "pos": "名词",
+    "gloss_fr": "membre de la famille",
+    "gloss_en": "family member",
+    "example_zh": "我家人都很好。",
+    "example_fr": "Toute ma famille va bien.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "家",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_014",
+    "word": "大家",
+    "pinyin_marked": "dàjiā",
+    "pinyin_plain": "dajia",
+    "pos": "代词",
+    "gloss_fr": "tout le monde",
+    "gloss_en": "everyone",
+    "example_zh": "大家好！",
+    "example_fr": "Bonjour tout le monde !",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "大",
+      "家"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_015",
+    "word": "自己",
+    "pinyin_marked": "zìjǐ",
+    "pinyin_plain": "ziji",
+    "pos": "代词",
+    "gloss_fr": "soi-même",
+    "gloss_en": "oneself",
+    "example_zh": "你自己去吧。",
+    "example_fr": "Vas-y toi-même.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "自",
+      "己"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_016",
+    "word": "朋友",
+    "pinyin_marked": "péngyou",
+    "pinyin_plain": "pengyou",
+    "pos": "名词",
+    "gloss_fr": "ami",
+    "gloss_en": "friend",
+    "example_zh": "他是我的朋友。",
+    "example_fr": "C'est mon ami.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "朋",
+      "友"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_017",
+    "word": "男朋友",
+    "pinyin_marked": "nánpéngyou",
+    "pinyin_plain": "nanpengyou",
+    "pos": "名词",
+    "gloss_fr": "petit ami",
+    "gloss_en": "boyfriend",
+    "example_zh": "她有男朋友了。",
+    "example_fr": "Elle a un petit ami.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "男",
+      "朋",
+      "友"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_018",
+    "word": "女朋友",
+    "pinyin_marked": "nǚpéngyou",
+    "pinyin_plain": "nvpengyou",
+    "pos": "名词",
+    "gloss_fr": "petite amie",
+    "gloss_en": "girlfriend",
+    "example_zh": "他没有女朋友。",
+    "example_fr": "Il n'a pas de petite amie.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "女",
+      "朋",
+      "友"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_019",
+    "word": "同学",
+    "pinyin_marked": "tóngxué",
+    "pinyin_plain": "tongxue",
+    "pos": "名词",
+    "gloss_fr": "camarade de classe",
+    "gloss_en": "classmate",
+    "example_zh": "他是我的同学。",
+    "example_fr": "C'est mon camarade de classe.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "同",
+      "学"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_020",
+    "word": "同事",
+    "pinyin_marked": "tóngshì",
+    "pinyin_plain": "tongshi",
+    "pos": "名词",
+    "gloss_fr": "collègue",
+    "gloss_en": "colleague",
+    "example_zh": "她是我的同事。",
+    "example_fr": "C'est ma collègue.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "同",
+      "事"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_021",
+    "word": "老人",
+    "pinyin_marked": "lǎorén",
+    "pinyin_plain": "laoren",
+    "pos": "名词",
+    "gloss_fr": "personne âgée",
+    "gloss_en": "old person",
+    "example_zh": "这位老人很累。",
+    "example_fr": "Cette personne âgée est fatiguée.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "老",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_022",
+    "word": "年轻人",
+    "pinyin_marked": "niánqīngrén",
+    "pinyin_plain": "nianqingren",
+    "pos": "名词",
+    "gloss_fr": "jeune personne",
+    "gloss_en": "young person",
+    "example_zh": "年轻人喜欢唱歌。",
+    "example_fr": "Les jeunes aiment chanter.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "年",
+      "轻",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_023",
+    "word": "小孩",
+    "pinyin_marked": "xiǎohái",
+    "pinyin_plain": "xiaohai",
+    "pos": "名词",
+    "gloss_fr": "petit enfant",
+    "gloss_en": "little kid",
+    "example_zh": "那个小孩在笑。",
+    "example_fr": "Ce petit enfant sourit.",
+    "tier": "A2",
+    "theme": "famille",
+    "chars": [
+      "小",
+      "孩"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_024",
+    "word": "一家人",
+    "pinyin_marked": "yìjiārén",
+    "pinyin_plain": "yijiaren",
+    "pos": "名词",
+    "gloss_fr": "toute la famille",
+    "gloss_en": "the whole family",
+    "example_zh": "我们是一家人。",
+    "example_fr": "Nous sommes une famille.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "一",
+      "家",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_025",
+    "word": "今天",
+    "pinyin_marked": "jīntiān",
+    "pinyin_plain": "jintian",
+    "pos": "时间词",
+    "gloss_fr": "aujourd'hui",
+    "gloss_en": "today",
+    "example_zh": "今天天气很好。",
+    "example_fr": "Il fait beau aujourd'hui.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "今",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_026",
+    "word": "明天",
+    "pinyin_marked": "míngtiān",
+    "pinyin_plain": "mingtian",
+    "pos": "时间词",
+    "gloss_fr": "demain",
+    "gloss_en": "tomorrow",
+    "example_zh": "明天见。",
+    "example_fr": "À demain.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "明",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_027",
+    "word": "昨天",
+    "pinyin_marked": "zuótiān",
+    "pinyin_plain": "zuotian",
+    "pos": "时间词",
+    "gloss_fr": "hier",
+    "gloss_en": "yesterday",
+    "example_zh": "昨天我很忙。",
+    "example_fr": "Hier j'étais très occupé.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "昨",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_028",
+    "word": "今年",
+    "pinyin_marked": "jīnnián",
+    "pinyin_plain": "jinnian",
+    "pos": "时间词",
+    "gloss_fr": "cette année",
+    "gloss_en": "this year",
+    "example_zh": "今年我二十岁。",
+    "example_fr": "Cette année j'ai vingt ans.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "今",
+      "年"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_029",
+    "word": "明年",
+    "pinyin_marked": "míngnián",
+    "pinyin_plain": "mingnian",
+    "pos": "时间词",
+    "gloss_fr": "l'année prochaine",
+    "gloss_en": "next year",
+    "example_zh": "明年我去中国。",
+    "example_fr": "L'année prochaine je vais en Chine.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "明",
+      "年"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_030",
+    "word": "去年",
+    "pinyin_marked": "qùnián",
+    "pinyin_plain": "qunian",
+    "pos": "时间词",
+    "gloss_fr": "l'année dernière",
+    "gloss_en": "last year",
+    "example_zh": "去年我在法国。",
+    "example_fr": "L'année dernière j'étais en France.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "去",
+      "年"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_031",
+    "word": "星期",
+    "pinyin_marked": "xīngqī",
+    "pinyin_plain": "xingqi",
+    "pos": "名词",
+    "gloss_fr": "semaine",
+    "gloss_en": "week",
+    "example_zh": "这个星期我很忙。",
+    "example_fr": "Cette semaine je suis très occupé.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "星",
+      "期"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_032",
+    "word": "时间",
+    "pinyin_marked": "shíjiān",
+    "pinyin_plain": "shijian",
+    "pos": "名词",
+    "gloss_fr": "temps",
+    "gloss_en": "time",
+    "example_zh": "我没有时间。",
+    "example_fr": "Je n'ai pas le temps.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "时",
+      "间"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_033",
+    "word": "小时",
+    "pinyin_marked": "xiǎoshí",
+    "pinyin_plain": "xiaoshi",
+    "pos": "量词",
+    "gloss_fr": "heure (durée)",
+    "gloss_en": "hour",
+    "example_zh": "我学了两个小时。",
+    "example_fr": "J'ai étudié pendant deux heures.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "小",
+      "时"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_034",
+    "word": "分钟",
+    "pinyin_marked": "fēnzhōng",
+    "pinyin_plain": "fenzhong",
+    "pos": "量词",
+    "gloss_fr": "minute (durée)",
+    "gloss_en": "minute",
+    "example_zh": "五分钟以后我们走。",
+    "example_fr": "Dans cinq minutes, on y va.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "分",
+      "钟"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_035",
+    "word": "现在",
+    "pinyin_marked": "xiànzài",
+    "pinyin_plain": "xianzai",
+    "pos": "时间词",
+    "gloss_fr": "maintenant",
+    "gloss_en": "now",
+    "example_zh": "你现在忙吗？",
+    "example_fr": "Tu es occupé maintenant ?",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "现",
+      "在"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_036",
+    "word": "以前",
+    "pinyin_marked": "yǐqián",
+    "pinyin_plain": "yiqian",
+    "pos": "时间词",
+    "gloss_fr": "avant, autrefois",
+    "gloss_en": "before, in the past",
+    "example_zh": "以前我在北京。",
+    "example_fr": "Avant, j'étais à Pékin.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "以",
+      "前"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_037",
+    "word": "以后",
+    "pinyin_marked": "yǐhòu",
+    "pinyin_plain": "yihou",
+    "pos": "时间词",
+    "gloss_fr": "après, plus tard",
+    "gloss_en": "after, later",
+    "example_zh": "以后我想当医生。",
+    "example_fr": "Plus tard, je veux devenir médecin.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "以",
+      "后"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_038",
+    "word": "后来",
+    "pinyin_marked": "hòulái",
+    "pinyin_plain": "houlai",
+    "pos": "时间词",
+    "gloss_fr": "ensuite, plus tard",
+    "gloss_en": "afterwards",
+    "example_zh": "后来他回家了。",
+    "example_fr": "Ensuite, il est rentré chez lui.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "后",
+      "来"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_039",
+    "word": "最后",
+    "pinyin_marked": "zuìhòu",
+    "pinyin_plain": "zuihou",
+    "pos": "时间词",
+    "gloss_fr": "à la fin",
+    "gloss_en": "finally, last",
+    "example_zh": "最后我们去了商店。",
+    "example_fr": "Finalement, nous sommes allés au magasin.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "最",
+      "后"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_040",
+    "word": "最近",
+    "pinyin_marked": "zuìjìn",
+    "pinyin_plain": "zuijin",
+    "pos": "时间词",
+    "gloss_fr": "récemment",
+    "gloss_en": "recently",
+    "example_zh": "你最近怎么样？",
+    "example_fr": "Comment vas-tu récemment ?",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "最",
+      "近"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_041",
+    "word": "刚才",
+    "pinyin_marked": "gāngcái",
+    "pinyin_plain": "gangcai",
+    "pos": "时间词",
+    "gloss_fr": "il y a un instant",
+    "gloss_en": "just now",
+    "example_zh": "刚才我给你打电话了。",
+    "example_fr": "Je viens de t'appeler à l'instant.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "刚",
+      "才"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_042",
+    "word": "马上",
+    "pinyin_marked": "mǎshàng",
+    "pinyin_plain": "mashang",
+    "pos": "副词",
+    "gloss_fr": "tout de suite",
+    "gloss_en": "right away",
+    "example_zh": "我马上就来。",
+    "example_fr": "J'arrive tout de suite.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "马",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_043",
+    "word": "已经",
+    "pinyin_marked": "yǐjīng",
+    "pinyin_plain": "yijing",
+    "pos": "副词",
+    "gloss_fr": "déjà",
+    "gloss_en": "already",
+    "example_zh": "他已经走了。",
+    "example_fr": "Il est déjà parti.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "已",
+      "经"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_044",
+    "word": "开始",
+    "pinyin_marked": "kāishǐ",
+    "pinyin_plain": "kaishi",
+    "pos": "动词",
+    "gloss_fr": "commencer",
+    "gloss_en": "to begin",
+    "example_zh": "课已经开始了。",
+    "example_fr": "Le cours a déjà commencé.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "开",
+      "始"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_045",
+    "word": "常常",
+    "pinyin_marked": "chángcháng",
+    "pinyin_plain": "changchang",
+    "pos": "副词",
+    "gloss_fr": "souvent",
+    "gloss_en": "often",
+    "example_zh": "我常常喝茶。",
+    "example_fr": "Je bois souvent du thé.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "常",
+      "常"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_046",
+    "word": "经常",
+    "pinyin_marked": "jīngcháng",
+    "pinyin_plain": "jingchang",
+    "pos": "副词",
+    "gloss_fr": "fréquemment",
+    "gloss_en": "frequently",
+    "example_zh": "他经常来这儿。",
+    "example_fr": "Il vient fréquemment ici.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "经",
+      "常"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_047",
+    "word": "有时候",
+    "pinyin_marked": "yǒushíhou",
+    "pinyin_plain": "youshihou",
+    "pos": "副词",
+    "gloss_fr": "parfois",
+    "gloss_en": "sometimes",
+    "example_zh": "我有时候不吃饭。",
+    "example_fr": "Parfois je ne mange pas.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "有",
+      "时",
+      "候"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_048",
+    "word": "平时",
+    "pinyin_marked": "píngshí",
+    "pinyin_plain": "pingshi",
+    "pos": "时间词",
+    "gloss_fr": "d'habitude",
+    "gloss_en": "usually",
+    "example_zh": "平时我七点起。",
+    "example_fr": "D'habitude je me lève à sept heures.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "平",
+      "时"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_049",
+    "word": "晚上",
+    "pinyin_marked": "wǎnshang",
+    "pinyin_plain": "wanshang",
+    "pos": "时间词",
+    "gloss_fr": "soir",
+    "gloss_en": "evening",
+    "example_zh": "晚上我看书。",
+    "example_fr": "Le soir, je lis.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "晚",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_050",
+    "word": "早上",
+    "pinyin_marked": "zǎoshang",
+    "pinyin_plain": "zaoshang",
+    "pos": "时间词",
+    "gloss_fr": "matin",
+    "gloss_en": "morning",
+    "example_zh": "早上好。",
+    "example_fr": "Bonjour (le matin).",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "早",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_051",
+    "word": "上午",
+    "pinyin_marked": "shàngwǔ",
+    "pinyin_plain": "shangwu",
+    "pos": "时间词",
+    "gloss_fr": "matinée",
+    "gloss_en": "morning (a.m.)",
+    "example_zh": "上午我有课。",
+    "example_fr": "J'ai cours le matin.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "上",
+      "午"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_052",
+    "word": "下午",
+    "pinyin_marked": "xiàwǔ",
+    "pinyin_plain": "xiawu",
+    "pos": "时间词",
+    "gloss_fr": "après-midi",
+    "gloss_en": "afternoon",
+    "example_zh": "下午你在家吗？",
+    "example_fr": "Tu es à la maison cet après-midi ?",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "下",
+      "午"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_053",
+    "word": "中午",
+    "pinyin_marked": "zhōngwǔ",
+    "pinyin_plain": "zhongwu",
+    "pos": "时间词",
+    "gloss_fr": "midi",
+    "gloss_en": "noon",
+    "example_zh": "中午我吃米饭。",
+    "example_fr": "À midi je mange du riz.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "中",
+      "午"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_054",
+    "word": "春天",
+    "pinyin_marked": "chūntiān",
+    "pinyin_plain": "chuntian",
+    "pos": "名词",
+    "gloss_fr": "printemps",
+    "gloss_en": "spring",
+    "example_zh": "春天不冷不热。",
+    "example_fr": "Le printemps n'est ni froid ni chaud.",
+    "tier": "A2",
+    "theme": "météo",
+    "chars": [
+      "春",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_055",
+    "word": "冬天",
+    "pinyin_marked": "dōngtiān",
+    "pinyin_plain": "dongtian",
+    "pos": "名词",
+    "gloss_fr": "hiver",
+    "gloss_en": "winter",
+    "example_zh": "冬天很冷。",
+    "example_fr": "L'hiver est très froid.",
+    "tier": "A2",
+    "theme": "météo",
+    "chars": [
+      "冬",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_056",
+    "word": "生日",
+    "pinyin_marked": "shēngrì",
+    "pinyin_plain": "shengri",
+    "pos": "名词",
+    "gloss_fr": "anniversaire",
+    "gloss_en": "birthday",
+    "example_zh": "今天是我的生日。",
+    "example_fr": "Aujourd'hui c'est mon anniversaire.",
+    "tier": "A1",
+    "theme": "famille",
+    "chars": [
+      "生",
+      "日"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_057",
+    "word": "每天",
+    "pinyin_marked": "měitiān",
+    "pinyin_plain": "meitian",
+    "pos": "时间词",
+    "gloss_fr": "chaque jour",
+    "gloss_en": "every day",
+    "example_zh": "我每天去学校。",
+    "example_fr": "Je vais à l'école tous les jours.",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "每",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_058",
+    "word": "每年",
+    "pinyin_marked": "měinián",
+    "pinyin_plain": "meinian",
+    "pos": "时间词",
+    "gloss_fr": "chaque année",
+    "gloss_en": "every year",
+    "example_zh": "我们每年都去中国。",
+    "example_fr": "Nous allons en Chine chaque année.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "每",
+      "年"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_059",
+    "word": "每次",
+    "pinyin_marked": "měicì",
+    "pinyin_plain": "meici",
+    "pos": "时间词",
+    "gloss_fr": "chaque fois",
+    "gloss_en": "every time",
+    "example_zh": "每次我都很高兴。",
+    "example_fr": "Chaque fois, je suis content.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "每",
+      "次"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_060",
+    "word": "第一",
+    "pinyin_marked": "dìyī",
+    "pinyin_plain": "diyi",
+    "pos": "数词",
+    "gloss_fr": "premier",
+    "gloss_en": "first",
+    "example_zh": "这是我第一次来中国。",
+    "example_fr": "C'est la première fois que je viens en Chine.",
+    "tier": "A2",
+    "theme": "nombres",
+    "chars": [
+      "第",
+      "一"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_061",
+    "word": "第二",
+    "pinyin_marked": "dì'èr",
+    "pinyin_plain": "dier",
+    "pos": "数词",
+    "gloss_fr": "deuxième",
+    "gloss_en": "second",
+    "example_zh": "这是第二个问题。",
+    "example_fr": "C'est la deuxième question.",
+    "tier": "A2",
+    "theme": "nombres",
+    "chars": [
+      "第",
+      "二"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_062",
+    "word": "一半",
+    "pinyin_marked": "yíbàn",
+    "pinyin_plain": "yiban",
+    "pos": "数词",
+    "gloss_fr": "moitié",
+    "gloss_en": "half",
+    "example_zh": "我吃了一半。",
+    "example_fr": "J'en ai mangé la moitié.",
+    "tier": "B1",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "半"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_063",
+    "word": "差不多",
+    "pinyin_marked": "chàbuduō",
+    "pinyin_plain": "chabuduo",
+    "pos": "副词",
+    "gloss_fr": "presque, à peu près",
+    "gloss_en": "almost, roughly",
+    "example_zh": "我们差不多到了。",
+    "example_fr": "Nous sommes presque arrivés.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "差",
+      "不",
+      "多"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_064",
+    "word": "几点",
+    "pinyin_marked": "jǐdiǎn",
+    "pinyin_plain": "jidian",
+    "pos": "代词",
+    "gloss_fr": "quelle heure",
+    "gloss_en": "what time",
+    "example_zh": "现在几点？",
+    "example_fr": "Quelle heure est-il ?",
+    "tier": "A1",
+    "theme": "temps",
+    "chars": [
+      "几",
+      "点"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_065",
+    "word": "米饭",
+    "pinyin_marked": "mǐfàn",
+    "pinyin_plain": "mifan",
+    "pos": "名词",
+    "gloss_fr": "riz cuit",
+    "gloss_en": "cooked rice",
+    "example_zh": "我想吃米饭。",
+    "example_fr": "Je veux manger du riz.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "米",
+      "饭"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_066",
+    "word": "面条",
+    "pinyin_marked": "miàntiáo",
+    "pinyin_plain": "miantiao",
+    "pos": "名词",
+    "gloss_fr": "nouilles",
+    "gloss_en": "noodles",
+    "example_zh": "我喜欢吃面条。",
+    "example_fr": "J'aime manger des nouilles.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "面",
+      "条"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_067",
+    "word": "早饭",
+    "pinyin_marked": "zǎofàn",
+    "pinyin_plain": "zaofan",
+    "pos": "名词",
+    "gloss_fr": "petit-déjeuner",
+    "gloss_en": "breakfast",
+    "example_zh": "我没吃早饭。",
+    "example_fr": "Je n'ai pas pris de petit-déjeuner.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "早",
+      "饭"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_068",
+    "word": "午饭",
+    "pinyin_marked": "wǔfàn",
+    "pinyin_plain": "wufan",
+    "pos": "名词",
+    "gloss_fr": "déjeuner",
+    "gloss_en": "lunch",
+    "example_zh": "我们一起吃午饭吧。",
+    "example_fr": "Déjeunons ensemble.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "午",
+      "饭"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_069",
+    "word": "晚饭",
+    "pinyin_marked": "wǎnfàn",
+    "pinyin_plain": "wanfan",
+    "pos": "名词",
+    "gloss_fr": "dîner",
+    "gloss_en": "dinner",
+    "example_zh": "晚饭你想吃什么？",
+    "example_fr": "Que veux-tu manger ce soir ?",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "晚",
+      "饭"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_070",
+    "word": "饭店",
+    "pinyin_marked": "fàndiàn",
+    "pinyin_plain": "fandian",
+    "pos": "名词",
+    "gloss_fr": "hôtel, restaurant",
+    "gloss_en": "hotel, restaurant",
+    "example_zh": "这个饭店很贵。",
+    "example_fr": "Cet hôtel est très cher.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "饭",
+      "店"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_071",
+    "word": "商店",
+    "pinyin_marked": "shāngdiàn",
+    "pinyin_plain": "shangdian",
+    "pos": "名词",
+    "gloss_fr": "magasin",
+    "gloss_en": "shop, store",
+    "example_zh": "商店在哪儿？",
+    "example_fr": "Où est le magasin ?",
+    "tier": "A1",
+    "theme": "argent",
+    "chars": [
+      "商",
+      "店"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_072",
+    "word": "买菜",
+    "pinyin_marked": "mǎicài",
+    "pinyin_plain": "maicai",
+    "pos": "动词",
+    "gloss_fr": "acheter des légumes",
+    "gloss_en": "to buy groceries",
+    "example_zh": "我妈妈去买菜了。",
+    "example_fr": "Ma maman est allée faire les courses.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "买",
+      "菜"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_073",
+    "word": "做饭",
+    "pinyin_marked": "zuòfàn",
+    "pinyin_plain": "zuofan",
+    "pos": "动词",
+    "gloss_fr": "préparer un repas",
+    "gloss_en": "to cook",
+    "example_zh": "谁做饭？",
+    "example_fr": "Qui prépare le repas ?",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "做",
+      "饭"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_074",
+    "word": "好吃",
+    "pinyin_marked": "hǎochī",
+    "pinyin_plain": "haochi",
+    "pos": "形容词",
+    "gloss_fr": "délicieux (à manger)",
+    "gloss_en": "delicious (to eat)",
+    "example_zh": "这个菜很好吃。",
+    "example_fr": "Ce plat est délicieux.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "好",
+      "吃"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_075",
+    "word": "好喝",
+    "pinyin_marked": "hǎohē",
+    "pinyin_plain": "haohe",
+    "pos": "形容词",
+    "gloss_fr": "délicieux (à boire)",
+    "gloss_en": "delicious (to drink)",
+    "example_zh": "这个茶很好喝。",
+    "example_fr": "Ce thé est délicieux.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "好",
+      "喝"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_076",
+    "word": "牛肉",
+    "pinyin_marked": "niúròu",
+    "pinyin_plain": "niurou",
+    "pos": "名词",
+    "gloss_fr": "bœuf",
+    "gloss_en": "beef",
+    "example_zh": "我要牛肉面。",
+    "example_fr": "Je veux des nouilles au bœuf.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "牛",
+      "肉"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_077",
+    "word": "羊肉",
+    "pinyin_marked": "yángròu",
+    "pinyin_plain": "yangrou",
+    "pos": "名词",
+    "gloss_fr": "mouton (viande)",
+    "gloss_en": "mutton",
+    "example_zh": "他不吃羊肉。",
+    "example_fr": "Il ne mange pas de mouton.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "羊",
+      "肉"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_078",
+    "word": "水果",
+    "pinyin_marked": "shuǐguǒ",
+    "pinyin_plain": "shuiguo",
+    "pos": "名词",
+    "gloss_fr": "fruit",
+    "gloss_en": "fruit",
+    "example_zh": "我每天吃水果。",
+    "example_fr": "Je mange des fruits tous les jours.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "水",
+      "果"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_079",
+    "word": "红茶",
+    "pinyin_marked": "hóngchá",
+    "pinyin_plain": "hongcha",
+    "pos": "名词",
+    "gloss_fr": "thé noir",
+    "gloss_en": "black tea",
+    "example_zh": "我喜欢喝红茶。",
+    "example_fr": "J'aime boire du thé noir.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "红",
+      "茶"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_080",
+    "word": "红酒",
+    "pinyin_marked": "hóngjiǔ",
+    "pinyin_plain": "hongjiu",
+    "pos": "名词",
+    "gloss_fr": "vin rouge",
+    "gloss_en": "red wine",
+    "example_zh": "他喝了一杯红酒。",
+    "example_fr": "Il a bu un verre de vin rouge.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "红",
+      "酒"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_081",
+    "word": "面包",
+    "pinyin_marked": "miànbāo",
+    "pinyin_plain": "mianbao",
+    "pos": "名词",
+    "gloss_fr": "pain",
+    "gloss_en": "bread",
+    "example_zh": "我买了面包。",
+    "example_fr": "J'ai acheté du pain.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "面",
+      "包"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_082",
+    "word": "筷子",
+    "pinyin_marked": "kuàizi",
+    "pinyin_plain": "kuaizi",
+    "pos": "名词",
+    "gloss_fr": "baguettes",
+    "gloss_en": "chopsticks",
+    "example_zh": "请给我筷子。",
+    "example_fr": "Donnez-moi des baguettes, s'il vous plaît.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "筷",
+      "子"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_083",
+    "word": "杯子",
+    "pinyin_marked": "bēizi",
+    "pinyin_plain": "beizi",
+    "pos": "名词",
+    "gloss_fr": "verre, tasse",
+    "gloss_en": "cup, glass",
+    "example_zh": "这是我的杯子。",
+    "example_fr": "C'est mon verre.",
+    "tier": "A1",
+    "theme": "nourriture",
+    "chars": [
+      "杯",
+      "子"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_084",
+    "word": "茶杯",
+    "pinyin_marked": "chábēi",
+    "pinyin_plain": "chabei",
+    "pos": "名词",
+    "gloss_fr": "tasse à thé",
+    "gloss_en": "teacup",
+    "example_zh": "这是我的茶杯。",
+    "example_fr": "C'est ma tasse à thé.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "茶",
+      "杯"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_085",
+    "word": "饭馆",
+    "pinyin_marked": "fànguǎn",
+    "pinyin_plain": "fanguan",
+    "pos": "名词",
+    "gloss_fr": "restaurant",
+    "gloss_en": "restaurant",
+    "example_zh": "我们去饭馆吃饭。",
+    "example_fr": "Allons manger au restaurant.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "饭",
+      "馆"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_086",
+    "word": "热菜",
+    "pinyin_marked": "rècài",
+    "pinyin_plain": "recai",
+    "pos": "名词",
+    "gloss_fr": "plat chaud",
+    "gloss_en": "hot dish",
+    "example_zh": "这是一个热菜。",
+    "example_fr": "C'est un plat chaud.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "热",
+      "菜"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_087",
+    "word": "冷水",
+    "pinyin_marked": "lěngshuǐ",
+    "pinyin_plain": "lengshui",
+    "pos": "名词",
+    "gloss_fr": "eau froide",
+    "gloss_en": "cold water",
+    "example_zh": "我要一杯冷水。",
+    "example_fr": "Je veux un verre d'eau froide.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "冷",
+      "水"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_088",
+    "word": "热水",
+    "pinyin_marked": "rèshuǐ",
+    "pinyin_plain": "reshui",
+    "pos": "名词",
+    "gloss_fr": "eau chaude",
+    "gloss_en": "hot water",
+    "example_zh": "请给我热水。",
+    "example_fr": "Donnez-moi de l'eau chaude, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "nourriture",
+    "chars": [
+      "热",
+      "水"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_089",
+    "word": "开水",
+    "pinyin_marked": "kāishuǐ",
+    "pinyin_plain": "kaishui",
+    "pos": "名词",
+    "gloss_fr": "eau bouillie",
+    "gloss_en": "boiled water",
+    "example_zh": "请喝开水，不要喝生水。",
+    "example_fr": "Buvez de l'eau bouillie, pas de l'eau non bouillie.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "开",
+      "水"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_090",
+    "word": "茶馆",
+    "pinyin_marked": "cháguǎn",
+    "pinyin_plain": "chaguan",
+    "pos": "名词",
+    "gloss_fr": "salon de thé",
+    "gloss_en": "teahouse",
+    "example_zh": "我们去茶馆吧。",
+    "example_fr": "Allons au salon de thé.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "茶",
+      "馆"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_091",
+    "word": "酒店",
+    "pinyin_marked": "jiǔdiàn",
+    "pinyin_plain": "jiudian",
+    "pos": "名词",
+    "gloss_fr": "hôtel",
+    "gloss_en": "hotel",
+    "example_zh": "你住在哪个酒店？",
+    "example_fr": "Dans quel hôtel loges-tu ?",
+    "tier": "A2",
+    "theme": "maison",
+    "chars": [
+      "酒",
+      "店"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_092",
+    "word": "东西",
+    "pinyin_marked": "dōngxi",
+    "pinyin_plain": "dongxi",
+    "pos": "名词",
+    "gloss_fr": "chose(s)",
+    "gloss_en": "thing(s)",
+    "example_zh": "我要买一些东西。",
+    "example_fr": "Je veux acheter des choses.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "东",
+      "西"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_093",
+    "word": "多少钱",
+    "pinyin_marked": "duōshaoqián",
+    "pinyin_plain": "duoshaoqian",
+    "pos": "代词",
+    "gloss_fr": "combien ça coûte",
+    "gloss_en": "how much money",
+    "example_zh": "这个多少钱？",
+    "example_fr": "Combien ça coûte ?",
+    "tier": "A1",
+    "theme": "argent",
+    "chars": [
+      "多",
+      "少",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_094",
+    "word": "一块钱",
+    "pinyin_marked": "yíkuàiqián",
+    "pinyin_plain": "yikuaiqian",
+    "pos": "数词",
+    "gloss_fr": "un yuan",
+    "gloss_en": "one yuan",
+    "example_zh": "水果一块钱一斤。",
+    "example_fr": "Les fruits coûtent un yuan la livre.",
+    "tier": "A1",
+    "theme": "argent",
+    "chars": [
+      "一",
+      "块",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_096",
+    "word": "买东西",
+    "pinyin_marked": "mǎi dōngxi",
+    "pinyin_plain": "mai dongxi",
+    "pos": "动词",
+    "gloss_fr": "faire des achats",
+    "gloss_en": "to buy things",
+    "example_zh": "我去商店买东西。",
+    "example_fr": "Je vais au magasin faire des achats.",
+    "tier": "A1",
+    "theme": "argent",
+    "chars": [
+      "买",
+      "东",
+      "西"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_097",
+    "word": "卖东西",
+    "pinyin_marked": "mài dōngxi",
+    "pinyin_plain": "mai dongxi",
+    "pos": "动词",
+    "gloss_fr": "vendre des choses",
+    "gloss_en": "to sell things",
+    "example_zh": "他在商店卖东西。",
+    "example_fr": "Il vend des choses au magasin.",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "卖",
+      "东",
+      "西"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_098",
+    "word": "买卖",
+    "pinyin_marked": "mǎimài",
+    "pinyin_plain": "maimai",
+    "pos": "名词",
+    "gloss_fr": "commerce, affaires",
+    "gloss_en": "business, trade",
+    "example_zh": "他做买卖。",
+    "example_fr": "Il fait du commerce.",
+    "tier": "B1",
+    "theme": "argent",
+    "chars": [
+      "买",
+      "卖"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_099",
+    "word": "花钱",
+    "pinyin_marked": "huāqián",
+    "pinyin_plain": "huaqian",
+    "pos": "动词",
+    "gloss_fr": "dépenser de l'argent",
+    "gloss_en": "to spend money",
+    "example_zh": "他花了很多钱。",
+    "example_fr": "Il a dépensé beaucoup d'argent.",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "花",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_100",
+    "word": "给钱",
+    "pinyin_marked": "gěiqián",
+    "pinyin_plain": "geiqian",
+    "pos": "动词",
+    "gloss_fr": "payer, donner de l'argent",
+    "gloss_en": "to pay, to give money",
+    "example_zh": "我给了他钱。",
+    "example_fr": "Je lui ai donné de l'argent.",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "给",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_101",
+    "word": "找钱",
+    "pinyin_marked": "zhǎoqián",
+    "pinyin_plain": "zhaoqian",
+    "pos": "动词",
+    "gloss_fr": "rendre la monnaie",
+    "gloss_en": "to give change",
+    "example_zh": "他找了我钱。",
+    "example_fr": "Il m'a rendu la monnaie.",
+    "tier": "B1",
+    "theme": "argent",
+    "chars": [
+      "找",
+      "钱"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_102",
+    "word": "用钱",
+    "pinyin_marked": "yòngqián",
+    "pinyin_plain": "yongqian",
+    "pos": "动词",
+    "gloss_fr": "utiliser de l'argent",
+    "gloss_en": "to use money",
+    "example_zh": "你用钱要小心。",
+    "example_fr": "Il faut faire attention à l'argent qu'on dépense.",
+    "tier": "B1",
+    "theme": "argent",
+    "chars": [
+      "用",
+      "钱"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_103",
+    "word": "钱包",
+    "pinyin_marked": "qiánbāo",
+    "pinyin_plain": "qianbao",
+    "pos": "名词",
+    "gloss_fr": "portefeuille",
+    "gloss_en": "wallet",
+    "example_zh": "我的钱包在哪儿？",
+    "example_fr": "Où est mon portefeuille ?",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "钱",
+      "包"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_104",
+    "word": "一共",
+    "pinyin_marked": "yígòng",
+    "pinyin_plain": "yigong",
+    "pos": "副词",
+    "gloss_fr": "au total",
+    "gloss_en": "in total",
+    "example_zh": "一共多少钱？",
+    "example_fr": "Combien ça fait au total ?",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "一",
+      "共"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_105",
+    "word": "不贵",
+    "pinyin_marked": "búguì",
+    "pinyin_plain": "bugui",
+    "pos": "形容词",
+    "gloss_fr": "pas cher",
+    "gloss_en": "not expensive",
+    "example_zh": "这个东西不贵。",
+    "example_fr": "Ce truc n'est pas cher.",
+    "tier": "A1",
+    "theme": "argent",
+    "chars": [
+      "不",
+      "贵"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_106",
+    "word": "汽车",
+    "pinyin_marked": "qìchē",
+    "pinyin_plain": "qiche",
+    "pos": "名词",
+    "gloss_fr": "voiture",
+    "gloss_en": "car",
+    "example_zh": "他有汽车。",
+    "example_fr": "Il a une voiture.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "汽",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_107",
+    "word": "火车",
+    "pinyin_marked": "huǒchē",
+    "pinyin_plain": "huoche",
+    "pos": "名词",
+    "gloss_fr": "train",
+    "gloss_en": "train",
+    "example_zh": "我们坐火车去。",
+    "example_fr": "Nous y allons en train.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "火",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_108",
+    "word": "开车",
+    "pinyin_marked": "kāichē",
+    "pinyin_plain": "kaiche",
+    "pos": "动词",
+    "gloss_fr": "conduire",
+    "gloss_en": "to drive",
+    "example_zh": "你会开车吗？",
+    "example_fr": "Sais-tu conduire ?",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "开",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_109",
+    "word": "坐车",
+    "pinyin_marked": "zuòchē",
+    "pinyin_plain": "zuoche",
+    "pos": "动词",
+    "gloss_fr": "prendre un véhicule",
+    "gloss_en": "to take a vehicle",
+    "example_zh": "我们坐车去学校。",
+    "example_fr": "Nous allons à l'école en voiture.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "坐",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_110",
+    "word": "走路",
+    "pinyin_marked": "zǒulù",
+    "pinyin_plain": "zoulu",
+    "pos": "动词",
+    "gloss_fr": "marcher, aller à pied",
+    "gloss_en": "to walk",
+    "example_zh": "我走路去学校。",
+    "example_fr": "Je vais à l'école à pied.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "走",
+      "路"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_111",
+    "word": "马路",
+    "pinyin_marked": "mǎlù",
+    "pinyin_plain": "malu",
+    "pos": "名词",
+    "gloss_fr": "route, rue",
+    "gloss_en": "street, road",
+    "example_zh": "马路上车很多。",
+    "example_fr": "Il y a beaucoup de voitures sur la route.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "马",
+      "路"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_112",
+    "word": "公路",
+    "pinyin_marked": "gōnglù",
+    "pinyin_plain": "gonglu",
+    "pos": "名词",
+    "gloss_fr": "autoroute",
+    "gloss_en": "highway",
+    "example_zh": "这条公路很长。",
+    "example_fr": "Cette autoroute est très longue.",
+    "tier": "B1",
+    "theme": "transport",
+    "chars": [
+      "公",
+      "路"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_113",
+    "word": "机场",
+    "pinyin_marked": "jīchǎng",
+    "pinyin_plain": "jichang",
+    "pos": "名词",
+    "gloss_fr": "aéroport",
+    "gloss_en": "airport",
+    "example_zh": "机场在东边。",
+    "example_fr": "L'aéroport est à l'est.",
+    "tier": "A2",
+    "theme": "transport",
+    "chars": [
+      "机",
+      "场"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_114",
+    "word": "飞机场",
+    "pinyin_marked": "fēijīchǎng",
+    "pinyin_plain": "feijichang",
+    "pos": "名词",
+    "gloss_fr": "aéroport",
+    "gloss_en": "airport",
+    "example_zh": "我们坐车去飞机场。",
+    "example_fr": "Nous allons à l'aéroport en voiture.",
+    "tier": "A2",
+    "theme": "transport",
+    "chars": [
+      "飞",
+      "机",
+      "场"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_115",
+    "word": "车票",
+    "pinyin_marked": "chēpiào",
+    "pinyin_plain": "chepiao",
+    "pos": "名词",
+    "gloss_fr": "billet (transport)",
+    "gloss_en": "ticket",
+    "example_zh": "我买了一张车票。",
+    "example_fr": "J'ai acheté un billet.",
+    "tier": "A2",
+    "theme": "transport",
+    "chars": [
+      "车",
+      "票"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_116",
+    "word": "飞机票",
+    "pinyin_marked": "fēijīpiào",
+    "pinyin_plain": "feijipiao",
+    "pos": "名词",
+    "gloss_fr": "billet d'avion",
+    "gloss_en": "plane ticket",
+    "example_zh": "飞机票很贵。",
+    "example_fr": "Le billet d'avion est cher.",
+    "tier": "A2",
+    "theme": "transport",
+    "chars": [
+      "飞",
+      "机",
+      "票"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_117",
+    "word": "买票",
+    "pinyin_marked": "mǎipiào",
+    "pinyin_plain": "maipiao",
+    "pos": "动词",
+    "gloss_fr": "acheter un billet",
+    "gloss_en": "to buy a ticket",
+    "example_zh": "我们去买票吧。",
+    "example_fr": "Allons acheter les billets.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "买",
+      "票"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_118",
+    "word": "快车",
+    "pinyin_marked": "kuàichē",
+    "pinyin_plain": "kuaiche",
+    "pos": "名词",
+    "gloss_fr": "train rapide",
+    "gloss_en": "express train",
+    "example_zh": "这是一班快车。",
+    "example_fr": "C'est un train rapide.",
+    "tier": "B1",
+    "theme": "transport",
+    "chars": [
+      "快",
+      "车"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_119",
+    "word": "慢车",
+    "pinyin_marked": "mànchē",
+    "pinyin_plain": "manche",
+    "pos": "名词",
+    "gloss_fr": "train lent",
+    "gloss_en": "slow train",
+    "example_zh": "慢车比快车慢。",
+    "example_fr": "Le train lent est plus lent que le train rapide.",
+    "tier": "B1",
+    "theme": "transport",
+    "chars": [
+      "慢",
+      "车"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_120",
+    "word": "路上",
+    "pinyin_marked": "lùshang",
+    "pinyin_plain": "lushang",
+    "pos": "名词",
+    "gloss_fr": "en chemin",
+    "gloss_en": "on the way",
+    "example_zh": "路上小心。",
+    "example_fr": "Fais attention en chemin.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "路",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_121",
+    "word": "回家",
+    "pinyin_marked": "huíjiā",
+    "pinyin_plain": "huijia",
+    "pos": "动词",
+    "gloss_fr": "rentrer à la maison",
+    "gloss_en": "to go home",
+    "example_zh": "我要回家了。",
+    "example_fr": "Je dois rentrer à la maison.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "回",
+      "家"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_122",
+    "word": "出去",
+    "pinyin_marked": "chūqù",
+    "pinyin_plain": "chuqu",
+    "pos": "动词",
+    "gloss_fr": "sortir",
+    "gloss_en": "to go out",
+    "example_zh": "我们出去玩吧。",
+    "example_fr": "Sortons nous amuser.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "出",
+      "去"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_123",
+    "word": "进去",
+    "pinyin_marked": "jìnqù",
+    "pinyin_plain": "jinqu",
+    "pos": "动词",
+    "gloss_fr": "entrer",
+    "gloss_en": "to go in",
+    "example_zh": "请进去吧。",
+    "example_fr": "Entrez, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "进",
+      "去"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_124",
+    "word": "出来",
+    "pinyin_marked": "chūlái",
+    "pinyin_plain": "chulai",
+    "pos": "动词",
+    "gloss_fr": "sortir (vers ici)",
+    "gloss_en": "to come out",
+    "example_zh": "你出来一下。",
+    "example_fr": "Sors un instant.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "出",
+      "来"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_125",
+    "word": "进来",
+    "pinyin_marked": "jìnlái",
+    "pinyin_plain": "jinlai",
+    "pos": "动词",
+    "gloss_fr": "entrer (vers ici)",
+    "gloss_en": "to come in",
+    "example_zh": "请进来。",
+    "example_fr": "Entrez, je vous en prie.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "进",
+      "来"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_126",
+    "word": "回来",
+    "pinyin_marked": "huílái",
+    "pinyin_plain": "huilai",
+    "pos": "动词",
+    "gloss_fr": "revenir",
+    "gloss_en": "to come back",
+    "example_zh": "他还没回来。",
+    "example_fr": "Il n'est pas encore revenu.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "回",
+      "来"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_127",
+    "word": "回去",
+    "pinyin_marked": "huíqù",
+    "pinyin_plain": "huiqu",
+    "pos": "动词",
+    "gloss_fr": "retourner",
+    "gloss_en": "to go back",
+    "example_zh": "我们回去吧。",
+    "example_fr": "Retournons-y.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "回",
+      "去"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_128",
+    "word": "过去",
+    "pinyin_marked": "guòqù",
+    "pinyin_plain": "guoqu",
+    "pos": "名词",
+    "gloss_fr": "le passé; passer",
+    "gloss_en": "the past; to pass by",
+    "example_zh": "过去我不喜欢茶。",
+    "example_fr": "Avant, je n'aimais pas le thé.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "过",
+      "去"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_129",
+    "word": "过来",
+    "pinyin_marked": "guòlái",
+    "pinyin_plain": "guolai",
+    "pos": "动词",
+    "gloss_fr": "venir (vers ici)",
+    "gloss_en": "to come over",
+    "example_zh": "你过来一下。",
+    "example_fr": "Viens ici un instant.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "过",
+      "来"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_130",
+    "word": "前面",
+    "pinyin_marked": "qiánmiàn",
+    "pinyin_plain": "qianmian",
+    "pos": "名词",
+    "gloss_fr": "devant",
+    "gloss_en": "in front",
+    "example_zh": "前面是学校。",
+    "example_fr": "Devant, c'est l'école.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "前",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_131",
+    "word": "后面",
+    "pinyin_marked": "hòumiàn",
+    "pinyin_plain": "houmian",
+    "pos": "名词",
+    "gloss_fr": "derrière",
+    "gloss_en": "behind",
+    "example_zh": "后面是商店。",
+    "example_fr": "Derrière, c'est le magasin.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "后",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_132",
+    "word": "里面",
+    "pinyin_marked": "lǐmiàn",
+    "pinyin_plain": "limian",
+    "pos": "名词",
+    "gloss_fr": "à l'intérieur",
+    "gloss_en": "inside",
+    "example_zh": "书在书包里面。",
+    "example_fr": "Le livre est dans le sac.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "里",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_133",
+    "word": "外面",
+    "pinyin_marked": "wàimiàn",
+    "pinyin_plain": "waimian",
+    "pos": "名词",
+    "gloss_fr": "à l'extérieur",
+    "gloss_en": "outside",
+    "example_zh": "外面很冷。",
+    "example_fr": "Il fait froid dehors.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "外",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_134",
+    "word": "上面",
+    "pinyin_marked": "shàngmiàn",
+    "pinyin_plain": "shangmian",
+    "pos": "名词",
+    "gloss_fr": "au-dessus",
+    "gloss_en": "above, on top",
+    "example_zh": "上面有一本书。",
+    "example_fr": "Il y a un livre au-dessus.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "上",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_135",
+    "word": "下面",
+    "pinyin_marked": "xiàmiàn",
+    "pinyin_plain": "xiamian",
+    "pos": "名词",
+    "gloss_fr": "en dessous",
+    "gloss_en": "below, underneath",
+    "example_zh": "下面有一个人。",
+    "example_fr": "Il y a une personne en dessous.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "下",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_136",
+    "word": "那边",
+    "pinyin_marked": "nàbiān",
+    "pinyin_plain": "nabian",
+    "pos": "代词",
+    "gloss_fr": "là-bas",
+    "gloss_en": "over there",
+    "example_zh": "那边是图书馆。",
+    "example_fr": "Là-bas, c'est la bibliothèque.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "那",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_137",
+    "word": "这边",
+    "pinyin_marked": "zhèbiān",
+    "pinyin_plain": "zhebian",
+    "pos": "代词",
+    "gloss_fr": "par ici",
+    "gloss_en": "over here",
+    "example_zh": "请走这边。",
+    "example_fr": "Par ici, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "这",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_138",
+    "word": "哪边",
+    "pinyin_marked": "nǎbiān",
+    "pinyin_plain": "nabian",
+    "pos": "代词",
+    "gloss_fr": "de quel côté",
+    "gloss_en": "which side",
+    "example_zh": "你的家在哪边？",
+    "example_fr": "De quel côté est ta maison ?",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "哪",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_139",
+    "word": "中间",
+    "pinyin_marked": "zhōngjiān",
+    "pinyin_plain": "zhongjian",
+    "pos": "名词",
+    "gloss_fr": "milieu",
+    "gloss_en": "middle",
+    "example_zh": "我坐在中间。",
+    "example_fr": "Je suis assis au milieu.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "中",
+      "间"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_140",
+    "word": "东边",
+    "pinyin_marked": "dōngbiān",
+    "pinyin_plain": "dongbian",
+    "pos": "名词",
+    "gloss_fr": "côté est",
+    "gloss_en": "east side",
+    "example_zh": "学校在东边。",
+    "example_fr": "L'école est à l'est.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "东",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_141",
+    "word": "西边",
+    "pinyin_marked": "xībiān",
+    "pinyin_plain": "xibian",
+    "pos": "名词",
+    "gloss_fr": "côté ouest",
+    "gloss_en": "west side",
+    "example_zh": "商店在西边。",
+    "example_fr": "Le magasin est à l'ouest.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "西",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_142",
+    "word": "南边",
+    "pinyin_marked": "nánbiān",
+    "pinyin_plain": "nanbian",
+    "pos": "名词",
+    "gloss_fr": "côté sud",
+    "gloss_en": "south side",
+    "example_zh": "公园在南边。",
+    "example_fr": "Le parc est au sud.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "南",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_143",
+    "word": "北边",
+    "pinyin_marked": "běibiān",
+    "pinyin_plain": "beibian",
+    "pos": "名词",
+    "gloss_fr": "côté nord",
+    "gloss_en": "north side",
+    "example_zh": "学校在北边。",
+    "example_fr": "L'école est au nord.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "北",
+      "边"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_144",
+    "word": "城市",
+    "pinyin_marked": "chéngshì",
+    "pinyin_plain": "chengshi",
+    "pos": "名词",
+    "gloss_fr": "ville",
+    "gloss_en": "city",
+    "example_zh": "北京是一个大城市。",
+    "example_fr": "Pékin est une grande ville.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "城",
+      "市"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_145",
+    "word": "路口",
+    "pinyin_marked": "lùkǒu",
+    "pinyin_plain": "lukou",
+    "pos": "名词",
+    "gloss_fr": "carrefour",
+    "gloss_en": "intersection",
+    "example_zh": "路口车很多。",
+    "example_fr": "Il y a beaucoup de voitures au carrefour.",
+    "tier": "B1",
+    "theme": "directions",
+    "chars": [
+      "路",
+      "口"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_146",
+    "word": "很远",
+    "pinyin_marked": "hěnyuǎn",
+    "pinyin_plain": "henyuan",
+    "pos": "形容词",
+    "gloss_fr": "très loin",
+    "gloss_en": "very far",
+    "example_zh": "学校离这儿很远。",
+    "example_fr": "L'école est très loin d'ici.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "很",
+      "远"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_147",
+    "word": "很近",
+    "pinyin_marked": "hěnjìn",
+    "pinyin_plain": "henjin",
+    "pos": "形容词",
+    "gloss_fr": "très proche",
+    "gloss_en": "very near",
+    "example_zh": "商店离这儿很近。",
+    "example_fr": "Le magasin est très près d'ici.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "很",
+      "近"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_148",
+    "word": "学生",
+    "pinyin_marked": "xuésheng",
+    "pinyin_plain": "xuesheng",
+    "pos": "名词",
+    "gloss_fr": "étudiant, élève",
+    "gloss_en": "student",
+    "example_zh": "他是一个学生。",
+    "example_fr": "C'est un étudiant.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "学",
+      "生"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_149",
+    "word": "学校",
+    "pinyin_marked": "xuéxiào",
+    "pinyin_plain": "xuexiao",
+    "pos": "名词",
+    "gloss_fr": "école",
+    "gloss_en": "school",
+    "example_zh": "我的学校很大。",
+    "example_fr": "Mon école est grande.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "学",
+      "校"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_150",
+    "word": "老师",
+    "pinyin_marked": "lǎoshī",
+    "pinyin_plain": "laoshi",
+    "pos": "名词",
+    "gloss_fr": "professeur",
+    "gloss_en": "teacher",
+    "example_zh": "她是我的老师。",
+    "example_fr": "C'est mon professeur.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "老",
+      "师"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_151",
+    "word": "汉语",
+    "pinyin_marked": "hànyǔ",
+    "pinyin_plain": "hanyu",
+    "pos": "名词",
+    "gloss_fr": "chinois (langue)",
+    "gloss_en": "Chinese language",
+    "example_zh": "我在学汉语。",
+    "example_fr": "J'apprends le chinois.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "汉",
+      "语"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_152",
+    "word": "中文",
+    "pinyin_marked": "zhōngwén",
+    "pinyin_plain": "zhongwen",
+    "pos": "名词",
+    "gloss_fr": "chinois (langue/écrit)",
+    "gloss_en": "Chinese (language)",
+    "example_zh": "中文很有意思。",
+    "example_fr": "Le chinois est très intéressant.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "中",
+      "文"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_153",
+    "word": "外语",
+    "pinyin_marked": "wàiyǔ",
+    "pinyin_plain": "waiyu",
+    "pos": "名词",
+    "gloss_fr": "langue étrangère",
+    "gloss_en": "foreign language",
+    "example_zh": "你学什么外语？",
+    "example_fr": "Quelle langue étrangère apprends-tu ?",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "外",
+      "语"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_154",
+    "word": "法语",
+    "pinyin_marked": "fǎyǔ",
+    "pinyin_plain": "fayu",
+    "pos": "名词",
+    "gloss_fr": "français (langue)",
+    "gloss_en": "French language",
+    "example_zh": "我说法语和汉语。",
+    "example_fr": "Je parle français et chinois.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "法",
+      "语"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_155",
+    "word": "课本",
+    "pinyin_marked": "kèběn",
+    "pinyin_plain": "keben",
+    "pos": "名词",
+    "gloss_fr": "manuel scolaire",
+    "gloss_en": "textbook",
+    "example_zh": "请打开课本。",
+    "example_fr": "Ouvrez le manuel, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "课",
+      "本"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_156",
+    "word": "写字",
+    "pinyin_marked": "xiězì",
+    "pinyin_plain": "xiezi",
+    "pos": "动词",
+    "gloss_fr": "écrire des caractères",
+    "gloss_en": "to write characters",
+    "example_zh": "他在写字。",
+    "example_fr": "Il écrit des caractères.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "写",
+      "字"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_157",
+    "word": "念书",
+    "pinyin_marked": "niànshū",
+    "pinyin_plain": "nianshu",
+    "pos": "动词",
+    "gloss_fr": "étudier, lire",
+    "gloss_en": "to study, to read aloud",
+    "example_zh": "他在家念书。",
+    "example_fr": "Il étudie à la maison.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "念",
+      "书"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_158",
+    "word": "看书",
+    "pinyin_marked": "kànshū",
+    "pinyin_plain": "kanshu",
+    "pos": "动词",
+    "gloss_fr": "lire (un livre)",
+    "gloss_en": "to read a book",
+    "example_zh": "我喜欢看书。",
+    "example_fr": "J'aime lire.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "看",
+      "书"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_159",
+    "word": "上课",
+    "pinyin_marked": "shàngkè",
+    "pinyin_plain": "shangke",
+    "pos": "动词",
+    "gloss_fr": "aller en cours",
+    "gloss_en": "to attend class",
+    "example_zh": "我们九点上课。",
+    "example_fr": "Nous avons cours à neuf heures.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "上",
+      "课"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_160",
+    "word": "下课",
+    "pinyin_marked": "xiàkè",
+    "pinyin_plain": "xiake",
+    "pos": "动词",
+    "gloss_fr": "finir le cours",
+    "gloss_en": "class is over",
+    "example_zh": "下课了！",
+    "example_fr": "Le cours est fini !",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "下",
+      "课"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_161",
+    "word": "问题",
+    "pinyin_marked": "wèntí",
+    "pinyin_plain": "wenti",
+    "pos": "名词",
+    "gloss_fr": "question, problème",
+    "gloss_en": "question, problem",
+    "example_zh": "我有一个问题。",
+    "example_fr": "J'ai une question.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "问",
+      "题"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_162",
+    "word": "课文",
+    "pinyin_marked": "kèwén",
+    "pinyin_plain": "kewen",
+    "pos": "名词",
+    "gloss_fr": "texte de cours",
+    "gloss_en": "lesson text",
+    "example_zh": "请念课文。",
+    "example_fr": "Lisez le texte, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "课",
+      "文"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_163",
+    "word": "图书馆",
+    "pinyin_marked": "túshūguǎn",
+    "pinyin_plain": "tushuguan",
+    "pos": "名词",
+    "gloss_fr": "bibliothèque",
+    "gloss_en": "library",
+    "example_zh": "我在图书馆看书。",
+    "example_fr": "Je lis à la bibliothèque.",
+    "tier": "A1",
+    "theme": "études",
+    "chars": [
+      "图",
+      "书",
+      "馆"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_164",
+    "word": "校长",
+    "pinyin_marked": "xiàozhǎng",
+    "pinyin_plain": "xiaozhang",
+    "pos": "名词",
+    "gloss_fr": "directeur d'école",
+    "gloss_en": "school principal",
+    "example_zh": "他是学校的校长。",
+    "example_fr": "Il est le directeur de l'école.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "校",
+      "长"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_165",
+    "word": "同班",
+    "pinyin_marked": "tóngbān",
+    "pinyin_plain": "tongban",
+    "pos": "名词",
+    "gloss_fr": "même classe",
+    "gloss_en": "same class",
+    "example_zh": "我们是同班同学。",
+    "example_fr": "Nous sommes dans la même classe.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "同",
+      "班"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_166",
+    "word": "自学",
+    "pinyin_marked": "zìxué",
+    "pinyin_plain": "zixue",
+    "pos": "动词",
+    "gloss_fr": "apprendre en autodidacte",
+    "gloss_en": "to study by oneself",
+    "example_zh": "他自学汉语。",
+    "example_fr": "Il apprend le chinois en autodidacte.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "自",
+      "学"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_167",
+    "word": "天气",
+    "pinyin_marked": "tiānqì",
+    "pinyin_plain": "tianqi",
+    "pos": "名词",
+    "gloss_fr": "temps (météo)",
+    "gloss_en": "weather",
+    "example_zh": "今天天气怎么样？",
+    "example_fr": "Quel temps fait-il aujourd'hui ?",
+    "tier": "A1",
+    "theme": "météo",
+    "chars": [
+      "天",
+      "气"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_168",
+    "word": "下雨",
+    "pinyin_marked": "xiàyǔ",
+    "pinyin_plain": "xiayu",
+    "pos": "动词",
+    "gloss_fr": "pleuvoir",
+    "gloss_en": "to rain",
+    "example_zh": "外面在下雨。",
+    "example_fr": "Il pleut dehors.",
+    "tier": "A1",
+    "theme": "météo",
+    "chars": [
+      "下",
+      "雨"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_169",
+    "word": "雨水",
+    "pinyin_marked": "yǔshuǐ",
+    "pinyin_plain": "yushui",
+    "pos": "名词",
+    "gloss_fr": "eau de pluie",
+    "gloss_en": "rainwater",
+    "example_zh": "春天雨水多。",
+    "example_fr": "Au printemps, il y a beaucoup de pluie.",
+    "tier": "B1",
+    "theme": "météo",
+    "chars": [
+      "雨",
+      "水"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_170",
+    "word": "冷天",
+    "pinyin_marked": "lěngtiān",
+    "pinyin_plain": "lengtian",
+    "pos": "名词",
+    "gloss_fr": "jour froid",
+    "gloss_en": "cold day",
+    "example_zh": "冷天我不喜欢出去。",
+    "example_fr": "Par temps froid, je n'aime pas sortir.",
+    "tier": "B1",
+    "theme": "météo",
+    "chars": [
+      "冷",
+      "天"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_171",
+    "word": "热天",
+    "pinyin_marked": "rètiān",
+    "pinyin_plain": "retian",
+    "pos": "名词",
+    "gloss_fr": "jour chaud",
+    "gloss_en": "hot day",
+    "example_zh": "热天我喜欢喝冷水。",
+    "example_fr": "Par temps chaud, j'aime boire de l'eau froide.",
+    "tier": "B1",
+    "theme": "météo",
+    "chars": [
+      "热",
+      "天"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_172",
+    "word": "病",
+    "pinyin_marked": "bìng",
+    "pinyin_plain": "bing",
+    "pos": "名词",
+    "gloss_fr": "maladie",
+    "gloss_en": "illness",
+    "example_zh": "他有病。",
+    "example_fr": "Il est malade.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "病"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_173",
+    "word": "生病",
+    "pinyin_marked": "shēngbìng",
+    "pinyin_plain": "shengbing",
+    "pos": "动词",
+    "gloss_fr": "tomber malade",
+    "gloss_en": "to get sick",
+    "example_zh": "我生病了。",
+    "example_fr": "Je suis tombé malade.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "生",
+      "病"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_174",
+    "word": "看病",
+    "pinyin_marked": "kànbìng",
+    "pinyin_plain": "kanbing",
+    "pos": "动词",
+    "gloss_fr": "consulter un médecin",
+    "gloss_en": "to see a doctor",
+    "example_zh": "我要去看病。",
+    "example_fr": "Je dois aller voir un médecin.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "看",
+      "病"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_175",
+    "word": "病人",
+    "pinyin_marked": "bìngrén",
+    "pinyin_plain": "bingren",
+    "pos": "名词",
+    "gloss_fr": "patient",
+    "gloss_en": "patient",
+    "example_zh": "医院里有很多病人。",
+    "example_fr": "Il y a beaucoup de patients à l'hôpital.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "病",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_176",
+    "word": "医生",
+    "pinyin_marked": "yīshēng",
+    "pinyin_plain": "yisheng",
+    "pos": "名词",
+    "gloss_fr": "médecin",
+    "gloss_en": "doctor",
+    "example_zh": "她是医生。",
+    "example_fr": "Elle est médecin.",
+    "tier": "A1",
+    "theme": "santé",
+    "chars": [
+      "医",
+      "生"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_177",
+    "word": "医院",
+    "pinyin_marked": "yīyuàn",
+    "pinyin_plain": "yiyuan",
+    "pos": "名词",
+    "gloss_fr": "hôpital",
+    "gloss_en": "hospital",
+    "example_zh": "医院在哪儿？",
+    "example_fr": "Où est l'hôpital ?",
+    "tier": "A1",
+    "theme": "santé",
+    "chars": [
+      "医",
+      "院"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_178",
+    "word": "身体",
+    "pinyin_marked": "shēntǐ",
+    "pinyin_plain": "shenti",
+    "pos": "名词",
+    "gloss_fr": "corps, santé",
+    "gloss_en": "body, health",
+    "example_zh": "你身体好吗？",
+    "example_fr": "Comment va ta santé ?",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "身",
+      "体"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_179",
+    "word": "很累",
+    "pinyin_marked": "hěnlèi",
+    "pinyin_plain": "henlei",
+    "pos": "形容词",
+    "gloss_fr": "très fatigué",
+    "gloss_en": "very tired",
+    "example_zh": "我今天很累。",
+    "example_fr": "Je suis très fatigué aujourd'hui.",
+    "tier": "A1",
+    "theme": "santé",
+    "chars": [
+      "很",
+      "累"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_180",
+    "word": "放心",
+    "pinyin_marked": "fàngxīn",
+    "pinyin_plain": "fangxin",
+    "pos": "动词",
+    "gloss_fr": "se rassurer",
+    "gloss_en": "to rest assured",
+    "example_zh": "你放心吧。",
+    "example_fr": "Ne t'inquiète pas.",
+    "tier": "B1",
+    "theme": "santé",
+    "chars": [
+      "放",
+      "心"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_181",
+    "word": "小心",
+    "pinyin_marked": "xiǎoxīn",
+    "pinyin_plain": "xiaoxin",
+    "pos": "动词",
+    "gloss_fr": "faire attention",
+    "gloss_en": "to be careful",
+    "example_zh": "开车要小心。",
+    "example_fr": "Il faut faire attention en conduisant.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "小",
+      "心"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_182",
+    "word": "开心",
+    "pinyin_marked": "kāixīn",
+    "pinyin_plain": "kaixin",
+    "pos": "形容词",
+    "gloss_fr": "content, heureux",
+    "gloss_en": "happy",
+    "example_zh": "今天我很开心。",
+    "example_fr": "Aujourd'hui je suis très content.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "开",
+      "心"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_183",
+    "word": "高兴",
+    "pinyin_marked": "gāoxìng",
+    "pinyin_plain": "gaoxing",
+    "pos": "形容词",
+    "gloss_fr": "content, heureux",
+    "gloss_en": "happy, glad",
+    "example_zh": "认识你很高兴。",
+    "example_fr": "Je suis content de te connaître.",
+    "tier": "A1",
+    "theme": "santé",
+    "chars": [
+      "高",
+      "兴"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_184",
+    "word": "打球",
+    "pinyin_marked": "dǎqiú",
+    "pinyin_plain": "daqiu",
+    "pos": "动词",
+    "gloss_fr": "jouer au ballon",
+    "gloss_en": "to play ball",
+    "example_zh": "我们去打球吧。",
+    "example_fr": "Allons jouer au ballon.",
+    "tier": "A1",
+    "theme": "sport",
+    "chars": [
+      "打",
+      "球"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_185",
+    "word": "网球",
+    "pinyin_marked": "wǎngqiú",
+    "pinyin_plain": "wangqiu",
+    "pos": "名词",
+    "gloss_fr": "tennis",
+    "gloss_en": "tennis",
+    "example_zh": "他喜欢打网球。",
+    "example_fr": "Il aime jouer au tennis.",
+    "tier": "A2",
+    "theme": "sport",
+    "chars": [
+      "网",
+      "球"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_186",
+    "word": "玩球",
+    "pinyin_marked": "wánqiú",
+    "pinyin_plain": "wanqiu",
+    "pos": "动词",
+    "gloss_fr": "jouer avec un ballon",
+    "gloss_en": "to play with a ball",
+    "example_zh": "孩子们在玩球。",
+    "example_fr": "Les enfants jouent au ballon.",
+    "tier": "A1",
+    "theme": "sport",
+    "chars": [
+      "玩",
+      "球"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_187",
+    "word": "唱歌",
+    "pinyin_marked": "chànggē",
+    "pinyin_plain": "changge",
+    "pos": "动词",
+    "gloss_fr": "chanter",
+    "gloss_en": "to sing",
+    "example_zh": "她唱歌唱得很好。",
+    "example_fr": "Elle chante très bien.",
+    "tier": "A1",
+    "theme": "sport",
+    "chars": [
+      "唱",
+      "歌"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_188",
+    "word": "跳",
+    "pinyin_marked": "tiào",
+    "pinyin_plain": "tiao",
+    "pos": "动词",
+    "gloss_fr": "sauter",
+    "gloss_en": "to jump",
+    "example_zh": "他跳得很高。",
+    "example_fr": "Il saute très haut.",
+    "tier": "A2",
+    "theme": "sport",
+    "chars": [
+      "跳"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_189",
+    "word": "工作",
+    "pinyin_marked": "gōngzuò",
+    "pinyin_plain": "gongzuo",
+    "pos": "名词",
+    "gloss_fr": "travail",
+    "gloss_en": "work, job",
+    "example_zh": "你的工作是什么？",
+    "example_fr": "Quel est ton travail ?",
+    "tier": "A1",
+    "theme": "travail",
+    "chars": [
+      "工",
+      "作"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_190",
+    "word": "找工作",
+    "pinyin_marked": "zhǎo gōngzuò",
+    "pinyin_plain": "zhao gongzuo",
+    "pos": "动词",
+    "gloss_fr": "chercher un emploi",
+    "gloss_en": "to look for a job",
+    "example_zh": "我在找工作。",
+    "example_fr": "Je cherche un emploi.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "找",
+      "工",
+      "作"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_191",
+    "word": "工人",
+    "pinyin_marked": "gōngrén",
+    "pinyin_plain": "gongren",
+    "pos": "名词",
+    "gloss_fr": "ouvrier",
+    "gloss_en": "worker",
+    "example_zh": "他是工人。",
+    "example_fr": "Il est ouvrier.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "工",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_192",
+    "word": "商人",
+    "pinyin_marked": "shāngrén",
+    "pinyin_plain": "shangren",
+    "pos": "名词",
+    "gloss_fr": "commerçant, homme d'affaires",
+    "gloss_en": "businessperson",
+    "example_zh": "他是一个商人。",
+    "example_fr": "C'est un homme d'affaires.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "商",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_193",
+    "word": "公园",
+    "pinyin_marked": "gōngyuán",
+    "pinyin_plain": "gongyuan",
+    "pos": "名词",
+    "gloss_fr": "parc public",
+    "gloss_en": "park",
+    "example_zh": "我们去公园走走。",
+    "example_fr": "Allons nous promener au parc.",
+    "tier": "A1",
+    "theme": "nature",
+    "chars": [
+      "公",
+      "园"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_194",
+    "word": "上班",
+    "pinyin_marked": "shàngbān",
+    "pinyin_plain": "shangban",
+    "pos": "动词",
+    "gloss_fr": "aller travailler",
+    "gloss_en": "to go to work",
+    "example_zh": "我九点上班。",
+    "example_fr": "Je vais travailler à neuf heures.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "上",
+      "班"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_195",
+    "word": "下班",
+    "pinyin_marked": "xiàbān",
+    "pinyin_plain": "xiaban",
+    "pos": "动词",
+    "gloss_fr": "finir le travail",
+    "gloss_en": "to get off work",
+    "example_zh": "你几点下班？",
+    "example_fr": "À quelle heure finis-tu le travail ?",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "下",
+      "班"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_196",
+    "word": "干活",
+    "pinyin_marked": "gànhuó",
+    "pinyin_plain": "ganhuo",
+    "pos": "动词",
+    "gloss_fr": "travailler, faire une tâche",
+    "gloss_en": "to work, to do a task",
+    "example_zh": "他在家里干活。",
+    "example_fr": "Il travaille à la maison.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "干",
+      "活"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_197",
+    "word": "打工",
+    "pinyin_marked": "dǎgōng",
+    "pinyin_plain": "dagong",
+    "pos": "动词",
+    "gloss_fr": "avoir un petit boulot",
+    "gloss_en": "to have a part-time job",
+    "example_zh": "我在饭馆打工。",
+    "example_fr": "Je fais un petit boulot au restaurant.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "打",
+      "工"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_198",
+    "word": "工作日",
+    "pinyin_marked": "gōngzuòrì",
+    "pinyin_plain": "gongzuori",
+    "pos": "名词",
+    "gloss_fr": "jour ouvrable",
+    "gloss_en": "workday",
+    "example_zh": "星期一是工作日。",
+    "example_fr": "Lundi est un jour ouvrable.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "工",
+      "作",
+      "日"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_199",
+    "word": "想做",
+    "pinyin_marked": "xiǎngzuò",
+    "pinyin_plain": "xiangzuo",
+    "pos": "动词",
+    "gloss_fr": "vouloir faire",
+    "gloss_en": "to want to do",
+    "example_zh": "你以后想做什么工作？",
+    "example_fr": "Quel métier veux-tu faire plus tard ?",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "想",
+      "做"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_200",
+    "word": "要做",
+    "pinyin_marked": "yàozuò",
+    "pinyin_plain": "yaozuo",
+    "pos": "动词",
+    "gloss_fr": "vouloir devenir",
+    "gloss_en": "to intend to become",
+    "example_zh": "我要做医生。",
+    "example_fr": "Je veux devenir médecin.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "要",
+      "做"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_201",
+    "word": "白",
+    "pinyin_marked": "bái",
+    "pinyin_plain": "bai",
+    "pos": "形容词",
+    "gloss_fr": "blanc",
+    "gloss_en": "white",
+    "example_zh": "这件衣服是白的。",
+    "example_fr": "Ce vêtement est blanc.",
+    "tier": "A1",
+    "theme": "couleurs",
+    "chars": [
+      "白"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_202",
+    "word": "红",
+    "pinyin_marked": "hóng",
+    "pinyin_plain": "hong",
+    "pos": "形容词",
+    "gloss_fr": "rouge",
+    "gloss_en": "red",
+    "example_zh": "她的衣服是红的。",
+    "example_fr": "Ses vêtements sont rouges.",
+    "tier": "A1",
+    "theme": "couleurs",
+    "chars": [
+      "红"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_203",
+    "word": "黑",
+    "pinyin_marked": "hēi",
+    "pinyin_plain": "hei",
+    "pos": "形容词",
+    "gloss_fr": "noir",
+    "gloss_en": "black",
+    "example_zh": "那头牛是黑的。",
+    "example_fr": "Cette vache est noire.",
+    "tier": "A1",
+    "theme": "couleurs",
+    "chars": [
+      "黑"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_204",
+    "word": "黄",
+    "pinyin_marked": "huáng",
+    "pinyin_plain": "huang",
+    "pos": "形容词",
+    "gloss_fr": "jaune",
+    "gloss_en": "yellow",
+    "example_zh": "这个花是黄的。",
+    "example_fr": "Cette fleur est jaune.",
+    "tier": "A1",
+    "theme": "couleurs",
+    "chars": [
+      "黄"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_205",
+    "word": "白天",
+    "pinyin_marked": "báitiān",
+    "pinyin_plain": "baitian",
+    "pos": "名词",
+    "gloss_fr": "journée",
+    "gloss_en": "daytime",
+    "example_zh": "白天我在学校。",
+    "example_fr": "Je suis à l'école pendant la journée.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "白",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_206",
+    "word": "黄河",
+    "pinyin_marked": "huánghé",
+    "pinyin_plain": "huanghe",
+    "pos": "名词",
+    "gloss_fr": "le fleuve Jaune",
+    "gloss_en": "the Yellow River",
+    "example_zh": "黄河很长。",
+    "example_fr": "Le fleuve Jaune est très long.",
+    "tier": "B1",
+    "theme": "nature",
+    "chars": [
+      "黄",
+      "河"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_207",
+    "word": "衣服",
+    "pinyin_marked": "yīfu",
+    "pinyin_plain": "yifu",
+    "pos": "名词",
+    "gloss_fr": "vêtement",
+    "gloss_en": "clothes",
+    "example_zh": "这件衣服很好看。",
+    "example_fr": "Ce vêtement est très joli.",
+    "tier": "A1",
+    "theme": "vêtements",
+    "chars": [
+      "衣",
+      "服"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_208",
+    "word": "新衣服",
+    "pinyin_marked": "xīnyīfu",
+    "pinyin_plain": "xinyifu",
+    "pos": "名词",
+    "gloss_fr": "vêtement neuf",
+    "gloss_en": "new clothes",
+    "example_zh": "她买了新衣服。",
+    "example_fr": "Elle a acheté de nouveaux vêtements.",
+    "tier": "A1",
+    "theme": "vêtements",
+    "chars": [
+      "新",
+      "衣",
+      "服"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_209",
+    "word": "买衣服",
+    "pinyin_marked": "mǎi yīfu",
+    "pinyin_plain": "mai yifu",
+    "pos": "动词",
+    "gloss_fr": "acheter des vêtements",
+    "gloss_en": "to buy clothes",
+    "example_zh": "我想去买衣服。",
+    "example_fr": "Je veux aller acheter des vêtements.",
+    "tier": "A1",
+    "theme": "vêtements",
+    "chars": [
+      "买",
+      "衣",
+      "服"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_210",
+    "word": "好看",
+    "pinyin_marked": "hǎokàn",
+    "pinyin_plain": "haokan",
+    "pos": "形容词",
+    "gloss_fr": "joli, beau",
+    "gloss_en": "good-looking",
+    "example_zh": "这件衣服很好看。",
+    "example_fr": "Ce vêtement est très joli.",
+    "tier": "A1",
+    "theme": "vêtements",
+    "chars": [
+      "好",
+      "看"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_211",
+    "word": "房子",
+    "pinyin_marked": "fángzi",
+    "pinyin_plain": "fangzi",
+    "pos": "名词",
+    "gloss_fr": "maison",
+    "gloss_en": "house",
+    "example_zh": "这是我的房子。",
+    "example_fr": "C'est ma maison.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "房",
+      "子"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_212",
+    "word": "房间",
+    "pinyin_marked": "fángjiān",
+    "pinyin_plain": "fangjian",
+    "pos": "名词",
+    "gloss_fr": "chambre, pièce",
+    "gloss_en": "room",
+    "example_zh": "我的房间很小。",
+    "example_fr": "Ma chambre est petite.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "房",
+      "间"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_213",
+    "word": "家里",
+    "pinyin_marked": "jiālǐ",
+    "pinyin_plain": "jiali",
+    "pos": "名词",
+    "gloss_fr": "à la maison",
+    "gloss_en": "at home",
+    "example_zh": "他在家里。",
+    "example_fr": "Il est à la maison.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "家",
+      "里"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_214",
+    "word": "在家",
+    "pinyin_marked": "zàijiā",
+    "pinyin_plain": "zaijia",
+    "pos": "动词",
+    "gloss_fr": "être à la maison",
+    "gloss_en": "to be home",
+    "example_zh": "今天我在家。",
+    "example_fr": "Aujourd'hui je suis à la maison.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "在",
+      "家"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_215",
+    "word": "住在",
+    "pinyin_marked": "zhùzài",
+    "pinyin_plain": "zhuzai",
+    "pos": "动词",
+    "gloss_fr": "habiter à",
+    "gloss_en": "to live at",
+    "example_zh": "我住在北京。",
+    "example_fr": "J'habite à Pékin.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "住",
+      "在"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_216",
+    "word": "门口",
+    "pinyin_marked": "ménkǒu",
+    "pinyin_plain": "menkou",
+    "pos": "名词",
+    "gloss_fr": "entrée, porte",
+    "gloss_en": "entrance, doorway",
+    "example_zh": "他在门口，你快来。",
+    "example_fr": "Il est à l'entrée, viens vite.",
+    "tier": "A2",
+    "theme": "maison",
+    "chars": [
+      "门",
+      "口"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_217",
+    "word": "开门",
+    "pinyin_marked": "kāimén",
+    "pinyin_plain": "kaimen",
+    "pos": "动词",
+    "gloss_fr": "ouvrir la porte",
+    "gloss_en": "to open the door",
+    "example_zh": "请开门。",
+    "example_fr": "Ouvrez la porte, s'il vous plaît.",
+    "tier": "A1",
+    "theme": "maison",
+    "chars": [
+      "开",
+      "门"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_218",
+    "word": "关门",
+    "pinyin_marked": "guānmén",
+    "pinyin_plain": "guanmen",
+    "pos": "动词",
+    "gloss_fr": "fermer la porte",
+    "gloss_en": "to close the door",
+    "example_zh": "商店几点关门？",
+    "example_fr": "À quelle heure ferme le magasin ?",
+    "tier": "A2",
+    "theme": "maison",
+    "chars": [
+      "关",
+      "门"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_219",
+    "word": "楼上",
+    "pinyin_marked": "lóushàng",
+    "pinyin_plain": "loushang",
+    "pos": "名词",
+    "gloss_fr": "à l'étage",
+    "gloss_en": "upstairs",
+    "example_zh": "我住在楼上。",
+    "example_fr": "J'habite à l'étage.",
+    "tier": "A2",
+    "theme": "maison",
+    "chars": [
+      "楼",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_220",
+    "word": "楼下",
+    "pinyin_marked": "lóuxià",
+    "pinyin_plain": "louxia",
+    "pos": "名词",
+    "gloss_fr": "en bas (rez-de-chaussée)",
+    "gloss_en": "downstairs",
+    "example_zh": "商店在楼下。",
+    "example_fr": "Le magasin est en bas.",
+    "tier": "A2",
+    "theme": "maison",
+    "chars": [
+      "楼",
+      "下"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_221",
+    "word": "山水",
+    "pinyin_marked": "shānshuǐ",
+    "pinyin_plain": "shanshui",
+    "pos": "名词",
+    "gloss_fr": "paysage (montagnes et eaux)",
+    "gloss_en": "landscape (mountains and water)",
+    "example_zh": "这儿的山水很美。",
+    "example_fr": "Le paysage ici est très beau.",
+    "tier": "B1",
+    "theme": "nature",
+    "chars": [
+      "山",
+      "水"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_222",
+    "word": "海水",
+    "pinyin_marked": "hǎishuǐ",
+    "pinyin_plain": "haishui",
+    "pos": "名词",
+    "gloss_fr": "eau de mer",
+    "gloss_en": "seawater",
+    "example_zh": "海水很多。",
+    "example_fr": "Il y a beaucoup d'eau de mer.",
+    "tier": "B1",
+    "theme": "nature",
+    "chars": [
+      "海",
+      "水"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_223",
+    "word": "山上",
+    "pinyin_marked": "shānshàng",
+    "pinyin_plain": "shanshang",
+    "pos": "名词",
+    "gloss_fr": "sur la montagne",
+    "gloss_en": "on the mountain",
+    "example_zh": "山上有很多花。",
+    "example_fr": "Il y a beaucoup de fleurs sur la montagne.",
+    "tier": "A2",
+    "theme": "nature",
+    "chars": [
+      "山",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_224",
+    "word": "天上",
+    "pinyin_marked": "tiānshàng",
+    "pinyin_plain": "tianshang",
+    "pos": "名词",
+    "gloss_fr": "dans le ciel",
+    "gloss_en": "in the sky",
+    "example_zh": "天上有很多星星。",
+    "example_fr": "Il y a beaucoup d'étoiles dans le ciel.",
+    "tier": "A2",
+    "theme": "nature",
+    "chars": [
+      "天",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_225",
+    "word": "星星",
+    "pinyin_marked": "xīngxing",
+    "pinyin_plain": "xingxing",
+    "pos": "名词",
+    "gloss_fr": "étoile",
+    "gloss_en": "star",
+    "example_zh": "今天晚上星星很多。",
+    "example_fr": "Ce soir il y a beaucoup d'étoiles.",
+    "tier": "A1",
+    "theme": "nature",
+    "chars": [
+      "星",
+      "星"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_226",
+    "word": "山羊",
+    "pinyin_marked": "shānyáng",
+    "pinyin_plain": "shanyang",
+    "pos": "名词",
+    "gloss_fr": "chèvre",
+    "gloss_en": "goat",
+    "example_zh": "山上有山羊。",
+    "example_fr": "Il y a des chèvres sur la montagne.",
+    "tier": "B1",
+    "theme": "nature",
+    "chars": [
+      "山",
+      "羊"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_227",
+    "word": "农民",
+    "pinyin_marked": "nóngmín",
+    "pinyin_plain": "nongmin",
+    "pos": "名词",
+    "gloss_fr": "paysan, agriculteur",
+    "gloss_en": "farmer",
+    "example_zh": "他父亲是农民。",
+    "example_fr": "Son père est agriculteur.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "农",
+      "民"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_228",
+    "word": "农村",
+    "pinyin_marked": "nóngcūn",
+    "pinyin_plain": "nongcun",
+    "pos": "名词",
+    "gloss_fr": "campagne",
+    "gloss_en": "countryside",
+    "example_zh": "他家在农村。",
+    "example_fr": "Sa famille habite à la campagne.",
+    "tier": "B1",
+    "theme": "directions",
+    "chars": [
+      "农",
+      "村"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_229",
+    "word": "头发",
+    "pinyin_marked": "tóufa",
+    "pinyin_plain": "toufa",
+    "pos": "名词",
+    "gloss_fr": "cheveux",
+    "gloss_en": "hair",
+    "example_zh": "她的头发很长。",
+    "example_fr": "Ses cheveux sont très longs.",
+    "tier": "A2",
+    "theme": "corps",
+    "chars": [
+      "头",
+      "发"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_230",
+    "word": "身高",
+    "pinyin_marked": "shēngāo",
+    "pinyin_plain": "shengao",
+    "pos": "名词",
+    "gloss_fr": "taille (stature)",
+    "gloss_en": "height",
+    "example_zh": "你的身高是多少？",
+    "example_fr": "Quelle est ta taille ?",
+    "tier": "B1",
+    "theme": "corps",
+    "chars": [
+      "身",
+      "高"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_231",
+    "word": "手机",
+    "pinyin_marked": "shǒujī",
+    "pinyin_plain": "shouji",
+    "pos": "名词",
+    "gloss_fr": "téléphone portable",
+    "gloss_en": "mobile phone",
+    "example_zh": "我的手机在哪儿？",
+    "example_fr": "Où est mon portable ?",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "手",
+      "机"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_232",
+    "word": "打电话",
+    "pinyin_marked": "dǎ diànhuà",
+    "pinyin_plain": "da dianhua",
+    "pos": "动词",
+    "gloss_fr": "téléphoner",
+    "gloss_en": "to make a phone call",
+    "example_zh": "我给你打电话。",
+    "example_fr": "Je t'appelle.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "打",
+      "电",
+      "话"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_233",
+    "word": "电话",
+    "pinyin_marked": "diànhuà",
+    "pinyin_plain": "dianhua",
+    "pos": "名词",
+    "gloss_fr": "téléphone",
+    "gloss_en": "telephone",
+    "example_zh": "请给我电话号。",
+    "example_fr": "Donnez-moi votre numéro de téléphone.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "电",
+      "话"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_234",
+    "word": "手机号",
+    "pinyin_marked": "shǒujīhào",
+    "pinyin_plain": "shoujihao",
+    "pos": "名词",
+    "gloss_fr": "numéro de portable",
+    "gloss_en": "mobile number",
+    "example_zh": "你的手机号是多少？",
+    "example_fr": "Quel est ton numéro de portable ?",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "手",
+      "机",
+      "号"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_235",
+    "word": "听说",
+    "pinyin_marked": "tīngshuō",
+    "pinyin_plain": "tingshuo",
+    "pos": "动词",
+    "gloss_fr": "entendre dire",
+    "gloss_en": "to hear that",
+    "example_zh": "听说他去中国了。",
+    "example_fr": "On dit qu'il est allé en Chine.",
+    "tier": "A2",
+    "theme": "communication",
+    "chars": [
+      "听",
+      "说"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_236",
+    "word": "写信",
+    "pinyin_marked": "xiěxìn",
+    "pinyin_plain": "xiexin",
+    "pos": "动词",
+    "gloss_fr": "écrire une lettre",
+    "gloss_en": "to write a letter",
+    "example_zh": "我给她写信。",
+    "example_fr": "Je lui écris une lettre.",
+    "tier": "A2",
+    "theme": "communication",
+    "chars": [
+      "写",
+      "信"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_237",
+    "word": "回信",
+    "pinyin_marked": "huíxìn",
+    "pinyin_plain": "huixin",
+    "pos": "动词",
+    "gloss_fr": "répondre (par lettre)",
+    "gloss_en": "to reply (by letter)",
+    "example_zh": "请给我回信。",
+    "example_fr": "Réponds-moi, s'il te plaît.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "回",
+      "信"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_238",
+    "word": "问好",
+    "pinyin_marked": "wènhǎo",
+    "pinyin_plain": "wenhao",
+    "pos": "动词",
+    "gloss_fr": "saluer",
+    "gloss_en": "to say hello",
+    "example_zh": "请代我问好。",
+    "example_fr": "Passe-lui le bonjour de ma part.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "问",
+      "好"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_239",
+    "word": "你好",
+    "pinyin_marked": "nǐhǎo",
+    "pinyin_plain": "nihao",
+    "pos": "叹词",
+    "gloss_fr": "bonjour",
+    "gloss_en": "hello",
+    "example_zh": "你好，很高兴认识你。",
+    "example_fr": "Bonjour, ravi de te rencontrer.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "你",
+      "好"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_240",
+    "word": "再见",
+    "pinyin_marked": "zàijiàn",
+    "pinyin_plain": "zaijian",
+    "pos": "叹词",
+    "gloss_fr": "au revoir",
+    "gloss_en": "goodbye",
+    "example_zh": "再见，明天见。",
+    "example_fr": "Au revoir, à demain.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "再",
+      "见"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_241",
+    "word": "谢谢",
+    "pinyin_marked": "xièxie",
+    "pinyin_plain": "xiexie",
+    "pos": "叹词",
+    "gloss_fr": "merci",
+    "gloss_en": "thank you",
+    "example_zh": "谢谢你。",
+    "example_fr": "Merci à toi.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "谢",
+      "谢"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_242",
+    "word": "对不起",
+    "pinyin_marked": "duìbuqǐ",
+    "pinyin_plain": "duibuqi",
+    "pos": "叹词",
+    "gloss_fr": "désolé, pardon",
+    "gloss_en": "sorry",
+    "example_zh": "对不起，我来晚了。",
+    "example_fr": "Désolé, je suis en retard.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "对",
+      "不",
+      "起"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_243",
+    "word": "请问",
+    "pinyin_marked": "qǐngwèn",
+    "pinyin_plain": "qingwen",
+    "pos": "动词",
+    "gloss_fr": "excusez-moi, puis-je demander",
+    "gloss_en": "excuse me, may I ask",
+    "example_zh": "请问，图书馆在哪儿？",
+    "example_fr": "Excusez-moi, où est la bibliothèque ?",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "请",
+      "问"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_244",
+    "word": "请坐",
+    "pinyin_marked": "qǐngzuò",
+    "pinyin_plain": "qingzuo",
+    "pos": "动词",
+    "gloss_fr": "asseyez-vous s'il vous plaît",
+    "gloss_en": "please sit",
+    "example_zh": "请坐，喝杯茶吧。",
+    "example_fr": "Asseyez-vous, prenez un thé.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "请",
+      "坐"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_245",
+    "word": "请进",
+    "pinyin_marked": "qǐngjìn",
+    "pinyin_plain": "qingjin",
+    "pos": "动词",
+    "gloss_fr": "entrez s'il vous plaît",
+    "gloss_en": "please come in",
+    "example_zh": "请进，请坐。",
+    "example_fr": "Entrez, asseyez-vous.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "请",
+      "进"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_246",
+    "word": "讲话",
+    "pinyin_marked": "jiǎnghuà",
+    "pinyin_plain": "jianghua",
+    "pos": "动词",
+    "gloss_fr": "parler, faire un discours",
+    "gloss_en": "to speak, to give a talk",
+    "example_zh": "老师在讲话。",
+    "example_fr": "Le professeur parle.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "讲",
+      "话"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_247",
+    "word": "讲课",
+    "pinyin_marked": "jiǎngkè",
+    "pinyin_plain": "jiangke",
+    "pos": "动词",
+    "gloss_fr": "donner un cours",
+    "gloss_en": "to give a lecture",
+    "example_zh": "老师在讲课。",
+    "example_fr": "Le professeur donne son cours.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "讲",
+      "课"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_248",
+    "word": "多少",
+    "pinyin_marked": "duōshao",
+    "pinyin_plain": "duoshao",
+    "pos": "代词",
+    "gloss_fr": "combien",
+    "gloss_en": "how many, how much",
+    "example_zh": "你们班有多少学生？",
+    "example_fr": "Combien d'élèves y a-t-il dans ta classe ?",
+    "tier": "A1",
+    "theme": "nombres",
+    "chars": [
+      "多",
+      "少"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_249",
+    "word": "一些",
+    "pinyin_marked": "yìxiē",
+    "pinyin_plain": "yixie",
+    "pos": "数词",
+    "gloss_fr": "quelques",
+    "gloss_en": "some",
+    "example_zh": "我买了一些水果。",
+    "example_fr": "J'ai acheté quelques fruits.",
+    "tier": "A2",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "些"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_250",
+    "word": "很多",
+    "pinyin_marked": "hěnduō",
+    "pinyin_plain": "henduo",
+    "pos": "数词",
+    "gloss_fr": "beaucoup",
+    "gloss_en": "a lot of",
+    "example_zh": "这儿有很多人。",
+    "example_fr": "Il y a beaucoup de gens ici.",
+    "tier": "A1",
+    "theme": "nombres",
+    "chars": [
+      "很",
+      "多"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_251",
+    "word": "不少",
+    "pinyin_marked": "bùshǎo",
+    "pinyin_plain": "bushao",
+    "pos": "数词",
+    "gloss_fr": "pas mal de, beaucoup",
+    "gloss_en": "quite a lot",
+    "example_zh": "他有不少朋友。",
+    "example_fr": "Il a pas mal d'amis.",
+    "tier": "B1",
+    "theme": "nombres",
+    "chars": [
+      "不",
+      "少"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_252",
+    "word": "一点儿",
+    "pinyin_marked": "yìdiǎnr",
+    "pinyin_plain": "yidianr",
+    "pos": "数词",
+    "gloss_fr": "un peu",
+    "gloss_en": "a little bit",
+    "example_zh": "我会说一点儿汉语。",
+    "example_fr": "Je parle un peu chinois.",
+    "tier": "A1",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "点",
+      "儿"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_253",
+    "word": "一百",
+    "pinyin_marked": "yìbǎi",
+    "pinyin_plain": "yibai",
+    "pos": "数词",
+    "gloss_fr": "cent",
+    "gloss_en": "one hundred",
+    "example_zh": "这本书一百块钱。",
+    "example_fr": "Ce livre coûte cent yuans.",
+    "tier": "A1",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "百"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_254",
+    "word": "一千",
+    "pinyin_marked": "yìqiān",
+    "pinyin_plain": "yiqian",
+    "pos": "数词",
+    "gloss_fr": "mille",
+    "gloss_en": "one thousand",
+    "example_zh": "这个手机一千块钱。",
+    "example_fr": "Ce téléphone coûte mille yuans.",
+    "tier": "A2",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "千"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_255",
+    "word": "一万",
+    "pinyin_marked": "yíwàn",
+    "pinyin_plain": "yiwan",
+    "pos": "数词",
+    "gloss_fr": "dix mille",
+    "gloss_en": "ten thousand",
+    "example_zh": "这个城市有一万人。",
+    "example_fr": "Cette ville compte dix mille habitants.",
+    "tier": "B1",
+    "theme": "nombres",
+    "chars": [
+      "一",
+      "万"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_256",
+    "word": "可以",
+    "pinyin_marked": "kěyǐ",
+    "pinyin_plain": "keyi",
+    "pos": "动词",
+    "gloss_fr": "pouvoir, avoir le droit de",
+    "gloss_en": "can, may",
+    "example_zh": "我可以进去吗？",
+    "example_fr": "Puis-je entrer ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "可",
+      "以"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_257",
+    "word": "可能",
+    "pinyin_marked": "kěnéng",
+    "pinyin_plain": "keneng",
+    "pos": "副词",
+    "gloss_fr": "peut-être, possible",
+    "gloss_en": "possibly, probably",
+    "example_zh": "他可能不来了。",
+    "example_fr": "Il ne viendra peut-être pas.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "可",
+      "能"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_258",
+    "word": "因为",
+    "pinyin_marked": "yīnwèi",
+    "pinyin_plain": "yinwei",
+    "pos": "连词",
+    "gloss_fr": "parce que",
+    "gloss_en": "because",
+    "example_zh": "因为下雨，我没去。",
+    "example_fr": "Parce qu'il pleuvait, je n'y suis pas allé.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "因",
+      "为"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_259",
+    "word": "所以",
+    "pinyin_marked": "suǒyǐ",
+    "pinyin_plain": "suoyi",
+    "pos": "连词",
+    "gloss_fr": "donc, c'est pourquoi",
+    "gloss_en": "therefore",
+    "example_zh": "下雨了，所以我没去。",
+    "example_fr": "Il pleuvait, donc je n'y suis pas allé.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "所",
+      "以"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_260",
+    "word": "但是",
+    "pinyin_marked": "dànshì",
+    "pinyin_plain": "danshi",
+    "pos": "连词",
+    "gloss_fr": "mais",
+    "gloss_en": "but",
+    "example_zh": "我想去，但是没有时间。",
+    "example_fr": "Je veux y aller, mais je n'ai pas le temps.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "但",
+      "是"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_261",
+    "word": "虽然",
+    "pinyin_marked": "suīrán",
+    "pinyin_plain": "suiran",
+    "pos": "连词",
+    "gloss_fr": "bien que",
+    "gloss_en": "although",
+    "example_zh": "虽然很累，但是他还在工作。",
+    "example_fr": "Bien qu'il soit fatigué, il travaille encore.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "虽",
+      "然"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_262",
+    "word": "然后",
+    "pinyin_marked": "ránhòu",
+    "pinyin_plain": "ranhou",
+    "pos": "连词",
+    "gloss_fr": "ensuite",
+    "gloss_en": "then, afterwards",
+    "example_zh": "我先吃饭，然后看书。",
+    "example_fr": "Je mange d'abord, ensuite je lis.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "然",
+      "后"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_263",
+    "word": "这样",
+    "pinyin_marked": "zhèyàng",
+    "pinyin_plain": "zheyang",
+    "pos": "代词",
+    "gloss_fr": "comme ça",
+    "gloss_en": "like this",
+    "example_zh": "你不应该这样说。",
+    "example_fr": "Tu ne devrais pas parler comme ça.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "这",
+      "样"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_264",
+    "word": "那样",
+    "pinyin_marked": "nàyàng",
+    "pinyin_plain": "nayang",
+    "pos": "代词",
+    "gloss_fr": "comme ça (là-bas)",
+    "gloss_en": "like that",
+    "example_zh": "不要那样想。",
+    "example_fr": "Ne pense pas comme ça.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "那",
+      "样"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_265",
+    "word": "怎么样",
+    "pinyin_marked": "zěnmeyàng",
+    "pinyin_plain": "zenmeyang",
+    "pos": "代词",
+    "gloss_fr": "comment, comment ça va",
+    "gloss_en": "how, how about",
+    "example_zh": "你最近怎么样？",
+    "example_fr": "Comment vas-tu récemment ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "怎",
+      "么",
+      "样"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_266",
+    "word": "为什么",
+    "pinyin_marked": "wèishénme",
+    "pinyin_plain": "weishenme",
+    "pos": "代词",
+    "gloss_fr": "pourquoi",
+    "gloss_en": "why",
+    "example_zh": "你为什么不去？",
+    "example_fr": "Pourquoi n'y vas-tu pas ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "为",
+      "什",
+      "么"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_267",
+    "word": "什么",
+    "pinyin_marked": "shénme",
+    "pinyin_plain": "shenme",
+    "pos": "代词",
+    "gloss_fr": "quoi, quel",
+    "gloss_en": "what",
+    "example_zh": "你叫什么名字？",
+    "example_fr": "Comment t'appelles-tu ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "什",
+      "么"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_268",
+    "word": "怎么",
+    "pinyin_marked": "zěnme",
+    "pinyin_plain": "zenme",
+    "pos": "代词",
+    "gloss_fr": "comment",
+    "gloss_en": "how",
+    "example_zh": "这个字怎么写？",
+    "example_fr": "Comment s'écrit ce caractère ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "怎",
+      "么"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_269",
+    "word": "那么",
+    "pinyin_marked": "nàme",
+    "pinyin_plain": "name",
+    "pos": "副词",
+    "gloss_fr": "alors, si",
+    "gloss_en": "so, then",
+    "example_zh": "那么我们走吧。",
+    "example_fr": "Alors, allons-y.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "那",
+      "么"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_270",
+    "word": "这么",
+    "pinyin_marked": "zhème",
+    "pinyin_plain": "zheme",
+    "pos": "副词",
+    "gloss_fr": "si, tellement",
+    "gloss_en": "so, this way",
+    "example_zh": "今天这么冷。",
+    "example_fr": "Il fait si froid aujourd'hui.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "这",
+      "么"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_271",
+    "word": "一样",
+    "pinyin_marked": "yíyàng",
+    "pinyin_plain": "yiyang",
+    "pos": "形容词",
+    "gloss_fr": "pareil, identique",
+    "gloss_en": "the same",
+    "example_zh": "我们的想法一样。",
+    "example_fr": "Nos idées sont les mêmes.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "样"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_272",
+    "word": "不同",
+    "pinyin_marked": "bùtóng",
+    "pinyin_plain": "butong",
+    "pos": "形容词",
+    "gloss_fr": "différent",
+    "gloss_en": "different",
+    "example_zh": "我们的想法不同。",
+    "example_fr": "Nos idées sont différentes.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "不",
+      "同"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_273",
+    "word": "一起",
+    "pinyin_marked": "yìqǐ",
+    "pinyin_plain": "yiqi",
+    "pos": "副词",
+    "gloss_fr": "ensemble",
+    "gloss_en": "together",
+    "example_zh": "我们一起去吧。",
+    "example_fr": "Allons-y ensemble.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "起"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_274",
+    "word": "应该",
+    "pinyin_marked": "yīnggāi",
+    "pinyin_plain": "yinggai",
+    "pos": "动词",
+    "gloss_fr": "devoir",
+    "gloss_en": "should",
+    "example_zh": "你应该早点回家。",
+    "example_fr": "Tu devrais rentrer tôt.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "应",
+      "该"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_275",
+    "word": "觉得",
+    "pinyin_marked": "juéde",
+    "pinyin_plain": "juede",
+    "pos": "动词",
+    "gloss_fr": "penser, trouver",
+    "gloss_en": "to feel, to think",
+    "example_zh": "我觉得这个菜很好吃。",
+    "example_fr": "Je trouve que ce plat est délicieux.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "觉",
+      "得"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_276",
+    "word": "知道",
+    "pinyin_marked": "zhīdào",
+    "pinyin_plain": "zhidao",
+    "pos": "动词",
+    "gloss_fr": "savoir",
+    "gloss_en": "to know",
+    "example_zh": "我不知道。",
+    "example_fr": "Je ne sais pas.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "知",
+      "道"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_277",
+    "word": "认识",
+    "pinyin_marked": "rènshi",
+    "pinyin_plain": "renshi",
+    "pos": "动词",
+    "gloss_fr": "connaître (une personne)",
+    "gloss_en": "to know, to recognize",
+    "example_zh": "我认识他。",
+    "example_fr": "Je le connais.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "认",
+      "识"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_278",
+    "word": "以为",
+    "pinyin_marked": "yǐwéi",
+    "pinyin_plain": "yiwei",
+    "pos": "动词",
+    "gloss_fr": "croire (à tort)",
+    "gloss_en": "to (mistakenly) think",
+    "example_zh": "我以为你不来了。",
+    "example_fr": "Je pensais que tu ne viendrais pas.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "以",
+      "为"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_279",
+    "word": "想要",
+    "pinyin_marked": "xiǎngyào",
+    "pinyin_plain": "xiangyao",
+    "pos": "动词",
+    "gloss_fr": "vouloir",
+    "gloss_en": "to want",
+    "example_zh": "我想要一杯茶。",
+    "example_fr": "Je veux un thé.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "想",
+      "要"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_280",
+    "word": "还是",
+    "pinyin_marked": "háishi",
+    "pinyin_plain": "haishi",
+    "pos": "连词",
+    "gloss_fr": "ou (bien)",
+    "gloss_en": "or",
+    "example_zh": "你要茶还是要水？",
+    "example_fr": "Tu veux du thé ou de l'eau ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "还",
+      "是"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_281",
+    "word": "也许",
+    "pinyin_marked": "yěxǔ",
+    "pinyin_plain": "yexu",
+    "pos": "副词",
+    "gloss_fr": "peut-être",
+    "gloss_en": "maybe",
+    "example_zh": "他也许不知道。",
+    "example_fr": "Il ne sait peut-être pas.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "也",
+      "许"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_282",
+    "word": "非常",
+    "pinyin_marked": "fēicháng",
+    "pinyin_plain": "feichang",
+    "pos": "副词",
+    "gloss_fr": "très, extrêmement",
+    "gloss_en": "extremely, very",
+    "example_zh": "这个问题非常难。",
+    "example_fr": "Cette question est extrêmement difficile.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "非",
+      "常"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_283",
+    "word": "真的",
+    "pinyin_marked": "zhēnde",
+    "pinyin_plain": "zhende",
+    "pos": "副词",
+    "gloss_fr": "vraiment",
+    "gloss_en": "really, truly",
+    "example_zh": "这是真的吗？",
+    "example_fr": "Est-ce que c'est vrai ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "真",
+      "的"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_284",
+    "word": "不太",
+    "pinyin_marked": "bútài",
+    "pinyin_plain": "butai",
+    "pos": "副词",
+    "gloss_fr": "pas très",
+    "gloss_en": "not very",
+    "example_zh": "我不太喜欢冷天。",
+    "example_fr": "Je n'aime pas trop les jours froids.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "不",
+      "太"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_285",
+    "word": "别人",
+    "pinyin_marked": "biérén",
+    "pinyin_plain": "bieren",
+    "pos": "代词",
+    "gloss_fr": "les autres",
+    "gloss_en": "other people",
+    "example_zh": "别人怎么想不重要。",
+    "example_fr": "Ce que pensent les autres n'a pas d'importance.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "别",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_286",
+    "word": "哪儿",
+    "pinyin_marked": "nǎr",
+    "pinyin_plain": "nar",
+    "pos": "代词",
+    "gloss_fr": "où",
+    "gloss_en": "where",
+    "example_zh": "你去哪儿？",
+    "example_fr": "Où vas-tu ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "哪",
+      "儿"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_287",
+    "word": "这儿",
+    "pinyin_marked": "zhèr",
+    "pinyin_plain": "zher",
+    "pos": "代词",
+    "gloss_fr": "ici",
+    "gloss_en": "here",
+    "example_zh": "请到这儿来。",
+    "example_fr": "Venez ici, s'il vous plaît.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "这",
+      "儿"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_288",
+    "word": "那儿",
+    "pinyin_marked": "nàr",
+    "pinyin_plain": "nar",
+    "pos": "代词",
+    "gloss_fr": "là-bas",
+    "gloss_en": "there",
+    "example_zh": "他住在那儿。",
+    "example_fr": "Il habite là-bas.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "那",
+      "儿"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_289",
+    "word": "我们",
+    "pinyin_marked": "wǒmen",
+    "pinyin_plain": "women",
+    "pos": "代词",
+    "gloss_fr": "nous",
+    "gloss_en": "we, us",
+    "example_zh": "我们是朋友。",
+    "example_fr": "Nous sommes amis.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "我",
+      "们"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_290",
+    "word": "你们",
+    "pinyin_marked": "nǐmen",
+    "pinyin_plain": "nimen",
+    "pos": "代词",
+    "gloss_fr": "vous (pluriel)",
+    "gloss_en": "you (plural)",
+    "example_zh": "你们好。",
+    "example_fr": "Bonjour à vous.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "你",
+      "们"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_291",
+    "word": "他们",
+    "pinyin_marked": "tāmen",
+    "pinyin_plain": "tamen",
+    "pos": "代词",
+    "gloss_fr": "ils, eux",
+    "gloss_en": "they, them",
+    "example_zh": "他们是学生。",
+    "example_fr": "Ils sont étudiants.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "他",
+      "们"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_292",
+    "word": "她们",
+    "pinyin_marked": "tāmen",
+    "pinyin_plain": "tamen",
+    "pos": "代词",
+    "gloss_fr": "elles",
+    "gloss_en": "they (female)",
+    "example_zh": "她们是老师。",
+    "example_fr": "Elles sont professeures.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "她",
+      "们"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_293",
+    "word": "这个",
+    "pinyin_marked": "zhège",
+    "pinyin_plain": "zhege",
+    "pos": "代词",
+    "gloss_fr": "celui-ci",
+    "gloss_en": "this one",
+    "example_zh": "这个多少钱？",
+    "example_fr": "Combien coûte celui-ci ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "这",
+      "个"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_294",
+    "word": "那个",
+    "pinyin_marked": "nàge",
+    "pinyin_plain": "nage",
+    "pos": "代词",
+    "gloss_fr": "celui-là",
+    "gloss_en": "that one",
+    "example_zh": "那个是我的。",
+    "example_fr": "Celui-là est à moi.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "那",
+      "个"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_295",
+    "word": "哪个",
+    "pinyin_marked": "nǎge",
+    "pinyin_plain": "nage",
+    "pos": "代词",
+    "gloss_fr": "lequel",
+    "gloss_en": "which one",
+    "example_zh": "你要哪个？",
+    "example_fr": "Lequel veux-tu ?",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "哪",
+      "个"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_296",
+    "word": "这些",
+    "pinyin_marked": "zhèxiē",
+    "pinyin_plain": "zhexie",
+    "pos": "代词",
+    "gloss_fr": "ceux-ci",
+    "gloss_en": "these",
+    "example_zh": "这些书是我的。",
+    "example_fr": "Ces livres sont à moi.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "这",
+      "些"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_297",
+    "word": "那些",
+    "pinyin_marked": "nàxiē",
+    "pinyin_plain": "naxie",
+    "pos": "代词",
+    "gloss_fr": "ceux-là",
+    "gloss_en": "those",
+    "example_zh": "那些人是谁？",
+    "example_fr": "Qui sont ces gens-là ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "那",
+      "些"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_298",
+    "word": "一本",
+    "pinyin_marked": "yìběn",
+    "pinyin_plain": "yiben",
+    "pos": "量词",
+    "gloss_fr": "un (livre)",
+    "gloss_en": "one (book)",
+    "example_zh": "我买了一本书。",
+    "example_fr": "J'ai acheté un livre.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "本"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_299",
+    "word": "一杯",
+    "pinyin_marked": "yìbēi",
+    "pinyin_plain": "yibei",
+    "pos": "量词",
+    "gloss_fr": "un (verre)",
+    "gloss_en": "one (cup)",
+    "example_zh": "我要一杯水。",
+    "example_fr": "Je veux un verre d'eau.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "杯"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_300",
+    "word": "一块",
+    "pinyin_marked": "yíkuài",
+    "pinyin_plain": "yikuai",
+    "pos": "量词",
+    "gloss_fr": "un morceau; un yuan",
+    "gloss_en": "one piece; one yuan",
+    "example_zh": "我要一块面包。",
+    "example_fr": "Je veux un morceau de pain.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "块"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_301",
+    "word": "一张",
+    "pinyin_marked": "yìzhāng",
+    "pinyin_plain": "yizhang",
+    "pos": "量词",
+    "gloss_fr": "un (feuille, billet)",
+    "gloss_en": "one (flat object)",
+    "example_zh": "我要一张票。",
+    "example_fr": "Je veux un billet.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "张"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_302",
+    "word": "一件",
+    "pinyin_marked": "yíjiàn",
+    "pinyin_plain": "yijian",
+    "pos": "量词",
+    "gloss_fr": "un (vêtement, objet)",
+    "gloss_en": "one (item, garment)",
+    "example_zh": "她买了一件衣服。",
+    "example_fr": "Elle a acheté un vêtement.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "件"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_303",
+    "word": "一条",
+    "pinyin_marked": "yìtiáo",
+    "pinyin_plain": "yitiao",
+    "pos": "量词",
+    "gloss_fr": "un (objet long)",
+    "gloss_en": "one (long object)",
+    "example_zh": "这是一条路。",
+    "example_fr": "C'est une route.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "条"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_304",
+    "word": "一位",
+    "pinyin_marked": "yíwèi",
+    "pinyin_plain": "yiwei",
+    "pos": "量词",
+    "gloss_fr": "un(e) (poli, personne)",
+    "gloss_en": "one (polite, for people)",
+    "example_zh": "这位是我的老师。",
+    "example_fr": "Voici mon professeur.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "位"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_305",
+    "word": "一次",
+    "pinyin_marked": "yícì",
+    "pinyin_plain": "yici",
+    "pos": "量词",
+    "gloss_fr": "une fois",
+    "gloss_en": "once",
+    "example_zh": "我去过一次中国。",
+    "example_fr": "Je suis allé en Chine une fois.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "次"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_306",
+    "word": "一份",
+    "pinyin_marked": "yífèn",
+    "pinyin_plain": "yifen",
+    "pos": "量词",
+    "gloss_fr": "une part, une portion",
+    "gloss_en": "one portion, one copy",
+    "example_zh": "我要一份米饭。",
+    "example_fr": "Je veux une portion de riz.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "份"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_307",
+    "word": "一种",
+    "pinyin_marked": "yìzhǒng",
+    "pinyin_plain": "yizhong",
+    "pos": "量词",
+    "gloss_fr": "une sorte de",
+    "gloss_en": "one kind of",
+    "example_zh": "这是一种新方法。",
+    "example_fr": "C'est une nouvelle méthode.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "一",
+      "种"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_309",
+    "word": "从来",
+    "pinyin_marked": "cónglái",
+    "pinyin_plain": "conglai",
+    "pos": "副词",
+    "gloss_fr": "depuis toujours, jamais (nég.)",
+    "gloss_en": "(never) before",
+    "example_zh": "我从来没去过美国。",
+    "example_fr": "Je ne suis jamais allé en Amérique.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "从",
+      "来"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_310",
+    "word": "从前",
+    "pinyin_marked": "cóngqián",
+    "pinyin_plain": "congqian",
+    "pos": "时间词",
+    "gloss_fr": "autrefois",
+    "gloss_en": "once upon a time",
+    "example_zh": "从前有一个老人。",
+    "example_fr": "Il était une fois un vieil homme.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "从",
+      "前"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_311",
+    "word": "从小",
+    "pinyin_marked": "cóngxiǎo",
+    "pinyin_plain": "congxiao",
+    "pos": "副词",
+    "gloss_fr": "depuis l'enfance",
+    "gloss_en": "since childhood",
+    "example_zh": "他从小就喜欢唱歌。",
+    "example_fr": "Il aime chanter depuis son enfance.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "从",
+      "小"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_313",
+    "word": "地方",
+    "pinyin_marked": "dìfang",
+    "pinyin_plain": "difang",
+    "pos": "名词",
+    "gloss_fr": "endroit, lieu",
+    "gloss_en": "place",
+    "example_zh": "这个地方很美。",
+    "example_fr": "Cet endroit est très beau.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "地",
+      "方"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_314",
+    "word": "地图",
+    "pinyin_marked": "dìtú",
+    "pinyin_plain": "ditu",
+    "pos": "名词",
+    "gloss_fr": "carte (géographique)",
+    "gloss_en": "map",
+    "example_zh": "请给我一张地图。",
+    "example_fr": "Donnez-moi une carte, s'il vous plaît.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "地",
+      "图"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_315",
+    "word": "各地",
+    "pinyin_marked": "gèdì",
+    "pinyin_plain": "gedi",
+    "pos": "名词",
+    "gloss_fr": "partout, chaque endroit",
+    "gloss_en": "everywhere, every place",
+    "example_zh": "各地天气不同。",
+    "example_fr": "Le temps est différent partout.",
+    "tier": "B1",
+    "theme": "météo",
+    "chars": [
+      "各",
+      "地"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_317",
+    "word": "国家",
+    "pinyin_marked": "guójiā",
+    "pinyin_plain": "guojia",
+    "pos": "名词",
+    "gloss_fr": "pays, nation",
+    "gloss_en": "country, nation",
+    "example_zh": "法国是一个大国家。",
+    "example_fr": "La France est un grand pays.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "国",
+      "家"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_318",
+    "word": "中国",
+    "pinyin_marked": "zhōngguó",
+    "pinyin_plain": "zhongguo",
+    "pos": "名词",
+    "gloss_fr": "Chine",
+    "gloss_en": "China",
+    "example_zh": "我在中国学汉语。",
+    "example_fr": "J'apprends le chinois en Chine.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "中",
+      "国"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_319",
+    "word": "法国",
+    "pinyin_marked": "fǎguó",
+    "pinyin_plain": "faguo",
+    "pos": "名词",
+    "gloss_fr": "France",
+    "gloss_en": "France",
+    "example_zh": "我是法国人。",
+    "example_fr": "Je suis français.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "法",
+      "国"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_320",
+    "word": "北京",
+    "pinyin_marked": "běijīng",
+    "pinyin_plain": "beijing",
+    "pos": "名词",
+    "gloss_fr": "Pékin",
+    "gloss_en": "Beijing",
+    "example_zh": "北京是中国的大城市。",
+    "example_fr": "Pékin est une grande ville de Chine.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "北",
+      "京"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_321",
+    "word": "上海",
+    "pinyin_marked": "shànghǎi",
+    "pinyin_plain": "shanghai",
+    "pos": "名词",
+    "gloss_fr": "Shanghai",
+    "gloss_en": "Shanghai",
+    "example_zh": "上海很大。",
+    "example_fr": "Shanghai est très grand.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "上",
+      "海"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_322",
+    "word": "中国人",
+    "pinyin_marked": "zhōngguórén",
+    "pinyin_plain": "zhongguoren",
+    "pos": "名词",
+    "gloss_fr": "Chinois(e)",
+    "gloss_en": "Chinese person",
+    "example_zh": "他是中国人。",
+    "example_fr": "Il est chinois.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "中",
+      "国",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_323",
+    "word": "法国人",
+    "pinyin_marked": "fǎguórén",
+    "pinyin_plain": "faguoren",
+    "pos": "名词",
+    "gloss_fr": "Français(e)",
+    "gloss_en": "French person",
+    "example_zh": "我是法国人。",
+    "example_fr": "Je suis français.",
+    "tier": "A1",
+    "theme": "directions",
+    "chars": [
+      "法",
+      "国",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_324",
+    "word": "外国",
+    "pinyin_marked": "wàiguó",
+    "pinyin_plain": "waiguo",
+    "pos": "名词",
+    "gloss_fr": "pays étranger",
+    "gloss_en": "foreign country",
+    "example_zh": "他去过很多外国。",
+    "example_fr": "Il a visité beaucoup de pays étrangers.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "外",
+      "国"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_325",
+    "word": "外国人",
+    "pinyin_marked": "wàiguórén",
+    "pinyin_plain": "waiguoren",
+    "pos": "名词",
+    "gloss_fr": "étranger(ère)",
+    "gloss_en": "foreigner",
+    "example_zh": "我是外国人。",
+    "example_fr": "Je suis étranger.",
+    "tier": "A2",
+    "theme": "directions",
+    "chars": [
+      "外",
+      "国",
+      "人"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_326",
+    "word": "生活",
+    "pinyin_marked": "shēnghuó",
+    "pinyin_plain": "shenghuo",
+    "pos": "名词",
+    "gloss_fr": "vie, mode de vie",
+    "gloss_en": "life",
+    "example_zh": "我喜欢这儿的生活。",
+    "example_fr": "J'aime la vie ici.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "生",
+      "活"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_327",
+    "word": "活动",
+    "pinyin_marked": "huódòng",
+    "pinyin_plain": "huodong",
+    "pos": "名词",
+    "gloss_fr": "activité",
+    "gloss_en": "activity",
+    "example_zh": "学校有很多活动。",
+    "example_fr": "L'école a beaucoup d'activités.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "活",
+      "动"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_328",
+    "word": "活儿",
+    "pinyin_marked": "huór",
+    "pinyin_plain": "huor",
+    "pos": "名词",
+    "gloss_fr": "travail, tâche",
+    "gloss_en": "work, task",
+    "example_zh": "今天活儿很多。",
+    "example_fr": "Il y a beaucoup de travail aujourd'hui.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "活",
+      "儿"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_329",
+    "word": "完了",
+    "pinyin_marked": "wánle",
+    "pinyin_plain": "wanle",
+    "pos": "动词",
+    "gloss_fr": "c'est fini",
+    "gloss_en": "it's finished, done for",
+    "example_zh": "我写完了。",
+    "example_fr": "J'ai fini d'écrire.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "完",
+      "了"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_330",
+    "word": "做完",
+    "pinyin_marked": "zuòwán",
+    "pinyin_plain": "zuowan",
+    "pos": "动词",
+    "gloss_fr": "finir de faire",
+    "gloss_en": "to finish doing",
+    "example_zh": "你做完了吗？",
+    "example_fr": "As-tu fini ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "做",
+      "完"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_331",
+    "word": "看完",
+    "pinyin_marked": "kànwán",
+    "pinyin_plain": "kanwan",
+    "pos": "动词",
+    "gloss_fr": "finir de lire/regarder",
+    "gloss_en": "to finish reading/watching",
+    "example_zh": "我看完了这本书。",
+    "example_fr": "J'ai fini de lire ce livre.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "看",
+      "完"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_332",
+    "word": "吃完",
+    "pinyin_marked": "chīwán",
+    "pinyin_plain": "chiwan",
+    "pos": "动词",
+    "gloss_fr": "finir de manger",
+    "gloss_en": "to finish eating",
+    "example_zh": "你吃完了吗？",
+    "example_fr": "As-tu fini de manger ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "吃",
+      "完"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_333",
+    "word": "听懂",
+    "pinyin_marked": "tīngdǒng",
+    "pinyin_plain": "tingdong",
+    "pos": "动词",
+    "gloss_fr": "comprendre (en écoutant)",
+    "gloss_en": "to understand (by listening)",
+    "example_zh": "你听懂了吗？",
+    "example_fr": "As-tu compris ?",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "听",
+      "懂"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_334",
+    "word": "看懂",
+    "pinyin_marked": "kàndǒng",
+    "pinyin_plain": "kandong",
+    "pos": "动词",
+    "gloss_fr": "comprendre (en lisant)",
+    "gloss_en": "to understand (by reading)",
+    "example_zh": "我看懂了这个字。",
+    "example_fr": "J'ai compris ce caractère.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "看",
+      "懂"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_335",
+    "word": "走了",
+    "pinyin_marked": "zǒule",
+    "pinyin_plain": "zoule",
+    "pos": "动词",
+    "gloss_fr": "être parti",
+    "gloss_en": "to have left",
+    "example_zh": "他已经走了。",
+    "example_fr": "Il est déjà parti.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "走",
+      "了"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_336",
+    "word": "来了",
+    "pinyin_marked": "láile",
+    "pinyin_plain": "laile",
+    "pos": "动词",
+    "gloss_fr": "être arrivé",
+    "gloss_en": "to have arrived",
+    "example_zh": "老师来了。",
+    "example_fr": "Le professeur est arrivé.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "来",
+      "了"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_337",
+    "word": "买了",
+    "pinyin_marked": "mǎile",
+    "pinyin_plain": "maile",
+    "pos": "动词",
+    "gloss_fr": "avoir acheté",
+    "gloss_en": "bought",
+    "example_zh": "我买了一本书。",
+    "example_fr": "J'ai acheté un livre.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "买",
+      "了"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_338",
+    "word": "坐下",
+    "pinyin_marked": "zuòxià",
+    "pinyin_plain": "zuoxia",
+    "pos": "动词",
+    "gloss_fr": "s'asseoir",
+    "gloss_en": "to sit down",
+    "example_zh": "请坐下。",
+    "example_fr": "Asseyez-vous, s'il vous plaît.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "坐",
+      "下"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_340",
+    "word": "走进",
+    "pinyin_marked": "zǒujìn",
+    "pinyin_plain": "zoujin",
+    "pos": "动词",
+    "gloss_fr": "entrer en marchant",
+    "gloss_en": "to walk into",
+    "example_zh": "他走进房间。",
+    "example_fr": "Il entre dans la chambre.",
+    "tier": "B1",
+    "theme": "directions",
+    "chars": [
+      "走",
+      "进"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_342",
+    "word": "越来越",
+    "pinyin_marked": "yuèláiyuè",
+    "pinyin_plain": "yuelaiyue",
+    "pos": "副词",
+    "gloss_fr": "de plus en plus",
+    "gloss_en": "more and more",
+    "example_zh": "天气越来越冷。",
+    "example_fr": "Il fait de plus en plus froid.",
+    "tier": "B1",
+    "theme": "météo",
+    "chars": [
+      "越",
+      "来",
+      "越"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_344",
+    "word": "真正",
+    "pinyin_marked": "zhēnzhèng",
+    "pinyin_plain": "zhenzheng",
+    "pos": "形容词",
+    "gloss_fr": "vrai, véritable",
+    "gloss_en": "real, true",
+    "example_zh": "这是真正的问题。",
+    "example_fr": "C'est le vrai problème.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "真",
+      "正"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_345",
+    "word": "正在",
+    "pinyin_marked": "zhèngzài",
+    "pinyin_plain": "zhengzai",
+    "pos": "副词",
+    "gloss_fr": "en train de",
+    "gloss_en": "in the middle of",
+    "example_zh": "他正在吃饭。",
+    "example_fr": "Il est en train de manger.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "正",
+      "在"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_346",
+    "word": "正好",
+    "pinyin_marked": "zhènghǎo",
+    "pinyin_plain": "zhenghao",
+    "pos": "副词",
+    "gloss_fr": "justement",
+    "gloss_en": "just right, coincidentally",
+    "example_zh": "这件衣服正好。",
+    "example_fr": "Ce vêtement va parfaitement.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "正",
+      "好"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_347",
+    "word": "开始工作",
+    "pinyin_marked": "kāishǐ gōngzuò",
+    "pinyin_plain": "kaishi gongzuo",
+    "pos": "动词",
+    "gloss_fr": "commencer à travailler",
+    "gloss_en": "to start working",
+    "example_zh": "他明年开始工作。",
+    "example_fr": "Il commence à travailler l'année prochaine.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "开",
+      "始",
+      "工",
+      "作"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_348",
+    "word": "见面",
+    "pinyin_marked": "jiànmiàn",
+    "pinyin_plain": "jianmian",
+    "pos": "动词",
+    "gloss_fr": "se rencontrer",
+    "gloss_en": "to meet",
+    "example_zh": "我们明天见面。",
+    "example_fr": "On se voit demain.",
+    "tier": "A2",
+    "theme": "communication",
+    "chars": [
+      "见",
+      "面"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_350",
+    "word": "见到",
+    "pinyin_marked": "jiàndào",
+    "pinyin_plain": "jiandao",
+    "pos": "动词",
+    "gloss_fr": "rencontrer, voir",
+    "gloss_en": "to see, to meet",
+    "example_zh": "很高兴见到你。",
+    "example_fr": "Ravi de te rencontrer.",
+    "tier": "A2",
+    "theme": "communication",
+    "chars": [
+      "见",
+      "到"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_351",
+    "word": "真好",
+    "pinyin_marked": "zhēnhǎo",
+    "pinyin_plain": "zhenhao",
+    "pos": "形容词",
+    "gloss_fr": "vraiment bien",
+    "gloss_en": "really good",
+    "example_zh": "这个主意真好。",
+    "example_fr": "C'est vraiment une bonne idée.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "真",
+      "好"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_353",
+    "word": "太好了",
+    "pinyin_marked": "tàihǎole",
+    "pinyin_plain": "taihaole",
+    "pos": "叹词",
+    "gloss_fr": "c'est génial",
+    "gloss_en": "great, wonderful",
+    "example_zh": "太好了！",
+    "example_fr": "Génial !",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "太",
+      "好",
+      "了"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_355",
+    "word": "没问题",
+    "pinyin_marked": "méiwèntí",
+    "pinyin_plain": "meiwenti",
+    "pos": "叹词",
+    "gloss_fr": "pas de problème",
+    "gloss_en": "no problem",
+    "example_zh": "没问题，你说吧。",
+    "example_fr": "Pas de problème, vas-y, parle.",
+    "tier": "A1",
+    "theme": "grammaire",
+    "chars": [
+      "没",
+      "问",
+      "题"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_356",
+    "word": "有意思",
+    "pinyin_marked": "yǒuyìsi",
+    "pinyin_plain": "youyisi",
+    "pos": "形容词",
+    "gloss_fr": "intéressant",
+    "gloss_en": "interesting",
+    "example_zh": "这本书很有意思。",
+    "example_fr": "Ce livre est très intéressant.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "有",
+      "意",
+      "思"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_357",
+    "word": "没意思",
+    "pinyin_marked": "méiyìsi",
+    "pinyin_plain": "meiyisi",
+    "pos": "形容词",
+    "gloss_fr": "inintéressant, ennuyeux",
+    "gloss_en": "boring",
+    "example_zh": "这个电影没意思。",
+    "example_fr": "Ce film n'est pas intéressant.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "没",
+      "意",
+      "思"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_358",
+    "word": "意思",
+    "pinyin_marked": "yìsi",
+    "pinyin_plain": "yisi",
+    "pos": "名词",
+    "gloss_fr": "sens, signification",
+    "gloss_en": "meaning",
+    "example_zh": "这个字是什么意思？",
+    "example_fr": "Que signifie ce caractère ?",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "意",
+      "思"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_363",
+    "word": "向",
+    "pinyin_marked": "xiàng",
+    "pinyin_plain": "xiang",
+    "pos": "介词",
+    "gloss_fr": "vers",
+    "gloss_en": "towards",
+    "example_zh": "他向我走来。",
+    "example_fr": "Il vient vers moi.",
+    "tier": "B1",
+    "theme": "directions",
+    "chars": [
+      "向"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_365",
+    "word": "比较",
+    "pinyin_marked": "bǐjiào",
+    "pinyin_plain": "bijiao",
+    "pos": "副词",
+    "gloss_fr": "assez, relativement",
+    "gloss_en": "relatively, quite",
+    "example_zh": "这个问题比较难。",
+    "example_fr": "Cette question est relativement difficile.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "比",
+      "较"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_367",
+    "word": "轻轻",
+    "pinyin_marked": "qīngqīng",
+    "pinyin_plain": "qingqing",
+    "pos": "副词",
+    "gloss_fr": "doucement",
+    "gloss_en": "gently, softly",
+    "example_zh": "她轻轻地说话。",
+    "example_fr": "Elle parle doucement.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "轻",
+      "轻"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_368",
+    "word": "开车去",
+    "pinyin_marked": "kāichē qù",
+    "pinyin_plain": "kaiche qu",
+    "pos": "动词",
+    "gloss_fr": "y aller en voiture",
+    "gloss_en": "to drive to",
+    "example_zh": "我们开车去公园。",
+    "example_fr": "Nous allons au parc en voiture.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "开",
+      "车",
+      "去"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_369",
+    "word": "坐飞机",
+    "pinyin_marked": "zuò fēijī",
+    "pinyin_plain": "zuo feiji",
+    "pos": "动词",
+    "gloss_fr": "prendre l'avion",
+    "gloss_en": "to take a plane",
+    "example_zh": "我坐飞机去中国。",
+    "example_fr": "Je prends l'avion pour aller en Chine.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "坐",
+      "飞",
+      "机"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_370",
+    "word": "坐火车",
+    "pinyin_marked": "zuò huǒchē",
+    "pinyin_plain": "zuo huoche",
+    "pos": "动词",
+    "gloss_fr": "prendre le train",
+    "gloss_en": "to take the train",
+    "example_zh": "我们坐火车去北京。",
+    "example_fr": "Nous prenons le train pour Pékin.",
+    "tier": "A1",
+    "theme": "transport",
+    "chars": [
+      "坐",
+      "火",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_371",
+    "word": "开会",
+    "pinyin_marked": "kāihuì",
+    "pinyin_plain": "kaihui",
+    "pos": "动词",
+    "gloss_fr": "avoir une réunion",
+    "gloss_en": "to have a meeting",
+    "example_zh": "老师正在开会。",
+    "example_fr": "Le professeur est en réunion.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "开",
+      "会"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_377",
+    "word": "每个人",
+    "pinyin_marked": "měigèrén",
+    "pinyin_plain": "meigeren",
+    "pos": "代词",
+    "gloss_fr": "chaque personne",
+    "gloss_en": "everyone",
+    "example_zh": "每个人都有自己的想法。",
+    "example_fr": "Chacun a ses propres idées.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "每",
+      "个",
+      "人"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_378",
+    "word": "老家",
+    "pinyin_marked": "lǎojiā",
+    "pinyin_plain": "laojia",
+    "pos": "名词",
+    "gloss_fr": "pays natal, région natale",
+    "gloss_en": "hometown",
+    "example_zh": "我的老家在南方。",
+    "example_fr": "Ma région natale est dans le sud.",
+    "tier": "B1",
+    "theme": "directions",
+    "chars": [
+      "老",
+      "家"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_380",
+    "word": "开学",
+    "pinyin_marked": "kāixué",
+    "pinyin_plain": "kaixue",
+    "pos": "动词",
+    "gloss_fr": "rentrée scolaire",
+    "gloss_en": "start of school term",
+    "example_zh": "九月开学。",
+    "example_fr": "La rentrée est en septembre.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "开",
+      "学"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_381",
+    "word": "放学",
+    "pinyin_marked": "fàngxué",
+    "pinyin_plain": "fangxue",
+    "pos": "动词",
+    "gloss_fr": "sortie de classe",
+    "gloss_en": "end of school day",
+    "example_zh": "我们下午三点放学。",
+    "example_fr": "Nous finissons les cours à trois heures.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "放",
+      "学"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_382",
+    "word": "学期",
+    "pinyin_marked": "xuéqī",
+    "pinyin_plain": "xueqi",
+    "pos": "名词",
+    "gloss_fr": "semestre",
+    "gloss_en": "semester, term",
+    "example_zh": "这学期我学汉语。",
+    "example_fr": "Ce semestre, j'apprends le chinois.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "学",
+      "期"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_385",
+    "word": "昨天晚上",
+    "pinyin_marked": "zuótiān wǎnshang",
+    "pinyin_plain": "zuotian wanshang",
+    "pos": "时间词",
+    "gloss_fr": "hier soir",
+    "gloss_en": "last night",
+    "example_zh": "昨天晚上我很忙。",
+    "example_fr": "Hier soir, j'étais très occupé.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "昨",
+      "天",
+      "晚",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_386",
+    "word": "明天早上",
+    "pinyin_marked": "míngtiān zǎoshang",
+    "pinyin_plain": "mingtian zaoshang",
+    "pos": "时间词",
+    "gloss_fr": "demain matin",
+    "gloss_en": "tomorrow morning",
+    "example_zh": "明天早上我们见面。",
+    "example_fr": "On se voit demain matin.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "明",
+      "天",
+      "早",
+      "上"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_387",
+    "word": "大夫",
+    "pinyin_marked": "dàifu",
+    "pinyin_plain": "daifu",
+    "pos": "名词",
+    "gloss_fr": "médecin (familier)",
+    "gloss_en": "doctor (colloquial)",
+    "example_zh": "他是大夫。",
+    "example_fr": "Il est médecin.",
+    "tier": "A2",
+    "theme": "santé",
+    "chars": [
+      "大",
+      "夫"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_391",
+    "word": "中学",
+    "pinyin_marked": "zhōngxué",
+    "pinyin_plain": "zhongxue",
+    "pos": "名词",
+    "gloss_fr": "collège, lycée",
+    "gloss_en": "middle/high school",
+    "example_zh": "他在中学工作。",
+    "example_fr": "Il travaille dans un collège.",
+    "tier": "B1",
+    "theme": "études",
+    "chars": [
+      "中",
+      "学"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_392",
+    "word": "大学",
+    "pinyin_marked": "dàxué",
+    "pinyin_plain": "daxue",
+    "pos": "名词",
+    "gloss_fr": "université",
+    "gloss_en": "university",
+    "example_zh": "她在大学学汉语。",
+    "example_fr": "Elle étudie le chinois à l'université.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "大",
+      "学"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_393",
+    "word": "大学生",
+    "pinyin_marked": "dàxuéshēng",
+    "pinyin_plain": "daxuesheng",
+    "pos": "名词",
+    "gloss_fr": "étudiant universitaire",
+    "gloss_en": "university student",
+    "example_zh": "我是大学生。",
+    "example_fr": "Je suis étudiant à l'université.",
+    "tier": "A2",
+    "theme": "études",
+    "chars": [
+      "大",
+      "学",
+      "生"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_395",
+    "word": "中年",
+    "pinyin_marked": "zhōngnián",
+    "pinyin_plain": "zhongnian",
+    "pos": "名词",
+    "gloss_fr": "âge mûr",
+    "gloss_en": "middle-aged",
+    "example_zh": "他是中年人。",
+    "example_fr": "C'est un homme d'âge mûr.",
+    "tier": "B1",
+    "theme": "famille",
+    "chars": [
+      "中",
+      "年"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_397",
+    "word": "有钱",
+    "pinyin_marked": "yǒuqián",
+    "pinyin_plain": "youqian",
+    "pos": "形容词",
+    "gloss_fr": "riche",
+    "gloss_en": "to have money, rich",
+    "example_zh": "他家很有钱。",
+    "example_fr": "Sa famille est très riche.",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "有",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_398",
+    "word": "没钱",
+    "pinyin_marked": "méiqián",
+    "pinyin_plain": "meiqian",
+    "pos": "形容词",
+    "gloss_fr": "sans argent",
+    "gloss_en": "to have no money",
+    "example_zh": "我现在没钱。",
+    "example_fr": "Je n'ai pas d'argent en ce moment.",
+    "tier": "A2",
+    "theme": "argent",
+    "chars": [
+      "没",
+      "钱"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_401",
+    "word": "公共汽车",
+    "pinyin_marked": "gōnggòngqìchē",
+    "pinyin_plain": "gonggongqiche",
+    "pos": "名词",
+    "gloss_fr": "bus",
+    "gloss_en": "bus",
+    "example_zh": "我坐公共汽车去学校。",
+    "example_fr": "Je vais à l'école en bus.",
+    "tier": "A2",
+    "theme": "transport",
+    "chars": [
+      "公",
+      "共",
+      "汽",
+      "车"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_403",
+    "word": "电脑",
+    "pinyin_marked": "diànnǎo",
+    "pinyin_plain": "diannao",
+    "pos": "名词",
+    "gloss_fr": "ordinateur",
+    "gloss_en": "computer",
+    "example_zh": "我用电脑写字。",
+    "example_fr": "J'écris avec l'ordinateur.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "电",
+      "脑"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_404",
+    "word": "上网",
+    "pinyin_marked": "shàngwǎng",
+    "pinyin_plain": "shangwang",
+    "pos": "动词",
+    "gloss_fr": "surfer sur internet",
+    "gloss_en": "to go online",
+    "example_zh": "他喜欢上网。",
+    "example_fr": "Il aime surfer sur internet.",
+    "tier": "A2",
+    "theme": "communication",
+    "chars": [
+      "上",
+      "网"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_406",
+    "word": "电影",
+    "pinyin_marked": "diànyǐng",
+    "pinyin_plain": "dianying",
+    "pos": "名词",
+    "gloss_fr": "film",
+    "gloss_en": "movie",
+    "example_zh": "我们去看电影吧。",
+    "example_fr": "Allons voir un film.",
+    "tier": "A1",
+    "theme": "communication",
+    "chars": [
+      "电",
+      "影"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_410",
+    "word": "生气",
+    "pinyin_marked": "shēngqì",
+    "pinyin_plain": "shengqi",
+    "pos": "动词",
+    "gloss_fr": "se fâcher",
+    "gloss_en": "to get angry",
+    "example_zh": "他很生气。",
+    "example_fr": "Il est très en colère.",
+    "tier": "B1",
+    "theme": "santé",
+    "chars": [
+      "生",
+      "气"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_411",
+    "word": "天天",
+    "pinyin_marked": "tiāntiān",
+    "pinyin_plain": "tiantian",
+    "pos": "副词",
+    "gloss_fr": "tous les jours",
+    "gloss_en": "every day",
+    "example_zh": "我天天学汉语。",
+    "example_fr": "J'apprends le chinois tous les jours.",
+    "tier": "A2",
+    "theme": "temps",
+    "chars": [
+      "天",
+      "天"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_412",
+    "word": "年年",
+    "pinyin_marked": "niánnián",
+    "pinyin_plain": "niannian",
+    "pos": "副词",
+    "gloss_fr": "chaque année",
+    "gloss_en": "every year",
+    "example_zh": "他年年回家。",
+    "example_fr": "Il rentre chez lui chaque année.",
+    "tier": "B1",
+    "theme": "temps",
+    "chars": [
+      "年",
+      "年"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_413",
+    "word": "白开水",
+    "pinyin_marked": "báikāishuǐ",
+    "pinyin_plain": "baikaishui",
+    "pos": "名词",
+    "gloss_fr": "eau bouillie nature",
+    "gloss_en": "plain boiled water",
+    "example_zh": "我喜欢喝白开水。",
+    "example_fr": "J'aime boire de l'eau bouillie nature.",
+    "tier": "B1",
+    "theme": "nourriture",
+    "chars": [
+      "白",
+      "开",
+      "水"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_416",
+    "word": "关心",
+    "pinyin_marked": "guānxīn",
+    "pinyin_plain": "guanxin",
+    "pos": "动词",
+    "gloss_fr": "se soucier de",
+    "gloss_en": "to care about",
+    "example_zh": "老师很关心学生。",
+    "example_fr": "Le professeur se soucie beaucoup des élèves.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "关",
+      "心"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_417",
+    "word": "用心",
+    "pinyin_marked": "yòngxīn",
+    "pinyin_plain": "yongxin",
+    "pos": "副词",
+    "gloss_fr": "avec application",
+    "gloss_en": "attentive, careful",
+    "example_zh": "他做事很用心。",
+    "example_fr": "Il fait les choses avec beaucoup d'application.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "用",
+      "心"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_420",
+    "word": "走走",
+    "pinyin_marked": "zǒuzou",
+    "pinyin_plain": "zouzou",
+    "pos": "动词",
+    "gloss_fr": "se promener un peu",
+    "gloss_en": "to take a walk",
+    "example_zh": "晚饭后我们走走。",
+    "example_fr": "Après le dîner, on se promène un peu.",
+    "tier": "B1",
+    "theme": "sport",
+    "chars": [
+      "走",
+      "走"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_421",
+    "word": "看看",
+    "pinyin_marked": "kànkan",
+    "pinyin_plain": "kankan",
+    "pos": "动词",
+    "gloss_fr": "jeter un coup d'œil",
+    "gloss_en": "to take a look",
+    "example_zh": "你看看这个。",
+    "example_fr": "Jette un coup d'œil à ça.",
+    "tier": "A2",
+    "theme": "grammaire",
+    "chars": [
+      "看",
+      "看"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_422",
+    "word": "说说",
+    "pinyin_marked": "shuōshuo",
+    "pinyin_plain": "shuoshuo",
+    "pos": "动词",
+    "gloss_fr": "parler un peu",
+    "gloss_en": "to talk a bit",
+    "example_zh": "你说说你的想法。",
+    "example_fr": "Dis-moi un peu ce que tu penses.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "说",
+      "说"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_423",
+    "word": "想想",
+    "pinyin_marked": "xiǎngxiang",
+    "pinyin_plain": "xiangxiang",
+    "pos": "动词",
+    "gloss_fr": "réfléchir un peu",
+    "gloss_en": "to think it over",
+    "example_zh": "你再想想。",
+    "example_fr": "Réfléchis-y encore un peu.",
+    "tier": "B1",
+    "theme": "grammaire",
+    "chars": [
+      "想",
+      "想"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_424",
+    "word": "问问",
+    "pinyin_marked": "wènwen",
+    "pinyin_plain": "wenwen",
+    "pos": "动词",
+    "gloss_fr": "demander un peu",
+    "gloss_en": "to ask around",
+    "example_zh": "我去问问老师。",
+    "example_fr": "Je vais demander au professeur.",
+    "tier": "B1",
+    "theme": "communication",
+    "chars": [
+      "问",
+      "问"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_428",
+    "word": "五十",
+    "pinyin_marked": "wǔshí",
+    "pinyin_plain": "wushi",
+    "pos": "数词",
+    "gloss_fr": "cinquante",
+    "gloss_en": "fifty",
+    "example_zh": "这本书五十块钱。",
+    "example_fr": "Ce livre coûte cinquante yuans.",
+    "tier": "A1",
+    "theme": "nombres",
+    "chars": [
+      "五",
+      "十"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_435",
+    "word": "长大",
+    "pinyin_marked": "zhǎngdà",
+    "pinyin_plain": "zhangda",
+    "pos": "动词",
+    "gloss_fr": "grandir",
+    "gloss_en": "to grow up",
+    "example_zh": "我长大以后想当老师。",
+    "example_fr": "Quand je serai grand, je veux devenir professeur.",
+    "tier": "B1",
+    "theme": "travail",
+    "chars": [
+      "长",
+      "大"
+    ],
+    "provisional_b1": true
+  },
+  {
+    "id": "v_436",
+    "word": "当医生",
+    "pinyin_marked": "dāng yīshēng",
+    "pinyin_plain": "dang yisheng",
+    "pos": "动词",
+    "gloss_fr": "devenir médecin",
+    "gloss_en": "to become a doctor",
+    "example_zh": "她想当医生。",
+    "example_fr": "Elle veut devenir médecin.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "当",
+      "医",
+      "生"
+    ],
+    "provisional_b1": false
+  },
+  {
+    "id": "v_437",
+    "word": "当老师",
+    "pinyin_marked": "dāng lǎoshī",
+    "pinyin_plain": "dang laoshi",
+    "pos": "动词",
+    "gloss_fr": "devenir professeur",
+    "gloss_en": "to become a teacher",
+    "example_zh": "我想当老师。",
+    "example_fr": "Je veux devenir professeur.",
+    "tier": "A2",
+    "theme": "travail",
+    "chars": [
+      "当",
+      "老",
+      "师"
+    ],
+    "provisional_b1": false
+  }
+]

@@ -1,0 +1,6929 @@
+[
+  {
+    "hanzi": "八",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bā",
+    "pinyin_plain": "ba",
+    "gloss_fr": "huit",
+    "gloss_en": "eight",
+    "structure_type": "独体",
+    "radical": "八",
+    "stroke_count": 2,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "白",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bái",
+    "pinyin_plain": "bai",
+    "gloss_fr": "blanc",
+    "gloss_en": "white",
+    "structure_type": "独体",
+    "radical": "白",
+    "stroke_count": 5,
+    "themes": [
+      "couleurs"
+    ]
+  },
+  {
+    "hanzi": "百",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bǎi",
+    "pinyin_plain": "bai",
+    "gloss_fr": "cent",
+    "gloss_en": "hundred",
+    "structure_type": "上下",
+    "radical": "白",
+    "stroke_count": 6,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "半",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bàn",
+    "pinyin_plain": "ban",
+    "gloss_fr": "moitié, demi",
+    "gloss_en": "half",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 5,
+    "themes": [
+      "temps",
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "杯",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bēi",
+    "pinyin_plain": "bei",
+    "gloss_fr": "tasse, verre",
+    "gloss_en": "cup",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 8,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "北",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "běi",
+    "pinyin_plain": "bei",
+    "gloss_fr": "nord",
+    "gloss_en": "north",
+    "structure_type": "左右",
+    "radical": "匕",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "本",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "běn",
+    "pinyin_plain": "ben",
+    "gloss_fr": "(classificateur pour livres)",
+    "gloss_en": "(measure word for books)",
+    "structure_type": "独体",
+    "radical": "木",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire",
+      "études"
+    ]
+  },
+  {
+    "hanzi": "笔",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bǐ",
+    "pinyin_plain": "bi",
+    "gloss_fr": "stylo, crayon",
+    "gloss_en": "pen",
+    "structure_type": "上下",
+    "radical": "竹",
+    "stroke_count": 10,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "不",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bù",
+    "pinyin_plain": "bu",
+    "gloss_fr": "ne...pas",
+    "gloss_en": "not, no",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "菜",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "cài",
+    "pinyin_plain": "cai",
+    "gloss_fr": "plat, légume",
+    "gloss_en": "dish, vegetable",
+    "structure_type": "上下",
+    "radical": "艹",
+    "stroke_count": 11,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "车",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "chē",
+    "pinyin_plain": "che",
+    "gloss_fr": "voiture",
+    "gloss_en": "car, vehicle",
+    "structure_type": "独体",
+    "radical": "车",
+    "stroke_count": 4,
+    "themes": [
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "吃",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "chī",
+    "pinyin_plain": "chi",
+    "gloss_fr": "manger",
+    "gloss_en": "to eat",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "出",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "chū",
+    "pinyin_plain": "chu",
+    "gloss_fr": "sortir",
+    "gloss_en": "to go out",
+    "structure_type": "独体",
+    "radical": "凵",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "打",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dǎ",
+    "pinyin_plain": "da",
+    "gloss_fr": "frapper, jouer à",
+    "gloss_en": "to hit, to play",
+    "structure_type": "左右",
+    "radical": "扌",
+    "stroke_count": 5,
+    "themes": [
+      "sport",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "大",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dà",
+    "pinyin_plain": "da",
+    "gloss_fr": "grand",
+    "gloss_en": "big",
+    "structure_type": "独体",
+    "radical": "大",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "到",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dào",
+    "pinyin_plain": "dao",
+    "gloss_fr": "arriver",
+    "gloss_en": "to arrive",
+    "structure_type": "左右",
+    "radical": "刂",
+    "stroke_count": 8,
+    "themes": [
+      "directions",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "的",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "de",
+    "pinyin_plain": "de",
+    "gloss_fr": "(particule possessive)",
+    "gloss_en": "(possessive particle)",
+    "structure_type": "左右",
+    "radical": "白",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "得",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "de",
+    "pinyin_plain": "de",
+    "gloss_fr": "(particule de complément)",
+    "gloss_en": "(complement particle)",
+    "structure_type": "左右",
+    "radical": "彳",
+    "stroke_count": 11,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "地",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dì",
+    "pinyin_plain": "di",
+    "gloss_fr": "endroit, terre",
+    "gloss_en": "place, land",
+    "structure_type": "左右",
+    "radical": "土",
+    "stroke_count": 6,
+    "themes": [
+      "directions",
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "点",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "diǎn",
+    "pinyin_plain": "dian",
+    "gloss_fr": "point, heure",
+    "gloss_en": "point, o'clock",
+    "structure_type": "上下",
+    "radical": "灬",
+    "stroke_count": 9,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "电",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "diàn",
+    "pinyin_plain": "dian",
+    "gloss_fr": "électricité",
+    "gloss_en": "electricity",
+    "structure_type": "独体",
+    "radical": "电",
+    "stroke_count": 5,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "店",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "diàn",
+    "pinyin_plain": "dian",
+    "gloss_fr": "magasin",
+    "gloss_en": "shop, store",
+    "structure_type": "半包围",
+    "radical": "广",
+    "stroke_count": 8,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "东",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dōng",
+    "pinyin_plain": "dong",
+    "gloss_fr": "est",
+    "gloss_en": "east",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "懂",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dǒng",
+    "pinyin_plain": "dong",
+    "gloss_fr": "comprendre",
+    "gloss_en": "to understand",
+    "structure_type": "左右",
+    "radical": "忄",
+    "stroke_count": 15,
+    "themes": [
+      "grammaire",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "都",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dōu",
+    "pinyin_plain": "dou",
+    "gloss_fr": "tous",
+    "gloss_en": "all, both",
+    "structure_type": "左右",
+    "radical": "阝",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "对",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "duì",
+    "pinyin_plain": "dui",
+    "gloss_fr": "correct; envers",
+    "gloss_en": "correct; towards",
+    "structure_type": "左右",
+    "radical": "寸",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "多",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "duō",
+    "pinyin_plain": "duo",
+    "gloss_fr": "beaucoup",
+    "gloss_en": "many, much",
+    "structure_type": "上下",
+    "radical": "夕",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "二",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "èr",
+    "pinyin_plain": "er",
+    "gloss_fr": "deux",
+    "gloss_en": "two",
+    "structure_type": "独体",
+    "radical": "二",
+    "stroke_count": 2,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "法",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fǎ",
+    "pinyin_plain": "fa",
+    "gloss_fr": "loi, méthode",
+    "gloss_en": "law, method",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "饭",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fàn",
+    "pinyin_plain": "fan",
+    "gloss_fr": "riz cuit, repas",
+    "gloss_en": "cooked rice, meal",
+    "structure_type": "左右",
+    "radical": "饣",
+    "stroke_count": 7,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "分",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fēn",
+    "pinyin_plain": "fen",
+    "gloss_fr": "minute; diviser",
+    "gloss_en": "minute; to divide",
+    "structure_type": "上下",
+    "radical": "刀",
+    "stroke_count": 4,
+    "themes": [
+      "temps",
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "高",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gāo",
+    "pinyin_plain": "gao",
+    "gloss_fr": "grand, haut",
+    "gloss_en": "tall, high",
+    "structure_type": "上下",
+    "radical": "高",
+    "stroke_count": 10,
+    "themes": [
+      "corps"
+    ]
+  },
+  {
+    "hanzi": "个",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gè",
+    "pinyin_plain": "ge",
+    "gloss_fr": "(classificateur général)",
+    "gloss_en": "(general measure word)",
+    "structure_type": "独体",
+    "radical": "人",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "给",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gěi",
+    "pinyin_plain": "gei",
+    "gloss_fr": "donner",
+    "gloss_en": "to give",
+    "structure_type": "左右",
+    "radical": "纟",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "工",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gōng",
+    "pinyin_plain": "gong",
+    "gloss_fr": "travail",
+    "gloss_en": "work",
+    "structure_type": "独体",
+    "radical": "工",
+    "stroke_count": 3,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "贵",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guì",
+    "pinyin_plain": "gui",
+    "gloss_fr": "cher",
+    "gloss_en": "expensive",
+    "structure_type": "上下",
+    "radical": "贝",
+    "stroke_count": 9,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "国",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guó",
+    "pinyin_plain": "guo",
+    "gloss_fr": "pays",
+    "gloss_en": "country",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 8,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "果",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guǒ",
+    "pinyin_plain": "guo",
+    "gloss_fr": "fruit; résultat",
+    "gloss_en": "fruit; result",
+    "structure_type": "独体",
+    "radical": "木",
+    "stroke_count": 8,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "过",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guò",
+    "pinyin_plain": "guo",
+    "gloss_fr": "passer; (aspect expérientiel)",
+    "gloss_en": "to pass; (experiential aspect)",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "还",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hái",
+    "pinyin_plain": "hai",
+    "gloss_fr": "encore, aussi",
+    "gloss_en": "still, also",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "好",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hǎo",
+    "pinyin_plain": "hao",
+    "gloss_fr": "bien, bon",
+    "gloss_en": "good",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "喝",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hē",
+    "pinyin_plain": "he",
+    "gloss_fr": "boire",
+    "gloss_en": "to drink",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 12,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "和",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hé",
+    "pinyin_plain": "he",
+    "gloss_fr": "et",
+    "gloss_en": "and",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "很",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hěn",
+    "pinyin_plain": "hen",
+    "gloss_fr": "très",
+    "gloss_en": "very",
+    "structure_type": "左右",
+    "radical": "彳",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "红",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hóng",
+    "pinyin_plain": "hong",
+    "gloss_fr": "rouge",
+    "gloss_en": "red",
+    "structure_type": "左右",
+    "radical": "纟",
+    "stroke_count": 6,
+    "themes": [
+      "couleurs"
+    ]
+  },
+  {
+    "hanzi": "后",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hòu",
+    "pinyin_plain": "hou",
+    "gloss_fr": "après, derrière",
+    "gloss_en": "after, behind",
+    "structure_type": "半包围",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "temps",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "花",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huā",
+    "pinyin_plain": "hua",
+    "gloss_fr": "fleur; dépenser",
+    "gloss_en": "flower; to spend",
+    "structure_type": "上下",
+    "radical": "艹",
+    "stroke_count": 7,
+    "themes": [
+      "nature",
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "画",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huà",
+    "pinyin_plain": "hua",
+    "gloss_fr": "dessiner; dessin",
+    "gloss_en": "to draw; painting",
+    "structure_type": "全包围",
+    "radical": "田",
+    "stroke_count": 8,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "话",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huà",
+    "pinyin_plain": "hua",
+    "gloss_fr": "parole",
+    "gloss_en": "speech, words",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 8,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "回",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huí",
+    "pinyin_plain": "hui",
+    "gloss_fr": "revenir; fois",
+    "gloss_en": "to return; time",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "会",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huì",
+    "pinyin_plain": "hui",
+    "gloss_fr": "savoir faire; réunion",
+    "gloss_en": "can, to know how to; meeting",
+    "structure_type": "上下",
+    "radical": "人",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire",
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "机",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jī",
+    "pinyin_plain": "ji",
+    "gloss_fr": "machine",
+    "gloss_en": "machine",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 6,
+    "themes": [
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "几",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jǐ",
+    "pinyin_plain": "ji",
+    "gloss_fr": "combien",
+    "gloss_en": "how many, a few",
+    "structure_type": "独体",
+    "radical": "几",
+    "stroke_count": 2,
+    "themes": [
+      "nombres",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "家",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiā",
+    "pinyin_plain": "jia",
+    "gloss_fr": "famille, maison",
+    "gloss_en": "family, home",
+    "structure_type": "上下",
+    "radical": "宀",
+    "stroke_count": 10,
+    "themes": [
+      "famille",
+      "maison"
+    ]
+  },
+  {
+    "hanzi": "间",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiān",
+    "pinyin_plain": "jian",
+    "gloss_fr": "intervalle, entre",
+    "gloss_en": "between, room",
+    "structure_type": "全包围",
+    "radical": "门",
+    "stroke_count": 7,
+    "themes": [
+      "maison",
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "见",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiàn",
+    "pinyin_plain": "jian",
+    "gloss_fr": "voir",
+    "gloss_en": "to see",
+    "structure_type": "独体",
+    "radical": "见",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "叫",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiào",
+    "pinyin_plain": "jiao",
+    "gloss_fr": "s'appeler, appeler",
+    "gloss_en": "to be called, to call",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 5,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "今",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jīn",
+    "pinyin_plain": "jin",
+    "gloss_fr": "maintenant",
+    "gloss_en": "now, present",
+    "structure_type": "上下",
+    "radical": "人",
+    "stroke_count": 4,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "进",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jìn",
+    "pinyin_plain": "jin",
+    "gloss_fr": "entrer",
+    "gloss_en": "to enter",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "九",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiǔ",
+    "pinyin_plain": "jiu",
+    "gloss_fr": "neuf",
+    "gloss_en": "nine",
+    "structure_type": "独体",
+    "radical": "丿",
+    "stroke_count": 2,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "看",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kàn",
+    "pinyin_plain": "kan",
+    "gloss_fr": "regarder",
+    "gloss_en": "to look, to read",
+    "structure_type": "上下",
+    "radical": "目",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "可",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kě",
+    "pinyin_plain": "ke",
+    "gloss_fr": "pouvoir",
+    "gloss_en": "can, may",
+    "structure_type": "独体",
+    "radical": "口",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "课",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kè",
+    "pinyin_plain": "ke",
+    "gloss_fr": "cours, leçon",
+    "gloss_en": "class, lesson",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 10,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "口",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kǒu",
+    "pinyin_plain": "kou",
+    "gloss_fr": "bouche",
+    "gloss_en": "mouth",
+    "structure_type": "独体",
+    "radical": "口",
+    "stroke_count": 3,
+    "themes": [
+      "corps"
+    ]
+  },
+  {
+    "hanzi": "快",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kuài",
+    "pinyin_plain": "kuai",
+    "gloss_fr": "vite; content",
+    "gloss_en": "fast; happy",
+    "structure_type": "左右",
+    "radical": "忄",
+    "stroke_count": 7,
+    "themes": [
+      "temps",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "来",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lái",
+    "pinyin_plain": "lai",
+    "gloss_fr": "venir",
+    "gloss_en": "to come",
+    "structure_type": "独体",
+    "radical": "木",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "老",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lǎo",
+    "pinyin_plain": "lao",
+    "gloss_fr": "vieux",
+    "gloss_en": "old",
+    "structure_type": "半包围",
+    "radical": "老",
+    "stroke_count": 6,
+    "themes": [
+      "famille",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "了",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "le",
+    "pinyin_plain": "le",
+    "gloss_fr": "(particule d'action accomplie)",
+    "gloss_en": "(completed action particle)",
+    "structure_type": "独体",
+    "radical": "乙",
+    "stroke_count": 2,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "两",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "liǎng",
+    "pinyin_plain": "liang",
+    "gloss_fr": "deux (avec classificateur)",
+    "gloss_en": "two (with measure word)",
+    "structure_type": "上下",
+    "radical": "一",
+    "stroke_count": 7,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "六",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "liù",
+    "pinyin_plain": "liu",
+    "gloss_fr": "six",
+    "gloss_en": "six",
+    "structure_type": "上下",
+    "radical": "八",
+    "stroke_count": 4,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "妈",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mā",
+    "pinyin_plain": "ma",
+    "gloss_fr": "maman",
+    "gloss_en": "mom",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 6,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "吗",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ma",
+    "pinyin_plain": "ma",
+    "gloss_fr": "(particule interrogative)",
+    "gloss_en": "(question particle)",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "买",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mǎi",
+    "pinyin_plain": "mai",
+    "gloss_fr": "acheter",
+    "gloss_en": "to buy",
+    "structure_type": "上下",
+    "radical": "大",
+    "stroke_count": 6,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "卖",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mài",
+    "pinyin_plain": "mai",
+    "gloss_fr": "vendre",
+    "gloss_en": "to sell",
+    "structure_type": "上下",
+    "radical": "十",
+    "stroke_count": 8,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "毛",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "máo",
+    "pinyin_plain": "mao",
+    "gloss_fr": "poil; dime",
+    "gloss_en": "hair, fur; dime",
+    "structure_type": "独体",
+    "radical": "毛",
+    "stroke_count": 4,
+    "themes": [
+      "argent",
+      "corps"
+    ]
+  },
+  {
+    "hanzi": "么",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "me",
+    "pinyin_plain": "me",
+    "gloss_fr": "(suffixe interrogatif)",
+    "gloss_en": "(question suffix)",
+    "structure_type": "独体",
+    "radical": "丿",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "没",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "méi",
+    "pinyin_plain": "mei",
+    "gloss_fr": "ne pas avoir",
+    "gloss_en": "to not have",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "每",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "měi",
+    "pinyin_plain": "mei",
+    "gloss_fr": "chaque",
+    "gloss_en": "every, each",
+    "structure_type": "上下",
+    "radical": "毋",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire",
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "美",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "měi",
+    "pinyin_plain": "mei",
+    "gloss_fr": "beau; Amérique",
+    "gloss_en": "beautiful; America",
+    "structure_type": "上下",
+    "radical": "王",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "门",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mén",
+    "pinyin_plain": "men",
+    "gloss_fr": "porte",
+    "gloss_en": "door",
+    "structure_type": "独体",
+    "radical": "门",
+    "stroke_count": 3,
+    "themes": [
+      "maison"
+    ]
+  },
+  {
+    "hanzi": "们",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "men",
+    "pinyin_plain": "men",
+    "gloss_fr": "(suffixe pluriel)",
+    "gloss_en": "(plural suffix)",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "米",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mǐ",
+    "pinyin_plain": "mi",
+    "gloss_fr": "riz; mètre",
+    "gloss_en": "rice; meter",
+    "structure_type": "独体",
+    "radical": "米",
+    "stroke_count": 6,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "面",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "miàn",
+    "pinyin_plain": "mian",
+    "gloss_fr": "visage; nouilles; côté",
+    "gloss_en": "face; noodles; side",
+    "structure_type": "独体",
+    "radical": "面",
+    "stroke_count": 9,
+    "themes": [
+      "corps",
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "名",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "míng",
+    "pinyin_plain": "ming",
+    "gloss_fr": "nom",
+    "gloss_en": "name",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "明",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "míng",
+    "pinyin_plain": "ming",
+    "gloss_fr": "clair, brillant",
+    "gloss_en": "bright, clear",
+    "structure_type": "左右",
+    "radical": "日",
+    "stroke_count": 8,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "哪",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nǎ",
+    "pinyin_plain": "na",
+    "gloss_fr": "lequel, où",
+    "gloss_en": "which, where",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "那",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nà",
+    "pinyin_plain": "na",
+    "gloss_fr": "celui-là, ce",
+    "gloss_en": "that",
+    "structure_type": "左右",
+    "radical": "阝",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "男",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nán",
+    "pinyin_plain": "nan",
+    "gloss_fr": "homme, garçon",
+    "gloss_en": "male, man",
+    "structure_type": "上下",
+    "radical": "田",
+    "stroke_count": 7,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "你",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nǐ",
+    "pinyin_plain": "ni",
+    "gloss_fr": "tu, toi",
+    "gloss_en": "you",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "年",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nián",
+    "pinyin_plain": "nian",
+    "gloss_fr": "année",
+    "gloss_en": "year",
+    "structure_type": "独体",
+    "radical": "干",
+    "stroke_count": 6,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "女",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nǚ",
+    "pinyin_plain": "nv",
+    "gloss_fr": "femme",
+    "gloss_en": "woman, female",
+    "structure_type": "独体",
+    "radical": "女",
+    "stroke_count": 3,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "七",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qī",
+    "pinyin_plain": "qi",
+    "gloss_fr": "sept",
+    "gloss_en": "seven",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 2,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "期",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qī",
+    "pinyin_plain": "qi",
+    "gloss_fr": "période",
+    "gloss_en": "period, term",
+    "structure_type": "左右",
+    "radical": "月",
+    "stroke_count": 12,
+    "themes": [
+      "temps",
+      "études"
+    ]
+  },
+  {
+    "hanzi": "前",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qián",
+    "pinyin_plain": "qian",
+    "gloss_fr": "devant, avant",
+    "gloss_en": "front, before",
+    "structure_type": "上下",
+    "radical": "刀",
+    "stroke_count": 9,
+    "themes": [
+      "temps",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "钱",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qián",
+    "pinyin_plain": "qian",
+    "gloss_fr": "argent",
+    "gloss_en": "money",
+    "structure_type": "左右",
+    "radical": "钅",
+    "stroke_count": 10,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "请",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qǐng",
+    "pinyin_plain": "qing",
+    "gloss_fr": "prier, inviter",
+    "gloss_en": "please, to invite",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 10,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "去",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qù",
+    "pinyin_plain": "qu",
+    "gloss_fr": "aller",
+    "gloss_en": "to go",
+    "structure_type": "上下",
+    "radical": "厶",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "人",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "rén",
+    "pinyin_plain": "ren",
+    "gloss_fr": "personne",
+    "gloss_en": "person",
+    "structure_type": "独体",
+    "radical": "人",
+    "stroke_count": 2,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "日",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "rì",
+    "pinyin_plain": "ri",
+    "gloss_fr": "soleil, jour",
+    "gloss_en": "sun, day",
+    "structure_type": "独体",
+    "radical": "日",
+    "stroke_count": 4,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "三",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "sān",
+    "pinyin_plain": "san",
+    "gloss_fr": "trois",
+    "gloss_en": "three",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 3,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "上",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shàng",
+    "pinyin_plain": "shang",
+    "gloss_fr": "sur, monter",
+    "gloss_en": "on, up, to go up",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 3,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "少",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shǎo",
+    "pinyin_plain": "shao",
+    "gloss_fr": "peu",
+    "gloss_en": "few, little",
+    "structure_type": "独体",
+    "radical": "小",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "谁",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shéi",
+    "pinyin_plain": "shei",
+    "gloss_fr": "qui",
+    "gloss_en": "who",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "什",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shén",
+    "pinyin_plain": "shen",
+    "gloss_fr": "quoi",
+    "gloss_en": "what",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "生",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shēng",
+    "pinyin_plain": "sheng",
+    "gloss_fr": "naître; élève",
+    "gloss_en": "to be born; student",
+    "structure_type": "独体",
+    "radical": "生",
+    "stroke_count": 5,
+    "themes": [
+      "études",
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "师",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shī",
+    "pinyin_plain": "shi",
+    "gloss_fr": "maître, professeur",
+    "gloss_en": "teacher, master",
+    "structure_type": "左右",
+    "radical": "巾",
+    "stroke_count": 6,
+    "themes": [
+      "études",
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "十",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shí",
+    "pinyin_plain": "shi",
+    "gloss_fr": "dix",
+    "gloss_en": "ten",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 2,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "时",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shí",
+    "pinyin_plain": "shi",
+    "gloss_fr": "temps, heure",
+    "gloss_en": "time, hour",
+    "structure_type": "左右",
+    "radical": "日",
+    "stroke_count": 7,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "是",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shì",
+    "pinyin_plain": "shi",
+    "gloss_fr": "être",
+    "gloss_en": "to be",
+    "structure_type": "上下",
+    "radical": "日",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "手",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shǒu",
+    "pinyin_plain": "shou",
+    "gloss_fr": "main",
+    "gloss_en": "hand",
+    "structure_type": "独体",
+    "radical": "手",
+    "stroke_count": 4,
+    "themes": [
+      "corps"
+    ]
+  },
+  {
+    "hanzi": "书",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shū",
+    "pinyin_plain": "shu",
+    "gloss_fr": "livre",
+    "gloss_en": "book",
+    "structure_type": "独体",
+    "radical": "乙",
+    "stroke_count": 4,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "水",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shuǐ",
+    "pinyin_plain": "shui",
+    "gloss_fr": "eau",
+    "gloss_en": "water",
+    "structure_type": "独体",
+    "radical": "水",
+    "stroke_count": 4,
+    "themes": [
+      "nourriture",
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "说",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shuō",
+    "pinyin_plain": "shuo",
+    "gloss_fr": "dire, parler",
+    "gloss_en": "to speak, to say",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 9,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "四",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "sì",
+    "pinyin_plain": "si",
+    "gloss_fr": "quatre",
+    "gloss_en": "four",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 5,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "他",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tā",
+    "pinyin_plain": "ta",
+    "gloss_fr": "il, lui",
+    "gloss_en": "he, him",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "她",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tā",
+    "pinyin_plain": "ta",
+    "gloss_fr": "elle",
+    "gloss_en": "she, her",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "太",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tài",
+    "pinyin_plain": "tai",
+    "gloss_fr": "trop",
+    "gloss_en": "too, extremely",
+    "structure_type": "独体",
+    "radical": "大",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "天",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tiān",
+    "pinyin_plain": "tian",
+    "gloss_fr": "ciel, jour",
+    "gloss_en": "sky, day",
+    "structure_type": "独体",
+    "radical": "大",
+    "stroke_count": 4,
+    "themes": [
+      "temps",
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "听",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tīng",
+    "pinyin_plain": "ting",
+    "gloss_fr": "écouter",
+    "gloss_en": "to listen",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 7,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "外",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wài",
+    "pinyin_plain": "wai",
+    "gloss_fr": "dehors",
+    "gloss_en": "outside",
+    "structure_type": "左右",
+    "radical": "夕",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "晚",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wǎn",
+    "pinyin_plain": "wan",
+    "gloss_fr": "soir, tard",
+    "gloss_en": "evening, late",
+    "structure_type": "左右",
+    "radical": "日",
+    "stroke_count": 11,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "为",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wèi",
+    "pinyin_plain": "wei",
+    "gloss_fr": "pour",
+    "gloss_en": "for, because of",
+    "structure_type": "独体",
+    "radical": "丶",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "文",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wén",
+    "pinyin_plain": "wen",
+    "gloss_fr": "texte, littérature",
+    "gloss_en": "text, literature",
+    "structure_type": "独体",
+    "radical": "文",
+    "stroke_count": 4,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "问",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wèn",
+    "pinyin_plain": "wen",
+    "gloss_fr": "demander",
+    "gloss_en": "to ask",
+    "structure_type": "全包围",
+    "radical": "门",
+    "stroke_count": 6,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "我",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wǒ",
+    "pinyin_plain": "wo",
+    "gloss_fr": "je, moi",
+    "gloss_en": "I, me",
+    "structure_type": "独体",
+    "radical": "戈",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "五",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wǔ",
+    "pinyin_plain": "wu",
+    "gloss_fr": "cinq",
+    "gloss_en": "five",
+    "structure_type": "独体",
+    "radical": "二",
+    "stroke_count": 4,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "西",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xī",
+    "pinyin_plain": "xi",
+    "gloss_fr": "ouest",
+    "gloss_en": "west",
+    "structure_type": "独体",
+    "radical": "西",
+    "stroke_count": 6,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "下",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xià",
+    "pinyin_plain": "xia",
+    "gloss_fr": "sous, descendre",
+    "gloss_en": "under, down",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 3,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "想",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiǎng",
+    "pinyin_plain": "xiang",
+    "gloss_fr": "penser, vouloir",
+    "gloss_en": "to think, to want",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 13,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "小",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiǎo",
+    "pinyin_plain": "xiao",
+    "gloss_fr": "petit",
+    "gloss_en": "small",
+    "structure_type": "独体",
+    "radical": "小",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "写",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiě",
+    "pinyin_plain": "xie",
+    "gloss_fr": "écrire",
+    "gloss_en": "to write",
+    "structure_type": "上下",
+    "radical": "冖",
+    "stroke_count": 5,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "心",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xīn",
+    "pinyin_plain": "xin",
+    "gloss_fr": "cœur",
+    "gloss_en": "heart",
+    "structure_type": "独体",
+    "radical": "心",
+    "stroke_count": 4,
+    "themes": [
+      "corps",
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "新",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xīn",
+    "pinyin_plain": "xin",
+    "gloss_fr": "nouveau",
+    "gloss_en": "new",
+    "structure_type": "左右",
+    "radical": "斤",
+    "stroke_count": 13,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "星",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xīng",
+    "pinyin_plain": "xing",
+    "gloss_fr": "étoile",
+    "gloss_en": "star",
+    "structure_type": "上下",
+    "radical": "日",
+    "stroke_count": 9,
+    "themes": [
+      "temps",
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "姓",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xìng",
+    "pinyin_plain": "xing",
+    "gloss_fr": "nom de famille",
+    "gloss_en": "surname",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 8,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "学",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xué",
+    "pinyin_plain": "xue",
+    "gloss_fr": "étudier",
+    "gloss_en": "to study",
+    "structure_type": "上下",
+    "radical": "子",
+    "stroke_count": 8,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "样",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yàng",
+    "pinyin_plain": "yang",
+    "gloss_fr": "sorte, aspect",
+    "gloss_en": "kind, appearance",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "要",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yào",
+    "pinyin_plain": "yao",
+    "gloss_fr": "vouloir, falloir",
+    "gloss_en": "to want, to need",
+    "structure_type": "上下",
+    "radical": "西",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "也",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yě",
+    "pinyin_plain": "ye",
+    "gloss_fr": "aussi",
+    "gloss_en": "also, too",
+    "structure_type": "独体",
+    "radical": "乙",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "一",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yī",
+    "pinyin_plain": "yi",
+    "gloss_fr": "un",
+    "gloss_en": "one",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 1,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "以",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǐ",
+    "pinyin_plain": "yi",
+    "gloss_fr": "avec, pour",
+    "gloss_en": "with, in order to",
+    "structure_type": "左右",
+    "radical": "人",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "用",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yòng",
+    "pinyin_plain": "yong",
+    "gloss_fr": "utiliser",
+    "gloss_en": "to use",
+    "structure_type": "独体",
+    "radical": "用",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "有",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǒu",
+    "pinyin_plain": "you",
+    "gloss_fr": "avoir",
+    "gloss_en": "to have",
+    "structure_type": "上下",
+    "radical": "月",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "语",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǔ",
+    "pinyin_plain": "yu",
+    "gloss_fr": "langue",
+    "gloss_en": "language",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 9,
+    "themes": [
+      "études",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "元",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": false,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "yuán",
+    "pinyin_plain": "yuan",
+    "gloss_fr": "yuan (monnaie)",
+    "gloss_en": "yuan (currency)",
+    "structure_type": "独体",
+    "radical": "儿",
+    "stroke_count": 4,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "月",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yuè",
+    "pinyin_plain": "yue",
+    "gloss_fr": "lune, mois",
+    "gloss_en": "moon, month",
+    "structure_type": "独体",
+    "radical": "月",
+    "stroke_count": 4,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "在",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zài",
+    "pinyin_plain": "zai",
+    "gloss_fr": "à, être à",
+    "gloss_en": "at, to be at",
+    "structure_type": "半包围",
+    "radical": "土",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire",
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "早",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zǎo",
+    "pinyin_plain": "zao",
+    "gloss_fr": "tôt, matin",
+    "gloss_en": "early, morning",
+    "structure_type": "上下",
+    "radical": "日",
+    "stroke_count": 6,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "怎",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zěn",
+    "pinyin_plain": "zen",
+    "gloss_fr": "comment",
+    "gloss_en": "how",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "这",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhè",
+    "pinyin_plain": "zhe",
+    "gloss_fr": "ce, cette",
+    "gloss_en": "this",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "中",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhōng",
+    "pinyin_plain": "zhong",
+    "gloss_fr": "milieu, centre",
+    "gloss_en": "middle, center",
+    "structure_type": "独体",
+    "radical": "丨",
+    "stroke_count": 4,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "字",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zì",
+    "pinyin_plain": "zi",
+    "gloss_fr": "caractère",
+    "gloss_en": "character (written)",
+    "structure_type": "上下",
+    "radical": "子",
+    "stroke_count": 6,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "走",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zǒu",
+    "pinyin_plain": "zou",
+    "gloss_fr": "marcher",
+    "gloss_en": "to walk",
+    "structure_type": "独体",
+    "radical": "走",
+    "stroke_count": 7,
+    "themes": [
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "坐",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zuò",
+    "pinyin_plain": "zuo",
+    "gloss_fr": "s'asseoir",
+    "gloss_en": "to sit",
+    "structure_type": "上下",
+    "radical": "土",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "作",
+    "intro_tier": "A1",
+    "in_A1_list": true,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zuò",
+    "pinyin_plain": "zuo",
+    "gloss_fr": "faire, œuvre",
+    "gloss_en": "to do, work",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "爱",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ài",
+    "pinyin_plain": "ai",
+    "gloss_fr": "aimer",
+    "gloss_en": "to love",
+    "structure_type": "上下",
+    "radical": "爪",
+    "stroke_count": 10,
+    "themes": [
+      "famille",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "爸",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bà",
+    "pinyin_plain": "ba",
+    "gloss_fr": "papa",
+    "gloss_en": "dad",
+    "structure_type": "上下",
+    "radical": "父",
+    "stroke_count": 8,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "吧",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ba",
+    "pinyin_plain": "ba",
+    "gloss_fr": "(particule suggestive)",
+    "gloss_en": "(suggestion particle)",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "办",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bàn",
+    "pinyin_plain": "ban",
+    "gloss_fr": "faire, gérer",
+    "gloss_en": "to handle, to manage",
+    "structure_type": "独体",
+    "radical": "力",
+    "stroke_count": 4,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "比",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bǐ",
+    "pinyin_plain": "bi",
+    "gloss_fr": "comparer",
+    "gloss_en": "to compare",
+    "structure_type": "左右",
+    "radical": "比",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "边",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "biān",
+    "pinyin_plain": "bian",
+    "gloss_fr": "côté",
+    "gloss_en": "side",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 5,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "别",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bié",
+    "pinyin_plain": "bie",
+    "gloss_fr": "ne pas; autre",
+    "gloss_en": "don't; other",
+    "structure_type": "左右",
+    "radical": "刂",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "病",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "bìng",
+    "pinyin_plain": "bing",
+    "gloss_fr": "maladie",
+    "gloss_en": "illness",
+    "structure_type": "半包围",
+    "radical": "疒",
+    "stroke_count": 10,
+    "themes": [
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "茶",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "chá",
+    "pinyin_plain": "cha",
+    "gloss_fr": "thé",
+    "gloss_en": "tea",
+    "structure_type": "上下",
+    "radical": "艹",
+    "stroke_count": 9,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "长",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "cháng",
+    "pinyin_plain": "chang",
+    "gloss_fr": "long",
+    "gloss_en": "long",
+    "structure_type": "独体",
+    "radical": "长",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "常",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "cháng",
+    "pinyin_plain": "chang",
+    "gloss_fr": "souvent",
+    "gloss_en": "often",
+    "structure_type": "上下",
+    "radical": "巾",
+    "stroke_count": 11,
+    "themes": [
+      "temps",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "唱",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "chàng",
+    "pinyin_plain": "chang",
+    "gloss_fr": "chanter",
+    "gloss_en": "to sing",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 11,
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "城",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "chéng",
+    "pinyin_plain": "cheng",
+    "gloss_fr": "ville",
+    "gloss_en": "city",
+    "structure_type": "左右",
+    "radical": "土",
+    "stroke_count": 9,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "从",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "cóng",
+    "pinyin_plain": "cong",
+    "gloss_fr": "depuis",
+    "gloss_en": "from",
+    "structure_type": "左右",
+    "radical": "人",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "道",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dào",
+    "pinyin_plain": "dao",
+    "gloss_fr": "chemin; dire",
+    "gloss_en": "way, road; to say",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 12,
+    "themes": [
+      "directions",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "冬",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "dōng",
+    "pinyin_plain": "dong",
+    "gloss_fr": "hiver",
+    "gloss_en": "winter",
+    "structure_type": "上下",
+    "radical": "夂",
+    "stroke_count": 5,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "儿",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ér",
+    "pinyin_plain": "er",
+    "gloss_fr": "enfant, fils",
+    "gloss_en": "child, son",
+    "structure_type": "独体",
+    "radical": "儿",
+    "stroke_count": 2,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "方",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fāng",
+    "pinyin_plain": "fang",
+    "gloss_fr": "direction, carré",
+    "gloss_en": "direction, square",
+    "structure_type": "独体",
+    "radical": "方",
+    "stroke_count": 4,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "房",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fáng",
+    "pinyin_plain": "fang",
+    "gloss_fr": "maison, pièce",
+    "gloss_en": "house, room",
+    "structure_type": "半包围",
+    "radical": "户",
+    "stroke_count": 8,
+    "themes": [
+      "maison"
+    ]
+  },
+  {
+    "hanzi": "飞",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fēi",
+    "pinyin_plain": "fei",
+    "gloss_fr": "voler",
+    "gloss_en": "to fly",
+    "structure_type": "独体",
+    "radical": "飞",
+    "stroke_count": 3,
+    "themes": [
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "夫",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fū",
+    "pinyin_plain": "fu",
+    "gloss_fr": "mari, homme",
+    "gloss_en": "husband, man",
+    "structure_type": "独体",
+    "radical": "大",
+    "stroke_count": 4,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "父",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "fù",
+    "pinyin_plain": "fu",
+    "gloss_fr": "père",
+    "gloss_en": "father",
+    "structure_type": "独体",
+    "radical": "父",
+    "stroke_count": 4,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "刚",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gāng",
+    "pinyin_plain": "gang",
+    "gloss_fr": "juste, à peine",
+    "gloss_en": "just now",
+    "structure_type": "左右",
+    "radical": "刂",
+    "stroke_count": 6,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "哥",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gē",
+    "pinyin_plain": "ge",
+    "gloss_fr": "grand frère",
+    "gloss_en": "older brother",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 10,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "歌",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "gē",
+    "pinyin_plain": "ge",
+    "gloss_fr": "chanson",
+    "gloss_en": "song",
+    "structure_type": "左右",
+    "radical": "欠",
+    "stroke_count": 14,
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "跟",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gēn",
+    "pinyin_plain": "gen",
+    "gloss_fr": "avec; suivre",
+    "gloss_en": "with; to follow",
+    "structure_type": "左右",
+    "radical": "足",
+    "stroke_count": 13,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "古",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "gǔ",
+    "pinyin_plain": "gu",
+    "gloss_fr": "ancien",
+    "gloss_en": "ancient",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "关",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guān",
+    "pinyin_plain": "guan",
+    "gloss_fr": "fermer; concerner",
+    "gloss_en": "to close; to concern",
+    "structure_type": "上下",
+    "radical": "丷",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "馆",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "guǎn",
+    "pinyin_plain": "guan",
+    "gloss_fr": "bâtiment public",
+    "gloss_en": "hall, building",
+    "structure_type": "左右",
+    "radical": "饣",
+    "stroke_count": 11,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "孩",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hái",
+    "pinyin_plain": "hai",
+    "gloss_fr": "enfant",
+    "gloss_en": "child",
+    "structure_type": "左右",
+    "radical": "子",
+    "stroke_count": 9,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "海",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hǎi",
+    "pinyin_plain": "hai",
+    "gloss_fr": "mer",
+    "gloss_en": "sea",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 10,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "汉",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hàn",
+    "pinyin_plain": "han",
+    "gloss_fr": "Han (chinois)",
+    "gloss_en": "Han (Chinese)",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 5,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "候",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "hòu",
+    "pinyin_plain": "hou",
+    "gloss_fr": "moment; attendre",
+    "gloss_en": "moment; to wait",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 10,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "欢",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huān",
+    "pinyin_plain": "huan",
+    "gloss_fr": "joyeux",
+    "gloss_en": "happy, joyful",
+    "structure_type": "左右",
+    "radical": "又",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "活",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huó",
+    "pinyin_plain": "huo",
+    "gloss_fr": "vivre",
+    "gloss_en": "to live",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "火",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "huǒ",
+    "pinyin_plain": "huo",
+    "gloss_fr": "feu",
+    "gloss_en": "fire",
+    "structure_type": "独体",
+    "radical": "火",
+    "stroke_count": 4,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "近",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jìn",
+    "pinyin_plain": "jin",
+    "gloss_fr": "proche",
+    "gloss_en": "near",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "京",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jīng",
+    "pinyin_plain": "jing",
+    "gloss_fr": "capitale",
+    "gloss_en": "capital",
+    "structure_type": "上下",
+    "radical": "亠",
+    "stroke_count": 8,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "酒",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiǔ",
+    "pinyin_plain": "jiu",
+    "gloss_fr": "alcool",
+    "gloss_en": "alcohol",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 10,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "就",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jiù",
+    "pinyin_plain": "jiu",
+    "gloss_fr": "alors, tout de suite",
+    "gloss_en": "then, right away",
+    "structure_type": "左右",
+    "radical": "尤",
+    "stroke_count": 12,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "觉",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "jué",
+    "pinyin_plain": "jue",
+    "gloss_fr": "sentir, trouver",
+    "gloss_en": "to feel, to think",
+    "structure_type": "上下",
+    "radical": "见",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire",
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "开",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kāi",
+    "pinyin_plain": "kai",
+    "gloss_fr": "ouvrir",
+    "gloss_en": "to open",
+    "structure_type": "独体",
+    "radical": "廾",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "块",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kuài",
+    "pinyin_plain": "kuai",
+    "gloss_fr": "morceau; yuan",
+    "gloss_en": "piece; yuan (money)",
+    "structure_type": "左右",
+    "radical": "土",
+    "stroke_count": 7,
+    "themes": [
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "筷",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "kuài",
+    "pinyin_plain": "kuai",
+    "gloss_fr": "baguettes",
+    "gloss_en": "chopsticks",
+    "structure_type": "上下",
+    "radical": "竹",
+    "stroke_count": 13,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "累",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lèi",
+    "pinyin_plain": "lei",
+    "gloss_fr": "fatigué",
+    "gloss_en": "tired",
+    "structure_type": "上下",
+    "radical": "田",
+    "stroke_count": 11,
+    "themes": [
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "冷",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lěng",
+    "pinyin_plain": "leng",
+    "gloss_fr": "froid",
+    "gloss_en": "cold",
+    "structure_type": "左右",
+    "radical": "冫",
+    "stroke_count": 7,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "李",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lǐ",
+    "pinyin_plain": "li",
+    "gloss_fr": "prunier; (nom de famille)",
+    "gloss_en": "plum; (surname)",
+    "structure_type": "上下",
+    "radical": "木",
+    "stroke_count": 7,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "里",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "lǐ",
+    "pinyin_plain": "li",
+    "gloss_fr": "intérieur",
+    "gloss_en": "inside",
+    "structure_type": "独体",
+    "radical": "里",
+    "stroke_count": 7,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "忙",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "máng",
+    "pinyin_plain": "mang",
+    "gloss_fr": "occupé",
+    "gloss_en": "busy",
+    "structure_type": "左右",
+    "radical": "忄",
+    "stroke_count": 6,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "母",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "mǔ",
+    "pinyin_plain": "mu",
+    "gloss_fr": "mère",
+    "gloss_en": "mother",
+    "structure_type": "独体",
+    "radical": "毋",
+    "stroke_count": 5,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "南",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nán",
+    "pinyin_plain": "nan",
+    "gloss_fr": "sud",
+    "gloss_en": "south",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 9,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "难",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nán",
+    "pinyin_plain": "nan",
+    "gloss_fr": "difficile",
+    "gloss_en": "difficult",
+    "structure_type": "左右",
+    "radical": "又",
+    "stroke_count": 10,
+    "themes": [
+      "études",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "呢",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ne",
+    "pinyin_plain": "ne",
+    "gloss_fr": "(particule interrogative)",
+    "gloss_en": "(question particle)",
+    "structure_type": "左右",
+    "radical": "口",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "能",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "néng",
+    "pinyin_plain": "neng",
+    "gloss_fr": "pouvoir",
+    "gloss_en": "can, to be able to",
+    "structure_type": "左右",
+    "radical": "月",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "念",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "niàn",
+    "pinyin_plain": "nian",
+    "gloss_fr": "lire à voix haute, penser à",
+    "gloss_en": "to read aloud, to miss",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 8,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "您",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "nín",
+    "pinyin_plain": "nin",
+    "gloss_fr": "vous (poli)",
+    "gloss_en": "you (polite)",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 11,
+    "themes": [
+      "grammaire",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "朋",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "péng",
+    "pinyin_plain": "peng",
+    "gloss_fr": "ami",
+    "gloss_en": "friend",
+    "structure_type": "左右",
+    "radical": "月",
+    "stroke_count": 8,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "票",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "piào",
+    "pinyin_plain": "piao",
+    "gloss_fr": "billet, ticket",
+    "gloss_en": "ticket",
+    "structure_type": "上下",
+    "radical": "示",
+    "stroke_count": 11,
+    "themes": [
+      "transport",
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "气",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qì",
+    "pinyin_plain": "qi",
+    "gloss_fr": "air, gaz",
+    "gloss_en": "air, gas",
+    "structure_type": "独体",
+    "radical": "气",
+    "stroke_count": 4,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "汽",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qì",
+    "pinyin_plain": "qi",
+    "gloss_fr": "vapeur",
+    "gloss_en": "vapor, steam",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 7,
+    "themes": [
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "亲",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "qīn",
+    "pinyin_plain": "qin",
+    "gloss_fr": "proche, parent",
+    "gloss_en": "close, relative",
+    "structure_type": "上下",
+    "radical": "亲",
+    "stroke_count": 9,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "球",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "qiú",
+    "pinyin_plain": "qiu",
+    "gloss_fr": "balle, ballon",
+    "gloss_en": "ball",
+    "structure_type": "左右",
+    "radical": "王",
+    "stroke_count": 11,
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "热",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "rè",
+    "pinyin_plain": "re",
+    "gloss_fr": "chaud",
+    "gloss_en": "hot",
+    "structure_type": "上下",
+    "radical": "灬",
+    "stroke_count": 10,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "认",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "rèn",
+    "pinyin_plain": "ren",
+    "gloss_fr": "reconnaître",
+    "gloss_en": "to recognize",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 4,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "肉",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "ròu",
+    "pinyin_plain": "rou",
+    "gloss_fr": "viande",
+    "gloss_en": "meat",
+    "structure_type": "独体",
+    "radical": "肉",
+    "stroke_count": 6,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "如",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "rú",
+    "pinyin_plain": "ru",
+    "gloss_fr": "comme, si",
+    "gloss_en": "like, if",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "山",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shān",
+    "pinyin_plain": "shan",
+    "gloss_fr": "montagne",
+    "gloss_en": "mountain",
+    "structure_type": "独体",
+    "radical": "山",
+    "stroke_count": 3,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "商",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shāng",
+    "pinyin_plain": "shang",
+    "gloss_fr": "commerce",
+    "gloss_en": "commerce, business",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 11,
+    "themes": [
+      "travail",
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "识",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "shí",
+    "pinyin_plain": "shi",
+    "gloss_fr": "connaître",
+    "gloss_en": "to know, to recognize",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 7,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "思",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "sī",
+    "pinyin_plain": "si",
+    "gloss_fr": "penser",
+    "gloss_en": "to think",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "岁",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "suì",
+    "pinyin_plain": "sui",
+    "gloss_fr": "an, âge",
+    "gloss_en": "year (age)",
+    "structure_type": "上下",
+    "radical": "山",
+    "stroke_count": 6,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "题",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tí",
+    "pinyin_plain": "ti",
+    "gloss_fr": "question, sujet",
+    "gloss_en": "question, topic",
+    "structure_type": "左右",
+    "radical": "页",
+    "stroke_count": 15,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "跳",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "tiào",
+    "pinyin_plain": "tiao",
+    "gloss_fr": "sauter",
+    "gloss_en": "to jump",
+    "structure_type": "左右",
+    "radical": "足",
+    "stroke_count": 13,
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "同",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tóng",
+    "pinyin_plain": "tong",
+    "gloss_fr": "même",
+    "gloss_en": "same",
+    "structure_type": "半包围",
+    "radical": "冂",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "图",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "tú",
+    "pinyin_plain": "tu",
+    "gloss_fr": "image, carte",
+    "gloss_en": "picture, map",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 8,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "完",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wán",
+    "pinyin_plain": "wan",
+    "gloss_fr": "terminer, complet",
+    "gloss_en": "to finish, complete",
+    "structure_type": "上下",
+    "radical": "宀",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "玩",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wán",
+    "pinyin_plain": "wan",
+    "gloss_fr": "jouer",
+    "gloss_en": "to play",
+    "structure_type": "左右",
+    "radical": "王",
+    "stroke_count": 8,
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "王",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wáng",
+    "pinyin_plain": "wang",
+    "gloss_fr": "roi; (nom de famille)",
+    "gloss_en": "king; (surname)",
+    "structure_type": "独体",
+    "radical": "王",
+    "stroke_count": 4,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "网",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": false,
+    "new_at_B1": false,
+    "gap_char": true,
+    "pinyin_marked": "wǎng",
+    "pinyin_plain": "wang",
+    "gloss_fr": "filet, internet",
+    "gloss_en": "net, internet",
+    "structure_type": "全包围",
+    "radical": "冂",
+    "stroke_count": 6,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "午",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "wǔ",
+    "pinyin_plain": "wu",
+    "gloss_fr": "midi",
+    "gloss_en": "noon",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 4,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "喜",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xǐ",
+    "pinyin_plain": "xi",
+    "gloss_fr": "aimer, joie",
+    "gloss_en": "to like, joy",
+    "structure_type": "上下",
+    "radical": "士",
+    "stroke_count": 12,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "先",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiān",
+    "pinyin_plain": "xian",
+    "gloss_fr": "d'abord",
+    "gloss_en": "first",
+    "structure_type": "上下",
+    "radical": "儿",
+    "stroke_count": 6,
+    "themes": [
+      "temps",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "现",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiàn",
+    "pinyin_plain": "xian",
+    "gloss_fr": "maintenant, apparaître",
+    "gloss_en": "now, to appear",
+    "structure_type": "左右",
+    "radical": "王",
+    "stroke_count": 8,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "些",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiē",
+    "pinyin_plain": "xie",
+    "gloss_fr": "quelques",
+    "gloss_en": "some",
+    "structure_type": "上下",
+    "radical": "二",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "谢",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xiè",
+    "pinyin_plain": "xie",
+    "gloss_fr": "remercier",
+    "gloss_en": "to thank",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 12,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "信",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xìn",
+    "pinyin_plain": "xin",
+    "gloss_fr": "lettre; croire",
+    "gloss_en": "letter; to believe",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 9,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "兴",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "xìng",
+    "pinyin_plain": "xing",
+    "gloss_fr": "intérêt, enthousiasme",
+    "gloss_en": "interest, mood",
+    "structure_type": "上下",
+    "radical": "八",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "意",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yì",
+    "pinyin_plain": "yi",
+    "gloss_fr": "sens, intention",
+    "gloss_en": "meaning, intention",
+    "structure_type": "上下",
+    "radical": "心",
+    "stroke_count": 13,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "因",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yīn",
+    "pinyin_plain": "yin",
+    "gloss_fr": "cause",
+    "gloss_en": "because, cause",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "影",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǐng",
+    "pinyin_plain": "ying",
+    "gloss_fr": "ombre; film",
+    "gloss_en": "shadow; movie",
+    "structure_type": "左右",
+    "radical": "彡",
+    "stroke_count": 15,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "友",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǒu",
+    "pinyin_plain": "you",
+    "gloss_fr": "ami",
+    "gloss_en": "friend",
+    "structure_type": "独体",
+    "radical": "又",
+    "stroke_count": 4,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "又",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yòu",
+    "pinyin_plain": "you",
+    "gloss_fr": "encore (fait)",
+    "gloss_en": "again (past)",
+    "structure_type": "独体",
+    "radical": "又",
+    "stroke_count": 2,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "雨",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yǔ",
+    "pinyin_plain": "yu",
+    "gloss_fr": "pluie",
+    "gloss_en": "rain",
+    "structure_type": "独体",
+    "radical": "雨",
+    "stroke_count": 8,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "远",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "yuǎn",
+    "pinyin_plain": "yuan",
+    "gloss_fr": "loin",
+    "gloss_en": "far",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "再",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zài",
+    "pinyin_plain": "zai",
+    "gloss_fr": "encore (futur)",
+    "gloss_en": "again (future)",
+    "structure_type": "独体",
+    "radical": "冂",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "张",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhāng",
+    "pinyin_plain": "zhang",
+    "gloss_fr": "(classificateur objets plats); (nom de famille)",
+    "gloss_en": "(measure word for flat objects); (surname)",
+    "structure_type": "左右",
+    "radical": "弓",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "只",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhǐ",
+    "pinyin_plain": "zhi",
+    "gloss_fr": "seulement",
+    "gloss_en": "only",
+    "structure_type": "独体",
+    "radical": "口",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "知",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhī",
+    "pinyin_plain": "zhi",
+    "gloss_fr": "savoir",
+    "gloss_en": "to know",
+    "structure_type": "左右",
+    "radical": "矢",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire",
+      "études"
+    ]
+  },
+  {
+    "hanzi": "重",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhòng",
+    "pinyin_plain": "zhong",
+    "gloss_fr": "lourd; important",
+    "gloss_en": "heavy; important",
+    "structure_type": "上下",
+    "radical": "里",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "住",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zhù",
+    "pinyin_plain": "zhu",
+    "gloss_fr": "habiter",
+    "gloss_en": "to live, to reside",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "maison"
+    ]
+  },
+  {
+    "hanzi": "子",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zǐ",
+    "pinyin_plain": "zi",
+    "gloss_fr": "fils, enfant",
+    "gloss_en": "son, child",
+    "structure_type": "独体",
+    "radical": "子",
+    "stroke_count": 3,
+    "themes": [
+      "famille"
+    ]
+  },
+  {
+    "hanzi": "昨",
+    "intro_tier": "A2",
+    "in_A1_list": false,
+    "in_A2_list": true,
+    "in_B1_list": true,
+    "new_at_B1": false,
+    "gap_char": false,
+    "pinyin_marked": "zuó",
+    "pinyin_plain": "zuo",
+    "gloss_fr": "hier",
+    "gloss_en": "yesterday",
+    "structure_type": "左右",
+    "radical": "日",
+    "stroke_count": 9,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "把",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "bǎ",
+    "pinyin_plain": "ba",
+    "gloss_fr": "(marqueur d'objet); poignée",
+    "gloss_en": "(object marker); handle",
+    "structure_type": "左右",
+    "radical": "扌",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "班",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "bān",
+    "pinyin_plain": "ban",
+    "gloss_fr": "classe, équipe",
+    "gloss_en": "class, team",
+    "structure_type": "左右",
+    "radical": "王",
+    "stroke_count": 10,
+    "themes": [
+      "études",
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "包",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "bāo",
+    "pinyin_plain": "bao",
+    "gloss_fr": "sac; envelopper",
+    "gloss_en": "bag; to wrap",
+    "structure_type": "半包围",
+    "radical": "勹",
+    "stroke_count": 5,
+    "themes": [
+      "vêtements"
+    ]
+  },
+  {
+    "hanzi": "报",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "bào",
+    "pinyin_plain": "bao",
+    "gloss_fr": "journal; rapporter",
+    "gloss_en": "newspaper; to report",
+    "structure_type": "左右",
+    "radical": "扌",
+    "stroke_count": 7,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "才",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "cái",
+    "pinyin_plain": "cai",
+    "gloss_fr": "seulement alors",
+    "gloss_en": "only then",
+    "structure_type": "独体",
+    "radical": "手",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "差",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "chà",
+    "pinyin_plain": "cha",
+    "gloss_fr": "manquer; différence",
+    "gloss_en": "to lack; difference",
+    "structure_type": "上下",
+    "radical": "工",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "场",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "chǎng",
+    "pinyin_plain": "chang",
+    "gloss_fr": "lieu, terrain",
+    "gloss_en": "place, field",
+    "structure_type": "左右",
+    "radical": "土",
+    "stroke_count": 6,
+    "themes": [
+      "sport",
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "春",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "chūn",
+    "pinyin_plain": "chun",
+    "gloss_fr": "printemps",
+    "gloss_en": "spring",
+    "structure_type": "上下",
+    "radical": "日",
+    "stroke_count": 9,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "次",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "cì",
+    "pinyin_plain": "ci",
+    "gloss_fr": "fois",
+    "gloss_en": "time (occurrence)",
+    "structure_type": "左右",
+    "radical": "冫",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "村",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "cūn",
+    "pinyin_plain": "cun",
+    "gloss_fr": "village",
+    "gloss_en": "village",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 7,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "代",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dài",
+    "pinyin_plain": "dai",
+    "gloss_fr": "remplacer; génération",
+    "gloss_en": "to replace; generation",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 5,
+    "themes": [
+      "famille",
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "带",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dài",
+    "pinyin_plain": "dai",
+    "gloss_fr": "apporter, ceinture",
+    "gloss_en": "to bring, belt",
+    "structure_type": "上下",
+    "radical": "巾",
+    "stroke_count": 9,
+    "themes": [
+      "vêtements",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "但",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dàn",
+    "pinyin_plain": "dan",
+    "gloss_fr": "mais",
+    "gloss_en": "but",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "当",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dāng",
+    "pinyin_plain": "dang",
+    "gloss_fr": "être, quand",
+    "gloss_en": "to be, when",
+    "structure_type": "上下",
+    "radical": "彐",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "第",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dì",
+    "pinyin_plain": "di",
+    "gloss_fr": "(préfixe ordinal)",
+    "gloss_en": "(ordinal prefix)",
+    "structure_type": "上下",
+    "radical": "竹",
+    "stroke_count": 11,
+    "themes": [
+      "grammaire",
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "定",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dìng",
+    "pinyin_plain": "ding",
+    "gloss_fr": "fixer, décider",
+    "gloss_en": "to decide, fixed",
+    "structure_type": "上下",
+    "radical": "宀",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "动",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "dòng",
+    "pinyin_plain": "dong",
+    "gloss_fr": "bouger",
+    "gloss_en": "to move",
+    "structure_type": "左右",
+    "radical": "力",
+    "stroke_count": 6,
+    "themes": [
+      "sport",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "发",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "fā",
+    "pinyin_plain": "fa",
+    "gloss_fr": "envoyer, se développer",
+    "gloss_en": "to send, to develop",
+    "structure_type": "独体",
+    "radical": "又",
+    "stroke_count": 5,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "放",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "fàng",
+    "pinyin_plain": "fang",
+    "gloss_fr": "poser, mettre",
+    "gloss_en": "to put, to release",
+    "structure_type": "左右",
+    "radical": "攵",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "非",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "fēi",
+    "pinyin_plain": "fei",
+    "gloss_fr": "ne pas être",
+    "gloss_en": "not, non-",
+    "structure_type": "独体",
+    "radical": "非",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "份",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "fèn",
+    "pinyin_plain": "fen",
+    "gloss_fr": "(classificateur pour portions)",
+    "gloss_en": "(measure word for portions)",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire",
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "服",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "fú",
+    "pinyin_plain": "fu",
+    "gloss_fr": "vêtement; servir",
+    "gloss_en": "clothes; to serve",
+    "structure_type": "左右",
+    "radical": "月",
+    "stroke_count": 8,
+    "themes": [
+      "vêtements"
+    ]
+  },
+  {
+    "hanzi": "该",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gāi",
+    "pinyin_plain": "gai",
+    "gloss_fr": "devoir",
+    "gloss_en": "should",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "干",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gān",
+    "pinyin_plain": "gan",
+    "gloss_fr": "sec; faire",
+    "gloss_en": "dry; to do",
+    "structure_type": "独体",
+    "radical": "干",
+    "stroke_count": 3,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "告",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gào",
+    "pinyin_plain": "gao",
+    "gloss_fr": "dire, informer",
+    "gloss_en": "to tell, to inform",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 7,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "各",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gè",
+    "pinyin_plain": "ge",
+    "gloss_fr": "chaque",
+    "gloss_en": "each",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "更",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gèng",
+    "pinyin_plain": "geng",
+    "gloss_fr": "encore plus",
+    "gloss_en": "even more",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "公",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gōng",
+    "pinyin_plain": "gong",
+    "gloss_fr": "public",
+    "gloss_en": "public",
+    "structure_type": "上下",
+    "radical": "八",
+    "stroke_count": 4,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "共",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "gòng",
+    "pinyin_plain": "gong",
+    "gloss_fr": "ensemble",
+    "gloss_en": "together, total",
+    "structure_type": "上下",
+    "radical": "八",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "广",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "guǎng",
+    "pinyin_plain": "guang",
+    "gloss_fr": "vaste",
+    "gloss_en": "vast, wide",
+    "structure_type": "半包围",
+    "radical": "广",
+    "stroke_count": 3,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "号",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "hào",
+    "pinyin_plain": "hao",
+    "gloss_fr": "numéro, date",
+    "gloss_en": "number, date",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 5,
+    "themes": [
+      "temps",
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "河",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "hé",
+    "pinyin_plain": "he",
+    "gloss_fr": "rivière",
+    "gloss_en": "river",
+    "structure_type": "左右",
+    "radical": "氵",
+    "stroke_count": 8,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "黑",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "hēi",
+    "pinyin_plain": "hei",
+    "gloss_fr": "noir",
+    "gloss_en": "black",
+    "structure_type": "上下",
+    "radical": "黑",
+    "stroke_count": 12,
+    "themes": [
+      "couleurs"
+    ]
+  },
+  {
+    "hanzi": "化",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "huà",
+    "pinyin_plain": "hua",
+    "gloss_fr": "changer, transformer",
+    "gloss_en": "to change, to transform",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 4,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "黄",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "huáng",
+    "pinyin_plain": "huang",
+    "gloss_fr": "jaune",
+    "gloss_en": "yellow",
+    "structure_type": "上下",
+    "radical": "黄",
+    "stroke_count": 11,
+    "themes": [
+      "couleurs"
+    ]
+  },
+  {
+    "hanzi": "己",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jǐ",
+    "pinyin_plain": "ji",
+    "gloss_fr": "soi-même",
+    "gloss_en": "self",
+    "structure_type": "独体",
+    "radical": "己",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "件",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jiàn",
+    "pinyin_plain": "jian",
+    "gloss_fr": "(classificateur objets, vêtements)",
+    "gloss_en": "(measure word for items, clothes)",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire",
+      "vêtements"
+    ]
+  },
+  {
+    "hanzi": "讲",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jiǎng",
+    "pinyin_plain": "jiang",
+    "gloss_fr": "parler, expliquer",
+    "gloss_en": "to speak, to explain",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 6,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "较",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jiào",
+    "pinyin_plain": "jiao",
+    "gloss_fr": "comparer, relativement",
+    "gloss_en": "relatively, to compare",
+    "structure_type": "左右",
+    "radical": "车",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "节",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jié",
+    "pinyin_plain": "jie",
+    "gloss_fr": "fête; (classificateur cours)",
+    "gloss_en": "festival; (measure word for classes)",
+    "structure_type": "上下",
+    "radical": "艹",
+    "stroke_count": 5,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "斤",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jīn",
+    "pinyin_plain": "jin",
+    "gloss_fr": "livre (500g)",
+    "gloss_en": "jin (unit of weight)",
+    "structure_type": "独体",
+    "radical": "斤",
+    "stroke_count": 4,
+    "themes": [
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "经",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jīng",
+    "pinyin_plain": "jing",
+    "gloss_fr": "passer par, gérer",
+    "gloss_en": "to pass through, to manage",
+    "structure_type": "左右",
+    "radical": "纟",
+    "stroke_count": 8,
+    "themes": [
+      "travail",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "久",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jiǔ",
+    "pinyin_plain": "jiu",
+    "gloss_fr": "longtemps",
+    "gloss_en": "long (time)",
+    "structure_type": "独体",
+    "radical": "丿",
+    "stroke_count": 3,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "旧",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "jiù",
+    "pinyin_plain": "jiu",
+    "gloss_fr": "vieux, ancien",
+    "gloss_en": "old, used",
+    "structure_type": "左右",
+    "radical": "日",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "刻",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "kè",
+    "pinyin_plain": "ke",
+    "gloss_fr": "quart d'heure; graver",
+    "gloss_en": "quarter hour; to carve",
+    "structure_type": "左右",
+    "radical": "刂",
+    "stroke_count": 8,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "离",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "lí",
+    "pinyin_plain": "li",
+    "gloss_fr": "s'éloigner de",
+    "gloss_en": "away from",
+    "structure_type": "上下",
+    "radical": "隹",
+    "stroke_count": 10,
+    "themes": [
+      "directions",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "连",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "lián",
+    "pinyin_plain": "lian",
+    "gloss_fr": "relier; même",
+    "gloss_en": "to connect; even",
+    "structure_type": "半包围",
+    "radical": "辶",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "凉",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "liáng",
+    "pinyin_plain": "liang",
+    "gloss_fr": "frais",
+    "gloss_en": "cool",
+    "structure_type": "左右",
+    "radical": "冫",
+    "stroke_count": 10,
+    "themes": [
+      "météo"
+    ]
+  },
+  {
+    "hanzi": "另",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "lìng",
+    "pinyin_plain": "ling",
+    "gloss_fr": "un autre",
+    "gloss_en": "another",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "楼",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "lóu",
+    "pinyin_plain": "lou",
+    "gloss_fr": "étage, immeuble",
+    "gloss_en": "floor, building",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 13,
+    "themes": [
+      "maison"
+    ]
+  },
+  {
+    "hanzi": "路",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "lù",
+    "pinyin_plain": "lu",
+    "gloss_fr": "route",
+    "gloss_en": "road",
+    "structure_type": "左右",
+    "radical": "足",
+    "stroke_count": 13,
+    "themes": [
+      "directions",
+      "transport"
+    ]
+  },
+  {
+    "hanzi": "马",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "mǎ",
+    "pinyin_plain": "ma",
+    "gloss_fr": "cheval",
+    "gloss_en": "horse",
+    "structure_type": "独体",
+    "radical": "马",
+    "stroke_count": 3,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "慢",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "màn",
+    "pinyin_plain": "man",
+    "gloss_fr": "lent",
+    "gloss_en": "slow",
+    "structure_type": "左右",
+    "radical": "忄",
+    "stroke_count": 14,
+    "themes": [
+      "temps",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "民",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "mín",
+    "pinyin_plain": "min",
+    "gloss_fr": "peuple",
+    "gloss_en": "people, citizen",
+    "structure_type": "独体",
+    "radical": "氏",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "脑",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "nǎo",
+    "pinyin_plain": "nao",
+    "gloss_fr": "cerveau",
+    "gloss_en": "brain",
+    "structure_type": "左右",
+    "radical": "月",
+    "stroke_count": 10,
+    "themes": [
+      "corps",
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "牛",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "niú",
+    "pinyin_plain": "niu",
+    "gloss_fr": "bœuf, vache",
+    "gloss_en": "cow, ox",
+    "structure_type": "独体",
+    "radical": "牛",
+    "stroke_count": 4,
+    "themes": [
+      "nature",
+      "nourriture"
+    ]
+  },
+  {
+    "hanzi": "农",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "nóng",
+    "pinyin_plain": "nong",
+    "gloss_fr": "agriculture",
+    "gloss_en": "agriculture",
+    "structure_type": "半包围",
+    "radical": "冖",
+    "stroke_count": 6,
+    "themes": [
+      "travail"
+    ]
+  },
+  {
+    "hanzi": "怕",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "pà",
+    "pinyin_plain": "pa",
+    "gloss_fr": "craindre",
+    "gloss_en": "to be afraid",
+    "structure_type": "左右",
+    "radical": "忄",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "平",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "píng",
+    "pinyin_plain": "ping",
+    "gloss_fr": "plat, calme",
+    "gloss_en": "flat, calm",
+    "structure_type": "独体",
+    "radical": "干",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "其",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "qí",
+    "pinyin_plain": "qi",
+    "gloss_fr": "son, sa (littéraire)",
+    "gloss_en": "its, his, her (literary)",
+    "structure_type": "独体",
+    "radical": "八",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "起",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "qǐ",
+    "pinyin_plain": "qi",
+    "gloss_fr": "se lever",
+    "gloss_en": "to rise, to get up",
+    "structure_type": "半包围",
+    "radical": "走",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "千",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "qiān",
+    "pinyin_plain": "qian",
+    "gloss_fr": "mille",
+    "gloss_en": "thousand",
+    "structure_type": "独体",
+    "radical": "十",
+    "stroke_count": 3,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "轻",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "qīng",
+    "pinyin_plain": "qing",
+    "gloss_fr": "léger",
+    "gloss_en": "light (weight)",
+    "structure_type": "左右",
+    "radical": "车",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "区",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "qū",
+    "pinyin_plain": "qu",
+    "gloss_fr": "zone, quartier",
+    "gloss_en": "district, zone",
+    "structure_type": "半包围",
+    "radical": "匚",
+    "stroke_count": 4,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "然",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "rán",
+    "pinyin_plain": "ran",
+    "gloss_fr": "ainsi",
+    "gloss_en": "so, thus",
+    "structure_type": "上下",
+    "radical": "灬",
+    "stroke_count": 12,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "让",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "ràng",
+    "pinyin_plain": "rang",
+    "gloss_fr": "laisser, permettre",
+    "gloss_en": "to let, to allow",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "身",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "shēn",
+    "pinyin_plain": "shen",
+    "gloss_fr": "corps",
+    "gloss_en": "body",
+    "structure_type": "独体",
+    "radical": "身",
+    "stroke_count": 7,
+    "themes": [
+      "corps",
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "实",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "shí",
+    "pinyin_plain": "shi",
+    "gloss_fr": "réel, véritable",
+    "gloss_en": "real, true",
+    "structure_type": "上下",
+    "radical": "宀",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "始",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "shǐ",
+    "pinyin_plain": "shi",
+    "gloss_fr": "commencer",
+    "gloss_en": "to begin",
+    "structure_type": "左右",
+    "radical": "女",
+    "stroke_count": 8,
+    "themes": [
+      "temps",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "市",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "shì",
+    "pinyin_plain": "shi",
+    "gloss_fr": "ville, marché",
+    "gloss_en": "city, market",
+    "structure_type": "上下",
+    "radical": "巾",
+    "stroke_count": 5,
+    "themes": [
+      "directions",
+      "argent"
+    ]
+  },
+  {
+    "hanzi": "事",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "shì",
+    "pinyin_plain": "shi",
+    "gloss_fr": "affaire, chose",
+    "gloss_en": "matter, affair",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 8,
+    "themes": [
+      "travail",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "诉",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "sù",
+    "pinyin_plain": "su",
+    "gloss_fr": "raconter",
+    "gloss_en": "to tell",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 7,
+    "themes": [
+      "communication"
+    ]
+  },
+  {
+    "hanzi": "虽",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "suī",
+    "pinyin_plain": "sui",
+    "gloss_fr": "bien que",
+    "gloss_en": "although",
+    "structure_type": "上下",
+    "radical": "虫",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "所",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "suǒ",
+    "pinyin_plain": "suo",
+    "gloss_fr": "lieu; donc",
+    "gloss_en": "place; therefore",
+    "structure_type": "左右",
+    "radical": "户",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "它",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "tā",
+    "pinyin_plain": "ta",
+    "gloss_fr": "il, elle (chose)",
+    "gloss_en": "it",
+    "structure_type": "上下",
+    "radical": "宀",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "体",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "tǐ",
+    "pinyin_plain": "ti",
+    "gloss_fr": "corps",
+    "gloss_en": "body",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "corps",
+      "sport"
+    ]
+  },
+  {
+    "hanzi": "条",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "tiáo",
+    "pinyin_plain": "tiao",
+    "gloss_fr": "(classificateur objets longs)",
+    "gloss_en": "(measure word for long objects)",
+    "structure_type": "上下",
+    "radical": "夂",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "头",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "tóu",
+    "pinyin_plain": "tou",
+    "gloss_fr": "tête",
+    "gloss_en": "head",
+    "structure_type": "独体",
+    "radical": "大",
+    "stroke_count": 5,
+    "themes": [
+      "corps"
+    ]
+  },
+  {
+    "hanzi": "万",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "wàn",
+    "pinyin_plain": "wan",
+    "gloss_fr": "dix mille",
+    "gloss_en": "ten thousand",
+    "structure_type": "独体",
+    "radical": "一",
+    "stroke_count": 3,
+    "themes": [
+      "nombres"
+    ]
+  },
+  {
+    "hanzi": "位",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "wèi",
+    "pinyin_plain": "wei",
+    "gloss_fr": "(classificateur personnes, poli)",
+    "gloss_en": "(polite measure word for people)",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "物",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "wù",
+    "pinyin_plain": "wu",
+    "gloss_fr": "chose, objet",
+    "gloss_en": "thing, object",
+    "structure_type": "左右",
+    "radical": "牛",
+    "stroke_count": 8,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "向",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "xiàng",
+    "pinyin_plain": "xiang",
+    "gloss_fr": "vers, direction",
+    "gloss_en": "towards, direction",
+    "structure_type": "上下",
+    "radical": "口",
+    "stroke_count": 6,
+    "themes": [
+      "directions"
+    ]
+  },
+  {
+    "hanzi": "笑",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "xiào",
+    "pinyin_plain": "xiao",
+    "gloss_fr": "rire, sourire",
+    "gloss_en": "to laugh, to smile",
+    "structure_type": "上下",
+    "radical": "竹",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "校",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "xiào",
+    "pinyin_plain": "xiao",
+    "gloss_fr": "école",
+    "gloss_en": "school",
+    "structure_type": "左右",
+    "radical": "木",
+    "stroke_count": 10,
+    "themes": [
+      "études"
+    ]
+  },
+  {
+    "hanzi": "行",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "xíng",
+    "pinyin_plain": "xing",
+    "gloss_fr": "aller; ça va",
+    "gloss_en": "to go; OK, all right",
+    "structure_type": "左右",
+    "radical": "行",
+    "stroke_count": 6,
+    "themes": [
+      "transport",
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "许",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "xǔ",
+    "pinyin_plain": "xu",
+    "gloss_fr": "permettre; peut-être",
+    "gloss_en": "to allow; perhaps",
+    "structure_type": "左右",
+    "radical": "讠",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "羊",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yáng",
+    "pinyin_plain": "yang",
+    "gloss_fr": "mouton",
+    "gloss_en": "sheep",
+    "structure_type": "独体",
+    "radical": "羊",
+    "stroke_count": 6,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "衣",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yī",
+    "pinyin_plain": "yi",
+    "gloss_fr": "vêtement",
+    "gloss_en": "clothing",
+    "structure_type": "独体",
+    "radical": "衣",
+    "stroke_count": 6,
+    "themes": [
+      "vêtements"
+    ]
+  },
+  {
+    "hanzi": "医",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yī",
+    "pinyin_plain": "yi",
+    "gloss_fr": "médecine",
+    "gloss_en": "medicine",
+    "structure_type": "半包围",
+    "radical": "匚",
+    "stroke_count": 7,
+    "themes": [
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "已",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yǐ",
+    "pinyin_plain": "yi",
+    "gloss_fr": "déjà",
+    "gloss_en": "already",
+    "structure_type": "独体",
+    "radical": "己",
+    "stroke_count": 3,
+    "themes": [
+      "grammaire",
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "应",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yīng",
+    "pinyin_plain": "ying",
+    "gloss_fr": "devoir; répondre",
+    "gloss_en": "should; to respond",
+    "structure_type": "半包围",
+    "radical": "广",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "园",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yuán",
+    "pinyin_plain": "yuan",
+    "gloss_fr": "jardin",
+    "gloss_en": "garden",
+    "structure_type": "全包围",
+    "radical": "囗",
+    "stroke_count": 7,
+    "themes": [
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "院",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yuàn",
+    "pinyin_plain": "yuan",
+    "gloss_fr": "cour, institution",
+    "gloss_en": "courtyard, institution",
+    "structure_type": "左右",
+    "radical": "阝",
+    "stroke_count": 9,
+    "themes": [
+      "maison",
+      "santé"
+    ]
+  },
+  {
+    "hanzi": "越",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "yuè",
+    "pinyin_plain": "yue",
+    "gloss_fr": "dépasser, de plus en plus",
+    "gloss_en": "to exceed, increasingly",
+    "structure_type": "半包围",
+    "radical": "走",
+    "stroke_count": 12,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "找",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhǎo",
+    "pinyin_plain": "zhao",
+    "gloss_fr": "chercher",
+    "gloss_en": "to look for",
+    "structure_type": "左右",
+    "radical": "扌",
+    "stroke_count": 7,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "着",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhe",
+    "pinyin_plain": "zhe",
+    "gloss_fr": "(particule d'aspect duratif)",
+    "gloss_en": "(durative aspect particle)",
+    "structure_type": "上下",
+    "radical": "目",
+    "stroke_count": 11,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "真",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhēn",
+    "pinyin_plain": "zhen",
+    "gloss_fr": "vrai",
+    "gloss_en": "real, true",
+    "structure_type": "独体",
+    "radical": "目",
+    "stroke_count": 10,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "正",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhèng",
+    "pinyin_plain": "zheng",
+    "gloss_fr": "juste, en train de",
+    "gloss_en": "just, right; in the process of",
+    "structure_type": "独体",
+    "radical": "止",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire",
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "钟",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhōng",
+    "pinyin_plain": "zhong",
+    "gloss_fr": "horloge, cloche",
+    "gloss_en": "clock, bell",
+    "structure_type": "左右",
+    "radical": "钅",
+    "stroke_count": 9,
+    "themes": [
+      "temps"
+    ]
+  },
+  {
+    "hanzi": "种",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhǒng",
+    "pinyin_plain": "zhong",
+    "gloss_fr": "sorte, type",
+    "gloss_en": "kind, type",
+    "structure_type": "左右",
+    "radical": "禾",
+    "stroke_count": 9,
+    "themes": [
+      "grammaire",
+      "nature"
+    ]
+  },
+  {
+    "hanzi": "主",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zhǔ",
+    "pinyin_plain": "zhu",
+    "gloss_fr": "principal, maître",
+    "gloss_en": "main, host",
+    "structure_type": "独体",
+    "radical": "丶",
+    "stroke_count": 5,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "自",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zì",
+    "pinyin_plain": "zi",
+    "gloss_fr": "soi-même",
+    "gloss_en": "self",
+    "structure_type": "独体",
+    "radical": "自",
+    "stroke_count": 6,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "最",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zuì",
+    "pinyin_plain": "zui",
+    "gloss_fr": "le plus",
+    "gloss_en": "most",
+    "structure_type": "上下",
+    "radical": "曰",
+    "stroke_count": 12,
+    "themes": [
+      "grammaire"
+    ]
+  },
+  {
+    "hanzi": "做",
+    "intro_tier": "B1",
+    "in_A1_list": false,
+    "in_A2_list": false,
+    "in_B1_list": true,
+    "new_at_B1": true,
+    "gap_char": false,
+    "pinyin_marked": "zuò",
+    "pinyin_plain": "zuo",
+    "gloss_fr": "faire",
+    "gloss_en": "to do, to make",
+    "structure_type": "左右",
+    "radical": "亻",
+    "stroke_count": 11,
+    "themes": [
+      "grammaire",
+      "travail"
+    ]
+  }
+]
