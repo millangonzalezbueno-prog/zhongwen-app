@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Rating } from '../lib/srs';
+import HanziWriter from 'hanzi-writer';
 
-export default function ReviewCard({ item, onRate }) {
+export default function ReviewCard({ item, onRate, onCharClick }) {
   const [revealed, setRevealed] = useState(false);
   const { source, direction } = item;
 
@@ -31,6 +32,7 @@ export default function ReviewCard({ item, onRate }) {
           glossFr={glossFr}
           glossEn={glossEn}
           revealed={revealed}
+          onCharClick={onCharClick}
         />
       )}
 
@@ -41,6 +43,7 @@ export default function ReviewCard({ item, onRate }) {
           glossFr={glossFr}
           glossEn={glossEn}
           revealed={revealed}
+          onCharClick={onCharClick}
         />
       )}
 
@@ -51,6 +54,7 @@ export default function ReviewCard({ item, onRate }) {
           glossFr={glossFr}
           glossEn={glossEn}
           revealed={revealed}
+          onCharClick={onCharClick}
         />
       )}
 
@@ -73,10 +77,61 @@ export default function ReviewCard({ item, onRate }) {
   );
 }
 
-function RecognitionCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
+function StrokePreview({ character }) {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    if (!ref.current) return;
+    ref.current.innerHTML = '';
+    try {
+      const w = HanziWriter.create(ref.current, character, {
+        width: 120,
+        height: 120,
+        padding: 5,
+        strokeColor: '#2563eb',
+        outlineColor: '#dbeafe',
+        showOutline: true,
+        delayBetweenStrokes: 200,
+      });
+      w.animateCharacter();
+    } catch { /* character not supported by hanzi-writer */ }
+    return () => { if (ref.current) ref.current.innerHTML = ''; };
+  }, [character]);
+
+  return (
+    <div className="bg-accent/5 rounded-xl p-3 border border-accent/10 inline-block">
+      <div ref={ref} />
+    </div>
+  );
+}
+
+function ClickableHanzi({ hanzi, onCharClick, className = '' }) {
+  if (!onCharClick) {
+    return <span className={className}>{hanzi}</span>;
+  }
+  return (
+    <span className={className}>
+      {[...hanzi].map((ch, i) => (
+        <button key={i} onClick={() => onCharClick(ch)}
+          className="hover:text-accent transition-colors cursor-pointer">
+          {ch}
+        </button>
+      ))}
+    </span>
+  );
+}
+
+function RecognitionCard({ hanzi, pinyin, glossFr, glossEn, revealed, onCharClick }) {
   return (
     <div className="text-center">
-      <p className="text-7xl mb-2 hanzi-display font-medium">{hanzi}</p>
+      {hanzi.length === 1 ? (
+        <div className="flex flex-col items-center mb-2">
+          <StrokePreview character={hanzi} />
+        </div>
+      ) : (
+        <ClickableHanzi hanzi={hanzi} onCharClick={onCharClick}
+          className="text-7xl hanzi-display font-medium block mb-2" />
+      )}
       {revealed && (
         <div className="mt-6 space-y-2 animate-fadeIn">
           <p className="text-xl text-accent font-medium">{pinyin}</p>
@@ -88,7 +143,7 @@ function RecognitionCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
   );
 }
 
-function ProductionCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
+function ProductionCard({ hanzi, pinyin, glossFr, glossEn, revealed, onCharClick }) {
   return (
     <div className="text-center">
       <p className="text-xl text-accent font-medium mb-1">{pinyin}</p>
@@ -96,14 +151,21 @@ function ProductionCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
       {glossEn && <p className="text-sm text-muted mb-2">{glossEn}</p>}
       {revealed && (
         <div className="mt-6 animate-fadeIn">
-          <p className="text-7xl hanzi-display font-medium">{hanzi}</p>
+          {hanzi.length === 1 ? (
+            <div className="flex flex-col items-center">
+              <StrokePreview character={hanzi} />
+            </div>
+          ) : (
+            <ClickableHanzi hanzi={hanzi} onCharClick={onCharClick}
+              className="text-7xl hanzi-display font-medium block" />
+          )}
         </div>
       )}
     </div>
   );
 }
 
-function DictationCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
+function DictationCard({ hanzi, pinyin, glossFr, glossEn, revealed, onCharClick }) {
   const speak = () => {
     const utterance = new SpeechSynthesisUtterance(hanzi);
     utterance.lang = 'zh-CN';
@@ -122,7 +184,14 @@ function DictationCard({ hanzi, pinyin, glossFr, glossEn, revealed }) {
       <p className="text-sm text-muted mb-2">Écoutez et devinez le caractère</p>
       {revealed && (
         <div className="mt-6 space-y-2 animate-fadeIn">
-          <p className="text-7xl hanzi-display font-medium">{hanzi}</p>
+          {hanzi.length === 1 ? (
+            <div className="flex flex-col items-center mb-2">
+              <StrokePreview character={hanzi} />
+            </div>
+          ) : (
+            <ClickableHanzi hanzi={hanzi} onCharClick={onCharClick}
+              className="text-7xl hanzi-display font-medium block" />
+          )}
           <p className="text-xl text-accent font-medium">{pinyin}</p>
           <p className="text-lg">{glossFr}</p>
         </div>

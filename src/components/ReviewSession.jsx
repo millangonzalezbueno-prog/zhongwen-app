@@ -12,7 +12,7 @@ function shuffle(arr) {
   return a;
 }
 
-export default function ReviewSession({ data, filters, mode = 'review' }) {
+export default function ReviewSession({ data, filters, mode = 'review', onCharClick }) {
   const [queue, setQueue] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sessionStats, setSessionStats] = useState({ reviewed: 0, correct: 0 });
@@ -117,7 +117,7 @@ export default function ReviewSession({ data, filters, mode = 'review' }) {
           style={{ width: `${(currentIndex / queue.length) * 100}%` }} />
       </div>
 
-      <ReviewCard key={current.cardId} item={current} onRate={handleRating} />
+      <ReviewCard key={current.cardId} item={current} onRate={handleRating} onCharClick={onCharClick} />
     </div>
   );
 }

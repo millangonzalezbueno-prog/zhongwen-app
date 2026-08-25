@@ -24,6 +24,12 @@ function App() {
   });
   const [popupChar, setPopupChar] = useState(null);
 
+  const handleCharClick = (ch) => {
+    if (!data) return;
+    const found = data.characters.find(c => c.hanzi === ch);
+    if (found) setPopupChar(found);
+  };
+
   useEffect(() => {
     Promise.all([loadCharacters(), loadVocab(), loadGrammar()])
       .then(([characters, vocab, grammar]) => {
@@ -86,13 +92,13 @@ function App() {
         {studyMode === 'review' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
-            <ReviewSession data={data} filters={filters} mode="review" />
+            <ReviewSession data={data} filters={filters} mode="review" onCharClick={handleCharClick} />
           </div>
         )}
         {studyMode === 'b1study' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
-            <ReviewSession data={data} filters={filters} mode="b1study" />
+            <ReviewSession data={data} filters={filters} mode="b1study" onCharClick={handleCharClick} />
           </div>
         )}
         {studyMode === 'exercises' && (
@@ -104,10 +110,7 @@ function App() {
         {studyMode === 'strokes' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
-            <StrokePractice data={data} onCharClick={(ch) => {
-              const found = data.characters.find(c => c.hanzi === ch);
-              if (found) setPopupChar(found);
-            }} />
+            <StrokePractice data={data} onCharClick={handleCharClick} />
           </div>
         )}
         {!studyMode && tab === 'home' && (
@@ -116,10 +119,7 @@ function App() {
             onSelectMode={setStudyMode}
           />
         )}
-        {!studyMode && tab === 'browse' && <BrowseView data={data} onCharClick={(ch) => {
-          const found = data.characters.find(c => c.hanzi === ch);
-          if (found) setPopupChar(found);
-        }} />}
+        {!studyMode && tab === 'browse' && <BrowseView data={data} onCharClick={handleCharClick} />}
         {!studyMode && tab === 'dashboard' && <Dashboard data={data} />}
       </main>
 
