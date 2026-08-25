@@ -2,9 +2,11 @@ let _characters = null;
 let _vocab = null;
 let _grammar = null;
 
+const base = import.meta.env.BASE_URL;
+
 export async function loadCharacters() {
   if (!_characters) {
-    const res = await fetch('/data/characters.json');
+    const res = await fetch(`${base}data/characters.json`);
     _characters = await res.json();
   }
   return _characters;
@@ -12,7 +14,7 @@ export async function loadCharacters() {
 
 export async function loadVocab() {
   if (!_vocab) {
-    const res = await fetch('/data/vocab.json');
+    const res = await fetch(`${base}data/vocab.json`);
     _vocab = await res.json();
   }
   return _vocab;
@@ -20,7 +22,7 @@ export async function loadVocab() {
 
 export async function loadGrammar() {
   if (!_grammar) {
-    const res = await fetch('/data/grammar.json');
+    const res = await fetch(`${base}data/grammar.json`);
     _grammar = await res.json();
   }
   return _grammar;
