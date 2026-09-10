@@ -26,39 +26,48 @@
       { "word": "外", "pinyin": "wài", "gloss_fr": "extérieur ; dehors", "hsk": 2, "forms": "外面/外边", "example": "外面下雨了。" },
       { "word": "上", "pinyin": "shàng", "gloss_fr": "au-dessus ; monter ; aller à", "hsk": 1, "forms": "上面/上边", "example": "桌子上面有一本书。" },
       { "word": "下", "pinyin": "xià", "gloss_fr": "sous ; au-dessous ; descendre", "hsk": 1, "forms": "下面/下边", "example": "桌子下面有一本书。" },
-      { "word": "旁边", "pinyin": "pángbiān", "gloss_fr": "côté ; bord ; à côté de", "hsk": 2, "example": "学校旁边有一个超市。" },
-      { "word": "中间", "pinyin": "zhōngjiān", "gloss_fr": "au centre ; au milieu ; entre", "hsk": 3, "example": "我站在中间，旁边的人是我的同学。" },
-      { "word": "附近", "pinyin": "fùjìn", "gloss_fr": "proche ; à proximité de", "hsk": 3, "example": "我家附近有一个公园。" },
+      { "word": "旁边", "pinyin": "pángbiān", "gloss_fr": "à côté de, juste à côté", "hsk": 2, "example": "学校旁边有一个超市。" },
+      { "word": "中间", "pinyin": "zhōngjiān", "gloss_fr": "au milieu, entre (deux choses)", "hsk": 3, "example": "我站在中间，旁边的人是我的同学。" },
+      { "word": "附近", "pinyin": "fùjìn", "gloss_fr": "dans les environs, à proximité", "hsk": 3, "example": "我家附近有一个公园。" },
       { "word": "东", "pinyin": "dōng", "gloss_fr": "est", "hsk": 3, "example": "学校东边有一个花园。" },
       { "word": "南", "pinyin": "nán", "gloss_fr": "sud", "hsk": 3, "example": "他住在北京的南边。" },
       { "word": "西", "pinyin": "xī", "gloss_fr": "ouest", "hsk": 3, "example": "医院在学校的西边。" },
       { "word": "北", "pinyin": "běi", "gloss_fr": "nord", "hsk": 3, "example": "我家北边有一条河。" },
       { "word": "对面", "pinyin": "duìmiàn", "gloss_fr": "en face de", "hsk": 3, "example": "学校对面有好几个地铁站。" },
-      { "word": "政治", "pinyin": "zhèngzhì", "gloss_fr": "la politique ; affaires politiques", "hsk": 3 },
-      { "word": "学院", "pinyin": "xuéyuàn", "gloss_fr": "institut ; faculté", "hsk": 3 },
-      { "word": "市", "pinyin": "shì", "gloss_fr": "ville", "hsk": 3 },
-      { "word": "图书馆", "pinyin": "túshūguǎn", "gloss_fr": "bibliothèque", "hsk": 2 },
-      { "word": "方便", "pinyin": "fāngbiàn", "gloss_fr": "commode ; pratique", "hsk": 2 },
-      { "word": "电影院", "pinyin": "diànyǐngyuàn", "gloss_fr": "cinéma", "hsk": 2 },
-      { "word": "超市", "pinyin": "chāoshì", "gloss_fr": "supermarché", "hsk": 2 },
-      { "word": "商店", "pinyin": "shāngdiàn", "gloss_fr": "magasin ; boutique", "hsk": 2 },
-      { "word": "饭馆", "pinyin": "fànguǎn", "gloss_fr": "restaurant", "hsk": 2 },
-      { "word": "城市", "pinyin": "chéngshì", "gloss_fr": "ville", "hsk": 3 },
-      { "word": "高速", "pinyin": "gāosù", "gloss_fr": "grande vitesse", "hsk": 3 },
-      { "word": "快线", "pinyin": "kuàixiàn", "gloss_fr": "ligne rapide", "hsk": 3 },
-      { "word": "宿舍", "pinyin": "sùshè", "gloss_fr": "dortoir ; habitation", "hsk": 3 },
-      { "word": "房间", "pinyin": "fángjiān", "gloss_fr": "chambre ; pièce", "hsk": 2 },
-      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable ; à l'aise", "hsk": 2 },
+      { "word": "政治", "pinyin": "zhèngzhì", "gloss_fr": "politique (n.f.) — 政 gouvernement + 治 gérer", "hsk": 3 },
+      { "word": "学院", "pinyin": "xuéyuàn", "gloss_fr": "institut, grande école — 学 étude + 院 établissement", "hsk": 3 },
+      { "word": "市中心", "pinyin": "shì zhōngxīn", "gloss_fr": "centre-ville — 市 ville + 中心 centre", "hsk": 3 },
+      { "word": "校园", "pinyin": "xiàoyuán", "gloss_fr": "campus — 校 école + 园 jardin, enceinte", "hsk": 3 },
+      { "word": "图书馆", "pinyin": "túshūguǎn", "gloss_fr": "bibliothèque — 图书 livres + 馆 bâtiment public", "hsk": 2 },
+      { "word": "方便", "pinyin": "fāngbiàn", "gloss_fr": "pratique, commode (ex. c'est pratique d'y aller en métro)", "hsk": 2 },
+      { "word": "电影院", "pinyin": "diànyǐngyuàn", "gloss_fr": "cinéma — 电影 film + 院 salle", "hsk": 2 },
+      { "word": "超市", "pinyin": "chāoshì", "gloss_fr": "supermarché — abrév. de 超级市场", "hsk": 2 },
+      { "word": "商店", "pinyin": "shāngdiàn", "gloss_fr": "magasin, boutique — 商 commerce + 店 échoppe", "hsk": 2 },
+      { "word": "饭馆", "pinyin": "fànguǎn", "gloss_fr": "restaurant (petit) — 饭 repas + 馆 établissement", "hsk": 2 },
+      { "word": "咖啡馆", "pinyin": "kāfēiguǎn", "gloss_fr": "café (lieu) — 咖啡 café + 馆 établissement", "hsk": 3 },
+      { "word": "城市", "pinyin": "chéngshì", "gloss_fr": "grande ville — 城 muraille + 市 marché/cité", "hsk": 3 },
+      { "word": "高速", "pinyin": "gāosù", "gloss_fr": "grande vitesse (→ 高速火车 = TGV)", "hsk": 3 },
+      { "word": "火车站", "pinyin": "huǒchēzhàn", "gloss_fr": "gare — 火车 train + 站 station", "hsk": 2 },
+      { "word": "快线", "pinyin": "kuàixiàn", "gloss_fr": "RER, ligne express — 快 rapide + 线 ligne", "hsk": 3 },
+      { "word": "地铁", "pinyin": "dìtiě", "gloss_fr": "métro — 地 sol + 铁 fer", "hsk": 2 },
+      { "word": "公共汽车", "pinyin": "gōnggòng qìchē", "gloss_fr": "bus — 公共 public + 汽车 voiture", "hsk": 2 },
+      { "word": "宿舍", "pinyin": "sùshè", "gloss_fr": "résidence universitaire, dortoir", "hsk": 3 },
+      { "word": "房间", "pinyin": "fángjiān", "gloss_fr": "chambre, pièce — 房 logement + 间 espace", "hsk": 2 },
+      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable, à l'aise (pour un lieu ou un état)", "hsk": 2 },
       { "word": "床", "pinyin": "chuáng", "gloss_fr": "lit", "hsk": 2 },
-      { "word": "桌子", "pinyin": "zhuōzi", "gloss_fr": "table ; bureau", "hsk": 1 },
-      { "word": "书架", "pinyin": "shūjià", "gloss_fr": "étagère ; bibliothèque (meuble)", "hsk": 3 },
-      { "word": "地方", "pinyin": "dìfang", "gloss_fr": "endroit ; lieu", "hsk": 2 },
-      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité", "hsk": 3 },
-      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "les sports", "hsk": 3 },
-      { "word": "戏剧", "pinyin": "xìjù", "gloss_fr": "théâtre", "hsk": 3 },
-      { "word": "用", "pinyin": "yòng", "gloss_fr": "utiliser ; avoir besoin de", "hsk": 2 },
-      { "word": "张", "pinyin": "zhāng", "gloss_fr": "classificateur : objet plat (table, lit, photo)", "hsk": 2, "type": "classificateur" },
-      { "word": "把", "pinyin": "bǎ", "gloss_fr": "classificateur : objet à manche (chaise, parapluie)", "hsk": 3, "type": "classificateur" }
+      { "word": "桌子", "pinyin": "zhuōzi", "gloss_fr": "table, bureau", "hsk": 1 },
+      { "word": "书架", "pinyin": "shūjià", "gloss_fr": "étagère à livres — 书 livre + 架 support", "hsk": 3 },
+      { "word": "地方", "pinyin": "dìfang", "gloss_fr": "endroit, lieu (ex. 做饭的地方 = coin cuisine)", "hsk": 2 },
+      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité (associative, sportive)", "hsk": 3 },
+      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "sport, EPS — 体 corps + 育 éducation", "hsk": 3 },
+      { "word": "戏剧", "pinyin": "xìjù", "gloss_fr": "théâtre (art dramatique) — 戏 jeu + 剧 pièce", "hsk": 3 },
+      { "word": "小说", "pinyin": "xiǎoshuō", "gloss_fr": "roman, fiction — 小 petit + 说 récit", "hsk": 3 },
+      { "word": "年轻人", "pinyin": "niánqīngrén", "gloss_fr": "jeune (personne) — 年轻 jeune + 人 personne", "hsk": 3 },
+      { "word": "老年人", "pinyin": "lǎoniánrén", "gloss_fr": "personne âgée — 老年 vieillesse + 人 personne", "hsk": 3 },
+      { "word": "用", "pinyin": "yòng", "gloss_fr": "utiliser ; avoir besoin de (不用 = pas besoin)", "hsk": 2 },
+      { "word": "张", "pinyin": "zhāng", "gloss_fr": "classif. objet plat (table, lit, billet, photo)", "hsk": 2, "type": "classificateur" },
+      { "word": "把", "pinyin": "bǎ", "gloss_fr": "classif. objet qu'on saisit (chaise, parapluie, clé)", "hsk": 3, "type": "classificateur" },
+      { "word": "节", "pinyin": "jié", "gloss_fr": "classif. cours, période (一节课 = un cours)", "hsk": 3, "type": "classificateur" }
     ],
     "grammar": [
       {
@@ -90,6 +99,45 @@
         "explanation_fr": "De A à B — indique un trajet ou une distance entre deux points.",
         "examples": [
           { "zh": "从卢森堡公园到蒙帕纳斯火车站很近。", "pinyin": "Cóng Lúsēnbǎo gōngyuán dào Méngpànàsī huǒchēzhàn hěn jìn.", "fr": "Du jardin du Luxembourg à la gare Montparnasse, c'est très proche." }
+        ]
+      },
+      {
+        "pattern": "V + 过 / 没(有) + V + 过 (aspect expérientiel)",
+        "explanation_fr": "过 après un verbe exprime une expérience vécue dans un passé indéterminé : « avoir déjà fait qqch (au moins une fois) ». La forme négative 没(有)+V+过 signifie « ne jamais avoir fait ». La question se forme avec 吗 : S + V + 过 + CO + 吗？",
+        "examples": [
+          { "zh": "我去过中国。", "pinyin": "Wǒ qù guo Zhōngguó.", "fr": "Je suis déjà allé(e) en Chine." },
+          { "zh": "你吃过臭豆腐吗？", "pinyin": "Nǐ chī guo chòu dòufu ma?", "fr": "Tu as déjà mangé du tofu puant ?" },
+          { "zh": "我没吃过臭豆腐。", "pinyin": "Wǒ méi chī guo chòu dòufu.", "fr": "Je n'ai jamais mangé de tofu puant." },
+          { "zh": "他学过两百个汉字。", "pinyin": "Tā xué guo liǎng bǎi gè hànzì.", "fr": "Il a (déjà) appris 200 caractères chinois." }
+        ]
+      },
+      {
+        "pattern": "S + V + 了₁ + CO (action accomplie)",
+        "explanation_fr": "了₁ se place juste après le verbe pour indiquer qu'une action est accomplie. La négation utilise 没(有) et 了 disparaît. Attention : les verbes d'état (是, 在, 想, 能, 可以, 会, 要) ne prennent pas 了₁. Dans une suite de verbes (aller + V, venir + V), seul le dernier verbe prend 了₁.",
+        "examples": [
+          { "zh": "他看了这个电影。", "pinyin": "Tā kàn le zhège diànyǐng.", "fr": "Il a vu ce film." },
+          { "zh": "我昨天买了两条鱼。", "pinyin": "Wǒ zuótiān mǎi le liǎng tiáo yú.", "fr": "Hier, j'ai acheté deux poissons." },
+          { "zh": "他没看这个电影。", "pinyin": "Tā méi kàn zhège diànyǐng.", "fr": "Il n'a pas vu ce film." },
+          { "zh": "我昨天去买了两条鱼。", "pinyin": "Wǒ zuótiān qù mǎi le liǎng tiáo yú.", "fr": "Hier, je suis allé acheter deux poissons. (了 sur le dernier verbe)" }
+        ]
+      },
+      {
+        "pattern": "S + V/Adj + 了₂ (changement de situation)",
+        "explanation_fr": "了₂ en fin de phrase indique un changement d'état ou une situation nouvelle : « maintenant c'est le cas ». Avec la négation 不…了₂, il exprime « ne plus » (changement par rapport à avant).",
+        "examples": [
+          { "zh": "草黄了。", "pinyin": "Cǎo huáng le.", "fr": "L'herbe a jauni. (elle est devenue jaune)" },
+          { "zh": "你们懂了吗？", "pinyin": "Nǐmen dǒng le ma?", "fr": "Vous avez compris ? (maintenant)" },
+          { "zh": "我不爱你了。", "pinyin": "Wǒ bú ài nǐ le.", "fr": "Je ne t'aime plus." },
+          { "zh": "他不想去了。", "pinyin": "Tā bù xiǎng qù le.", "fr": "Il ne veut plus y aller." }
+        ]
+      },
+      {
+        "pattern": "V + 着 (état continu / action en cours)",
+        "explanation_fr": "着 se place après un verbe pour indiquer un état qui dure ou une action en cours. Il décrit la manière dont quelque chose se maintient (porte ouverte, personne assise, vêtement porté). La négation utilise 没(有)…着.",
+        "examples": [
+          { "zh": "门开着。", "pinyin": "Mén kāi zhe.", "fr": "La porte est ouverte. (elle reste ouverte)" },
+          { "zh": "他穿着一件红色的衣服。", "pinyin": "Tā chuān zhe yī jiàn hóngsè de yīfu.", "fr": "Il porte un vêtement rouge. (en ce moment)" },
+          { "zh": "墙上挂着一幅画。", "pinyin": "Qiáng shàng guà zhe yī fú huà.", "fr": "Un tableau est accroché au mur." }
         ]
       }
     ]
