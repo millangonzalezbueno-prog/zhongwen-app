@@ -1,0 +1,97 @@
+[
+  {
+    "id": "L01",
+    "week": 1,
+    "title": "巴黎政治学院",
+    "title_fr": "Sciences Po Paris",
+    "theme": "位置 — Les locatifs",
+    "date": "2026-09-08",
+    "reading": {
+      "title": "巴黎政治学院",
+      "paragraphs": [
+        "巴黎政治学院在巴黎市中心，校园不太大，可是很漂亮。校园里有一个可爱的小公园，夏天，经常有人在那儿吃饭，喝咖啡，晒太阳。",
+        "巴黎政治学院的生活很方便。学校左边是有名的塞纳河，学生们很喜欢去那儿看书，散步；学校右边有一个很大的书店，很多学生去这个书店买书。书店前面是巴黎政治学院的图书馆，里面有很多很古老的书。图书馆里有很多小说，有法文的，英文的，还有中文的，都很有意思。学校后面有一个商店，商店早上九点开门，晚上八点关门。商店里有很多东西，都不太贵。学校附近还有很多电影院，咖啡馆，超市和饭馆。学校旁边有一个中国饭馆儿，那里的面条很好吃，可是不便宜。",
+        "巴黎政治学院离有名的卢森堡公园也不远。早上，公园里有很多年轻人跑步，下午有很多老年人散步，聊天。附近学校的学生常去那儿聚会。从卢森堡公园到蒙帕纳斯火车站很近，只要走五分钟。那里有去法国很多大城市的高速火车。",
+        "巴黎政治学院对面有好几个地铁和公共汽车站，还有一个快线地铁站。学院的很多学生坐地铁或者公共汽车来上课，很方便，不用开车来学校。",
+        "巴黎政治学院的很多学生住宿舍。宿舍的房间不太大，可是很舒服。房间里有一张床，两张桌子，几把椅子和一个书架。房间里还有做饭的地方。",
+        "巴黎政治学院的生活也很有意思。学校有很多活动：体育，音乐，戏剧...什么都有。学生们的课不太多，每个星期差不多24节课，可是只有两节汉语课，我最喜欢上汉语课了！"
+      ]
+    },
+    "vocab": [
+      { "word": "左", "pinyin": "zuǒ", "gloss_fr": "gauche ; côté gauche", "hsk": 2, "forms": "左面/左边", "example": "左边的那个杯子是你的，右边的是我的。" },
+      { "word": "右", "pinyin": "yòu", "gloss_fr": "droite ; côté droit", "hsk": 2, "forms": "右面/右边", "example": "银行在超市的右边。" },
+      { "word": "前", "pinyin": "qián", "gloss_fr": "avant ; devant ; auparavant", "hsk": 1, "forms": "前面/前边", "example": "学校前面有一辆车。" },
+      { "word": "后", "pinyin": "hòu", "gloss_fr": "arrière ; derrière ; après", "hsk": 1, "forms": "后面/后边", "example": "商店在学校后面。" },
+      { "word": "里", "pinyin": "lǐ", "gloss_fr": "intérieur ; en ; dans", "hsk": 1, "forms": "里面/里边", "example": "公园里面有很多人。" },
+      { "word": "外", "pinyin": "wài", "gloss_fr": "extérieur ; dehors", "hsk": 2, "forms": "外面/外边", "example": "外面下雨了。" },
+      { "word": "上", "pinyin": "shàng", "gloss_fr": "au-dessus ; monter ; aller à", "hsk": 1, "forms": "上面/上边", "example": "桌子上面有一本书。" },
+      { "word": "下", "pinyin": "xià", "gloss_fr": "sous ; au-dessous ; descendre", "hsk": 1, "forms": "下面/下边", "example": "桌子下面有一本书。" },
+      { "word": "旁边", "pinyin": "pángbiān", "gloss_fr": "côté ; bord ; à côté de", "hsk": 2, "example": "学校旁边有一个超市。" },
+      { "word": "中间", "pinyin": "zhōngjiān", "gloss_fr": "au centre ; au milieu ; entre", "hsk": 3, "example": "我站在中间，旁边的人是我的同学。" },
+      { "word": "附近", "pinyin": "fùjìn", "gloss_fr": "proche ; à proximité de", "hsk": 3, "example": "我家附近有一个公园。" },
+      { "word": "东", "pinyin": "dōng", "gloss_fr": "est", "hsk": 3, "example": "学校东边有一个花园。" },
+      { "word": "南", "pinyin": "nán", "gloss_fr": "sud", "hsk": 3, "example": "他住在北京的南边。" },
+      { "word": "西", "pinyin": "xī", "gloss_fr": "ouest", "hsk": 3, "example": "医院在学校的西边。" },
+      { "word": "北", "pinyin": "běi", "gloss_fr": "nord", "hsk": 3, "example": "我家北边有一条河。" },
+      { "word": "对面", "pinyin": "duìmiàn", "gloss_fr": "en face de", "hsk": 3, "example": "学校对面有好几个地铁站。" },
+      { "word": "政治", "pinyin": "zhèngzhì", "gloss_fr": "la politique ; affaires politiques", "hsk": 3 },
+      { "word": "学院", "pinyin": "xuéyuàn", "gloss_fr": "institut ; faculté", "hsk": 3 },
+      { "word": "市", "pinyin": "shì", "gloss_fr": "ville", "hsk": 3 },
+      { "word": "图书馆", "pinyin": "túshūguǎn", "gloss_fr": "bibliothèque", "hsk": 2 },
+      { "word": "方便", "pinyin": "fāngbiàn", "gloss_fr": "commode ; pratique", "hsk": 2 },
+      { "word": "电影院", "pinyin": "diànyǐngyuàn", "gloss_fr": "cinéma", "hsk": 2 },
+      { "word": "超市", "pinyin": "chāoshì", "gloss_fr": "supermarché", "hsk": 2 },
+      { "word": "商店", "pinyin": "shāngdiàn", "gloss_fr": "magasin ; boutique", "hsk": 2 },
+      { "word": "饭馆", "pinyin": "fànguǎn", "gloss_fr": "restaurant", "hsk": 2 },
+      { "word": "城市", "pinyin": "chéngshì", "gloss_fr": "ville", "hsk": 3 },
+      { "word": "高速", "pinyin": "gāosù", "gloss_fr": "grande vitesse", "hsk": 3 },
+      { "word": "快线", "pinyin": "kuàixiàn", "gloss_fr": "ligne rapide", "hsk": 3 },
+      { "word": "宿舍", "pinyin": "sùshè", "gloss_fr": "dortoir ; habitation", "hsk": 3 },
+      { "word": "房间", "pinyin": "fángjiān", "gloss_fr": "chambre ; pièce", "hsk": 2 },
+      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable ; à l'aise", "hsk": 2 },
+      { "word": "床", "pinyin": "chuáng", "gloss_fr": "lit", "hsk": 2 },
+      { "word": "桌子", "pinyin": "zhuōzi", "gloss_fr": "table ; bureau", "hsk": 1 },
+      { "word": "书架", "pinyin": "shūjià", "gloss_fr": "étagère ; bibliothèque (meuble)", "hsk": 3 },
+      { "word": "地方", "pinyin": "dìfang", "gloss_fr": "endroit ; lieu", "hsk": 2 },
+      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité", "hsk": 3 },
+      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "les sports", "hsk": 3 },
+      { "word": "戏剧", "pinyin": "xìjù", "gloss_fr": "théâtre", "hsk": 3 },
+      { "word": "用", "pinyin": "yòng", "gloss_fr": "utiliser ; avoir besoin de", "hsk": 2 },
+      { "word": "张", "pinyin": "zhāng", "gloss_fr": "classificateur : objet plat (table, lit, photo)", "hsk": 2, "type": "classificateur" },
+      { "word": "把", "pinyin": "bǎ", "gloss_fr": "classificateur : objet à manche (chaise, parapluie)", "hsk": 3, "type": "classificateur" }
+    ],
+    "grammar": [
+      {
+        "pattern": "在 + Lieu",
+        "explanation_fr": "Indique la localisation. Le verbe 在 précède le lieu.",
+        "examples": [
+          { "zh": "书在书包里。", "pinyin": "Shū zài shūbāo lǐ.", "fr": "Le livre est dans le sac." },
+          { "zh": "他在医院。", "pinyin": "Tā zài yīyuàn.", "fr": "Il est à l'hôpital." }
+        ]
+      },
+      {
+        "pattern": "Lieu + 有 + Chose",
+        "explanation_fr": "Exprime l'existence : « il y a » quelque chose dans un lieu.",
+        "examples": [
+          { "zh": "学校旁边有一个超市。", "pinyin": "Xuéxiào pángbiān yǒu yī gè chāoshì.", "fr": "Il y a un supermarché à côté de l'école." },
+          { "zh": "公园里有很多人。", "pinyin": "Gōngyuán lǐ yǒu hěn duō rén.", "fr": "Il y a beaucoup de monde dans le parc." }
+        ]
+      },
+      {
+        "pattern": "N + 面/边 (locatifs composés)",
+        "explanation_fr": "Les locatifs monosyllabiques (上, 下, 前, 后, 左, 右, 里, 外) se combinent avec 面 ou 边 pour former des mots de position : 上面/上边 (au-dessus), 里面/里边 (à l'intérieur), etc.",
+        "examples": [
+          { "zh": "桌子上面有一本书。", "pinyin": "Zhuōzi shàngmiàn yǒu yī běn shū.", "fr": "Il y a un livre sur la table." },
+          { "zh": "学校后面有一个商店。", "pinyin": "Xuéxiào hòumiàn yǒu yī gè shāngdiàn.", "fr": "Il y a un magasin derrière l'école." }
+        ]
+      },
+      {
+        "pattern": "从 A 到 B",
+        "explanation_fr": "De A à B — indique un trajet ou une distance entre deux points.",
+        "examples": [
+          { "zh": "从卢森堡公园到蒙帕纳斯火车站很近。", "pinyin": "Cóng Lúsēnbǎo gōngyuán dào Méngpànàsī huǒchēzhàn hěn jìn.", "fr": "Du jardin du Luxembourg à la gare Montparnasse, c'est très proche." }
+        ]
+      }
+    ]
+  }
+]

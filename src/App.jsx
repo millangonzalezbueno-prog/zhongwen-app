@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { loadCharacters, loadVocab, loadGrammar } from './lib/data';
+import { loadCharacters, loadVocab, loadGrammar, loadLessons } from './lib/data';
 import ReviewSession from './components/ReviewSession';
 import ExercisesView from './components/ExercisesView';
 import StrokePractice from './components/StrokePractice';
 import CharacterPopup from './components/CharacterPopup';
 import Dashboard from './components/Dashboard';
 import BrowseView from './components/BrowseView';
+import LessonView from './components/LessonView';
 
 const TABS = [
   { id: 'home', label: 'Accueil' },
@@ -16,6 +17,7 @@ const TABS = [
 function App() {
   const [tab, setTab] = useState('home');
   const [studyMode, setStudyMode] = useState(null);
+  const [activeLesson, setActiveLesson] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -31,9 +33,9 @@ function App() {
   };
 
   useEffect(() => {
-    Promise.all([loadCharacters(), loadVocab(), loadGrammar()])
-      .then(([characters, vocab, grammar]) => {
-        setData({ characters, vocab, grammar });
+    Promise.all([loadCharacters(), loadVocab(), loadGrammar(), loadLessons()])
+      .then(([characters, vocab, grammar, lessons]) => {
+        setData({ characters, vocab, grammar, lessons });
         setLoading(false);
       })
       .catch(err => {
@@ -61,7 +63,13 @@ function App() {
     );
   }
 
-  const goHome = () => { setStudyMode(null); setTab('home'); };
+  const goHome = () => { setStudyMode(null); setActiveLesson(null); setTab('home'); };
+
+  const openLesson = (lesson) => {
+    setActiveLesson(lesson);
+    setStudyMode(null);
+    setTab('lesson');
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -74,9 +82,9 @@ function App() {
             {TABS.map(t => (
               <button
                 key={t.id}
-                onClick={() => { setTab(t.id); setStudyMode(null); }}
+                onClick={() => { setTab(t.id); setStudyMode(null); setActiveLesson(null); }}
                 className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
-                  tab === t.id && !studyMode
+                  tab === t.id && !studyMode && !activeLesson
                     ? 'bg-accent text-white'
                     : 'text-muted hover:bg-border/50'
                 }`}
@@ -89,38 +97,41 @@ function App() {
       </header>
 
       <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-6">
-        {studyMode === 'review' && (
+        {activeLesson && (
+          <div>
+            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
+            <LessonView lesson={activeLesson} appData={data} onCharClick={handleCharClick} />
+          </div>
+        )}
+        {!activeLesson && studyMode === 'review' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
             <ReviewSession data={data} filters={filters} mode="review" onCharClick={handleCharClick} />
           </div>
         )}
-        {studyMode === 'b1study' && (
+        {!activeLesson && studyMode === 'b1study' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
             <ReviewSession data={data} filters={filters} mode="b1study" onCharClick={handleCharClick} />
           </div>
         )}
-        {studyMode === 'exercises' && (
+        {!activeLesson && studyMode === 'exercises' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
             <ExercisesView data={data} />
           </div>
         )}
-        {studyMode === 'strokes' && (
+        {!activeLesson && studyMode === 'strokes' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
             <StrokePractice data={data} onCharClick={handleCharClick} />
           </div>
         )}
-        {!studyMode && tab === 'home' && (
-          <HomeView
-            data={data}
-            onSelectMode={setStudyMode}
-          />
+        {!activeLesson && !studyMode && tab === 'home' && (
+          <HomeView data={data} onSelectMode={setStudyMode} onOpenLesson={openLesson} />
         )}
-        {!studyMode && tab === 'browse' && <BrowseView data={data} onCharClick={handleCharClick} />}
-        {!studyMode && tab === 'dashboard' && <Dashboard data={data} />}
+        {!activeLesson && !studyMode && tab === 'browse' && <BrowseView data={data} onCharClick={handleCharClick} />}
+        {!activeLesson && !studyMode && tab === 'dashboard' && <Dashboard data={data} />}
       </main>
 
       {popupChar && (
@@ -134,59 +145,91 @@ function App() {
   );
 }
 
-function HomeView({ data, onSelectMode }) {
+function HomeView({ data, onSelectMode, onOpenLesson }) {
   const charCountA1A2 = data.characters.filter(c => c.intro_tier === 'A1' || c.intro_tier === 'A2').length;
   const charCountB1 = data.characters.filter(c => c.intro_tier === 'B1').length;
 
   return (
     <div>
-      <h2 className="text-2xl font-semibold mb-1">Bienvenue</h2>
-      <p className="text-muted mb-8">Choisissez votre mode d'étude.</p>
+      {data.lessons && data.lessons.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-1">Cours</h2>
+          <p className="text-muted mb-5">Vos leçons de classe — lecture, vocabulaire et grammaire en contexte.</p>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <ModeCard
-          title="Révision A1-A2"
-          subtitle={`${charCountA1A2} caractères + vocabulaire`}
-          description="Révisez les caractères et mots déjà appris avec des flashcards SRS."
-          color="bg-a2"
-          onClick={() => onSelectMode('review')}
-        />
-        <ModeCard
-          title="Étude B1"
-          subtitle={`${charCountB1} nouveaux caractères`}
-          description="Découvrez et mémorisez les caractères du niveau B1."
-          color="bg-b1"
-          onClick={() => onSelectMode('b1study')}
-        />
-        <ModeCard
-          title="Exercices"
-          subtitle="5 types d'activités"
-          description="Complétez, traduisez, ordonnez les mots et identifiez les pinyin."
-          color="bg-accent"
-          onClick={() => onSelectMode('exercises')}
-        />
-        <ModeCard
-          title="Tracé"
-          subtitle="Ordre des traits"
-          description="Apprenez l'ordre des traits avec animation, guidage et ardoise libre."
-          color="bg-success"
-          onClick={() => onSelectMode('strokes')}
-        />
-      </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {data.lessons.map(lesson => (
+              <button key={lesson.id} onClick={() => onOpenLesson(lesson)}
+                className="bg-surface-alt border border-border rounded-2xl p-5 text-left hover:shadow-md hover:border-accent/30 transition-all group">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center shrink-0">
+                    <span className="text-white text-lg font-bold hanzi-display">{lesson.title[0]}</span>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-xs font-medium text-accent mb-0.5">Semaine {lesson.week}</p>
+                    <p className="text-lg font-semibold group-hover:text-accent transition-colors truncate">
+                      {lesson.title_fr}
+                    </p>
+                    <p className="text-sm text-muted">{lesson.theme}</p>
+                    <p className="text-xs text-muted mt-1">
+                      {lesson.vocab.length} mots &middot; {lesson.grammar.length} points de grammaire
+                    </p>
+                  </div>
+                </div>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section>
+        <h2 className="text-xl font-semibold mb-1">Outils d'étude</h2>
+        <p className="text-muted mb-5">Entraînement libre — flashcards, exercices et tracé.</p>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <ToolCard
+            title="Révision A1-A2"
+            subtitle={`${charCountA1A2} caractères + vocabulaire`}
+            description="Flashcards SRS pour les acquis A1-A2."
+            color="bg-a2"
+            onClick={() => onSelectMode('review')}
+          />
+          <ToolCard
+            title="Étude B1"
+            subtitle={`${charCountB1} nouveaux caractères`}
+            description="Découvrez les caractères du niveau B1."
+            color="bg-b1"
+            onClick={() => onSelectMode('b1study')}
+          />
+          <ToolCard
+            title="Exercices"
+            subtitle="5 types d'activités"
+            description="Complétez, traduisez, ordonnez."
+            color="bg-accent"
+            onClick={() => onSelectMode('exercises')}
+          />
+          <ToolCard
+            title="Tracé"
+            subtitle="Ordre des traits"
+            description="Animation, guidage et ardoise libre."
+            color="bg-success"
+            onClick={() => onSelectMode('strokes')}
+          />
+        </div>
+      </section>
     </div>
   );
 }
 
-function ModeCard({ title, subtitle, description, color, onClick }) {
+function ToolCard({ title, subtitle, description, color, onClick }) {
   return (
     <button onClick={onClick}
-      className="bg-surface-alt border border-border rounded-2xl p-6 text-left hover:shadow-md hover:border-accent/30 transition-all group">
-      <div className={`w-10 h-10 ${color} rounded-xl mb-4 flex items-center justify-center`}>
-        <span className="text-white text-lg font-bold">{title[0]}</span>
+      className="bg-surface-alt border border-border rounded-2xl p-5 text-left hover:shadow-md hover:border-accent/30 transition-all group">
+      <div className={`w-9 h-9 ${color} rounded-lg mb-3 flex items-center justify-center`}>
+        <span className="text-white text-sm font-bold">{title[0]}</span>
       </div>
-      <p className="text-lg font-semibold mb-1 group-hover:text-accent transition-colors">{title}</p>
-      <p className="text-xs text-muted mb-2">{subtitle}</p>
-      <p className="text-sm text-muted">{description}</p>
+      <p className="font-semibold mb-0.5 group-hover:text-accent transition-colors">{title}</p>
+      <p className="text-xs text-muted mb-1">{subtitle}</p>
+      <p className="text-xs text-muted">{description}</p>
     </button>
   );
 }

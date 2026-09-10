@@ -1,6 +1,7 @@
 let _characters = null;
 let _vocab = null;
 let _grammar = null;
+let _lessons = null;
 
 const base = import.meta.env.BASE_URL;
 
@@ -46,4 +47,12 @@ export function getNewAtB1(characters) {
 
 export function getGapChars(characters) {
   return characters.filter(c => c.gap_char);
+}
+
+export async function loadLessons() {
+  if (!_lessons) {
+    const res = await fetch(`${base}data/lessons.json`);
+    _lessons = await res.json();
+  }
+  return _lessons;
 }
