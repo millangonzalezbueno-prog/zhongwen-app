@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import LessonReader from './LessonReader';
+import LessonExercises from './LessonExercises';
 
 const TABS = [
   { id: 'lecture', label: 'Lecture' },
   { id: 'vocab', label: 'Vocabulaire' },
   { id: 'grammar', label: 'Grammaire' },
+  { id: 'exercices', label: 'Exercices' },
 ];
 
 export default function LessonView({ lesson, appData, onCharClick }) {
@@ -42,6 +44,10 @@ export default function LessonView({ lesson, appData, onCharClick }) {
 
       {tab === 'grammar' && (
         <GrammarTab lesson={lesson} />
+      )}
+
+      {tab === 'exercices' && (
+        <LessonExercises lesson={lesson} />
       )}
     </div>
   );
