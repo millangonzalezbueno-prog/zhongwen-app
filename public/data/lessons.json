@@ -141,5 +141,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L02",
+    "week": 2,
+    "title": "王小明的一天",
+    "title_fr": "La journée de Wang Xiaoming",
+    "theme": "时间 — Le temps",
+    "date": "2026-09-15",
+    "reading": {
+      "title": "王小明的一天",
+      "paragraphs": [
+        "王小明是巴黎政治学院的学生。他每天早上七点半起床。以前他总是起得很晚，可是现在他已经不晚起了。",
+        "早上八点，他吃早饭。他经常在宿舍里吃面包、喝咖啡。吃完早饭以后，他马上去学校。从宿舍到学校，坐地铁要二十分钟。",
+        "上午九点到十二点，他上课。中午十二点半，他和同学们一起去饭馆吃午饭。下午的课从两点开始，到四点半。",
+        "下课以后，他去图书馆看一个小时的书。他最近正在准备考试。刚才他在图书馆看书的时候，一个朋友给他打了电话，问他周末有没有时间去看电影。他说周末有时间。",
+        "下个月十五号是王小明的生日。去年他的生日那天，朋友们来了他的宿舍，大家一起过了一个很开心的节日。过去一年，他学了很多东西。",
+        "晚上七点，他回宿舍做饭。吃完饭，他看一会儿电视。十一点他睡觉。昨天他睡得很晚，今天很累。明天是星期六，他终于可以休息了！"
+      ]
+    },
+    "vocab": [
+      { "word": "时间", "pinyin": "shíjiān", "gloss_fr": "temps, heure — 时 temps + 间 intervalle", "hsk": 2, "category": "moment", "example": "这段时间我很忙。" },
+      { "word": "今天", "pinyin": "jīntiān", "gloss_fr": "aujourd'hui — 今 actuel + 天 jour", "hsk": 1, "category": "moment", "example": "今天我很高兴。" },
+      { "word": "明天", "pinyin": "míngtiān", "gloss_fr": "demain — 明 prochain + 天 jour", "hsk": 1, "category": "moment", "example": "我明天坐飞机去北京。" },
+      { "word": "昨天", "pinyin": "zuótiān", "gloss_fr": "hier — 昨 hier + 天 jour", "hsk": 1, "category": "moment", "example": "我昨天去商店买了很多东西。" },
+      { "word": "上午", "pinyin": "shàngwǔ", "gloss_fr": "matin — 上 au-dessus + 午 midi", "hsk": 1, "category": "moment", "example": "你明天上午在家吗？" },
+      { "word": "中午", "pinyin": "zhōngwǔ", "gloss_fr": "midi — 中 milieu + 午 midi", "hsk": 1, "category": "moment", "example": "我们中午去饭店吃饭吧。" },
+      { "word": "下午", "pinyin": "xiàwǔ", "gloss_fr": "après-midi — 下 au-dessous + 午 midi", "hsk": 1, "category": "moment", "example": "我今天下午不去学校了。" },
+      { "word": "时候", "pinyin": "shíhou", "gloss_fr": "moment (什么时候 = quand ?) — 时 temps + 候 condition", "hsk": 1, "category": "moment", "example": "这是我小时候的照片。" },
+      { "word": "早上", "pinyin": "zǎoshang", "gloss_fr": "matin (tôt) — 早 tôt + 上 (période)", "hsk": 2, "category": "moment", "example": "我每天早上都跑步。" },
+      { "word": "晚上", "pinyin": "wǎnshang", "gloss_fr": "soir, nuit — 晚 tard + 上 (période)", "hsk": 2, "category": "moment", "example": "我每天晚上都看新闻。" },
+      { "word": "现在", "pinyin": "xiànzài", "gloss_fr": "maintenant — 现 actuel + 在 être", "hsk": 1, "category": "moment", "example": "现在几点了？" },
+      { "word": "点", "pinyin": "diǎn", "gloss_fr": "heure (ponctuelle) ; point", "hsk": 1, "category": "moment", "example": "我下午三点回家。" },
+      { "word": "分钟", "pinyin": "fēnzhōng", "gloss_fr": "minute (durée) — 分 diviser + 钟 horloge", "hsk": 2, "category": "moment", "example": "从我家到公司，开车要二十分钟。" },
+      { "word": "小时", "pinyin": "xiǎoshí", "gloss_fr": "heure (durée) — 小 petit + 时 temps", "hsk": 2, "category": "moment", "example": "我每天学习两个小时。" },
+      { "word": "年", "pinyin": "nián", "gloss_fr": "année, an", "hsk": 1, "category": "calendrier", "example": "我在中国住了三年。" },
+      { "word": "去年", "pinyin": "qùnián", "gloss_fr": "l'année dernière — 去 dernier + 年 année", "hsk": 2, "category": "calendrier", "example": "去年，我去了中国。" },
+      { "word": "月", "pinyin": "yuè", "gloss_fr": "mois ; lune", "hsk": 1, "category": "calendrier", "example": "我下个月去北京。" },
+      { "word": "日", "pinyin": "rì", "gloss_fr": "jour ; soleil", "hsk": 1, "category": "calendrier", "example": "今天一月一日。" },
+      { "word": "号", "pinyin": "hào", "gloss_fr": "date (du mois) ; numéro", "hsk": 3, "category": "calendrier", "example": "今天12月24号，是我的生日。" },
+      { "word": "星期", "pinyin": "xīngqī", "gloss_fr": "semaine — 星 étoile + 期 période", "hsk": 1, "category": "calendrier", "example": "今天星期几？" },
+      { "word": "周末", "pinyin": "zhōumò", "gloss_fr": "week-end — 周 semaine + 末 fin", "hsk": 3, "category": "calendrier", "example": "你周末喜欢做什么？" },
+      { "word": "生日", "pinyin": "shēngrì", "gloss_fr": "anniversaire — 生 naître + 日 jour", "hsk": 2, "category": "calendrier", "example": "祝你生日快乐！" },
+      { "word": "节日", "pinyin": "jiérì", "gloss_fr": "fête, jour férié — 节 fête + 日 jour", "hsk": 3, "category": "calendrier", "example": "春节是中国人最重要的节日。" },
+      { "word": "刚才", "pinyin": "gāngcái", "gloss_fr": "tout à l'heure, à l'instant — 刚 juste + 才 seulement", "hsk": 3, "category": "adverbe", "example": "我刚才看见他了。" },
+      { "word": "过去", "pinyin": "guòqù", "gloss_fr": "le passé — 过 passer + 去 aller", "hsk": 3, "category": "adverbe", "example": "奶奶经常给我讲过去的事情。" },
+      { "word": "以前", "pinyin": "yǐqián", "gloss_fr": "avant, autrefois — 以 (limite) + 前 devant", "hsk": 3, "category": "adverbe", "example": "我们看电影以前，先去吃饭吧。" },
+      { "word": "以后", "pinyin": "yǐhòu", "gloss_fr": "après, plus tard — 以 (limite) + 后 derrière", "hsk": 3, "category": "adverbe", "example": "下课以后，我要去图书馆看书。" },
+      { "word": "最近", "pinyin": "zuìjìn", "gloss_fr": "récemment — 最 le plus + 近 proche", "hsk": 3, "category": "adverbe", "example": "我最近很忙。" },
+      { "word": "一会儿", "pinyin": "yíhuìr", "gloss_fr": "un moment, un instant — 一 un + 会 moment + 儿", "hsk": 3, "category": "adverbe", "example": "我一会儿回来。" },
+      { "word": "正在", "pinyin": "zhèngzài", "gloss_fr": "en train de — 正 en cours + 在 (progressif)", "hsk": 2, "category": "adverbe", "example": "学生们正在做作业。" },
+      { "word": "已经", "pinyin": "yǐjīng", "gloss_fr": "déjà — 已 déjà + 经 passer par", "hsk": 2, "category": "adverbe", "example": "他已经回家了。" },
+      { "word": "总是", "pinyin": "zǒngshì", "gloss_fr": "toujours — 总 toujours + 是 être", "hsk": 3, "category": "adverbe", "example": "他总是很早起床。" },
+      { "word": "马上", "pinyin": "mǎshàng", "gloss_fr": "tout de suite — 马 cheval + 上 dessus (= vite !)", "hsk": 3, "category": "adverbe", "example": "我马上给他打电话。" },
+      { "word": "经常", "pinyin": "jīngcháng", "gloss_fr": "souvent — 经 passer par + 常 fréquemment", "hsk": 3, "category": "adverbe", "example": "他周末经常在家看书。" },
+      { "word": "终于", "pinyin": "zhōngyú", "gloss_fr": "enfin, finalement — 终 fin + 于 à", "hsk": 3, "category": "adverbe", "example": "他终于通过了HSK3级考试。" }
+    ],
+    "grammar": [
+      {
+        "pattern": "的时候 (quand)",
+        "explanation_fr": "时候 signifie « moment ». Placé après un verbe ou un nom, 的时候 forme une proposition temporelle : « quand / au moment où ». On peut dire 小时候 (sans 的) pour « quand j'étais petit ».",
+        "examples": [
+          { "zh": "他吃饭的时候，不看手机。", "pinyin": "Tā chīfàn de shíhou, bù kàn shǒujī.", "fr": "Quand il mange, il ne regarde pas son téléphone." },
+          { "zh": "这是我小时候的照片。", "pinyin": "Zhè shì wǒ xiǎo shíhou de zhàopiàn.", "fr": "C'est une photo de quand j'étais petit." }
+        ]
+      },
+      {
+        "pattern": "以前 / 以后 (avant / après)",
+        "explanation_fr": "以前 (avant) et 以后 (après) se placent après un verbe ou un mot temporel. Avec un verbe : V + 以前/以后. Avec un horaire : heure + 以前/以后.",
+        "examples": [
+          { "zh": "我们看电影以前，先去吃饭吧。", "pinyin": "Wǒmen kàn diànyǐng yǐqián, xiān qù chīfàn ba.", "fr": "Avant le film, allons d'abord manger." },
+          { "zh": "下课以后，我要去图书馆看书。", "pinyin": "Xiàkè yǐhòu, wǒ yào qù túshūguǎn kànshū.", "fr": "Après les cours, je vais lire à la bibliothèque." },
+          { "zh": "五点以前回来。", "pinyin": "Wǔ diǎn yǐqián huílai.", "fr": "Reviens avant 5 heures." }
+        ]
+      },
+      {
+        "pattern": "正在 + V (en train de)",
+        "explanation_fr": "正在 se place avant le verbe pour indiquer qu'une action est en cours (« être en train de »). On peut aussi utiliser 在 seul ou 正 seul avec le même sens.",
+        "examples": [
+          { "zh": "他正在吃饭。", "pinyin": "Tā zhèngzài chīfàn.", "fr": "Il est en train de manger." },
+          { "zh": "学生们正在做作业。", "pinyin": "Xuéshengmen zhèngzài zuò zuòyè.", "fr": "Les étudiants sont en train de faire leurs devoirs." },
+          { "zh": "我们正在复习。", "pinyin": "Wǒmen zhèngzài fùxí.", "fr": "Nous sommes en train de réviser." }
+        ]
+      },
+      {
+        "pattern": "已经 + V + 了 (déjà)",
+        "explanation_fr": "已经…了 indique qu'une action est déjà accomplie. 已经 se place avant le verbe et 了 en fin de phrase. Les deux éléments fonctionnent ensemble.",
+        "examples": [
+          { "zh": "他已经回家了。", "pinyin": "Tā yǐjīng huí jiā le.", "fr": "Il est déjà rentré." },
+          { "zh": "我们已经吃完饭了。", "pinyin": "Wǒmen yǐjīng chī wán fàn le.", "fr": "Nous avons déjà fini de manger." }
+        ]
+      },
+      {
+        "pattern": "总是 / 经常 / 马上 / 终于 (adverbes temporels)",
+        "explanation_fr": "Les adverbes temporels se placent avant le verbe, après le sujet : S + adverbe + V. 总是 (toujours) et 经常 (souvent) expriment la fréquence. 马上 (tout de suite) et 终于 (enfin) situent le moment.",
+        "examples": [
+          { "zh": "他总是很早起床。", "pinyin": "Tā zǒngshì hěn zǎo qǐchuáng.", "fr": "Il se lève toujours très tôt." },
+          { "zh": "他周末经常在家看书。", "pinyin": "Tā zhōumò jīngcháng zài jiā kànshū.", "fr": "Le week-end, il lit souvent à la maison." },
+          { "zh": "我马上给他打电话。", "pinyin": "Wǒ mǎshàng gěi tā dǎ diànhuà.", "fr": "Je vais l'appeler tout de suite." },
+          { "zh": "他终于通过了HSK3级考试。", "pinyin": "Tā zhōngyú tōngguò le HSK3 jí kǎoshì.", "fr": "Il a enfin réussi l'examen HSK3." }
+        ]
+      }
+    ]
   }
 ]

@@ -12,6 +12,11 @@ function shuffle(arr) {
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
 function buildExercises(lesson) {
+  if (lesson.id === 'L02') return buildExercisesL02(lesson);
+  return buildExercisesL01(lesson);
+}
+
+function buildExercisesL01(lesson) {
   const vocab = lesson.vocab;
   const grammar = lesson.grammar;
   const reading = lesson.reading;
@@ -231,6 +236,149 @@ function buildExercises(lesson) {
     rounds: [
       { title: 'Évaluation', subtitle: 'Testez vos acquis', exercises: shuffle(round1) },
       { title: 'Renforcement', subtitle: 'Grammaire et locatifs en action', exercises: shuffle(round2) },
+      { title: 'Défi', subtitle: 'Production et compréhension avancée', exercises: shuffle(round3) },
+    ],
+  };
+}
+
+function buildExercisesL02(lesson) {
+  const vocab = lesson.vocab;
+
+  const round1 = [];
+  const round2 = [];
+  const round3 = [];
+
+  // === ROUND 1: ÉVALUATION ===
+
+  const vocabWithGloss = vocab.filter(v => v.word.length >= 2);
+  for (const v of pick(vocabWithGloss, 5)) {
+    const distractors = pick(vocabWithGloss.filter(x => x.word !== v.word), 3).map(x => x.word);
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: v.gloss_fr.split('—')[0].split('(')[0].trim(),
+      correct: v.word,
+      options: shuffle([v.word, ...distractors]),
+      pinyin: v.pinyin,
+    });
+  }
+
+  const adverbs = vocab.filter(v => v.category === 'adverbe' && v.word.length >= 2);
+  for (const v of pick(adverbs, 3)) {
+    const others = pick(adverbs.filter(x => x.word !== v.word), 3).map(x => x.word);
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: `${v.pinyin} — ${v.gloss_fr.split('—')[0].trim()}`,
+      correct: v.word,
+      options: shuffle([v.word, ...others]),
+      pinyin: v.pinyin,
+    });
+  }
+
+  const readingTF = [
+    { statement: '王小明每天早上七点起床。', answer: false, explanation: '他每天早上七点半起床，不是七点。' },
+    { statement: '以前他总是起得很晚。', answer: true, explanation: '课文原文：以前他总是起得很晚。' },
+    { statement: '从宿舍到学校坐地铁要二十分钟。', answer: true, explanation: '课文原文。' },
+    { statement: '他中午在宿舍吃午饭。', answer: false, explanation: '他和同学们一起去饭馆吃午饭。' },
+    { statement: '下午的课从三点开始。', answer: false, explanation: '下午的课从两点开始。' },
+    { statement: '他最近正在准备考试。', answer: true, explanation: '课文原文。' },
+    { statement: '他的朋友问他周末有没有时间，他说没有。', answer: false, explanation: '他说周末有时间去看电影。' },
+    { statement: '明天是星期天。', answer: false, explanation: '明天是星期六。' },
+  ];
+  for (const q of pick(readingTF, 4)) {
+    round1.push({ type: 'true-false', statement: q.statement, correct: q.answer, explanation: q.explanation });
+  }
+
+  // === ROUND 2: RENFORCEMENT ===
+
+  const timeAdverbs = [
+    { sentence: '他___回家了。', answer: '已经', options: ['已经', '正在', '马上', '刚才'], hint: 'Il est déjà rentré.' },
+    { sentence: '弟弟___吃饭。', answer: '正在', options: ['正在', '已经', '马上', '终于'], hint: 'Le petit frère est en train de manger.' },
+    { sentence: '我___给他打电话。', answer: '马上', options: ['马上', '刚才', '总是', '以前'], hint: 'Je vais l\'appeler tout de suite.' },
+    { sentence: '我___看见他了。', answer: '刚才', options: ['刚才', '马上', '总是', '经常'], hint: 'Je viens de le voir à l\'instant.' },
+    { sentence: '太阳___出来了！', answer: '终于', options: ['终于', '已经', '马上', '正在'], hint: 'Le soleil est enfin sorti !' },
+    { sentence: '他___很早起床。', answer: '总是', options: ['总是', '经常', '最近', '马上'], hint: 'Il se lève toujours tôt.' },
+    { sentence: '他周末___在家看书。', answer: '经常', options: ['经常', '总是', '马上', '正在'], hint: 'Le week-end, il lit souvent à la maison.' },
+    { sentence: '我___很忙。', answer: '最近', options: ['最近', '马上', '已经', '终于'], hint: 'Je suis occupé ces derniers temps.' },
+  ];
+  for (const q of pick(timeAdverbs, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
+  }
+
+  const beforeAfter = [
+    { sentence: '吃完早饭___，他马上去学校。', answer: '以后', options: ['以前', '以后', '的时候', '最近'], hint: 'Après le petit-déjeuner, il va à l\'école.' },
+    { sentence: '我们看电影___，先去吃饭吧。', answer: '以前', options: ['以前', '以后', '的时候', '马上'], hint: 'Avant le film, allons d\'abord manger.' },
+    { sentence: '五点___回来。', answer: '以前', options: ['以前', '以后', '正在', '已经'], hint: 'Reviens avant 5 heures.' },
+    { sentence: '下课___，我要去图书馆看书。', answer: '以后', options: ['以前', '以后', '的时候', '总是'], hint: 'Après les cours, je vais lire à la bibliothèque.' },
+    { sentence: '九点___，请不要给我打电话。', answer: '以后', options: ['以前', '以后', '马上', '刚才'], hint: 'Après 9h, ne m\'appelle plus.' },
+    { sentence: '来中国___，他不会说中文。', answer: '以前', options: ['以前', '以后', '最近', '正在'], hint: 'Avant de venir en Chine, il ne parlait pas chinois.' },
+  ];
+  for (const q of pick(beforeAfter, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
+  }
+
+  const errorCorrections = [
+    { wrong: '我已经吃饭。', correct: '我已经吃饭了。', rule: '已经 nécessite 了 en fin de phrase : 已经…了 vont ensemble.' },
+    { wrong: '他在正看电视。', correct: '他正在看电视。', rule: '正在 est un seul mot inséparable.' },
+    { wrong: '我们看电影以后先去吃饭吧。', correct: '我们看电影以前先去吃饭吧。', rule: '先 (d\'abord) implique « avant », donc 以前, pas 以后.' },
+    { wrong: '下课以后我图书馆去。', correct: '下课以后我去图书馆。', rule: 'Le verbe 去 se place avant la destination : 去 + lieu.' },
+    { wrong: '九点以后不要打电话我。', correct: '九点以后不要给我打电话。', rule: 'Structure : 给 + personne + 打电话.' },
+    { wrong: '他正在已经回家了。', correct: '他已经回家了。', rule: '正在 (en cours) et 已经 (déjà) se contredisent.' },
+  ];
+  for (const q of pick(errorCorrections, 4)) {
+    round2.push({ type: 'error-correction', wrong: q.wrong, correct: q.correct, rule: q.rule });
+  }
+
+  // === ROUND 3: DÉFI ===
+
+  const translations = [
+    { fr: 'Il est en train de faire ses devoirs.', zh: '他正在做作业。', pattern: '正在 + V' },
+    { fr: 'Il est déjà rentré.', zh: '他已经回家了。', pattern: '已经…了' },
+    { fr: 'Après les cours, je vais à la bibliothèque.', zh: '下课以后我去图书馆。', pattern: '以后' },
+    { fr: 'Il se lève toujours très tôt.', zh: '他总是很早起床。', pattern: '总是' },
+    { fr: 'Avant le film, allons d\'abord manger.', zh: '看电影以前，先去吃饭吧。', pattern: '以前' },
+    { fr: 'Du lundi au vendredi, il a cours.', zh: '从星期一到星期五，他上课。', pattern: '从…到…' },
+    { fr: 'Le week-end, il lit souvent à la maison.', zh: '周末他经常在家看书。', pattern: '经常' },
+    { fr: 'Il a enfin réussi l\'examen.', zh: '他终于通过了考试。', pattern: '终于' },
+  ];
+  for (const q of pick(translations, 3)) {
+    round3.push({ type: 'translate', fr: q.fr, zh: q.zh, pattern: q.pattern });
+  }
+
+  const readingMCQ = [
+    { question: '王小明每天怎么去学校？', correct: '坐地铁', options: shuffle(['坐地铁', '坐公共汽车', '走路', '开车']) },
+    { question: '他下午几点下课？', correct: '四点半', options: shuffle(['四点半', '三点', '五点', '四点']) },
+    { question: '他最近在做什么？', correct: '准备考试', options: shuffle(['准备考试', '写作业', '学做饭', '看小说']) },
+    { question: '他的朋友在电话里问他什么？', correct: '周末有没有时间去看电影', options: shuffle(['周末有没有时间去看电影', '明天去不去吃饭', '今天去不去图书馆', '下课以后去不去跑步']) },
+    { question: '为什么他今天很累？', correct: '昨天睡得很晚', options: shuffle(['昨天睡得很晚', '上午课很多', '没吃早饭', '走路去学校']) },
+  ];
+  for (const q of pick(readingMCQ, 3)) {
+    round3.push({ type: 'reading-mcq', question: q.question, correct: q.correct, options: q.options });
+  }
+
+  const timeTelling = [
+    { prompt: '9:00 (matin)', correct: '上午九点', options: ['上午九点', '下午九点', '早上八点', '上午十点'] },
+    { prompt: '14:30', correct: '下午两点半', options: ['下午两点半', '上午两点半', '下午三点半', '下午两点'] },
+    { prompt: '12:00 (midi)', correct: '中午十二点', options: ['中午十二点', '上午十二点', '下午十二点', '中午十一点'] },
+    { prompt: '19:45', correct: '晚上七点四十五分', options: ['晚上七点四十五分', '下午七点半', '晚上八点', '下午七点'] },
+  ];
+  for (const q of pick(timeTelling, 2)) {
+    round3.push({ type: 'vocab-mcq', prompt: q.prompt, correct: q.correct, options: shuffle(q.options), pinyin: '' });
+  }
+
+  const orderItems = [
+    { fr: 'Après les cours, il va à la bibliothèque lire.', chunks: ['下课', '以后', '他', '去', '图书馆', '看书'], answer: '下课以后他去图书馆看书' },
+    { fr: 'Du lundi au vendredi, il a cours tous les jours.', chunks: ['从', '星期一', '到', '星期五', '他', '每天', '上课'], answer: '从星期一到星期五他每天上课' },
+    { fr: 'Après le petit-déjeuner, il va tout de suite à l\'école.', chunks: ['吃完', '早饭', '以后', '他', '马上', '去', '学校'], answer: '吃完早饭以后他马上去学校' },
+    { fr: 'Récemment, il prépare l\'examen de chinois.', chunks: ['他', '最近', '正在', '准备', '汉语', '考试'], answer: '他最近正在准备汉语考试' },
+  ];
+  for (const q of pick(orderItems, 2)) {
+    round3.push({ type: 'order', fr: q.fr, chunks: q.chunks, answer: q.answer });
+  }
+
+  return {
+    rounds: [
+      { title: 'Évaluation', subtitle: 'Testez vos acquis', exercises: shuffle(round1) },
+      { title: 'Renforcement', subtitle: 'Grammaire et expressions temporelles', exercises: shuffle(round2) },
       { title: 'Défi', subtitle: 'Production et compréhension avancée', exercises: shuffle(round3) },
     ],
   };

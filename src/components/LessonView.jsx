@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import LessonReader from './LessonReader';
 import LessonExercises from './LessonExercises';
 
@@ -53,15 +53,32 @@ export default function LessonView({ lesson, appData, onCharClick }) {
   );
 }
 
+const LOCATIVES = ['左','右','前','后','里','外','上','下','旁边','中间','附近','东','南','西','北','对面'];
+const CATEGORY_LABELS = { locatif: 'Locatifs', vocabulaire: 'Vocabulaire', classificateur: 'Classif.', moment: 'Moments', calendrier: 'Calendrier', adverbe: 'Adverbes' };
+const getCategory = (v) => {
+  if (v.category) return v.category;
+  if (v.forms || LOCATIVES.includes(v.word)) return 'locatif';
+  if (v.type) return v.type;
+  return 'vocabulaire';
+};
+
 function VocabTab({ lesson, onCharClick }) {
   const [flipped, setFlipped] = useState(new Set());
   const [filter, setFilter] = useState('all');
 
+  const categories = useMemo(() => {
+    const cats = [];
+    const seen = new Set();
+    for (const v of lesson.vocab) {
+      const cat = getCategory(v);
+      if (!seen.has(cat)) { seen.add(cat); cats.push(cat); }
+    }
+    return cats;
+  }, [lesson.vocab]);
+
   const vocabFiltered = filter === 'all'
     ? lesson.vocab
-    : filter === 'locatifs'
-      ? lesson.vocab.filter(v => v.forms || ['左','右','前','后','里','外','上','下','旁边','中间','附近','东','南','西','北','对面'].includes(v.word))
-      : lesson.vocab.filter(v => !v.forms && !['左','右','前','后','里','外','上','下','旁边','中间','附近','东','南','西','北','对面'].includes(v.word));
+    : lesson.vocab.filter(v => getCategory(v) === filter);
 
   const toggle = (word) => {
     setFlipped(prev => {
@@ -80,11 +97,13 @@ function VocabTab({ lesson, onCharClick }) {
 
   return (
     <div>
-      <div className="flex gap-2 mb-4">
+      <div className="flex gap-2 mb-4 flex-wrap">
         {[
           { id: 'all', label: `Tous (${lesson.vocab.length})` },
-          { id: 'locatifs', label: 'Locatifs' },
-          { id: 'general', label: 'Vocabulaire' },
+          ...categories.map(cat => ({
+            id: cat,
+            label: `${CATEGORY_LABELS[cat] || cat} (${lesson.vocab.filter(v => getCategory(v) === cat).length})`,
+          })),
         ].map(f => (
           <button key={f.id} onClick={() => setFilter(f.id)}
             className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
