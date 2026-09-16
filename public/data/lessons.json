@@ -4,7 +4,8 @@
     "week": 1,
     "title": "巴黎政治学院",
     "title_fr": "Sciences Po Paris",
-    "theme": "位置 — Les locatifs",
+    "title_en": "Sciences Po Paris",
+    "theme": "位置 — Les locatifs / Locatives",
     "date": "2026-09-08",
     "reading": {
       "title": "巴黎政治学院",
@@ -15,129 +16,145 @@
         "巴黎政治学院对面有好几个地铁和公共汽车站，还有一个快线地铁站。学院的很多学生坐地铁或者公共汽车来上课，很方便，不用开车来学校。",
         "巴黎政治学院的很多学生住宿舍。宿舍的房间不太大，可是很舒服。房间里有一张床，两张桌子，几把椅子和一个书架。房间里还有做饭的地方。",
         "巴黎政治学院的生活也很有意思。学校有很多活动：体育，音乐，戏剧...什么都有。学生们的课不太多，每个星期差不多24节课，可是只有两节汉语课，我最喜欢上汉语课了！"
+      ],
+      "paragraphs_en": [
+        "Sciences Po is in the center of Paris. The campus isn't very big, but it's very beautiful. Inside the campus there's a lovely little park — in summer, people often eat, drink coffee, and sunbathe there.",
+        "Life at Sciences Po is very convenient. To the left of the school is the famous Seine River, where students love to go read and take walks. To the right there's a large bookstore where many students buy books. In front of the bookstore is the Sciences Po library, which has many very old books. The library has novels in French, English, and even Chinese — all very interesting. Behind the school there's a shop that opens at 9 AM and closes at 8 PM, with many affordable things. Nearby there are also cinemas, cafés, supermarkets, and restaurants. Next to the school there's a Chinese restaurant — the noodles are delicious, but not cheap.",
+        "Sciences Po is not far from the famous Luxembourg Gardens. In the morning, many young people jog there; in the afternoon, elderly people take walks and chat. Students from nearby schools often meet up there. From Luxembourg Gardens to Montparnasse station is very close — just a five-minute walk. There you can catch high-speed trains to many large French cities.",
+        "Across from Sciences Po there are several metro and bus stops, plus an express metro station. Many students take the metro or bus to class — very convenient, no need to drive.",
+        "Many Sciences Po students live in dorms. The rooms aren't very big, but they're comfortable. Each room has a bed, two desks, several chairs, and a bookshelf — plus a cooking area.",
+        "Life at Sciences Po is also very interesting. The school has many activities: sports, music, theater... everything. Students don't have too many classes — about 24 periods per week — but only two Chinese classes. I love Chinese class the most!"
       ]
     },
     "vocab": [
-      { "word": "左", "pinyin": "zuǒ", "gloss_fr": "gauche ; côté gauche", "hsk": 2, "forms": "左面/左边", "example": "左边的那个杯子是你的，右边的是我的。" },
-      { "word": "右", "pinyin": "yòu", "gloss_fr": "droite ; côté droit", "hsk": 2, "forms": "右面/右边", "example": "银行在超市的右边。" },
-      { "word": "前", "pinyin": "qián", "gloss_fr": "avant ; devant ; auparavant", "hsk": 1, "forms": "前面/前边", "example": "学校前面有一辆车。" },
-      { "word": "后", "pinyin": "hòu", "gloss_fr": "arrière ; derrière ; après", "hsk": 1, "forms": "后面/后边", "example": "商店在学校后面。" },
-      { "word": "里", "pinyin": "lǐ", "gloss_fr": "intérieur ; en ; dans", "hsk": 1, "forms": "里面/里边", "example": "公园里面有很多人。" },
-      { "word": "外", "pinyin": "wài", "gloss_fr": "extérieur ; dehors", "hsk": 2, "forms": "外面/外边", "example": "外面下雨了。" },
-      { "word": "上", "pinyin": "shàng", "gloss_fr": "au-dessus ; monter ; aller à", "hsk": 1, "forms": "上面/上边", "example": "桌子上面有一本书。" },
-      { "word": "下", "pinyin": "xià", "gloss_fr": "sous ; au-dessous ; descendre", "hsk": 1, "forms": "下面/下边", "example": "桌子下面有一本书。" },
-      { "word": "旁边", "pinyin": "pángbiān", "gloss_fr": "à côté de, juste à côté", "hsk": 2, "example": "学校旁边有一个超市。" },
-      { "word": "中间", "pinyin": "zhōngjiān", "gloss_fr": "au milieu, entre (deux choses)", "hsk": 3, "example": "我站在中间，旁边的人是我的同学。" },
-      { "word": "附近", "pinyin": "fùjìn", "gloss_fr": "dans les environs, à proximité", "hsk": 3, "example": "我家附近有一个公园。" },
-      { "word": "东", "pinyin": "dōng", "gloss_fr": "est", "hsk": 3, "example": "学校东边有一个花园。" },
-      { "word": "南", "pinyin": "nán", "gloss_fr": "sud", "hsk": 3, "example": "他住在北京的南边。" },
-      { "word": "西", "pinyin": "xī", "gloss_fr": "ouest", "hsk": 3, "example": "医院在学校的西边。" },
-      { "word": "北", "pinyin": "běi", "gloss_fr": "nord", "hsk": 3, "example": "我家北边有一条河。" },
-      { "word": "对面", "pinyin": "duìmiàn", "gloss_fr": "en face de", "hsk": 3, "example": "学校对面有好几个地铁站。" },
-      { "word": "政治", "pinyin": "zhèngzhì", "gloss_fr": "politique (n.f.) — 政 gouvernement + 治 gérer", "hsk": 3 },
-      { "word": "学院", "pinyin": "xuéyuàn", "gloss_fr": "institut, grande école — 学 étude + 院 établissement", "hsk": 3 },
-      { "word": "市中心", "pinyin": "shì zhōngxīn", "gloss_fr": "centre-ville — 市 ville + 中心 centre", "hsk": 3 },
-      { "word": "校园", "pinyin": "xiàoyuán", "gloss_fr": "campus — 校 école + 园 jardin, enceinte", "hsk": 3 },
-      { "word": "图书馆", "pinyin": "túshūguǎn", "gloss_fr": "bibliothèque — 图书 livres + 馆 bâtiment public", "hsk": 2 },
-      { "word": "方便", "pinyin": "fāngbiàn", "gloss_fr": "pratique, commode (ex. c'est pratique d'y aller en métro)", "hsk": 2 },
-      { "word": "电影院", "pinyin": "diànyǐngyuàn", "gloss_fr": "cinéma — 电影 film + 院 salle", "hsk": 2 },
-      { "word": "超市", "pinyin": "chāoshì", "gloss_fr": "supermarché — abrév. de 超级市场", "hsk": 2 },
-      { "word": "商店", "pinyin": "shāngdiàn", "gloss_fr": "magasin, boutique — 商 commerce + 店 échoppe", "hsk": 2 },
-      { "word": "饭馆", "pinyin": "fànguǎn", "gloss_fr": "restaurant (petit) — 饭 repas + 馆 établissement", "hsk": 2 },
-      { "word": "咖啡馆", "pinyin": "kāfēiguǎn", "gloss_fr": "café (lieu) — 咖啡 café + 馆 établissement", "hsk": 3 },
-      { "word": "城市", "pinyin": "chéngshì", "gloss_fr": "grande ville — 城 muraille + 市 marché/cité", "hsk": 3 },
-      { "word": "高速", "pinyin": "gāosù", "gloss_fr": "grande vitesse (→ 高速火车 = TGV)", "hsk": 3 },
-      { "word": "火车站", "pinyin": "huǒchēzhàn", "gloss_fr": "gare — 火车 train + 站 station", "hsk": 2 },
-      { "word": "快线", "pinyin": "kuàixiàn", "gloss_fr": "RER, ligne express — 快 rapide + 线 ligne", "hsk": 3 },
-      { "word": "地铁", "pinyin": "dìtiě", "gloss_fr": "métro — 地 sol + 铁 fer", "hsk": 2 },
-      { "word": "公共汽车", "pinyin": "gōnggòng qìchē", "gloss_fr": "bus — 公共 public + 汽车 voiture", "hsk": 2 },
-      { "word": "宿舍", "pinyin": "sùshè", "gloss_fr": "résidence universitaire, dortoir", "hsk": 3 },
-      { "word": "房间", "pinyin": "fángjiān", "gloss_fr": "chambre, pièce — 房 logement + 间 espace", "hsk": 2 },
-      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable, à l'aise (pour un lieu ou un état)", "hsk": 2 },
-      { "word": "床", "pinyin": "chuáng", "gloss_fr": "lit", "hsk": 2 },
-      { "word": "桌子", "pinyin": "zhuōzi", "gloss_fr": "table, bureau", "hsk": 1 },
-      { "word": "书架", "pinyin": "shūjià", "gloss_fr": "étagère à livres — 书 livre + 架 support", "hsk": 3 },
-      { "word": "地方", "pinyin": "dìfang", "gloss_fr": "endroit, lieu (ex. 做饭的地方 = coin cuisine)", "hsk": 2 },
-      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité (associative, sportive)", "hsk": 3 },
-      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "sport, EPS — 体 corps + 育 éducation", "hsk": 3 },
-      { "word": "戏剧", "pinyin": "xìjù", "gloss_fr": "théâtre (art dramatique) — 戏 jeu + 剧 pièce", "hsk": 3 },
-      { "word": "小说", "pinyin": "xiǎoshuō", "gloss_fr": "roman, fiction — 小 petit + 说 récit", "hsk": 3 },
-      { "word": "年轻人", "pinyin": "niánqīngrén", "gloss_fr": "jeune (personne) — 年轻 jeune + 人 personne", "hsk": 3 },
-      { "word": "老年人", "pinyin": "lǎoniánrén", "gloss_fr": "personne âgée — 老年 vieillesse + 人 personne", "hsk": 3 },
-      { "word": "用", "pinyin": "yòng", "gloss_fr": "utiliser ; avoir besoin de (不用 = pas besoin)", "hsk": 2 },
-      { "word": "张", "pinyin": "zhāng", "gloss_fr": "classif. objet plat (table, lit, billet, photo)", "hsk": 2, "type": "classificateur" },
-      { "word": "把", "pinyin": "bǎ", "gloss_fr": "classif. objet qu'on saisit (chaise, parapluie, clé)", "hsk": 3, "type": "classificateur" },
-      { "word": "节", "pinyin": "jié", "gloss_fr": "classif. cours, période (一节课 = un cours)", "hsk": 3, "type": "classificateur" }
+      { "word": "左", "pinyin": "zuǒ", "gloss_fr": "gauche ; côté gauche", "gloss_en": "left; left side", "hsk": 2, "forms": "左面/左边", "example": "左边的那个杯子是你的，右边的是我的。" },
+      { "word": "右", "pinyin": "yòu", "gloss_fr": "droite ; côté droit", "gloss_en": "right; right side", "hsk": 2, "forms": "右面/右边", "example": "银行在超市的右边。" },
+      { "word": "前", "pinyin": "qián", "gloss_fr": "avant ; devant ; auparavant", "gloss_en": "front; before; previously", "hsk": 1, "forms": "前面/前边", "example": "学校前面有一辆车。" },
+      { "word": "后", "pinyin": "hòu", "gloss_fr": "arrière ; derrière ; après", "gloss_en": "back; behind; after", "hsk": 1, "forms": "后面/后边", "example": "商店在学校后面。" },
+      { "word": "里", "pinyin": "lǐ", "gloss_fr": "intérieur ; en ; dans", "gloss_en": "inside; in", "hsk": 1, "forms": "里面/里边", "example": "公园里面有很多人。" },
+      { "word": "外", "pinyin": "wài", "gloss_fr": "extérieur ; dehors", "gloss_en": "outside; out", "hsk": 2, "forms": "外面/外边", "example": "外面下雨了。" },
+      { "word": "上", "pinyin": "shàng", "gloss_fr": "au-dessus ; monter ; aller à", "gloss_en": "above; up; to go to", "hsk": 1, "forms": "上面/上边", "example": "桌子上面有一本书。" },
+      { "word": "下", "pinyin": "xià", "gloss_fr": "sous ; au-dessous ; descendre", "gloss_en": "below; under; to descend", "hsk": 1, "forms": "下面/下边", "example": "桌子下面有一本书。" },
+      { "word": "旁边", "pinyin": "pángbiān", "gloss_fr": "à côté de, juste à côté", "gloss_en": "beside, next to", "hsk": 2, "example": "学校旁边有一个超市。" },
+      { "word": "中间", "pinyin": "zhōngjiān", "gloss_fr": "au milieu, entre (deux choses)", "gloss_en": "middle, between (two things)", "hsk": 3, "example": "我站在中间，旁边的人是我的同学。" },
+      { "word": "附近", "pinyin": "fùjìn", "gloss_fr": "dans les environs, à proximité", "gloss_en": "nearby, in the vicinity", "hsk": 3, "example": "我家附近有一个公园。" },
+      { "word": "东", "pinyin": "dōng", "gloss_fr": "est", "gloss_en": "east", "hsk": 3, "example": "学校东边有一个花园。" },
+      { "word": "南", "pinyin": "nán", "gloss_fr": "sud", "gloss_en": "south", "hsk": 3, "example": "他住在北京的南边。" },
+      { "word": "西", "pinyin": "xī", "gloss_fr": "ouest", "gloss_en": "west", "hsk": 3, "example": "医院在学校的西边。" },
+      { "word": "北", "pinyin": "běi", "gloss_fr": "nord", "gloss_en": "north", "hsk": 3, "example": "我家北边有一条河。" },
+      { "word": "对面", "pinyin": "duìmiàn", "gloss_fr": "en face de", "gloss_en": "opposite, across from", "hsk": 3, "example": "学校对面有好几个地铁站。" },
+      { "word": "政治", "pinyin": "zhèngzhì", "gloss_fr": "politique (n.f.) — 政 gouvernement + 治 gérer", "gloss_en": "politics — 政 government + 治 govern", "hsk": 3 },
+      { "word": "学院", "pinyin": "xuéyuàn", "gloss_fr": "institut, grande école — 学 étude + 院 établissement", "gloss_en": "institute, academy — 学 study + 院 institution", "hsk": 3 },
+      { "word": "市中心", "pinyin": "shì zhōngxīn", "gloss_fr": "centre-ville — 市 ville + 中心 centre", "gloss_en": "city center — 市 city + 中心 center", "hsk": 3 },
+      { "word": "校园", "pinyin": "xiàoyuán", "gloss_fr": "campus — 校 école + 园 jardin, enceinte", "gloss_en": "campus — 校 school + 园 garden, grounds", "hsk": 3 },
+      { "word": "图书馆", "pinyin": "túshūguǎn", "gloss_fr": "bibliothèque — 图书 livres + 馆 bâtiment public", "gloss_en": "library — 图书 books + 馆 public building", "hsk": 2 },
+      { "word": "方便", "pinyin": "fāngbiàn", "gloss_fr": "pratique, commode (ex. c'est pratique d'y aller en métro)", "gloss_en": "convenient, practical", "hsk": 2 },
+      { "word": "电影院", "pinyin": "diànyǐngyuàn", "gloss_fr": "cinéma — 电影 film + 院 salle", "gloss_en": "cinema — 电影 film + 院 hall", "hsk": 2 },
+      { "word": "超市", "pinyin": "chāoshì", "gloss_fr": "supermarché — abrév. de 超级市场", "gloss_en": "supermarket — abbr. of 超级市场", "hsk": 2 },
+      { "word": "商店", "pinyin": "shāngdiàn", "gloss_fr": "magasin, boutique — 商 commerce + 店 échoppe", "gloss_en": "shop, store — 商 commerce + 店 shop", "hsk": 2 },
+      { "word": "饭馆", "pinyin": "fànguǎn", "gloss_fr": "restaurant (petit) — 饭 repas + 馆 établissement", "gloss_en": "restaurant (small) — 饭 meal + 馆 establishment", "hsk": 2 },
+      { "word": "咖啡馆", "pinyin": "kāfēiguǎn", "gloss_fr": "café (lieu) — 咖啡 café + 馆 établissement", "gloss_en": "café — 咖啡 coffee + 馆 establishment", "hsk": 3 },
+      { "word": "城市", "pinyin": "chéngshì", "gloss_fr": "grande ville — 城 muraille + 市 marché/cité", "gloss_en": "city — 城 wall + 市 market/city", "hsk": 3 },
+      { "word": "高速", "pinyin": "gāosù", "gloss_fr": "grande vitesse (→ 高速火车 = TGV)", "gloss_en": "high speed (→ 高速火车 = high-speed train)", "hsk": 3 },
+      { "word": "火车站", "pinyin": "huǒchēzhàn", "gloss_fr": "gare — 火车 train + 站 station", "gloss_en": "train station — 火车 train + 站 station", "hsk": 2 },
+      { "word": "快线", "pinyin": "kuàixiàn", "gloss_fr": "RER, ligne express — 快 rapide + 线 ligne", "gloss_en": "express line (RER) — 快 fast + 线 line", "hsk": 3 },
+      { "word": "地铁", "pinyin": "dìtiě", "gloss_fr": "métro — 地 sol + 铁 fer", "gloss_en": "metro, subway — 地 ground + 铁 iron", "hsk": 2 },
+      { "word": "公共汽车", "pinyin": "gōnggòng qìchē", "gloss_fr": "bus — 公共 public + 汽车 voiture", "gloss_en": "bus — 公共 public + 汽车 car", "hsk": 2 },
+      { "word": "宿舍", "pinyin": "sùshè", "gloss_fr": "résidence universitaire, dortoir", "gloss_en": "dormitory, student housing", "hsk": 3 },
+      { "word": "房间", "pinyin": "fángjiān", "gloss_fr": "chambre, pièce — 房 logement + 间 espace", "gloss_en": "room — 房 house + 间 space", "hsk": 2 },
+      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable, à l'aise (pour un lieu ou un état)", "gloss_en": "comfortable, cozy", "hsk": 2 },
+      { "word": "床", "pinyin": "chuáng", "gloss_fr": "lit", "gloss_en": "bed", "hsk": 2 },
+      { "word": "桌子", "pinyin": "zhuōzi", "gloss_fr": "table, bureau", "gloss_en": "table, desk", "hsk": 1 },
+      { "word": "书架", "pinyin": "shūjià", "gloss_fr": "étagère à livres — 书 livre + 架 support", "gloss_en": "bookshelf — 书 book + 架 rack", "hsk": 3 },
+      { "word": "地方", "pinyin": "dìfang", "gloss_fr": "endroit, lieu (ex. 做饭的地方 = coin cuisine)", "gloss_en": "place, location (e.g. 做饭的地方 = cooking area)", "hsk": 2 },
+      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité (associative, sportive)", "gloss_en": "activity (clubs, sports)", "hsk": 3 },
+      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "sport, EPS — 体 corps + 育 éducation", "gloss_en": "sports, PE — 体 body + 育 education", "hsk": 3 },
+      { "word": "戏剧", "pinyin": "xìjù", "gloss_fr": "théâtre (art dramatique) — 戏 jeu + 剧 pièce", "gloss_en": "theater (drama) — 戏 play + 剧 drama", "hsk": 3 },
+      { "word": "小说", "pinyin": "xiǎoshuō", "gloss_fr": "roman, fiction — 小 petit + 说 récit", "gloss_en": "novel, fiction — 小 small + 说 tale", "hsk": 3 },
+      { "word": "年轻人", "pinyin": "niánqīngrén", "gloss_fr": "jeune (personne) — 年轻 jeune + 人 personne", "gloss_en": "young person — 年轻 young + 人 person", "hsk": 3 },
+      { "word": "老年人", "pinyin": "lǎoniánrén", "gloss_fr": "personne âgée — 老年 vieillesse + 人 personne", "gloss_en": "elderly person — 老年 old age + 人 person", "hsk": 3 },
+      { "word": "用", "pinyin": "yòng", "gloss_fr": "utiliser ; avoir besoin de (不用 = pas besoin)", "gloss_en": "to use; to need (不用 = no need)", "hsk": 2 },
+      { "word": "张", "pinyin": "zhāng", "gloss_fr": "classif. objet plat (table, lit, billet, photo)", "gloss_en": "clf. flat objects (table, bed, ticket, photo)", "hsk": 2, "type": "classificateur" },
+      { "word": "把", "pinyin": "bǎ", "gloss_fr": "classif. objet qu'on saisit (chaise, parapluie, clé)", "gloss_en": "clf. graspable objects (chair, umbrella, key)", "hsk": 3, "type": "classificateur" },
+      { "word": "节", "pinyin": "jié", "gloss_fr": "classif. cours, période (一节课 = un cours)", "gloss_en": "clf. class period (一节课 = one class)", "hsk": 3, "type": "classificateur" }
     ],
     "grammar": [
       {
         "pattern": "在 + Lieu",
         "explanation_fr": "Indique la localisation. Le verbe 在 précède le lieu.",
+        "explanation_en": "Indicates location. The verb 在 precedes the place.",
         "examples": [
-          { "zh": "书在书包里。", "pinyin": "Shū zài shūbāo lǐ.", "fr": "Le livre est dans le sac." },
-          { "zh": "他在医院。", "pinyin": "Tā zài yīyuàn.", "fr": "Il est à l'hôpital." }
+          { "zh": "书在书包里。", "pinyin": "Shū zài shūbāo lǐ.", "fr": "Le livre est dans le sac.", "en": "The book is in the bag." },
+          { "zh": "他在医院。", "pinyin": "Tā zài yīyuàn.", "fr": "Il est à l'hôpital.", "en": "He is at the hospital." }
         ]
       },
       {
         "pattern": "Lieu + 有 + Chose",
         "explanation_fr": "Exprime l'existence : « il y a » quelque chose dans un lieu.",
+        "explanation_en": "Expresses existence: 'there is' something at a place.",
         "examples": [
-          { "zh": "学校旁边有一个超市。", "pinyin": "Xuéxiào pángbiān yǒu yī gè chāoshì.", "fr": "Il y a un supermarché à côté de l'école." },
-          { "zh": "公园里有很多人。", "pinyin": "Gōngyuán lǐ yǒu hěn duō rén.", "fr": "Il y a beaucoup de monde dans le parc." }
+          { "zh": "学校旁边有一个超市。", "pinyin": "Xuéxiào pángbiān yǒu yī gè chāoshì.", "fr": "Il y a un supermarché à côté de l'école.", "en": "There's a supermarket next to the school." },
+          { "zh": "公园里有很多人。", "pinyin": "Gōngyuán lǐ yǒu hěn duō rén.", "fr": "Il y a beaucoup de monde dans le parc.", "en": "There are many people in the park." }
         ]
       },
       {
         "pattern": "N + 面/边 (locatifs composés)",
         "explanation_fr": "Les locatifs monosyllabiques (上, 下, 前, 后, 左, 右, 里, 外) se combinent avec 面 ou 边 pour former des mots de position : 上面/上边 (au-dessus), 里面/里边 (à l'intérieur), etc.",
+        "explanation_en": "Monosyllabic locatives (上, 下, 前, 后, 左, 右, 里, 外) combine with 面 or 边 to form position words: 上面/上边 (above), 里面/里边 (inside), etc.",
         "examples": [
-          { "zh": "桌子上面有一本书。", "pinyin": "Zhuōzi shàngmiàn yǒu yī běn shū.", "fr": "Il y a un livre sur la table." },
-          { "zh": "学校后面有一个商店。", "pinyin": "Xuéxiào hòumiàn yǒu yī gè shāngdiàn.", "fr": "Il y a un magasin derrière l'école." }
+          { "zh": "桌子上面有一本书。", "pinyin": "Zhuōzi shàngmiàn yǒu yī běn shū.", "fr": "Il y a un livre sur la table.", "en": "There's a book on the table." },
+          { "zh": "学校后面有一个商店。", "pinyin": "Xuéxiào hòumiàn yǒu yī gè shāngdiàn.", "fr": "Il y a un magasin derrière l'école.", "en": "There's a shop behind the school." }
         ]
       },
       {
         "pattern": "从 A 到 B",
         "explanation_fr": "De A à B — indique un trajet ou une distance entre deux points.",
+        "explanation_en": "From A to B — indicates a route or distance between two points.",
         "examples": [
-          { "zh": "从卢森堡公园到蒙帕纳斯火车站很近。", "pinyin": "Cóng Lúsēnbǎo gōngyuán dào Méngpànàsī huǒchēzhàn hěn jìn.", "fr": "Du jardin du Luxembourg à la gare Montparnasse, c'est très proche." }
+          { "zh": "从卢森堡公园到蒙帕纳斯火车站很近。", "pinyin": "Cóng Lúsēnbǎo gōngyuán dào Méngpànàsī huǒchēzhàn hěn jìn.", "fr": "Du jardin du Luxembourg à la gare Montparnasse, c'est très proche.", "en": "From Luxembourg Gardens to Montparnasse station is very close." }
         ]
       },
       {
         "pattern": "V + 过 / 没(有) + V + 过 (aspect expérientiel)",
         "explanation_fr": "过 après un verbe exprime une expérience vécue dans un passé indéterminé : « avoir déjà fait qqch (au moins une fois) ». La forme négative 没(有)+V+过 signifie « ne jamais avoir fait ». La question se forme avec 吗 : S + V + 过 + CO + 吗？",
+        "explanation_en": "过 after a verb expresses a past experience: 'to have done something at least once'. The negative 没(有)+V+过 means 'to have never done'. Questions use 吗: S + V + 过 + Object + 吗?",
         "examples": [
-          { "zh": "我去过中国。", "pinyin": "Wǒ qù guo Zhōngguó.", "fr": "Je suis déjà allé(e) en Chine." },
-          { "zh": "你吃过臭豆腐吗？", "pinyin": "Nǐ chī guo chòu dòufu ma?", "fr": "Tu as déjà mangé du tofu puant ?" },
-          { "zh": "我没吃过臭豆腐。", "pinyin": "Wǒ méi chī guo chòu dòufu.", "fr": "Je n'ai jamais mangé de tofu puant." },
-          { "zh": "他学过两百个汉字。", "pinyin": "Tā xué guo liǎng bǎi gè hànzì.", "fr": "Il a (déjà) appris 200 caractères chinois." }
+          { "zh": "我去过中国。", "pinyin": "Wǒ qù guo Zhōngguó.", "fr": "Je suis déjà allé(e) en Chine.", "en": "I've been to China (before)." },
+          { "zh": "你吃过臭豆腐吗？", "pinyin": "Nǐ chī guo chòu dòufu ma?", "fr": "Tu as déjà mangé du tofu puant ?", "en": "Have you ever eaten stinky tofu?" },
+          { "zh": "我没吃过臭豆腐。", "pinyin": "Wǒ méi chī guo chòu dòufu.", "fr": "Je n'ai jamais mangé de tofu puant.", "en": "I've never eaten stinky tofu." },
+          { "zh": "他学过两百个汉字。", "pinyin": "Tā xué guo liǎng bǎi gè hànzì.", "fr": "Il a (déjà) appris 200 caractères chinois.", "en": "He has learned 200 Chinese characters." }
         ]
       },
       {
         "pattern": "S + V + 了₁ + CO (action accomplie)",
         "explanation_fr": "了₁ se place juste après le verbe pour indiquer qu'une action est accomplie. La négation utilise 没(有) et 了 disparaît. Attention : les verbes d'état (是, 在, 想, 能, 可以, 会, 要) ne prennent pas 了₁. Dans une suite de verbes (aller + V, venir + V), seul le dernier verbe prend 了₁.",
+        "explanation_en": "了₁ is placed right after the verb to mark a completed action. Negation uses 没(有) and 了 disappears. Note: stative verbs (是, 在, 想, 能, 可以, 会, 要) don't take 了₁. In verb chains (go + V, come + V), only the last verb takes 了₁.",
         "examples": [
-          { "zh": "他看了这个电影。", "pinyin": "Tā kàn le zhège diànyǐng.", "fr": "Il a vu ce film." },
-          { "zh": "我昨天买了两条鱼。", "pinyin": "Wǒ zuótiān mǎi le liǎng tiáo yú.", "fr": "Hier, j'ai acheté deux poissons." },
-          { "zh": "他没看这个电影。", "pinyin": "Tā méi kàn zhège diànyǐng.", "fr": "Il n'a pas vu ce film." },
-          { "zh": "我昨天去买了两条鱼。", "pinyin": "Wǒ zuótiān qù mǎi le liǎng tiáo yú.", "fr": "Hier, je suis allé acheter deux poissons. (了 sur le dernier verbe)" }
+          { "zh": "他看了这个电影。", "pinyin": "Tā kàn le zhège diànyǐng.", "fr": "Il a vu ce film.", "en": "He watched this movie." },
+          { "zh": "我昨天买了两条鱼。", "pinyin": "Wǒ zuótiān mǎi le liǎng tiáo yú.", "fr": "Hier, j'ai acheté deux poissons.", "en": "Yesterday I bought two fish." },
+          { "zh": "他没看这个电影。", "pinyin": "Tā méi kàn zhège diànyǐng.", "fr": "Il n'a pas vu ce film.", "en": "He didn't watch this movie." },
+          { "zh": "我昨天去买了两条鱼。", "pinyin": "Wǒ zuótiān qù mǎi le liǎng tiáo yú.", "fr": "Hier, je suis allé acheter deux poissons. (了 sur le dernier verbe)", "en": "Yesterday I went to buy two fish. (了 on the last verb)" }
         ]
       },
       {
         "pattern": "S + V/Adj + 了₂ (changement de situation)",
         "explanation_fr": "了₂ en fin de phrase indique un changement d'état ou une situation nouvelle : « maintenant c'est le cas ». Avec la négation 不…了₂, il exprime « ne plus » (changement par rapport à avant).",
+        "explanation_en": "了₂ at the end of a sentence signals a change of state or new situation: 'now it's the case'. With negation 不…了₂, it means 'no longer' (a change from before).",
         "examples": [
-          { "zh": "草黄了。", "pinyin": "Cǎo huáng le.", "fr": "L'herbe a jauni. (elle est devenue jaune)" },
-          { "zh": "你们懂了吗？", "pinyin": "Nǐmen dǒng le ma?", "fr": "Vous avez compris ? (maintenant)" },
-          { "zh": "我不爱你了。", "pinyin": "Wǒ bú ài nǐ le.", "fr": "Je ne t'aime plus." },
-          { "zh": "他不想去了。", "pinyin": "Tā bù xiǎng qù le.", "fr": "Il ne veut plus y aller." }
+          { "zh": "草黄了。", "pinyin": "Cǎo huáng le.", "fr": "L'herbe a jauni. (elle est devenue jaune)", "en": "The grass has turned yellow." },
+          { "zh": "你们懂了吗？", "pinyin": "Nǐmen dǒng le ma?", "fr": "Vous avez compris ? (maintenant)", "en": "Do you understand now?" },
+          { "zh": "我不爱你了。", "pinyin": "Wǒ bú ài nǐ le.", "fr": "Je ne t'aime plus.", "en": "I don't love you anymore." },
+          { "zh": "他不想去了。", "pinyin": "Tā bù xiǎng qù le.", "fr": "Il ne veut plus y aller.", "en": "He doesn't want to go anymore." }
         ]
       },
       {
         "pattern": "V + 着 (état continu / action en cours)",
         "explanation_fr": "着 se place après un verbe pour indiquer un état qui dure ou une action en cours. Il décrit la manière dont quelque chose se maintient (porte ouverte, personne assise, vêtement porté). La négation utilise 没(有)…着.",
+        "explanation_en": "着 is placed after a verb to indicate a continuing state or ongoing action — how something remains (door open, person seated, garment worn). Negation uses 没(有)…着.",
         "examples": [
-          { "zh": "门开着。", "pinyin": "Mén kāi zhe.", "fr": "La porte est ouverte. (elle reste ouverte)" },
-          { "zh": "他穿着一件红色的衣服。", "pinyin": "Tā chuān zhe yī jiàn hóngsè de yīfu.", "fr": "Il porte un vêtement rouge. (en ce moment)" },
-          { "zh": "墙上挂着一幅画。", "pinyin": "Qiáng shàng guà zhe yī fú huà.", "fr": "Un tableau est accroché au mur." }
+          { "zh": "门开着。", "pinyin": "Mén kāi zhe.", "fr": "La porte est ouverte. (elle reste ouverte)", "en": "The door is open. (it stays open)" },
+          { "zh": "他穿着一件红色的衣服。", "pinyin": "Tā chuān zhe yī jiàn hóngsè de yīfu.", "fr": "Il porte un vêtement rouge. (en ce moment)", "en": "He's wearing a red garment. (right now)" },
+          { "zh": "墙上挂着一幅画。", "pinyin": "Qiáng shàng guà zhe yī fú huà.", "fr": "Un tableau est accroché au mur.", "en": "A painting hangs on the wall." }
         ]
       }
     ]
@@ -147,7 +164,8 @@
     "week": 2,
     "title": "王小明的一天",
     "title_fr": "La journée de Wang Xiaoming",
-    "theme": "时间 — Le temps",
+    "title_en": "Wang Xiaoming's Day",
+    "theme": "时间 — Le temps / Time",
     "date": "2026-09-15",
     "reading": {
       "title": "王小明的一天",
@@ -158,88 +176,101 @@
         "下课以后，他去图书馆看一个小时的书。他最近正在准备考试。刚才他在图书馆看书的时候，一个朋友给他打了电话，问他周末有没有时间去看电影。他说周末有时间。",
         "下个月十五号是王小明的生日。去年他的生日那天，朋友们来了他的宿舍，大家一起过了一个很开心的节日。过去一年，他学了很多东西。",
         "晚上七点，他回宿舍做饭。吃完饭，他看一会儿电视。十一点他睡觉。昨天他睡得很晚，今天很累。明天是星期六，他终于可以休息了！"
+      ],
+      "paragraphs_en": [
+        "Wang Xiaoming is a Sciences Po student. He gets up at 7:30 every morning. He used to always get up very late, but now he no longer sleeps in.",
+        "At 8 AM he eats breakfast. He often has bread and coffee in the dorm. After breakfast, he immediately heads to school. It takes twenty minutes by metro from the dorm to school.",
+        "From 9 AM to noon he has class. At 12:30 PM he goes to a restaurant with classmates for lunch. Afternoon classes run from 2:00 to 4:30.",
+        "After class he goes to the library to read for an hour. He's recently been preparing for an exam. Just now, while reading in the library, a friend called and asked if he had time to see a movie this weekend. He said he did.",
+        "Next month on the 15th is Wang Xiaoming's birthday. Last year on his birthday, friends came to his dorm and they all had a wonderful celebration. Over the past year he's learned a lot.",
+        "At 7 PM he goes back to the dorm to cook. After eating, he watches TV for a while. He goes to bed at 11. He went to bed very late yesterday and is tired today. Tomorrow is Saturday — he can finally rest!"
       ]
     },
     "vocab": [
-      { "word": "时间", "pinyin": "shíjiān", "gloss_fr": "temps, heure — 时 temps + 间 intervalle", "hsk": 2, "category": "moment", "example": "这段时间我很忙。" },
-      { "word": "今天", "pinyin": "jīntiān", "gloss_fr": "aujourd'hui — 今 actuel + 天 jour", "hsk": 1, "category": "moment", "example": "今天我很高兴。" },
-      { "word": "明天", "pinyin": "míngtiān", "gloss_fr": "demain — 明 prochain + 天 jour", "hsk": 1, "category": "moment", "example": "我明天坐飞机去北京。" },
-      { "word": "昨天", "pinyin": "zuótiān", "gloss_fr": "hier — 昨 hier + 天 jour", "hsk": 1, "category": "moment", "example": "我昨天去商店买了很多东西。" },
-      { "word": "上午", "pinyin": "shàngwǔ", "gloss_fr": "matin — 上 au-dessus + 午 midi", "hsk": 1, "category": "moment", "example": "你明天上午在家吗？" },
-      { "word": "中午", "pinyin": "zhōngwǔ", "gloss_fr": "midi — 中 milieu + 午 midi", "hsk": 1, "category": "moment", "example": "我们中午去饭店吃饭吧。" },
-      { "word": "下午", "pinyin": "xiàwǔ", "gloss_fr": "après-midi — 下 au-dessous + 午 midi", "hsk": 1, "category": "moment", "example": "我今天下午不去学校了。" },
-      { "word": "时候", "pinyin": "shíhou", "gloss_fr": "moment (什么时候 = quand ?) — 时 temps + 候 condition", "hsk": 1, "category": "moment", "example": "这是我小时候的照片。" },
-      { "word": "早上", "pinyin": "zǎoshang", "gloss_fr": "matin (tôt) — 早 tôt + 上 (période)", "hsk": 2, "category": "moment", "example": "我每天早上都跑步。" },
-      { "word": "晚上", "pinyin": "wǎnshang", "gloss_fr": "soir, nuit — 晚 tard + 上 (période)", "hsk": 2, "category": "moment", "example": "我每天晚上都看新闻。" },
-      { "word": "现在", "pinyin": "xiànzài", "gloss_fr": "maintenant — 现 actuel + 在 être", "hsk": 1, "category": "moment", "example": "现在几点了？" },
-      { "word": "点", "pinyin": "diǎn", "gloss_fr": "heure (ponctuelle) ; point", "hsk": 1, "category": "moment", "example": "我下午三点回家。" },
-      { "word": "分钟", "pinyin": "fēnzhōng", "gloss_fr": "minute (durée) — 分 diviser + 钟 horloge", "hsk": 2, "category": "moment", "example": "从我家到公司，开车要二十分钟。" },
-      { "word": "小时", "pinyin": "xiǎoshí", "gloss_fr": "heure (durée) — 小 petit + 时 temps", "hsk": 2, "category": "moment", "example": "我每天学习两个小时。" },
-      { "word": "年", "pinyin": "nián", "gloss_fr": "année, an", "hsk": 1, "category": "calendrier", "example": "我在中国住了三年。" },
-      { "word": "去年", "pinyin": "qùnián", "gloss_fr": "l'année dernière — 去 dernier + 年 année", "hsk": 2, "category": "calendrier", "example": "去年，我去了中国。" },
-      { "word": "月", "pinyin": "yuè", "gloss_fr": "mois ; lune", "hsk": 1, "category": "calendrier", "example": "我下个月去北京。" },
-      { "word": "日", "pinyin": "rì", "gloss_fr": "jour ; soleil", "hsk": 1, "category": "calendrier", "example": "今天一月一日。" },
-      { "word": "号", "pinyin": "hào", "gloss_fr": "date (du mois) ; numéro", "hsk": 3, "category": "calendrier", "example": "今天12月24号，是我的生日。" },
-      { "word": "星期", "pinyin": "xīngqī", "gloss_fr": "semaine — 星 étoile + 期 période", "hsk": 1, "category": "calendrier", "example": "今天星期几？" },
-      { "word": "周末", "pinyin": "zhōumò", "gloss_fr": "week-end — 周 semaine + 末 fin", "hsk": 3, "category": "calendrier", "example": "你周末喜欢做什么？" },
-      { "word": "生日", "pinyin": "shēngrì", "gloss_fr": "anniversaire — 生 naître + 日 jour", "hsk": 2, "category": "calendrier", "example": "祝你生日快乐！" },
-      { "word": "节日", "pinyin": "jiérì", "gloss_fr": "fête, jour férié — 节 fête + 日 jour", "hsk": 3, "category": "calendrier", "example": "春节是中国人最重要的节日。" },
-      { "word": "刚才", "pinyin": "gāngcái", "gloss_fr": "tout à l'heure, à l'instant — 刚 juste + 才 seulement", "hsk": 3, "category": "adverbe", "example": "我刚才看见他了。" },
-      { "word": "过去", "pinyin": "guòqù", "gloss_fr": "le passé — 过 passer + 去 aller", "hsk": 3, "category": "adverbe", "example": "奶奶经常给我讲过去的事情。" },
-      { "word": "以前", "pinyin": "yǐqián", "gloss_fr": "avant, autrefois — 以 (limite) + 前 devant", "hsk": 3, "category": "adverbe", "example": "我们看电影以前，先去吃饭吧。" },
-      { "word": "以后", "pinyin": "yǐhòu", "gloss_fr": "après, plus tard — 以 (limite) + 后 derrière", "hsk": 3, "category": "adverbe", "example": "下课以后，我要去图书馆看书。" },
-      { "word": "最近", "pinyin": "zuìjìn", "gloss_fr": "récemment — 最 le plus + 近 proche", "hsk": 3, "category": "adverbe", "example": "我最近很忙。" },
-      { "word": "一会儿", "pinyin": "yíhuìr", "gloss_fr": "un moment, un instant — 一 un + 会 moment + 儿", "hsk": 3, "category": "adverbe", "example": "我一会儿回来。" },
-      { "word": "正在", "pinyin": "zhèngzài", "gloss_fr": "en train de — 正 en cours + 在 (progressif)", "hsk": 2, "category": "adverbe", "example": "学生们正在做作业。" },
-      { "word": "已经", "pinyin": "yǐjīng", "gloss_fr": "déjà — 已 déjà + 经 passer par", "hsk": 2, "category": "adverbe", "example": "他已经回家了。" },
-      { "word": "总是", "pinyin": "zǒngshì", "gloss_fr": "toujours — 总 toujours + 是 être", "hsk": 3, "category": "adverbe", "example": "他总是很早起床。" },
-      { "word": "马上", "pinyin": "mǎshàng", "gloss_fr": "tout de suite — 马 cheval + 上 dessus (= vite !)", "hsk": 3, "category": "adverbe", "example": "我马上给他打电话。" },
-      { "word": "经常", "pinyin": "jīngcháng", "gloss_fr": "souvent — 经 passer par + 常 fréquemment", "hsk": 3, "category": "adverbe", "example": "他周末经常在家看书。" },
-      { "word": "终于", "pinyin": "zhōngyú", "gloss_fr": "enfin, finalement — 终 fin + 于 à", "hsk": 3, "category": "adverbe", "example": "他终于通过了HSK3级考试。" }
+      { "word": "时间", "pinyin": "shíjiān", "gloss_fr": "temps, heure — 时 temps + 间 intervalle", "gloss_en": "time — 时 time + 间 interval", "hsk": 2, "category": "moment", "example": "这段时间我很忙。" },
+      { "word": "今天", "pinyin": "jīntiān", "gloss_fr": "aujourd'hui — 今 actuel + 天 jour", "gloss_en": "today — 今 present + 天 day", "hsk": 1, "category": "moment", "example": "今天我很高兴。" },
+      { "word": "明天", "pinyin": "míngtiān", "gloss_fr": "demain — 明 prochain + 天 jour", "gloss_en": "tomorrow — 明 next + 天 day", "hsk": 1, "category": "moment", "example": "我明天坐飞机去北京。" },
+      { "word": "昨天", "pinyin": "zuótiān", "gloss_fr": "hier — 昨 hier + 天 jour", "gloss_en": "yesterday — 昨 yesterday + 天 day", "hsk": 1, "category": "moment", "example": "我昨天去商店买了很多东西。" },
+      { "word": "上午", "pinyin": "shàngwǔ", "gloss_fr": "matin — 上 au-dessus + 午 midi", "gloss_en": "morning — 上 above + 午 noon", "hsk": 1, "category": "moment", "example": "你明天上午在家吗？" },
+      { "word": "中午", "pinyin": "zhōngwǔ", "gloss_fr": "midi — 中 milieu + 午 midi", "gloss_en": "noon, midday — 中 middle + 午 noon", "hsk": 1, "category": "moment", "example": "我们中午去饭店吃饭吧。" },
+      { "word": "下午", "pinyin": "xiàwǔ", "gloss_fr": "après-midi — 下 au-dessous + 午 midi", "gloss_en": "afternoon — 下 below + 午 noon", "hsk": 1, "category": "moment", "example": "我今天下午不去学校了。" },
+      { "word": "时候", "pinyin": "shíhou", "gloss_fr": "moment (什么时候 = quand ?) — 时 temps + 候 condition", "gloss_en": "moment (什么时候 = when?) — 时 time + 候 condition", "hsk": 1, "category": "moment", "example": "这是我小时候的照片。" },
+      { "word": "早上", "pinyin": "zǎoshang", "gloss_fr": "matin (tôt) — 早 tôt + 上 (période)", "gloss_en": "morning (early) — 早 early + 上 (period)", "hsk": 2, "category": "moment", "example": "我每天早上都跑步。" },
+      { "word": "晚上", "pinyin": "wǎnshang", "gloss_fr": "soir, nuit — 晚 tard + 上 (période)", "gloss_en": "evening, night — 晚 late + 上 (period)", "hsk": 2, "category": "moment", "example": "我每天晚上都看新闻。" },
+      { "word": "现在", "pinyin": "xiànzài", "gloss_fr": "maintenant — 现 actuel + 在 être", "gloss_en": "now, at present — 现 current + 在 to be", "hsk": 1, "category": "moment", "example": "现在几点了？" },
+      { "word": "点", "pinyin": "diǎn", "gloss_fr": "heure (ponctuelle) ; point", "gloss_en": "o'clock; point", "hsk": 1, "category": "moment", "example": "我下午三点回家。" },
+      { "word": "分钟", "pinyin": "fēnzhōng", "gloss_fr": "minute (durée) — 分 diviser + 钟 horloge", "gloss_en": "minute (duration) — 分 divide + 钟 clock", "hsk": 2, "category": "moment", "example": "从我家到公司，开车要二十分钟。" },
+      { "word": "小时", "pinyin": "xiǎoshí", "gloss_fr": "heure (durée) — 小 petit + 时 temps", "gloss_en": "hour (duration) — 小 small + 时 time", "hsk": 2, "category": "moment", "example": "我每天学习两个小时。" },
+      { "word": "年", "pinyin": "nián", "gloss_fr": "année, an", "gloss_en": "year", "hsk": 1, "category": "calendrier", "example": "我在中国住了三年。" },
+      { "word": "去年", "pinyin": "qùnián", "gloss_fr": "l'année dernière — 去 dernier + 年 année", "gloss_en": "last year — 去 past + 年 year", "hsk": 2, "category": "calendrier", "example": "去年，我去了中国。" },
+      { "word": "月", "pinyin": "yuè", "gloss_fr": "mois ; lune", "gloss_en": "month; moon", "hsk": 1, "category": "calendrier", "example": "我下个月去北京。" },
+      { "word": "日", "pinyin": "rì", "gloss_fr": "jour ; soleil", "gloss_en": "day; sun", "hsk": 1, "category": "calendrier", "example": "今天一月一日。" },
+      { "word": "号", "pinyin": "hào", "gloss_fr": "date (du mois) ; numéro", "gloss_en": "date (of month); number", "hsk": 3, "category": "calendrier", "example": "今天12月24号，是我的生日。" },
+      { "word": "星期", "pinyin": "xīngqī", "gloss_fr": "semaine — 星 étoile + 期 période", "gloss_en": "week — 星 star + 期 period", "hsk": 1, "category": "calendrier", "example": "今天星期几？" },
+      { "word": "周末", "pinyin": "zhōumò", "gloss_fr": "week-end — 周 semaine + 末 fin", "gloss_en": "weekend — 周 week + 末 end", "hsk": 3, "category": "calendrier", "example": "你周末喜欢做什么？" },
+      { "word": "生日", "pinyin": "shēngrì", "gloss_fr": "anniversaire — 生 naître + 日 jour", "gloss_en": "birthday — 生 born + 日 day", "hsk": 2, "category": "calendrier", "example": "祝你生日快乐！" },
+      { "word": "节日", "pinyin": "jiérì", "gloss_fr": "fête, jour férié — 节 fête + 日 jour", "gloss_en": "holiday, festival — 节 festival + 日 day", "hsk": 3, "category": "calendrier", "example": "春节是中国人最重要的节日。" },
+      { "word": "刚才", "pinyin": "gāngcái", "gloss_fr": "tout à l'heure, à l'instant — 刚 juste + 才 seulement", "gloss_en": "just now — 刚 just + 才 only", "hsk": 3, "category": "adverbe", "example": "我刚才看见他了。" },
+      { "word": "过去", "pinyin": "guòqù", "gloss_fr": "le passé — 过 passer + 去 aller", "gloss_en": "the past — 过 pass + 去 go", "hsk": 3, "category": "adverbe", "example": "奶奶经常给我讲过去的事情。" },
+      { "word": "以前", "pinyin": "yǐqián", "gloss_fr": "avant, autrefois — 以 (limite) + 前 devant", "gloss_en": "before, formerly — 以 (limit) + 前 front", "hsk": 3, "category": "adverbe", "example": "我们看电影以前，先去吃饭吧。" },
+      { "word": "以后", "pinyin": "yǐhòu", "gloss_fr": "après, plus tard — 以 (limite) + 后 derrière", "gloss_en": "after, later — 以 (limit) + 后 back", "hsk": 3, "category": "adverbe", "example": "下课以后，我要去图书馆看书。" },
+      { "word": "最近", "pinyin": "zuìjìn", "gloss_fr": "récemment — 最 le plus + 近 proche", "gloss_en": "recently — 最 most + 近 near", "hsk": 3, "category": "adverbe", "example": "我最近很忙。" },
+      { "word": "一会儿", "pinyin": "yíhuìr", "gloss_fr": "un moment, un instant — 一 un + 会 moment + 儿", "gloss_en": "a moment — 一 one + 会 moment + 儿", "hsk": 3, "category": "adverbe", "example": "我一会儿回来。" },
+      { "word": "正在", "pinyin": "zhèngzài", "gloss_fr": "en train de — 正 en cours + 在 (progressif)", "gloss_en": "in the process of — 正 ongoing + 在 (progressive)", "hsk": 2, "category": "adverbe", "example": "学生们正在做作业。" },
+      { "word": "已经", "pinyin": "yǐjīng", "gloss_fr": "déjà — 已 déjà + 经 passer par", "gloss_en": "already — 已 already + 经 pass through", "hsk": 2, "category": "adverbe", "example": "他已经回家了。" },
+      { "word": "总是", "pinyin": "zǒngshì", "gloss_fr": "toujours — 总 toujours + 是 être", "gloss_en": "always — 总 always + 是 to be", "hsk": 3, "category": "adverbe", "example": "他总是很早起床。" },
+      { "word": "马上", "pinyin": "mǎshàng", "gloss_fr": "tout de suite — 马 cheval + 上 dessus (= vite !)", "gloss_en": "right away — 马 horse + 上 on (= mount up, hurry!)", "hsk": 3, "category": "adverbe", "example": "我马上给他打电话。" },
+      { "word": "经常", "pinyin": "jīngcháng", "gloss_fr": "souvent — 经 passer par + 常 fréquemment", "gloss_en": "often — 经 pass through + 常 frequently", "hsk": 3, "category": "adverbe", "example": "他周末经常在家看书。" },
+      { "word": "终于", "pinyin": "zhōngyú", "gloss_fr": "enfin, finalement — 终 fin + 于 à", "gloss_en": "finally, at last — 终 end + 于 at", "hsk": 3, "category": "adverbe", "example": "他终于通过了HSK3级考试。" }
     ],
     "grammar": [
       {
         "pattern": "的时候 (quand)",
         "explanation_fr": "时候 signifie « moment ». Placé après un verbe ou un nom, 的时候 forme une proposition temporelle : « quand / au moment où ». On peut dire 小时候 (sans 的) pour « quand j'étais petit ».",
+        "explanation_en": "时候 means 'moment/time'. After a verb or noun, 的时候 forms a temporal clause: 'when / at the moment when'. 小时候 (without 的) means 'when I was little'.",
         "examples": [
-          { "zh": "他吃饭的时候，不看手机。", "pinyin": "Tā chīfàn de shíhou, bù kàn shǒujī.", "fr": "Quand il mange, il ne regarde pas son téléphone." },
-          { "zh": "这是我小时候的照片。", "pinyin": "Zhè shì wǒ xiǎo shíhou de zhàopiàn.", "fr": "C'est une photo de quand j'étais petit." }
+          { "zh": "他吃饭的时候，不看手机。", "pinyin": "Tā chīfàn de shíhou, bù kàn shǒujī.", "fr": "Quand il mange, il ne regarde pas son téléphone.", "en": "When he eats, he doesn't look at his phone." },
+          { "zh": "这是我小时候的照片。", "pinyin": "Zhè shì wǒ xiǎo shíhou de zhàopiàn.", "fr": "C'est une photo de quand j'étais petit.", "en": "This is a photo from when I was little." }
         ]
       },
       {
         "pattern": "以前 / 以后 (avant / après)",
         "explanation_fr": "以前 (avant) et 以后 (après) se placent après un verbe ou un mot temporel. Avec un verbe : V + 以前/以后. Avec un horaire : heure + 以前/以后.",
+        "explanation_en": "以前 (before) and 以后 (after) go after a verb or time word. With a verb: V + 以前/以后. With a time: time + 以前/以后.",
         "examples": [
-          { "zh": "我们看电影以前，先去吃饭吧。", "pinyin": "Wǒmen kàn diànyǐng yǐqián, xiān qù chīfàn ba.", "fr": "Avant le film, allons d'abord manger." },
-          { "zh": "下课以后，我要去图书馆看书。", "pinyin": "Xiàkè yǐhòu, wǒ yào qù túshūguǎn kànshū.", "fr": "Après les cours, je vais lire à la bibliothèque." },
-          { "zh": "五点以前回来。", "pinyin": "Wǔ diǎn yǐqián huílai.", "fr": "Reviens avant 5 heures." }
+          { "zh": "我们看电影以前，先去吃饭吧。", "pinyin": "Wǒmen kàn diànyǐng yǐqián, xiān qù chīfàn ba.", "fr": "Avant le film, allons d'abord manger.", "en": "Before the movie, let's eat first." },
+          { "zh": "下课以后，我要去图书馆看书。", "pinyin": "Xiàkè yǐhòu, wǒ yào qù túshūguǎn kànshū.", "fr": "Après les cours, je vais lire à la bibliothèque.", "en": "After class, I'll go read at the library." },
+          { "zh": "五点以前回来。", "pinyin": "Wǔ diǎn yǐqián huílai.", "fr": "Reviens avant 5 heures.", "en": "Come back before 5 o'clock." }
         ]
       },
       {
         "pattern": "正在 + V (en train de)",
         "explanation_fr": "正在 se place avant le verbe pour indiquer qu'une action est en cours (« être en train de »). On peut aussi utiliser 在 seul ou 正 seul avec le même sens.",
+        "explanation_en": "正在 goes before the verb to indicate an action in progress ('to be doing'). 在 alone or 正 alone can also be used with the same meaning.",
         "examples": [
-          { "zh": "他正在吃饭。", "pinyin": "Tā zhèngzài chīfàn.", "fr": "Il est en train de manger." },
-          { "zh": "学生们正在做作业。", "pinyin": "Xuéshengmen zhèngzài zuò zuòyè.", "fr": "Les étudiants sont en train de faire leurs devoirs." },
-          { "zh": "我们正在复习。", "pinyin": "Wǒmen zhèngzài fùxí.", "fr": "Nous sommes en train de réviser." }
+          { "zh": "他正在吃饭。", "pinyin": "Tā zhèngzài chīfàn.", "fr": "Il est en train de manger.", "en": "He's eating right now." },
+          { "zh": "学生们正在做作业。", "pinyin": "Xuéshengmen zhèngzài zuò zuòyè.", "fr": "Les étudiants sont en train de faire leurs devoirs.", "en": "The students are doing their homework." },
+          { "zh": "我们正在复习。", "pinyin": "Wǒmen zhèngzài fùxí.", "fr": "Nous sommes en train de réviser.", "en": "We're reviewing." }
         ]
       },
       {
         "pattern": "已经 + V + 了 (déjà)",
         "explanation_fr": "已经…了 indique qu'une action est déjà accomplie. 已经 se place avant le verbe et 了 en fin de phrase. Les deux éléments fonctionnent ensemble.",
+        "explanation_en": "已经…了 indicates an action is already completed. 已经 goes before the verb and 了 at the end. Both elements work together.",
         "examples": [
-          { "zh": "他已经回家了。", "pinyin": "Tā yǐjīng huí jiā le.", "fr": "Il est déjà rentré." },
-          { "zh": "我们已经吃完饭了。", "pinyin": "Wǒmen yǐjīng chī wán fàn le.", "fr": "Nous avons déjà fini de manger." }
+          { "zh": "他已经回家了。", "pinyin": "Tā yǐjīng huí jiā le.", "fr": "Il est déjà rentré.", "en": "He's already gone home." },
+          { "zh": "我们已经吃完饭了。", "pinyin": "Wǒmen yǐjīng chī wán fàn le.", "fr": "Nous avons déjà fini de manger.", "en": "We've already finished eating." }
         ]
       },
       {
         "pattern": "总是 / 经常 / 马上 / 终于 (adverbes temporels)",
         "explanation_fr": "Les adverbes temporels se placent avant le verbe, après le sujet : S + adverbe + V. 总是 (toujours) et 经常 (souvent) expriment la fréquence. 马上 (tout de suite) et 终于 (enfin) situent le moment.",
+        "explanation_en": "Temporal adverbs go before the verb, after the subject: S + adverb + V. 总是 (always) and 经常 (often) express frequency. 马上 (right away) and 终于 (finally) pinpoint timing.",
         "examples": [
-          { "zh": "他总是很早起床。", "pinyin": "Tā zǒngshì hěn zǎo qǐchuáng.", "fr": "Il se lève toujours très tôt." },
-          { "zh": "他周末经常在家看书。", "pinyin": "Tā zhōumò jīngcháng zài jiā kànshū.", "fr": "Le week-end, il lit souvent à la maison." },
-          { "zh": "我马上给他打电话。", "pinyin": "Wǒ mǎshàng gěi tā dǎ diànhuà.", "fr": "Je vais l'appeler tout de suite." },
-          { "zh": "他终于通过了HSK3级考试。", "pinyin": "Tā zhōngyú tōngguò le HSK3 jí kǎoshì.", "fr": "Il a enfin réussi l'examen HSK3." }
+          { "zh": "他总是很早起床。", "pinyin": "Tā zǒngshì hěn zǎo qǐchuáng.", "fr": "Il se lève toujours très tôt.", "en": "He always gets up very early." },
+          { "zh": "他周末经常在家看书。", "pinyin": "Tā zhōumò jīngcháng zài jiā kànshū.", "fr": "Le week-end, il lit souvent à la maison.", "en": "On weekends, he often reads at home." },
+          { "zh": "我马上给他打电话。", "pinyin": "Wǒ mǎshàng gěi tā dǎ diànhuà.", "fr": "Je vais l'appeler tout de suite.", "en": "I'll call him right away." },
+          { "zh": "他终于通过了HSK3级考试。", "pinyin": "Tā zhōngyú tōngguò le HSK3 jí kǎoshì.", "fr": "Il a enfin réussi l'examen HSK3.", "en": "He finally passed the HSK3 exam." }
         ]
       }
     ]

@@ -83,6 +83,7 @@ function WordPopup({ entry, text, rect, onClose }) {
 
 export default function LessonReader({ lesson, appData }) {
   const [popup, setPopup] = useState(null);
+  const [showEnglish, setShowEnglish] = useState(false);
   const lessonVocabSet = useMemo(
     () => new Set(lesson.vocab.map(v => v.word)),
     [lesson]
@@ -110,12 +111,24 @@ export default function LessonReader({ lesson, appData }) {
     <div className="space-y-6">
       <div className="flex items-center justify-between mb-2">
         <h3 className="text-lg font-semibold">Lecture interactive</h3>
-        <button
-          onClick={() => speak(lesson.reading.paragraphs.join('\n'))}
-          className="text-xs px-3 py-1.5 rounded-full bg-accent/10 text-accent font-medium hover:bg-accent/20 transition-colors"
-        >
-          Écouter le texte
-        </button>
+        <div className="flex gap-2">
+          {lesson.reading.paragraphs_en && (
+            <button
+              onClick={() => setShowEnglish(prev => !prev)}
+              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                showEnglish ? 'bg-accent text-white' : 'bg-accent/10 text-accent hover:bg-accent/20'
+              }`}
+            >
+              {showEnglish ? 'Hide EN' : 'Show EN'}
+            </button>
+          )}
+          <button
+            onClick={() => speak(lesson.reading.paragraphs.join('\n'))}
+            className="text-xs px-3 py-1.5 rounded-full bg-accent/10 text-accent font-medium hover:bg-accent/20 transition-colors"
+          >
+            Écouter le texte
+          </button>
+        </div>
       </div>
 
       <p className="text-xs text-muted -mt-4">Touchez un mot pour voir sa définition. Les mots de la leçon sont soulignés.</p>
@@ -124,25 +137,30 @@ export default function LessonReader({ lesson, appData }) {
         {lesson.reading.paragraphs.map((para, pi) => {
           const tokens = segmentText(para, dict);
           return (
-            <p key={pi} className="text-lg leading-relaxed hanzi-display">
-              {tokens.map((tok, ti) => {
-                if (tok.type === 'punct') return <span key={ti}>{tok.text}</span>;
-                const isLesson = lessonVocabSet.has(tok.text);
-                const hasEntry = !!tok.entry;
-                return (
-                  <span
-                    key={ti}
-                    onClick={hasEntry ? (e) => handleWordClick(tok, e) : undefined}
-                    className={[
-                      hasEntry ? 'cursor-pointer hover:bg-accent/10 rounded-sm transition-colors' : '',
-                      isLesson ? 'underline decoration-accent/40 decoration-2 underline-offset-4' : '',
-                    ].filter(Boolean).join(' ')}
-                  >
-                    {tok.text}
-                  </span>
-                );
-              })}
-            </p>
+            <div key={pi}>
+              <p className="text-lg leading-relaxed hanzi-display">
+                {tokens.map((tok, ti) => {
+                  if (tok.type === 'punct') return <span key={ti}>{tok.text}</span>;
+                  const isLesson = lessonVocabSet.has(tok.text);
+                  const hasEntry = !!tok.entry;
+                  return (
+                    <span
+                      key={ti}
+                      onClick={hasEntry ? (e) => handleWordClick(tok, e) : undefined}
+                      className={[
+                        hasEntry ? 'cursor-pointer hover:bg-accent/10 rounded-sm transition-colors' : '',
+                        isLesson ? 'underline decoration-accent/40 decoration-2 underline-offset-4' : '',
+                      ].filter(Boolean).join(' ')}
+                    >
+                      {tok.text}
+                    </span>
+                  );
+                })}
+              </p>
+              {showEnglish && lesson.reading.paragraphs_en?.[pi] && (
+                <p className="text-sm text-muted/70 italic mt-1 leading-relaxed">{lesson.reading.paragraphs_en[pi]}</p>
+              )}
+            </div>
           );
         })}
       </div>

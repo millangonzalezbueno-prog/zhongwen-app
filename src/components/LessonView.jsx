@@ -19,6 +19,9 @@ export default function LessonView({ lesson, appData, onCharClick }) {
           Semaine {lesson.week} — {lesson.theme}
         </p>
         <h2 className="text-2xl font-semibold">{lesson.title_fr}</h2>
+        {lesson.title_en && lesson.title_en !== lesson.title_fr && (
+          <p className="text-sm text-muted italic">{lesson.title_en}</p>
+        )}
       </div>
 
       <div className="flex gap-1 mb-6 border-b border-border pb-px">
@@ -130,6 +133,7 @@ function VocabTab({ lesson, onCharClick }) {
                     <>
                       <p className="text-accent text-sm font-medium">{v.pinyin}</p>
                       <p className="text-sm text-muted mt-0.5">{v.gloss_fr}</p>
+                      {v.gloss_en && <p className="text-sm text-muted/70 mt-0.5 italic">{v.gloss_en}</p>}
                       {v.forms && <p className="text-xs text-muted mt-1 italic">{v.forms}</p>}
                       {v.example && (
                         <p className="text-xs text-muted mt-2 border-t border-border/50 pt-2 leading-relaxed">
@@ -138,7 +142,7 @@ function VocabTab({ lesson, onCharClick }) {
                       )}
                     </>
                   ) : (
-                    <p className="text-xs text-muted">Touchez pour révéler</p>
+                    <p className="text-xs text-muted">Tap to reveal</p>
                   )}
                 </div>
                 <button onClick={(e) => { e.stopPropagation(); speak(v.word); }}
@@ -186,13 +190,15 @@ function GrammarTab({ lesson }) {
           </button>
           {expanded.has(i) && (
             <div className="px-4 pb-4 border-t border-border/50 pt-3">
-              <p className="text-sm text-muted mb-4">{g.explanation_fr}</p>
+              <p className="text-sm text-muted mb-2">{g.explanation_fr}</p>
+              {g.explanation_en && <p className="text-sm text-muted/70 mb-4 italic">{g.explanation_en}</p>}
               <div className="space-y-3">
                 {g.examples.map((ex, j) => (
                   <div key={j} className="bg-accent/5 rounded-lg p-3">
                     <p className="text-base hanzi-display mb-1">{ex.zh}</p>
                     <p className="text-xs text-accent">{ex.pinyin}</p>
                     <p className="text-xs text-muted mt-1">{ex.fr}</p>
+                    {ex.en && <p className="text-xs text-muted/70 italic">{ex.en}</p>}
                   </div>
                 ))}
               </div>
