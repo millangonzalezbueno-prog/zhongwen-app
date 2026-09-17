@@ -57,7 +57,7 @@ export default function LessonView({ lesson, appData, onCharClick }) {
 }
 
 const LOCATIVES = ['左','右','前','后','里','外','上','下','旁边','中间','附近','东','南','西','北','对面'];
-const CATEGORY_LABELS = { locatif: 'Locatifs', vocabulaire: 'Vocabulaire', classificateur: 'Classif.', moment: 'Moments', calendrier: 'Calendrier', adverbe: 'Adverbes' };
+const CATEGORY_LABELS = { locatif: 'Locatifs', vocabulaire: 'Vocabulaire', classificateur: 'Classif.', moment: 'Moments', calendrier: 'Calendrier', adverbe: 'Adverbes', vocab: 'Vocab' };
 const getCategory = (v) => {
   if (v.category) return v.category;
   if (v.forms || LOCATIVES.includes(v.word)) return 'locatif';

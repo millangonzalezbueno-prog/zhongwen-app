@@ -274,6 +274,25 @@ function buildExercisesL02(lesson) {
     });
   }
 
+  const classifiers = vocab.filter(v => v.category === 'classificateur');
+  const classifierFill = [
+    { sentence: '我买了三___书。', answer: '本', options: ['本', '条', '张', '个'], hint: 'Books are bound objects.' },
+    { sentence: '他家有两___猫。', answer: '只', options: ['只', '条', '个', '口'], hint: 'Cats use the animal classifier.' },
+    { sentence: '我喝了一___咖啡。', answer: '杯', options: ['杯', '瓶', '碗', '个'], hint: 'A cup/glass of something.' },
+    { sentence: '他有一___新车。', answer: '辆', options: ['辆', '个', '条', '张'], hint: 'For wheeled vehicles.' },
+    { sentence: '她买了三___衣服。', answer: '件', options: ['件', '条', '只', '张'], hint: 'For clothing items.' },
+    { sentence: '我买了一___鞋。', answer: '双', options: ['双', '只', '个', '件'], hint: 'Things that come in pairs.' },
+    { sentence: '我去过三___中国。', answer: '次', options: ['次', '遍', '回', '个'], hint: 'Counting the number of times.' },
+    { sentence: '我看了三___这本书。', answer: '遍', options: ['遍', '次', '回', '本'], hint: 'Full process — read from start to finish.' },
+    { sentence: '他家有五___人。', answer: '口', options: ['口', '个', '位', '只'], hint: 'For counting family members.' },
+    { sentence: '这___老师教得很好。', answer: '位', options: ['位', '个', '只', '口'], hint: 'Polite classifier for people.' },
+    { sentence: '我看了一___电影。', answer: '场', options: ['场', '个', '本', '次'], hint: 'For events and screenings.' },
+    { sentence: '我吃了两___米饭。', answer: '碗', options: ['碗', '杯', '瓶', '块'], hint: 'A bowl of something.' },
+  ];
+  for (const q of pick(classifierFill, 4)) {
+    round1.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
+  }
+
   const readingTF = [
     { statement: '王小明每天早上七点起床。', answer: false, explanation: '他每天早上七点半起床，不是七点。' },
     { statement: '以前他总是起得很晚。', answer: true, explanation: '课文原文：以前他总是起得很晚。' },
@@ -316,6 +335,23 @@ function buildExercisesL02(lesson) {
     round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
   }
 
+  const durationFill = [
+    { sentence: '我学了三年中文___。', answer: '了', options: ['了', '的', '着', '过'], hint: 'With 了₁ + 了₂, the action continues to the present.' },
+    { sentence: '你学汉语学了___？', answer: '多长时间了', options: ['多长时间了', '怎么样', '什么', '多大'], hint: 'Asking about duration.' },
+    { sentence: '他在北京住了十年，现在不住了。没有了₂说明___。', answer: '动作已经结束', options: ['动作已经结束', '动作还在继续', '动作刚开始', '动作没发生'], hint: 'Without 了₂ at the end, the action is over.' },
+  ];
+  for (const q of pick(durationFill, 2)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
+  }
+
+  const degreeFill = [
+    { sentence: '你说汉语说___很好。', answer: '得', options: ['得', '的', '地', '了'], hint: 'V + 得 + Adj for degree complement.' },
+    { sentence: '他昨天睡___很晚。', answer: '得', options: ['得', '的', '了', '着'], hint: 'Describes how the action was done.' },
+  ];
+  for (const q of pick(degreeFill, 1)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint });
+  }
+
   const errorCorrections = [
     { wrong: '我已经吃饭。', correct: '我已经吃饭了。', rule: '已经 nécessite 了 en fin de phrase : 已经…了 vont ensemble.' },
     { wrong: '他在正看电视。', correct: '他正在看电视。', rule: '正在 est un seul mot inséparable.' },
@@ -323,6 +359,9 @@ function buildExercisesL02(lesson) {
     { wrong: '下课以后我图书馆去。', correct: '下课以后我去图书馆。', rule: 'Le verbe 去 se place avant la destination : 去 + lieu.' },
     { wrong: '九点以后不要打电话我。', correct: '九点以后不要给我打电话。', rule: 'Structure : 给 + personne + 打电话.' },
     { wrong: '他正在已经回家了。', correct: '他已经回家了。', rule: '正在 (en cours) et 已经 (déjà) se contredisent.' },
+    { wrong: '我买了三个书。', correct: '我买了三本书。', rule: 'Les livres utilisent le classificateur 本, pas 个.' },
+    { wrong: '他说中文说的很好。', correct: '他说中文说得很好。', rule: 'Le complément de degré utilise 得 (de), pas 的 (de).' },
+    { wrong: '老师让学生们汉字写。', correct: '老师让学生们写汉字。', rule: 'Dans A+让+B+V, le verbe précède le COD : 写汉字.' },
   ];
   for (const q of pick(errorCorrections, 4)) {
     round2.push({ type: 'error-correction', wrong: q.wrong, correct: q.correct, rule: q.rule });
@@ -337,8 +376,12 @@ function buildExercisesL02(lesson) {
     { fr: 'Il se lève toujours très tôt.', zh: '他总是很早起床。', pattern: '总是' },
     { fr: 'Avant le film, allons d\'abord manger.', zh: '看电影以前，先去吃饭吧。', pattern: '以前' },
     { fr: 'Du lundi au vendredi, il a cours.', zh: '从星期一到星期五，他上课。', pattern: '从…到…' },
-    { fr: 'Le week-end, il lit souvent à la maison.', zh: '周末他经常在家看书。', pattern: '经常' },
-    { fr: 'Il a enfin réussi l\'examen.', zh: '他终于通过了考试。', pattern: '终于' },
+    { fr: 'J\'étudie le chinois depuis trois ans.', zh: '我学了三年中文了。', pattern: 'V+了+durée+了' },
+    { fr: 'Tu parles chinois très bien.', zh: '你说汉语说得很好。', pattern: 'V+得+Adj' },
+    { fr: 'J\'ai acheté trois livres et deux poissons.', zh: '我买了三本书、两条鱼。', pattern: 'classificateurs' },
+    { fr: 'Le professeur fait écrire des caractères aux étudiants.', zh: '老师让学生们写汉字。', pattern: '让+B+V' },
+    { fr: 'Chaque étudiant étudie le chinois tous les jours.', zh: '每个学生每天都学中文。', pattern: '每…都' },
+    { fr: 'J\'ai été en Chine trois fois.', zh: '我去过三次中国。', pattern: 'V+次' },
   ];
   for (const q of pick(translations, 3)) {
     round3.push({ type: 'translate', fr: q.fr, zh: q.zh, pattern: q.pattern });
@@ -369,7 +412,9 @@ function buildExercisesL02(lesson) {
     { fr: 'Après les cours, il va à la bibliothèque lire.', chunks: ['下课', '以后', '他', '去', '图书馆', '看书'], answer: '下课以后他去图书馆看书' },
     { fr: 'Du lundi au vendredi, il a cours tous les jours.', chunks: ['从', '星期一', '到', '星期五', '他', '每天', '上课'], answer: '从星期一到星期五他每天上课' },
     { fr: 'Après le petit-déjeuner, il va tout de suite à l\'école.', chunks: ['吃完', '早饭', '以后', '他', '马上', '去', '学校'], answer: '吃完早饭以后他马上去学校' },
-    { fr: 'Récemment, il prépare l\'examen de chinois.', chunks: ['他', '最近', '正在', '准备', '汉语', '考试'], answer: '他最近正在准备汉语考试' },
+    { fr: 'J\'apprends le chinois depuis trois ans.', chunks: ['我', '学了', '三年', '中文', '了'], answer: '我学了三年中文了' },
+    { fr: 'Il parle chinois très bien.', chunks: ['他', '说', '汉语', '说得', '很好'], answer: '他说汉语说得很好' },
+    { fr: 'Le prof demande aux étudiants de faire les exercices.', chunks: ['老师', '让', '学生们', '做', '练习'], answer: '老师让学生们做练习' },
   ];
   for (const q of pick(orderItems, 2)) {
     round3.push({ type: 'order', fr: q.fr, chunks: q.chunks, answer: q.answer });

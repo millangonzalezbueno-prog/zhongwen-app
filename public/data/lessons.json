@@ -175,7 +175,8 @@
         "上午九点到十二点，他上课。中午十二点半，他和同学们一起去饭馆吃午饭。下午的课从两点开始，到四点半。",
         "下课以后，他去图书馆看一个小时的书。他最近正在准备考试。刚才他在图书馆看书的时候，一个朋友给他打了电话，问他周末有没有时间去看电影。他说周末有时间。",
         "下个月十五号是王小明的生日。去年他的生日那天，朋友们来了他的宿舍，大家一起过了一个很开心的节日。过去一年，他学了很多东西。",
-        "晚上七点，他回宿舍做饭。吃完饭，他看一会儿电视。十一点他睡觉。昨天他睡得很晚，今天很累。明天是星期六，他终于可以休息了！"
+        "晚上七点，他回宿舍做饭。吃完饭，他看一会儿电视。十一点他睡觉。昨天他睡得很晚，今天很累。明天是星期六，他终于可以休息了！",
+        "马德也在巴黎政治学院学中文，已经学了两年了。上高中的时候，他的学校还没有中文课，所以他开始自学中文，每天写二十分钟汉字。自学不容易，他打算在大学好好学中文。在大学，老师让学生做作业，练习说话，还常常复习学过的字和词。巴黎政治学院每个星期有两节中文课，学中文的学生很多，中文课很有意思。"
       ],
       "paragraphs_en": [
         "Wang Xiaoming is a Sciences Po student. He gets up at 7:30 every morning. He used to always get up very late, but now he no longer sleeps in.",
@@ -183,7 +184,8 @@
         "From 9 AM to noon he has class. At 12:30 PM he goes to a restaurant with classmates for lunch. Afternoon classes run from 2:00 to 4:30.",
         "After class he goes to the library to read for an hour. He's recently been preparing for an exam. Just now, while reading in the library, a friend called and asked if he had time to see a movie this weekend. He said he did.",
         "Next month on the 15th is Wang Xiaoming's birthday. Last year on his birthday, friends came to his dorm and they all had a wonderful celebration. Over the past year he's learned a lot.",
-        "At 7 PM he goes back to the dorm to cook. After eating, he watches TV for a while. He goes to bed at 11. He went to bed very late yesterday and is tired today. Tomorrow is Saturday — he can finally rest!"
+        "At 7 PM he goes back to the dorm to cook. After eating, he watches TV for a while. He goes to bed at 11. He went to bed very late yesterday and is tired today. Tomorrow is Saturday — he can finally rest!",
+        "Ma De also studies Chinese at Sciences Po and has been learning for two years. When he was in high school, his school didn't have Chinese classes, so he started teaching himself, writing characters for twenty minutes every day. Self-study isn't easy, so he plans to study properly at university. At university, the teacher has students do homework, practice speaking, and regularly review characters and words. Sciences Po has two Chinese classes per week — many students study Chinese, and the classes are very interesting."
       ]
     },
     "vocab": [
@@ -221,7 +223,34 @@
       { "word": "总是", "pinyin": "zǒngshì", "gloss_fr": "toujours — 总 toujours + 是 être", "gloss_en": "always — 总 always + 是 to be", "hsk": 3, "category": "adverbe", "example": "他总是很早起床。" },
       { "word": "马上", "pinyin": "mǎshàng", "gloss_fr": "tout de suite — 马 cheval + 上 dessus (= vite !)", "gloss_en": "right away — 马 horse + 上 on (= mount up, hurry!)", "hsk": 3, "category": "adverbe", "example": "我马上给他打电话。" },
       { "word": "经常", "pinyin": "jīngcháng", "gloss_fr": "souvent — 经 passer par + 常 fréquemment", "gloss_en": "often — 经 pass through + 常 frequently", "hsk": 3, "category": "adverbe", "example": "他周末经常在家看书。" },
-      { "word": "终于", "pinyin": "zhōngyú", "gloss_fr": "enfin, finalement — 终 fin + 于 à", "gloss_en": "finally, at last — 终 end + 于 at", "hsk": 3, "category": "adverbe", "example": "他终于通过了HSK3级考试。" }
+      { "word": "终于", "pinyin": "zhōngyú", "gloss_fr": "enfin, finalement — 终 fin + 于 à", "gloss_en": "finally, at last — 终 end + 于 at", "hsk": 3, "category": "adverbe", "example": "他终于通过了HSK3级考试。" },
+      { "word": "每", "pinyin": "měi", "gloss_fr": "chaque, tous les — avec 都 : 每...都", "gloss_en": "each, every — with 都: 每...都", "hsk": 2, "category": "vocabulaire", "example": "每个学生都很可爱。" },
+      { "word": "让", "pinyin": "ràng", "gloss_fr": "laisser, faire faire — A + 让 + B + V", "gloss_en": "to let, to make — A + 让 + B + V", "hsk": 3, "category": "vocabulaire", "example": "老师让学生们写汉字。" },
+      { "word": "开始", "pinyin": "kāishǐ", "gloss_fr": "commencer — 开 ouvrir + 始 début", "gloss_en": "to begin, to start — 开 open + 始 beginning", "hsk": 2, "category": "vocabulaire", "example": "下午的课两点开始。" },
+      { "word": "容易", "pinyin": "róngyì", "gloss_fr": "facile — 容 contenir + 易 aisé", "gloss_en": "easy — 容 contain + 易 easy", "hsk": 3, "category": "vocabulaire", "example": "自学不容易。" },
+      { "word": "打算", "pinyin": "dǎsuàn", "gloss_fr": "avoir l'intention de, projeter", "gloss_en": "to plan, to intend", "hsk": 3, "category": "vocabulaire", "example": "我打算明年去中国。" },
+      { "word": "练习", "pinyin": "liànxí", "gloss_fr": "exercice ; s'entraîner — 练 s'entraîner + 习 pratiquer", "gloss_en": "exercise; to practice — 练 train + 习 practice", "hsk": 2, "category": "vocabulaire", "example": "我每天练习说中文。" },
+      { "word": "所以", "pinyin": "suǒyǐ", "gloss_fr": "c'est pourquoi, donc — exprime la conséquence", "gloss_en": "therefore, so — expresses consequence", "hsk": 2, "category": "vocabulaire", "example": "他不舒服，所以没来上课。" },
+      { "word": "半", "pinyin": "bàn", "gloss_fr": "demi, moitié (三点半 = 3h30)", "gloss_en": "half (三点半 = 3:30)", "hsk": 1, "category": "vocabulaire", "example": "现在三点半了。" },
+      { "word": "刻", "pinyin": "kè", "gloss_fr": "quart d'heure (一刻 = 15 min, 三刻 = 45 min)", "gloss_en": "quarter hour (一刻 = 15 min, 三刻 = 45 min)", "hsk": 3, "category": "vocabulaire", "example": "现在九点一刻。" },
+      { "word": "多长时间", "pinyin": "duō cháng shíjiān", "gloss_fr": "combien de temps (pour interroger sur la durée)", "gloss_en": "how long (asking about duration)", "hsk": 3, "category": "vocabulaire", "example": "你学汉语学了多长时间了？" },
+      { "word": "个", "pinyin": "ge", "gloss_fr": "classif. général (personnes, choses) — le plus courant", "gloss_en": "clf. general (people, things) — the most common", "hsk": 1, "category": "classificateur", "example": "一个人，三个苹果。" },
+      { "word": "本", "pinyin": "běn", "gloss_fr": "classif. objets reliés (livre, revue) — 本 racine", "gloss_en": "clf. bound objects (book, magazine) — 本 root", "hsk": 2, "category": "classificateur", "example": "我买了三本书。" },
+      { "word": "条", "pinyin": "tiáo", "gloss_fr": "classif. objet long et mince (poisson, route, serpent)", "gloss_en": "clf. long thin objects (fish, road, snake)", "hsk": 2, "category": "classificateur", "example": "我昨天买了两条鱼。" },
+      { "word": "辆", "pinyin": "liàng", "gloss_fr": "classif. véhicule à roues (voiture, vélo)", "gloss_en": "clf. wheeled vehicles (car, bicycle)", "hsk": 3, "category": "classificateur", "example": "他有一辆新车。" },
+      { "word": "件", "pinyin": "jiàn", "gloss_fr": "classif. vêtement, bagage, affaire — 件 pièce", "gloss_en": "clf. clothing, luggage, matters — 件 piece", "hsk": 2, "category": "classificateur", "example": "她买了三件衣服。" },
+      { "word": "只", "pinyin": "zhī", "gloss_fr": "classif. certains animaux (chien, chat, oiseau)", "gloss_en": "clf. certain animals (dog, cat, bird)", "hsk": 2, "category": "classificateur", "example": "他家有两只猫。" },
+      { "word": "双", "pinyin": "shuāng", "gloss_fr": "classif. paire (baguettes, mains, chaussures)", "gloss_en": "clf. pair (chopsticks, hands, shoes)", "hsk": 3, "category": "classificateur", "example": "我买了一双鞋。" },
+      { "word": "位", "pinyin": "wèi", "gloss_fr": "classif. poli pour personnes (médecin, professeur)", "gloss_en": "clf. polite for people (doctor, professor)", "hsk": 3, "category": "classificateur", "example": "这位老师教得很好。" },
+      { "word": "场", "pinyin": "chǎng", "gloss_fr": "classif. événement, séance (film, match, pluie)", "gloss_en": "clf. event, session (film, match, rain)", "hsk": 3, "category": "classificateur", "example": "我看了一场电影。" },
+      { "word": "杯", "pinyin": "bēi", "gloss_fr": "classif. contenu d'un verre/d'une tasse", "gloss_en": "clf. cup/glass of (container)", "hsk": 1, "category": "classificateur", "example": "我喝了一杯咖啡。" },
+      { "word": "瓶", "pinyin": "píng", "gloss_fr": "classif. contenu d'une bouteille", "gloss_en": "clf. bottle of (container)", "hsk": 3, "category": "classificateur", "example": "他喝了一瓶水。" },
+      { "word": "碗", "pinyin": "wǎn", "gloss_fr": "classif. contenu d'un bol (riz, soupe)", "gloss_en": "clf. bowl of (rice, soup)", "hsk": 3, "category": "classificateur", "example": "我吃了两碗米饭。" },
+      { "word": "次", "pinyin": "cì", "gloss_fr": "classif. verbal : nombre de fois", "gloss_en": "v.clf. number of times", "hsk": 2, "category": "classificateur", "example": "我去过三次中国。" },
+      { "word": "遍", "pinyin": "biàn", "gloss_fr": "classif. verbal : fois (processus intégral — lire, écrire, écouter)", "gloss_en": "v.clf. times (full process — read, write, listen)", "hsk": 3, "category": "classificateur", "example": "我看了三遍这本书。" },
+      { "word": "块", "pinyin": "kuài", "gloss_fr": "classif. morceau ; unité monétaire (yuan)", "gloss_en": "clf. piece, lump; monetary unit (yuan)", "hsk": 2, "category": "classificateur", "example": "这块手表很漂亮。" },
+      { "word": "口", "pinyin": "kǒu", "gloss_fr": "classif. membres de la famille", "gloss_en": "clf. family members", "hsk": 3, "category": "classificateur", "example": "他家有五口人。" },
+      { "word": "种", "pinyin": "zhǒng", "gloss_fr": "classif. sorte, espèce", "gloss_en": "clf. kind, type, species", "hsk": 3, "category": "classificateur", "example": "你喜欢哪种茶？" }
     ],
     "grammar": [
       {
@@ -271,6 +300,59 @@
           { "zh": "他周末经常在家看书。", "pinyin": "Tā zhōumò jīngcháng zài jiā kànshū.", "fr": "Le week-end, il lit souvent à la maison.", "en": "On weekends, he often reads at home." },
           { "zh": "我马上给他打电话。", "pinyin": "Wǒ mǎshàng gěi tā dǎ diànhuà.", "fr": "Je vais l'appeler tout de suite.", "en": "I'll call him right away." },
           { "zh": "他终于通过了HSK3级考试。", "pinyin": "Tā zhōngyú tōngguò le HSK3 jí kǎoshì.", "fr": "Il a enfin réussi l'examen HSK3.", "en": "He finally passed the HSK3 exam." }
+        ]
+      },
+      {
+        "pattern": "V + 了 + durée (complément de durée)",
+        "explanation_fr": "Le complément de durée se place après le verbe + 了₁. Quand le verbe a un COD, trois constructions sont possibles : S+V+了+durée+(的)+COD, S+V+COD+V+了+durée, S+V+了+PP+durée. Avec 了₁+了₂ ensemble, l'action continue jusqu'au moment présent (« depuis + durée »).",
+        "explanation_en": "The duration complement goes after the verb + 了₁. When the verb has an object, three patterns work: S+V+了+duration+(的)+Object, S+V+Object+V+了+duration, S+V+了+PP+duration. With 了₁+了₂ together, the action continues up to the present ('for + duration, and still going').",
+        "examples": [
+          { "zh": "我想休息两天。", "pinyin": "Wǒ xiǎng xiūxi liǎng tiān.", "fr": "Je veux me reposer deux jours.", "en": "I want to rest for two days." },
+          { "zh": "我学了三年中文。", "pinyin": "Wǒ xué le sān nián zhōngwén.", "fr": "J'ai appris le chinois pendant trois ans. (mais plus maintenant)", "en": "I studied Chinese for three years. (but no longer)" },
+          { "zh": "我学了三年中文了。", "pinyin": "Wǒ xué le sān nián zhōngwén le.", "fr": "J'apprends le chinois depuis trois ans. (et je continue)", "en": "I've been studying Chinese for three years. (and still going)" },
+          { "zh": "你学汉语学了多长时间了？", "pinyin": "Nǐ xué hànyǔ xué le duō cháng shíjiān le?", "fr": "Depuis combien de temps apprends-tu le chinois ?", "en": "How long have you been learning Chinese?" }
+        ]
+      },
+      {
+        "pattern": "V + 得 + Adj (complément de degré)",
+        "explanation_fr": "得 après un verbe introduit un complément de degré qui décrit comment l'action est accomplie. Quand le verbe a un COD, on répète le verbe : S+V+COD+V+得+Adv+Adj. La question se forme avec 怎么样.",
+        "explanation_en": "得 after a verb introduces a degree complement describing how the action is done. When the verb has an object, repeat the verb: S+V+Object+V+得+Adv+Adj. Questions use 怎么样.",
+        "examples": [
+          { "zh": "你说得很好。", "pinyin": "Nǐ shuō de hěn hǎo.", "fr": "Tu parles très bien.", "en": "You speak very well." },
+          { "zh": "你说汉语说得很好。", "pinyin": "Nǐ shuō hànyǔ shuō de hěn hǎo.", "fr": "Tu parles chinois très bien.", "en": "You speak Chinese very well." },
+          { "zh": "你说汉语说得怎么样？", "pinyin": "Nǐ shuō hànyǔ shuō de zěnmeyàng?", "fr": "Comment parles-tu chinois ?", "en": "How well do you speak Chinese?" },
+          { "zh": "他昨天睡得很晚。", "pinyin": "Tā zuótiān shuì de hěn wǎn.", "fr": "Il s'est couché très tard hier.", "en": "He went to bed very late yesterday." }
+        ]
+      },
+      {
+        "pattern": "每 + clf + N + 都 + V (chaque… tous)",
+        "explanation_fr": "每 désigne chaque élément d'un ensemble. Il est suivi d'un classificateur + nom, et le verbe est souvent précédé de 都 qui reprend la totalité : 每+classif+N+都+V.",
+        "explanation_en": "每 designates each element of a set. It is followed by a classifier + noun, and the verb is often preceded by 都 (all): 每+clf+N+都+V.",
+        "examples": [
+          { "zh": "每个学生都很可爱。", "pinyin": "Měi gè xuéshēng dōu hěn kě'ài.", "fr": "Chaque étudiant est adorable.", "en": "Every student is adorable." },
+          { "zh": "我每天都学中文。", "pinyin": "Wǒ měi tiān dōu xué zhōngwén.", "fr": "J'étudie le chinois tous les jours.", "en": "I study Chinese every day." },
+          { "zh": "他们每个星期六都去跑步。", "pinyin": "Tāmen měi gè xīngqīliù dōu qù pǎobù.", "fr": "Ils vont courir tous les samedis.", "en": "They go running every Saturday." }
+        ]
+      },
+      {
+        "pattern": "A + 叫/让 + B + V (causatif)",
+        "explanation_fr": "叫 et 让 signifient « demander à / faire faire ». La structure est : A (celui qui demande) + 叫/让 + B (celui qui fait) + V. 让 est plus neutre, 叫 plus familier.",
+        "explanation_en": "叫 and 让 mean 'to ask/have someone do something'. Structure: A (the requester) + 叫/让 + B (the doer) + V. 让 is more neutral, 叫 more colloquial.",
+        "examples": [
+          { "zh": "老师让学生们写汉字。", "pinyin": "Lǎoshī ràng xuéshēngmen xiě hànzì.", "fr": "Le professeur fait écrire des caractères aux étudiants.", "en": "The teacher has the students write characters." },
+          { "zh": "妈妈叫我去北京。", "pinyin": "Māma jiào wǒ qù Běijīng.", "fr": "Maman me demande d'aller à Pékin.", "en": "Mom asks me to go to Beijing." },
+          { "zh": "你让我做什么？", "pinyin": "Nǐ ràng wǒ zuò shénme?", "fr": "Que veux-tu que je fasse ?", "en": "What do you want me to do?" }
+        ]
+      },
+      {
+        "pattern": "量词 liàngcí (classificateurs)",
+        "explanation_fr": "Les classificateurs se placent entre un numéral et un nom : nombre + classif + nom. Il en existe trois types : 1) nominaux (个, 本, 条, 张...) entre numéral/démonstratif et nom ; 2) de contenance (杯, 瓶, 碗) qui mesurent un contenu ; 3) verbaux (次, 遍) placés après le verbe pour compter les occurrences. 个 est le classificateur le plus courant.",
+        "explanation_en": "Classifiers go between a numeral and a noun: number + clf + noun. Three types: 1) nominal (个, 本, 条, 张...) between numeral/demonstrative and noun; 2) container (杯, 瓶, 碗) measuring contents; 3) verbal (次, 遍) placed after the verb to count occurrences. 个 is the most common classifier.",
+        "examples": [
+          { "zh": "我买了三本书、两条鱼。", "pinyin": "Wǒ mǎi le sān běn shū, liǎng tiáo yú.", "fr": "J'ai acheté trois livres et deux poissons.", "en": "I bought three books and two fish." },
+          { "zh": "我喝了一杯咖啡、一瓶水。", "pinyin": "Wǒ hē le yī bēi kāfēi, yī píng shuǐ.", "fr": "J'ai bu un café et une bouteille d'eau.", "en": "I drank a coffee and a bottle of water." },
+          { "zh": "我去过三次中国。", "pinyin": "Wǒ qù guo sān cì Zhōngguó.", "fr": "Je suis allé(e) trois fois en Chine.", "en": "I've been to China three times." },
+          { "zh": "我看了三遍这本书。", "pinyin": "Wǒ kàn le sān biàn zhè běn shū.", "fr": "J'ai lu ce livre trois fois (en entier).", "en": "I've read this book three times (all the way through)." }
         ]
       }
     ]
