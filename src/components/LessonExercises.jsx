@@ -12,6 +12,7 @@ function shuffle(arr) {
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
 function buildExercises(lesson) {
+  if (lesson.id === 'L03') return buildExercisesL03(lesson);
   if (lesson.id === 'L02') return buildExercisesL02(lesson);
   return buildExercisesL01(lesson);
 }
@@ -677,6 +678,244 @@ function buildExercisesL02(lesson) {
     rounds: [
       { title: 'Évaluation', subtitle: 'Testez vos acquis', exercises: shuffle(round1) },
       { title: 'Renforcement', subtitle: 'Grammaire et expressions temporelles', exercises: shuffle(round2) },
+      { title: 'Défi', subtitle: 'Production et compréhension avancée', exercises: shuffle(round3) },
+    ],
+  };
+}
+
+function buildExercisesL03(lesson) {
+  const vocab = lesson.vocab;
+  const round1 = [];
+  const round2 = [];
+  const round3 = [];
+
+  // === ROUND 1: ÉVALUATION ===
+
+  // 1a. Vocab recall: French → pick Chinese (MCQ)
+  const vocabWithGloss = vocab.filter(v => v.word.length >= 2 && !v.type);
+  for (const v of pick(vocabWithGloss, 5)) {
+    const distractors = pick(vocabWithGloss.filter(x => x.word !== v.word), 3).map(x => x.word);
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: v.gloss_fr.split('—')[0].split('(')[0].trim(),
+      correct: v.word,
+      options: shuffle([v.word, ...distractors]),
+      pinyin: v.pinyin,
+    });
+  }
+
+  // 1b. Season/weather pinyin → Hanzi
+  const weatherWords = vocab.filter(v => v.category === 'météo' && v.word.length >= 2);
+  for (const v of pick(weatherWords, 3)) {
+    const others = pick(weatherWords.filter(x => x.word !== v.word), 3).map(x => x.word);
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: `${v.pinyin} — ${v.gloss_fr.split('—')[0].split('(')[0].trim()}`,
+      correct: v.word,
+      options: shuffle([v.word, ...others]),
+      pinyin: v.pinyin,
+    });
+  }
+
+  // 1c. Season fill-in: which season matches the months?
+  const seasonFills = [
+    { sentence: '从三月到五月是___。', answer: '春天', options: ['春天', '夏天', '秋天', '冬天'], hint: 'De mars à mai.',
+      explanation_fr: '春天 (printemps) correspond à la période de mars à mai. Le texte dit : « 从三月到五月是春天 ». 夏天 (été) va de juin à août, 秋天 (automne) de septembre à novembre, 冬天 (hiver) de décembre à février.',
+      explanation_en: '春天 (spring) corresponds to March through May. The text says: "从三月到五月是春天." 夏天 (summer) is June–August, 秋天 (autumn) September–November, 冬天 (winter) December–February.' },
+    { sentence: '从六月到八月是___。', answer: '夏天', options: ['春天', '夏天', '秋天', '冬天'], hint: 'De juin à août.',
+      explanation_fr: '夏天 (été) correspond à la période de juin à août. Le texte dit : « 从六月到八月是夏天 ».',
+      explanation_en: '夏天 (summer) corresponds to June through August. The text says: "从六月到八月是夏天."' },
+    { sentence: '从九月到十一月是___。', answer: '秋天', options: ['春天', '夏天', '秋天', '冬天'], hint: 'De septembre à novembre.',
+      explanation_fr: '秋天 (automne) correspond à la période de septembre à novembre. C\'est aussi décrite comme « 北京最好的季节 » (la meilleure saison de Pékin).',
+      explanation_en: '秋天 (autumn) corresponds to September through November. It\'s also described as "北京最好的季节" (Beijing\'s best season).' },
+    { sentence: '从十二月到二月是___。', answer: '冬天', options: ['春天', '夏天', '秋天', '冬天'], hint: 'De décembre à février.',
+      explanation_fr: '冬天 (hiver) correspond à la période de décembre à février. Le texte dit que Pékin en hiver est très froid, avec de la neige et des températures en dessous de zéro.',
+      explanation_en: '冬天 (winter) corresponds to December through February. The text says Beijing in winter is very cold, with snow and temperatures below zero.' },
+  ];
+  for (const q of pick(seasonFills, 3)) {
+    round1.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 1d. Reading comprehension — true/false
+  const readingTF = [
+    { statement: '秋天是北京最好的季节。', answer: true, explanation: '课文原文：秋天是北京最好的季节。' },
+    { statement: '夏天去北京，天气不太热。', answer: false, explanation: '课文说夏天天气会很热，气温常常在三十度以上。' },
+    { statement: '北京的冬天常常下雨。', answer: false, explanation: '课文说冬天不下雨，可是会下雪。' },
+    { statement: '春天是去北京旅游最好的季节。', answer: false, explanation: '课文说春天最好不要到北京旅游，风很大，天气不太好。' },
+    { statement: '冬天去北京要带帽子和围巾。', answer: true, explanation: '课文说冬天去要带大衣、毛衣、帽子和围巾。' },
+    { statement: '北京冬天气温常常在零下。', answer: true, explanation: '课文原文：气温常常在零下。' },
+    { statement: '秋天的北京不冷也不热。', answer: true, explanation: '课文原文：不冷也不热，不刮风也不下雨。' },
+    { statement: '夏天去北京不需要带雨伞。', answer: false, explanation: '课文说夏天要带雨伞，因为常常下雨。' },
+  ];
+  for (const q of pick(readingTF, 4)) {
+    round1.push({ type: 'true-false', statement: q.statement, correct: q.answer, explanation: q.explanation });
+  }
+
+  // === ROUND 2: RENFORCEMENT ===
+
+  // 2a. Weather phenomenon fill-in
+  const weatherFills = [
+    { sentence: '夏天常常___，要带雨伞。', answer: '下雨', options: ['下雨', '下雪', '刮风', '晴天'], hint: 'Il pleut souvent en été.',
+      explanation_fr: '下雨 signifie « pleuvoir » (下 tomber + 雨 pluie). Le texte dit que l\'été à Pékin « 常常阴天下雨 » (il fait souvent couvert et il pleut). C\'est pour cela qu\'il faut apporter un parapluie.',
+      explanation_en: '下雨 means "to rain" (下 to fall + 雨 rain). The text says Beijing summers are "常常阴天下雨" (often overcast and rainy). That\'s why you need to bring an umbrella.' },
+    { sentence: '冬天很冷，常常___。', answer: '下雪', options: ['下雨', '下雪', '刮风', '晴天'], hint: 'Il neige souvent en hiver.',
+      explanation_fr: '下雪 signifie « neiger » (下 tomber + 雪 neige). Le texte dit que l\'hiver à Pékin « 会下雪 » (il va neiger). 下雨 (pleuvoir) est explicitement nié : « 不下雨 ».',
+      explanation_en: '下雪 means "to snow" (下 to fall + 雪 snow). The text says Beijing winters "会下雪" (it will snow). 下雨 (rain) is explicitly negated: "不下雨."' },
+    { sentence: '春天___很大。', answer: '风', options: ['风', '雨', '雪', '气温'], hint: 'Le vent est fort au printemps.',
+      explanation_fr: '风 signifie « vent ». Le texte dit que le printemps à Pékin « 风很大 » (le vent est très fort). 雨 (pluie) et 雪 (neige) ne conviennent pas car on ne dit pas « 雨很大 » dans ce contexte.',
+      explanation_en: '风 means "wind." The text says Beijing in spring has "风很大" (very strong wind). 雨 (rain) and 雪 (snow) don\'t fit because we don\'t say "雨很大" in this context.' },
+    { sentence: '秋天常常是___，天气很好。', answer: '晴天', options: ['晴天', '阴天', '下雨', '刮风'], hint: 'Il fait souvent beau en automne.',
+      explanation_fr: '晴天 signifie « beau temps, ciel clair » (晴 clair + 天 ciel). Le texte dit que l\'automne à Pékin « 常常是晴天 ». 阴天 (couvert) est le contraire : un ciel gris.',
+      explanation_en: '晴天 means "clear/sunny day" (晴 clear + 天 sky). The text says Beijing in autumn is "常常是晴天." 阴天 (overcast) is the opposite: a gray sky.' },
+    { sentence: '夏天常常___下雨。', answer: '阴天', options: ['阴天', '晴天', '暖和', '下雪'], hint: 'Il fait souvent couvert et il pleut en été.',
+      explanation_fr: '阴天 signifie « temps couvert, ciel gris ». Le texte dit « 常常阴天下雨 » — ici 阴天 et 下雨 sont juxtaposés pour décrire le temps d\'été. 晴天 (beau temps) est le contraire.',
+      explanation_en: '阴天 means "overcast, gray sky." The text says "常常阴天下雨" — here 阴天 and 下雨 are juxtaposed to describe summer weather. 晴天 (sunny) is the opposite.' },
+  ];
+  for (const q of pick(weatherFills, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2b. Grammar fill-in: 如果/就/要/最/会
+  const grammarFills = [
+    { sentence: '___你想到北京旅游，最好秋天去。', answer: '如果', options: ['如果', '因为', '可是', '所以'], hint: 'Si tu veux voyager à Pékin...',
+      explanation_fr: '如果 introduit une condition (« si »). La structure est : 如果 + condition, conséquence. 因为 (parce que) introduit une cause, 可是 (mais) une opposition, 所以 (donc) une conséquence — aucun ne convient pour introduire une hypothèse.',
+      explanation_en: '如果 introduces a condition ("if"). The structure is: 如果 + condition, consequence. 因为 (because) introduces a cause, 可是 (but) an opposition, 所以 (therefore) a consequence — none fit for introducing a hypothesis.' },
+    { sentence: '怕冷___不要冬天去北京。', answer: '就', options: ['就', '还', '也', '都'], hint: 'Alors ne va pas à Pékin en hiver.',
+      explanation_fr: '就 introduit la conséquence logique après une condition implicite : « (如果) 怕冷，就不要去 ». 就 signifie « alors » ici. 还 (encore), 也 (aussi) et 都 (tout) ne marquent pas une conséquence conditionnelle.',
+      explanation_en: '就 introduces the logical consequence after an implicit condition: "(如果) 怕冷，就不要去." 就 means "then" here. 还 (still), 也 (also), and 都 (all) don\'t mark a conditional consequence.' },
+    { sentence: '夏天去北京，天气___很热。', answer: '会', options: ['会', '能', '要', '想'], hint: 'Il va faire très chaud.',
+      explanation_fr: '会 exprime la probabilité future : « il va / il est probable que ». Ici, ce n\'est pas le 会 de savoir-faire. 能 (pouvoir physique), 要 (obligation), 想 (envie) ne correspondent pas à une prédiction météo.',
+      explanation_en: '会 expresses future probability: "will / is going to." Here it\'s not the 会 of ability. 能 (physical ability), 要 (obligation), 想 (desire) don\'t fit for a weather prediction.' },
+    { sentence: '秋天是北京___好的季节。', answer: '最', options: ['最', '很', '太', '真'], hint: 'La meilleure saison.',
+      explanation_fr: '最 forme le superlatif : 最好 = « le/la meilleur(e) ». 很好 (très bien), 太好 (trop bien) et 真好 (vraiment bien) expriment un degré mais pas le superlatif.',
+      explanation_en: '最 forms the superlative: 最好 = "the best." 很好 (very good), 太好 (too good), and 真好 (really good) express degree but not the superlative.' },
+    { sentence: '夏天去北京旅游，___带雨伞。', answer: '要', options: ['要', '会', '能', '想'], hint: 'Il faut apporter un parapluie.',
+      explanation_fr: '要 exprime l\'obligation ou la nécessité : « il faut ». Le texte donne un conseil pratique : 要带短裤、T恤、雨衣雨伞. 会 (probabilité), 能 (capacité) et 想 (envie) ne conviennent pas pour un conseil.',
+      explanation_en: '要 expresses obligation or necessity: "must, need to." The text gives practical advice: 要带短裤、T恤、雨衣雨伞. 会 (probability), 能 (ability), and 想 (desire) don\'t fit for advice.' },
+    { sentence: '春天还___冷。', answer: '有点儿', options: ['有点儿', '一点儿', '很', '不'], hint: 'Un peu froid (connotation négative).',
+      explanation_fr: '有点儿 + adjectif exprime « un peu » avec une connotation négative/insatisfaisante. 一点儿 ne se place pas devant l\'adjectif (on dit 冷一点儿, pas 一点儿冷). 很 (très) est trop fort, 不 (pas) contredit le sens.',
+      explanation_en: '有点儿 + adjective means "a bit" with a negative/unsatisfactory connotation. 一点儿 doesn\'t go before the adjective (we say 冷一点儿, not 一点儿冷). 很 (very) is too strong, 不 (not) contradicts the meaning.' },
+  ];
+  for (const q of pick(grammarFills, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2c. Error correction
+  const errorCorrections = [
+    { wrong: '秋天是北京好最的季节。', correct: '秋天是北京最好的季节。',
+      explanation_fr: '最 se place toujours devant l\'adjectif, pas après. L\'ordre est : 最 + Adj + 的 + Nom. Ici : 最好的季节 = la meilleure saison. *好最 n\'existe pas en chinois.',
+      explanation_en: '最 always goes before the adjective, not after. The order is: 最 + Adj + 的 + Noun. Here: 最好的季节 = the best season. *好最 doesn\'t exist in Chinese.' },
+    { wrong: '如果你冬天去，就要带了大衣。', correct: '如果你冬天去，就要带大衣。',
+      explanation_fr: '了 est inutile ici. Avec 要 + V (obligation/conseil), le verbe reste à l\'infinitif. 了 marquerait une action déjà accomplie, ce qui contredit le sens d\'un conseil futur.',
+      explanation_en: '了 is unnecessary here. With 要 + V (obligation/advice), the verb stays uninflected. 了 would mark an already completed action, which contradicts the meaning of future advice.' },
+    { wrong: '天气会热很。', correct: '天气会很热。',
+      explanation_fr: 'L\'adverbe de degré 很 se place avant l\'adjectif, pas après. L\'ordre est : 会 + 很 + Adj. Ici : 会很热 = il fera très chaud. En chinois, le modificateur précède toujours le modifié.',
+      explanation_en: 'The degree adverb 很 goes before the adjective, not after. The order is: 会 + 很 + Adj. Here: 会很热 = it will be very hot. In Chinese, the modifier always precedes what it modifies.' },
+    { wrong: '北京的冬天冷很。', correct: '北京的冬天很冷。',
+      explanation_fr: 'Même règle : 很 (très) précède toujours l\'adjectif. 很冷 = très froid. *冷很 n\'existe pas. L\'ordre est fixe : adverbe de degré + adjectif.',
+      explanation_en: 'Same rule: 很 (very) always precedes the adjective. 很冷 = very cold. *冷很 doesn\'t exist. The order is fixed: degree adverb + adjective.' },
+    { wrong: '我有点儿喜欢春天。', correct: '我有点儿不喜欢春天。',
+      explanation_fr: '有点儿 s\'utilise uniquement avec des qualités négatives ou indésirables. On ne dit pas 有点儿喜欢 (un peu aimer — positif), mais 有点儿不喜欢 (un peu ne pas aimer) ou 有点儿冷 (un peu froid — négatif). Pour du positif, on utilise 一点儿 : 喜欢一点儿.',
+      explanation_en: '有点儿 is only used with negative or undesirable qualities. We don\'t say 有点儿喜欢 (a bit like — positive), but 有点儿不喜欢 (a bit don\'t like) or 有点儿冷 (a bit cold — negative). For positive, use 一点儿: 喜欢一点儿.' },
+    { wrong: '从三月从五月是春天。', correct: '从三月到五月是春天。',
+      explanation_fr: 'La structure est 从 A 到 B (de A à B). Le deuxième marqueur doit être 到 (jusqu\'à), pas un deuxième 从. 从 marque le point de départ, 到 le point d\'arrivée.',
+      explanation_en: 'The structure is 从 A 到 B (from A to B). The second marker must be 到 (to/until), not a second 从. 从 marks the starting point, 到 the ending point.' },
+  ];
+  for (const q of pick(errorCorrections, 4)) {
+    round2.push({ type: 'error-correction', wrong: q.wrong, correct: q.correct, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // === ROUND 3: DÉFI ===
+
+  // 3a. FR → ZH translation
+  const translations = [
+    { fr: 'Si tu veux aller à Pékin, le mieux est d\'y aller en automne.', zh: '如果你想到北京旅游，最好秋天去。', pattern: '如果...最好...',
+      explanation_fr: 'Structure 如果 + condition + 最好 + conseil. 如果 = si ; 想 = vouloir ; 到北京旅游 = voyager à Pékin ; 最好 = le mieux (superlatif de 好) ; 秋天去 = y aller en automne.',
+      explanation_en: 'Structure 如果 + condition + 最好 + advice. 如果 = if; 想 = to want; 到北京旅游 = travel to Beijing; 最好 = the best (superlative of 好); 秋天去 = go in autumn.' },
+    { fr: 'La température est souvent au-dessus de 30 degrés.', zh: '气温常常在三十度以上。', pattern: 'N + 以上',
+      explanation_fr: '气温 = température ; 常常 = souvent ; 在 = se trouver ; 三十度以上 = au-dessus de 30 degrés. Le nombre + 以上 se place après l\'unité : 度 (degrés) + 以上 (au-dessus de).',
+      explanation_en: '气温 = temperature; 常常 = often; 在 = to be at; 三十度以上 = above 30 degrees. Number + 以上 comes after the unit: 度 (degrees) + 以上 (above).' },
+    { fr: 'En hiver, il faut apporter un manteau et une écharpe.', zh: '冬天要带大衣和围巾。', pattern: '要 + V',
+      explanation_fr: '冬天 = en hiver (le temps est en tête de phrase) ; 要 = il faut ; 带 = apporter ; 大衣 = manteau ; 和 = et ; 围巾 = écharpe. La structure est : Temps + 要 + V + objet.',
+      explanation_en: '冬天 = in winter (time goes at the start); 要 = must; 带 = to bring; 大衣 = coat; 和 = and; 围巾 = scarf. The structure is: Time + 要 + V + object.' },
+    { fr: 'Il ne fait ni froid ni chaud.', zh: '不冷也不热。', pattern: '不 A 也不 B',
+      explanation_fr: 'Double négation : 不 + Adj₁ + 也 + 不 + Adj₂. 不冷 = pas froid, 也不热 = ni chaud non plus. 也 lie les deux négations. L\'ordre est fixe.',
+      explanation_en: 'Double negation: 不 + Adj₁ + 也 + 不 + Adj₂. 不冷 = not cold, 也不热 = not hot either. 也 links the two negations. The order is fixed.' },
+    { fr: 'Le temps va être très chaud.', zh: '天气会很热。', pattern: '会 + V/Adj',
+      explanation_fr: '会 exprime une prédiction : « va / il est probable que ». 天气 = le temps (météo) ; 会 = va ; 很 = très ; 热 = chaud. Structure : S + 会 + (很) + Adj.',
+      explanation_en: '会 expresses a prediction: "will / is going to." 天气 = the weather; 会 = will; 很 = very; 热 = hot. Structure: S + 会 + (很) + Adj.' },
+  ];
+  for (const q of pick(translations, 3)) {
+    round3.push({ type: 'translate', fr: q.fr, zh: q.zh, pattern: q.pattern, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 3b. Reading MCQ
+  const readingMCQ = [
+    { question: '北京最好的季节是什么？', correct: '秋天', options: shuffle(['春天', '夏天', '秋天', '冬天']) },
+    { question: '夏天去北京要带什么？', correct: '雨伞', options: shuffle(['雨伞', '围巾', '帽子', '大衣']) },
+    { question: '北京的冬天气温怎么样？', correct: '常常在零下', options: shuffle(['常常在零下', '三十度以上', '很暖和', '不太冷']) },
+    { question: '为什么春天最好不去北京？', correct: '风很大，有点儿冷', options: shuffle(['风很大，有点儿冷', '太热了', '常常下雪', '没有晴天']) },
+  ];
+  for (const q of pick(readingMCQ, 3)) {
+    round3.push({ type: 'reading-mcq', question: q.question, correct: q.correct, options: q.options });
+  }
+
+  // 3c. Clothing match: which season needs these items?
+  const clothingMatch = [
+    { prompt: '短裤、T恤、雨衣、雨伞 — 哪个季节？', correct: '夏天', options: shuffle(['春天', '夏天', '秋天', '冬天']),
+      explanation_fr: 'Le texte dit : « 如果你夏天去北京旅游，要带短裤、T恤、雨衣雨伞 ». Ces vêtements légers et de pluie correspondent à l\'été chaud et pluvieux.',
+      explanation_en: 'The text says: "如果你夏天去北京旅游，要带短裤、T恤、雨衣雨伞." These light clothing and rain gear correspond to the hot and rainy summer.' },
+    { prompt: '大衣、毛衣、帽子、围巾 — 哪个季节？', correct: '冬天', options: shuffle(['春天', '夏天', '秋天', '冬天']),
+      explanation_fr: 'Le texte dit : « 如果你冬天去，就要带大衣、毛衣、帽子和围巾 ». Ces vêtements chauds correspondent à l\'hiver froid avec des températures en dessous de zéro.',
+      explanation_en: 'The text says: "如果你冬天去，就要带大衣、毛衣、帽子和围巾." These warm clothes correspond to the cold winter with temperatures below zero.' },
+  ];
+  for (const q of clothingMatch) {
+    round3.push({ type: 'grammar-mcq', prompt: q.prompt, correct: q.correct, options: q.options, pattern: '季节与服装', explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 3d. Grammar MCQ
+  const grammarMCQ = [
+    { prompt: '哪个句子正确使用了「如果...就...」？', correct: '如果你怕冷，就不要冬天去。', pattern: '如果...就...',
+      options: shuffle(['如果你怕冷，就不要冬天去。', '你怕冷如果，就不要冬天去。', '如果你怕冷，不要就冬天去。', '就你怕冷，如果不要冬天去。']),
+      explanation_fr: '如果 (si) se place en tête de la proposition de condition, 就 (alors) en tête de la conséquence. L\'ordre est fixe : 如果 + condition，就 + conséquence. On ne peut pas mettre 如果 après le sujet ni 就 après le verbe.',
+      explanation_en: '如果 (if) goes at the start of the condition clause, 就 (then) at the start of the consequence. The order is fixed: 如果 + condition, 就 + consequence. You can\'t put 如果 after the subject or 就 after the verb.' },
+    { prompt: '哪个句子正确使用了「最」？', correct: '秋天是北京最好的季节。', pattern: '最 + Adj',
+      options: shuffle(['秋天是北京最好的季节。', '秋天是北京好最的季节。', '秋天是北京的最好季节。', '秋天是最北京好的季节。']),
+      explanation_fr: '最 se place directement devant l\'adjectif : 最好 = le meilleur. Puis on ajoute 的 avant le nom : 最好的季节. *好最 ou *的最好 sont incorrects. L\'ordre est toujours 最 + Adj + 的 + Nom.',
+      explanation_en: '最 goes directly before the adjective: 最好 = the best. Then 的 before the noun: 最好的季节. *好最 or *的最好 are incorrect. The order is always 最 + Adj + 的 + Noun.' },
+    { prompt: '哪个句子正确使用了「有点儿」？', correct: '春天有点儿冷。', pattern: '有点儿 + Adj',
+      options: shuffle(['春天有点儿冷。', '春天冷有点儿。', '有点儿春天冷。', '春天有点儿好。']),
+      explanation_fr: '有点儿 se place devant l\'adjectif (négatif) : 有点儿冷 = un peu froid. *冷有点儿 est incorrect (有点儿 ne suit pas l\'adjectif). 有点儿好 est incorrect car 好 est positif — 有点儿 s\'emploie pour des qualités négatives.',
+      explanation_en: '有点儿 goes before the (negative) adjective: 有点儿冷 = a bit cold. *冷有点儿 is wrong (有点儿 doesn\'t follow the adjective). 有点儿好 is wrong because 好 is positive — 有点儿 is used for negative qualities.' },
+    { prompt: '哪个句子正确使用了「会」表示推测？', correct: '明天会下雨。', pattern: '会 + V (probabilité)',
+      options: shuffle(['明天会下雨。', '明天下雨会。', '会明天下雨。', '明天下会雨。']),
+      explanation_fr: '会 (probabilité) se place avant le verbe : 会下雨 = il va pleuvoir. L\'ordre est : Temps + 会 + V. 会 ne peut pas se mettre en fin de phrase ni séparer le verbe et son objet.',
+      explanation_en: '会 (probability) goes before the verb: 会下雨 = it will rain. The order is: Time + 会 + V. 会 can\'t go at the end of the sentence or split the verb and its object.' },
+  ];
+  for (const q of pick(grammarMCQ, 3)) {
+    round3.push({ type: 'grammar-mcq', ...q });
+  }
+
+  // 3e. Order exercises
+  const orderItems = [
+    { fr: 'Si tu veux aller à Pékin, le mieux est d\'y aller en automne.', chunks: shuffle(['如果', '你', '想到', '北京', '旅游', '最好', '秋天', '去']), answer: '如果你想到北京旅游最好秋天去',
+      explanation_fr: 'Ordre : 如果 (si) + 你 (tu) + 想到 (vouloir aller à) + 北京 (Pékin) + 旅游 (voyager) = condition ; 最好 (le mieux) + 秋天 (en automne) + 去 (aller) = conseil.',
+      explanation_en: 'Order: 如果 (if) + 你 (you) + 想到 (want to go to) + 北京 (Beijing) + 旅游 (travel) = condition; 最好 (best) + 秋天 (in autumn) + 去 (go) = advice.' },
+    { fr: 'La température est souvent au-dessus de 30 degrés.', chunks: shuffle(['气温', '常常', '在', '三十度', '以上']), answer: '气温常常在三十度以上',
+      explanation_fr: 'Ordre : 气温 (température) + 常常 (souvent) + 在 (se trouver) + 三十度 (30 degrés) + 以上 (au-dessus de). L\'adverbe 常常 se place avant le verbe 在.',
+      explanation_en: 'Order: 气温 (temperature) + 常常 (often) + 在 (to be at) + 三十度 (30 degrees) + 以上 (above). The adverb 常常 goes before the verb 在.' },
+    { fr: 'En hiver il faut apporter un manteau et une écharpe.', chunks: shuffle(['冬天', '要', '带', '大衣', '和', '围巾']), answer: '冬天要带大衣和围巾',
+      explanation_fr: 'Ordre : 冬天 (en hiver, temps en tête) + 要 (il faut) + 带 (apporter) + 大衣 (manteau) + 和 (et) + 围巾 (écharpe). Le temps se place toujours en début de phrase.',
+      explanation_en: 'Order: 冬天 (in winter, time first) + 要 (must) + 带 (bring) + 大衣 (coat) + 和 (and) + 围巾 (scarf). Time always goes at the start of the sentence.' },
+  ];
+  for (const q of pick(orderItems, 2)) {
+    round3.push({ type: 'order', fr: q.fr, chunks: q.chunks, answer: q.answer, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  return {
+    rounds: [
+      { title: 'Évaluation', subtitle: 'Testez vos acquis', exercises: shuffle(round1) },
+      { title: 'Renforcement', subtitle: 'Météo et grammaire', exercises: shuffle(round2) },
       { title: 'Défi', subtitle: 'Production et compréhension avancée', exercises: shuffle(round3) },
     ],
   };

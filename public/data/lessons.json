@@ -356,5 +356,150 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L03",
+    "week": 3,
+    "title": "北京的天气",
+    "title_fr": "Le temps à Pékin",
+    "title_en": "Beijing's Weather",
+    "theme": "天气 — La météo / Weather",
+    "date": "2026-09-22",
+    "reading": {
+      "title": "北京的天气",
+      "paragraphs": [
+        "北京一年有四个季节，从三月到五月是春天，从六月到八月是夏天，从九月到十一月是秋天，从十二月到二月是冬天。",
+        "如果你想到北京旅游，最好秋天去，因为秋天是北京最好的季节，不冷也不热，不刮风也不下雨，常常是晴天，天气还很暖和。",
+        "夏天去北京，天气会很热，常常阴天下雨，气温常常在三十度以上，能到35度或者38度。",
+        "冬天去北京也不错，不下雨。可是北京的冬天很冷，会下雪，气温常常在零下，怕冷就不要冬天去北京。",
+        "最后，春天最好不要到北京旅游，春天风很大，还有点儿冷，天气不太好。",
+        "如果你夏天去北京旅游，要带短裤，T恤，雨衣雨伞。如果你冬天去，就要带大衣，毛衣，帽子和围巾。"
+      ],
+      "paragraphs_en": [
+        "Beijing has four seasons in a year: from March to May is spring, from June to August is summer, from September to November is autumn, and from December to February is winter.",
+        "If you want to travel to Beijing, it's best to go in autumn, because autumn is Beijing's best season — not cold, not hot, no wind, no rain, often sunny, and the weather is still warm.",
+        "If you go to Beijing in summer, the weather will be very hot, often overcast and rainy, with temperatures often above 30°C, reaching 35 or even 38 degrees.",
+        "Going to Beijing in winter is also not bad — it doesn't rain. But Beijing winters are very cold, with snow, and temperatures often below zero. If you're afraid of the cold, don't go to Beijing in winter.",
+        "Finally, it's best not to travel to Beijing in spring. The wind is very strong in spring, it's still a bit cold, and the weather isn't great.",
+        "If you go to Beijing in summer, you need to bring shorts, T-shirts, a raincoat and an umbrella. If you go in winter, you need to bring a coat, a sweater, a hat and a scarf."
+      ]
+    },
+    "vocab": [
+      { "word": "季节", "pinyin": "jìjié", "gloss_fr": "saison — 季 saison + 节 période", "gloss_en": "season — 季 season + 节 period", "hsk": 3, "category": "temps", "example": "一年有四个季节。" },
+      { "word": "春天", "pinyin": "chūntiān", "gloss_fr": "printemps — 春 printemps + 天 ciel/jour", "gloss_en": "spring — 春 spring + 天 sky/day", "hsk": 3, "category": "temps", "example": "我最喜欢春天，不冷也不热。" },
+      { "word": "夏天", "pinyin": "xiàtiān", "gloss_fr": "été — 夏 été + 天 ciel/jour", "gloss_en": "summer — 夏 summer + 天 sky/day", "hsk": 3, "category": "temps", "example": "今年夏天太热了。" },
+      { "word": "秋天", "pinyin": "qiūtiān", "gloss_fr": "automne — 秋 automne + 天 ciel/jour", "gloss_en": "autumn — 秋 autumn + 天 sky/day", "hsk": 3, "category": "temps", "example": "北京的秋天天气最好。" },
+      { "word": "冬天", "pinyin": "dōngtiān", "gloss_fr": "hiver — 冬 hiver + 天 ciel/jour", "gloss_en": "winter — 冬 winter + 天 sky/day", "hsk": 3, "category": "temps", "example": "北方的冬天很冷。" },
+      { "word": "天气", "pinyin": "tiānqì", "gloss_fr": "temps (météo) — 天 ciel + 气 air", "gloss_en": "weather — 天 sky + 气 air", "hsk": 1, "category": "météo", "example": "今天天气很好。" },
+      { "word": "冷", "pinyin": "lěng", "gloss_fr": "froid (il fait froid / c'est froid)", "gloss_en": "cold", "hsk": 1, "category": "météo", "example": "冬天很冷。" },
+      { "word": "热", "pinyin": "rè", "gloss_fr": "chaud (il fait chaud / c'est chaud)", "gloss_en": "hot", "hsk": 1, "category": "météo", "example": "夏天很热。" },
+      { "word": "暖和", "pinyin": "nuǎnhuo", "gloss_fr": "doux, agréablement tiède", "gloss_en": "warm, pleasantly mild", "hsk": 3, "category": "météo", "example": "秋天的天气很暖和。" },
+      { "word": "刮风", "pinyin": "guāfēng", "gloss_fr": "il y a du vent, être venteux — 刮 souffler + 风 vent", "gloss_en": "to be windy — 刮 to blow + 风 wind", "hsk": 3, "category": "météo", "example": "春天常常刮风。" },
+      { "word": "下雨", "pinyin": "xiàyǔ", "gloss_fr": "pleuvoir — 下 tomber + 雨 pluie", "gloss_en": "to rain — 下 to fall + 雨 rain", "hsk": 2, "category": "météo", "example": "今天下雨了。" },
+      { "word": "下雪", "pinyin": "xiàxuě", "gloss_fr": "neiger — 下 tomber + 雪 neige", "gloss_en": "to snow — 下 to fall + 雪 snow", "hsk": 3, "category": "météo", "example": "冬天会下雪。" },
+      { "word": "晴天", "pinyin": "qíngtiān", "gloss_fr": "beau temps, ciel clair — 晴 clair + 天 ciel", "gloss_en": "clear/sunny day — 晴 clear + 天 sky", "hsk": 3, "category": "météo", "example": "秋天常常是晴天。" },
+      { "word": "阴天", "pinyin": "yīntiān", "gloss_fr": "temps couvert, ciel gris — 阴 sombre + 天 ciel", "gloss_en": "overcast day — 阴 overcast + 天 sky", "hsk": 3, "category": "météo", "example": "夏天常常阴天下雨。" },
+      { "word": "风", "pinyin": "fēng", "gloss_fr": "vent", "gloss_en": "wind", "hsk": 3, "category": "météo", "example": "春天风很大。" },
+      { "word": "气温", "pinyin": "qìwēn", "gloss_fr": "température — 气 air + 温 température", "gloss_en": "temperature — 气 air + 温 temperature", "hsk": 3, "category": "météo", "example": "气温常常在三十度以上。" },
+      { "word": "度", "pinyin": "dù", "gloss_fr": "degré (température)", "gloss_en": "degree (temperature)", "hsk": 3, "category": "météo", "example": "今天气温三十五度。" },
+      { "word": "零下", "pinyin": "língxià", "gloss_fr": "en dessous de zéro — 零 zéro + 下 sous", "gloss_en": "below zero — 零 zero + 下 below", "hsk": 3, "category": "météo", "example": "气温常常在零下。" },
+      { "word": "以上", "pinyin": "yǐshàng", "gloss_fr": "plus de, au-dessus de — 以 à partir de + 上 haut", "gloss_en": "above, more than — 以 from + 上 above", "hsk": 3, "category": "météo", "example": "气温在三十度以上。" },
+      { "word": "如果", "pinyin": "rúguǒ", "gloss_fr": "si (condition) — 如 comme + 果 résultat", "gloss_en": "if (conditional) — 如 as + 果 result", "hsk": 3, "category": "grammaire", "example": "如果你想去，我们就一起去。" },
+      { "word": "就", "pinyin": "jiù", "gloss_fr": "alors, aussitôt (conséquence logique)", "gloss_en": "then, right away (logical consequence)", "hsk": 2, "category": "grammaire", "example": "怕冷就不要冬天去。" },
+      { "word": "最", "pinyin": "zuì", "gloss_fr": "le plus (superlatif)", "gloss_en": "the most (superlative)", "hsk": 2, "category": "grammaire", "example": "秋天是最好的季节。" },
+      { "word": "会", "pinyin": "huì", "gloss_fr": "il est probable que, va (probabilité future)", "gloss_en": "will, likely to (future probability)", "hsk": 1, "category": "grammaire", "example": "天气会很热。" },
+      { "word": "能", "pinyin": "néng", "gloss_fr": "pouvoir, être capable de", "gloss_en": "can, to be able to", "hsk": 1, "category": "grammaire", "example": "气温能到三十五度。" },
+      { "word": "怕", "pinyin": "pà", "gloss_fr": "avoir peur de, craindre", "gloss_en": "to fear, to be afraid of", "hsk": 3, "category": "grammaire", "example": "怕冷就不要冬天去。" },
+      { "word": "或者", "pinyin": "huòzhě", "gloss_fr": "ou bien, soit... soit...", "gloss_en": "or, either...or...", "hsk": 3, "category": "grammaire", "example": "能到35度或者38度。" },
+      { "word": "旅游", "pinyin": "lǚyóu", "gloss_fr": "voyager (tourisme) — 旅 voyage + 游 parcourir", "gloss_en": "to travel (tourism) — 旅 travel + 游 tour", "hsk": 3, "category": "voyage", "example": "如果你想到北京旅游。" },
+      { "word": "带", "pinyin": "dài", "gloss_fr": "apporter, emporter", "gloss_en": "to bring, to carry", "hsk": 2, "category": "voyage", "example": "夏天要带雨伞。" },
+      { "word": "最后", "pinyin": "zuìhòu", "gloss_fr": "enfin, finalement — 最 le plus + 后 après", "gloss_en": "finally, lastly — 最 most + 后 after", "hsk": 3, "category": "voyage", "example": "最后，春天最好不要去。" },
+      { "word": "不错", "pinyin": "búcuò", "gloss_fr": "pas mal, bien — 不 pas + 错 erreur", "gloss_en": "not bad, pretty good — 不 not + 错 wrong", "hsk": 2, "category": "voyage", "example": "冬天去北京也不错。" },
+      { "word": "短裤", "pinyin": "duǎnkù", "gloss_fr": "short (vêtement) — 短 court + 裤 pantalon", "gloss_en": "shorts — 短 short + 裤 pants", "hsk": 3, "category": "vêtement", "example": "夏天要带短裤。" },
+      { "word": "T恤", "pinyin": "T-xù", "gloss_fr": "T-shirt", "gloss_en": "T-shirt", "hsk": 3, "category": "vêtement" },
+      { "word": "雨衣", "pinyin": "yǔyī", "gloss_fr": "imperméable — 雨 pluie + 衣 vêtement", "gloss_en": "raincoat — 雨 rain + 衣 clothing", "hsk": 3, "category": "vêtement", "example": "下雨的时候要穿雨衣。" },
+      { "word": "雨伞", "pinyin": "yǔsǎn", "gloss_fr": "parapluie — 雨 pluie + 伞 parapluie", "gloss_en": "umbrella — 雨 rain + 伞 umbrella", "hsk": 3, "category": "vêtement", "example": "夏天要带雨伞。" },
+      { "word": "大衣", "pinyin": "dàyī", "gloss_fr": "manteau — 大 grand + 衣 vêtement", "gloss_en": "overcoat — 大 big + 衣 clothing", "hsk": 3, "category": "vêtement", "example": "冬天要穿大衣。" },
+      { "word": "毛衣", "pinyin": "máoyī", "gloss_fr": "pull-over — 毛 laine + 衣 vêtement", "gloss_en": "sweater — 毛 wool + 衣 clothing", "hsk": 3, "category": "vêtement", "example": "天冷了，穿毛衣吧。" },
+      { "word": "帽子", "pinyin": "màozi", "gloss_fr": "chapeau, bonnet", "gloss_en": "hat, cap", "hsk": 3, "category": "vêtement", "example": "冬天要戴帽子。" },
+      { "word": "围巾", "pinyin": "wéijīn", "gloss_fr": "écharpe, foulard — 围 entourer + 巾 tissu", "gloss_en": "scarf — 围 to wrap + 巾 cloth", "hsk": 3, "category": "vêtement", "example": "冬天要戴围巾。" },
+      { "word": "变化", "pinyin": "biànhuà", "gloss_fr": "changer, transformation — 变 changer + 化 transformer", "gloss_en": "to change, transformation — 变 change + 化 transform", "hsk": 3, "category": "temps", "example": "这个城市变化得太快了。" },
+      { "word": "出现", "pinyin": "chūxiàn", "gloss_fr": "apparaître, surgir — 出 sortir + 现 actuel", "gloss_en": "to appear, to emerge — 出 out + 现 present", "hsk": 2, "category": "temps", "example": "太阳出现了。" }
+    ],
+    "grammar": [
+      {
+        "pattern": "从 A 到 B (temps)",
+        "explanation_fr": "De A à B — utilisé ici pour les intervalles de temps (mois, périodes). Structure : 从 + point de départ + 到 + point d'arrivée.",
+        "explanation_en": "From A to B — used here for time intervals (months, periods). Structure: 从 + starting point + 到 + ending point.",
+        "examples": [
+          { "zh": "从三月到五月是春天。", "pinyin": "Cóng sān yuè dào wǔ yuè shì chūntiān.", "fr": "De mars à mai, c'est le printemps.", "en": "From March to May is spring." },
+          { "zh": "从九月到十一月是秋天。", "pinyin": "Cóng jiǔ yuè dào shíyī yuè shì qiūtiān.", "fr": "De septembre à novembre, c'est l'automne.", "en": "From September to November is autumn." }
+        ]
+      },
+      {
+        "pattern": "如果...(就)... (condition)",
+        "explanation_fr": "如果 introduit la condition (protase), 就 introduit la conséquence (apodose). 就 peut être omis si le lien est évident. Structure : 如果 + condition, (就) + conséquence.",
+        "explanation_en": "如果 introduces the condition (protasis), 就 introduces the consequence (apodosis). 就 can be omitted when the link is obvious. Structure: 如果 + condition, (就) + consequence.",
+        "examples": [
+          { "zh": "如果你想到北京旅游，最好秋天去。", "pinyin": "Rúguǒ nǐ xiǎng dào Běijīng lǚyóu, zuì hǎo qiūtiān qù.", "fr": "Si tu veux voyager à Pékin, le mieux est d'y aller en automne.", "en": "If you want to travel to Beijing, it's best to go in autumn." },
+          { "zh": "怕冷就不要冬天去北京。", "pinyin": "Pà lěng jiù bú yào dōngtiān qù Běijīng.", "fr": "Si tu crains le froid, alors ne va pas à Pékin en hiver.", "en": "If you're afraid of the cold, then don't go to Beijing in winter." },
+          { "zh": "如果你冬天去，就要带大衣。", "pinyin": "Rúguǒ nǐ dōngtiān qù, jiù yào dài dàyī.", "fr": "Si tu y vas en hiver, il faut apporter un manteau.", "en": "If you go in winter, you need to bring a coat." }
+        ]
+      },
+      {
+        "pattern": "最 + Adj (superlatif)",
+        "explanation_fr": "最 se place devant un adjectif (ou un verbe psychologique) pour former le superlatif : « le/la plus... ». On peut ajouter 的 devant un nom : 最好的季节 = la meilleure saison.",
+        "explanation_en": "最 is placed before an adjective (or psychological verb) to form the superlative: 'the most...'. 的 can be added before a noun: 最好的季节 = the best season.",
+        "examples": [
+          { "zh": "秋天是北京最好的季节。", "pinyin": "Qiūtiān shì Běijīng zuì hǎo de jìjié.", "fr": "L'automne est la meilleure saison de Pékin.", "en": "Autumn is Beijing's best season." },
+          { "zh": "我最喜欢春天。", "pinyin": "Wǒ zuì xǐhuan chūntiān.", "fr": "J'aime le plus le printemps.", "en": "I like spring the most." }
+        ]
+      },
+      {
+        "pattern": "不 A 也不 B (ni...ni...)",
+        "explanation_fr": "Exprime la double négation : « ni A ni B ». Les deux éléments A et B sont généralement des adjectifs ou des verbes d'action de même catégorie.",
+        "explanation_en": "Expresses double negation: 'neither A nor B'. Elements A and B are typically adjectives or action verbs of the same category.",
+        "examples": [
+          { "zh": "不冷也不热。", "pinyin": "Bù lěng yě bú rè.", "fr": "Ni froid ni chaud.", "en": "Neither cold nor hot." },
+          { "zh": "不刮风也不下雨。", "pinyin": "Bù guā fēng yě bú xià yǔ.", "fr": "Pas de vent et pas de pluie.", "en": "No wind and no rain." }
+        ]
+      },
+      {
+        "pattern": "会 + V (probabilité future)",
+        "explanation_fr": "会 devant un verbe ou adjectif exprime la probabilité ou la prédiction : « il est probable que, va ». Ce n'est pas le 会 de savoir-faire (会说中文). Le contexte distingue les deux sens.",
+        "explanation_en": "会 before a verb or adjective expresses probability or prediction: 'will likely, is going to'. This is not the 会 of ability (会说中文 = can speak Chinese). Context distinguishes the two meanings.",
+        "examples": [
+          { "zh": "天气会很热。", "pinyin": "Tiānqì huì hěn rè.", "fr": "Il va faire très chaud.", "en": "The weather will be very hot." },
+          { "zh": "冬天会下雪。", "pinyin": "Dōngtiān huì xià xuě.", "fr": "En hiver, il va neiger.", "en": "It will snow in winter." }
+        ]
+      },
+      {
+        "pattern": "有点儿 + Adj (un peu — négatif)",
+        "explanation_fr": "有点儿 + adjectif exprime « un peu + qualité négative ». Le locuteur trouve cela gênant ou insatisfaisant. Contraste avec 一点儿 qui suit l'adjectif : 冷一点儿 = un peu plus froid.",
+        "explanation_en": "有点儿 + adjective means 'a bit + negative quality'. The speaker finds it annoying or unsatisfactory. Contrast with 一点儿 which follows the adjective: 冷一点儿 = a bit colder.",
+        "examples": [
+          { "zh": "春天还有点儿冷。", "pinyin": "Chūntiān hái yǒudiǎnr lěng.", "fr": "Au printemps, il fait encore un peu froid.", "en": "In spring, it's still a bit cold." },
+          { "zh": "这个菜有点儿辣。", "pinyin": "Zhège cài yǒudiǎnr là.", "fr": "Ce plat est un peu trop épicé.", "en": "This dish is a bit too spicy." }
+        ]
+      },
+      {
+        "pattern": "N + 以上 / 以下 (au-dessus / en dessous de)",
+        "explanation_fr": "以上 (au-dessus de) et 以下 (en dessous de) se placent après un nombre + unité pour indiquer un seuil. 三十度以上 = au-dessus de 30 degrés. 零下 est un terme spécifique pour « en dessous de zéro ».",
+        "explanation_en": "以上 (above) and 以下 (below) are placed after a number + unit to indicate a threshold. 三十度以上 = above 30 degrees. 零下 is a specific term for 'below zero'.",
+        "examples": [
+          { "zh": "气温常常在三十度以上。", "pinyin": "Qìwēn chángcháng zài sānshí dù yǐshàng.", "fr": "La température est souvent au-dessus de 30 degrés.", "en": "The temperature is often above 30 degrees." },
+          { "zh": "气温常常在零下。", "pinyin": "Qìwēn chángcháng zài líng xià.", "fr": "La température est souvent en dessous de zéro.", "en": "The temperature is often below zero." }
+        ]
+      },
+      {
+        "pattern": "要 + V (obligation / nécessité)",
+        "explanation_fr": "要 + verbe exprime une nécessité ou obligation : « il faut, on doit ». La forme négative 不要 signifie « il ne faut pas » (interdiction douce ou conseil). Distinct de 想 + V (envie) et 会 + V (probabilité).",
+        "explanation_en": "要 + verb expresses necessity or obligation: 'must, need to'. The negative 不要 means 'don't, shouldn't' (soft prohibition or advice). Distinct from 想 + V (desire) and 会 + V (probability).",
+        "examples": [
+          { "zh": "夏天要带短裤。", "pinyin": "Xiàtiān yào dài duǎnkù.", "fr": "En été, il faut apporter des shorts.", "en": "In summer, you need to bring shorts." },
+          { "zh": "春天最好不要到北京旅游。", "pinyin": "Chūntiān zuì hǎo bú yào dào Běijīng lǚyóu.", "fr": "Au printemps, il vaut mieux ne pas aller à Pékin.", "en": "In spring, it's best not to travel to Beijing." }
+        ]
+      }
+    ]
   }
 ]
