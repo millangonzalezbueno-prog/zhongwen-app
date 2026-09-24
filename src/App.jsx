@@ -7,6 +7,7 @@ import CharacterPopup from './components/CharacterPopup';
 import Dashboard from './components/Dashboard';
 import BrowseView from './components/BrowseView';
 import LessonView from './components/LessonView';
+import HomeworkView from './components/HomeworkView';
 
 const TABS = [
   { id: 'home', label: 'Accueil' },
@@ -127,6 +128,12 @@ function App() {
             <StrokePractice data={data} onCharClick={handleCharClick} />
           </div>
         )}
+        {!activeLesson && studyMode === 'homework1' && (
+          <div>
+            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
+            <HomeworkView />
+          </div>
+        )}
         {!activeLesson && !studyMode && tab === 'home' && (
           <HomeView data={data} onSelectMode={setStudyMode} onOpenLesson={openLesson} />
         )}
@@ -151,6 +158,25 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
 
   return (
     <div>
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-1">Devoirs</h2>
+        <p className="text-muted mb-5">Entraînement sur les devoirs à rendre.</p>
+        <button onClick={() => onSelectMode('homework1')}
+          className="w-full bg-surface-alt border border-primary/30 rounded-2xl p-5 text-left hover:shadow-md hover:border-primary/60 transition-all group">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shrink-0">
+              <span className="text-white text-lg font-bold hanzi-display">作</span>
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-medium text-primary mb-0.5">À rendre le 6 octobre</p>
+              <p className="text-lg font-semibold hanzi-display group-hover:text-primary transition-colors">中文作业 1</p>
+              <p className="text-sm text-muted">Examen blanc noté sur 20, variantes et corrigé</p>
+              <p className="text-xs text-muted mt-1">5 parties &middot; questions, ordre des mots, 选词填空, 量词, lecture</p>
+            </div>
+          </div>
+        </button>
+      </section>
+
       {data.lessons && data.lessons.length > 0 && (
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-1">Cours</h2>

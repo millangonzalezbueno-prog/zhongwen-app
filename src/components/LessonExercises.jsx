@@ -12,6 +12,7 @@ function shuffle(arr) {
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
 function buildExercises(lesson) {
+  if (lesson.id === 'L04') return buildExercisesL04(lesson);
   if (lesson.id === 'L03') return buildExercisesL03(lesson);
   if (lesson.id === 'L02') return buildExercisesL02(lesson);
   return buildExercisesL01(lesson);
@@ -921,8 +922,326 @@ function buildExercisesL03(lesson) {
   };
 }
 
-export default function LessonExercises({ lesson }) {
-  const session = useMemo(() => buildExercises(lesson), [lesson]);
+function buildExercisesL04(lesson) {
+  const vocab = lesson.vocab;
+  const round1 = [];
+  const round2 = [];
+  const round3 = [];
+
+  // === ROUND 1: ÉVALUATION ===
+
+  // 1a. Vocab recall: French → Chinese
+  const vocabPool = vocab.filter(v => v.word.length >= 2);
+  for (const v of pick(vocabPool, 5)) {
+    const distractors = pick(vocabPool.filter(x => x.word !== v.word && x.category === v.category), 3).map(x => x.word);
+    while (distractors.length < 3) {
+      const extra = pick(vocabPool.filter(x => x.word !== v.word && !distractors.includes(x.word)), 1)[0].word;
+      distractors.push(extra);
+    }
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: v.gloss_fr.split('—')[0].split('(')[0].trim(),
+      correct: v.word,
+      options: shuffle([v.word, ...distractors]),
+      pinyin: v.pinyin,
+    });
+  }
+
+  // 1b. 汉字 decomposition (slides « 第一课 – 汉字 »)
+  const hanziParts = [
+    { parts: '占 + 灬', correct: '点', pinyin: 'diǎn' },
+    { parts: '八 + 刀', correct: '分', pinyin: 'fēn' },
+    { parts: '人 + 人 + 土', correct: '坐', pinyin: 'zuò' },
+    { parts: '山 + 夕', correct: '岁', pinyin: 'suì' },
+    { parts: '口 + 丂', correct: '号', pinyin: 'hào' },
+    { parts: '⺍ + 一 + 八', correct: '兴', pinyin: 'xìng' },
+  ];
+  const hanziAll = ['点', '分', '坐', '岁', '号', '兴', '半', '高', '年'];
+  for (const q of pick(hanziParts, 3)) {
+    round1.push({
+      type: 'vocab-mcq',
+      prompt: `汉字 : ${q.parts} = ?`,
+      correct: q.correct,
+      options: shuffle([q.correct, ...pick(hanziAll.filter(h => h !== q.correct), 3)]),
+      pinyin: q.pinyin,
+    });
+  }
+
+  // 1c. Reading true/false
+  const readingTF = [
+    { statement: 'M 在法国的时候看过三四个中国电影。', answer: true, explanation: '课文原文：我在法国的时候看过三四个，都不错。' },
+    { statement: 'M 最喜欢看的是中国电影。', answer: false, explanation: 'M 最喜欢看的是美国电影。' },
+    { statement: 'M 去过美国。', answer: false, explanation: 'M 说："没去过。我去过意大利、英国和德国。"' },
+    { statement: 'W 去过很多地方。', answer: false, explanation: 'W 说："我去过的地方不多。"' },
+    { statement: '巴黎的旅馆比较便宜。', answer: false, explanation: 'M 住的小旅馆很便宜，可是巴黎旅馆比较贵。' },
+    { statement: 'W 以前看过《天地英雄》。', answer: true, explanation: 'W 说："这个电影我看过！"' },
+    { statement: '《天地英雄》讲的是现在的故事。', answer: false, explanation: '这个电影讲的是古时候的一个故事，差不多一千年以前。' },
+    { statement: '月饼有很多种，但是都是圆的。', answer: true, explanation: '课文原文：虽然月饼有很多种，但是都是圆的。' },
+  ];
+  for (const q of pick(readingTF, 4)) {
+    round1.push({ type: 'true-false', statement: q.statement, correct: q.answer, explanation: q.explanation });
+  }
+
+  // 1d. 知道 vs 了解
+  const knowFills = [
+    { sentence: '你___下次中文课的教室吗？', answer: '知道', hint: 'Sais-tu où est la salle du prochain cours ? (une information)',
+      explanation_fr: '知道 = savoir une information précise (le numéro de la salle). 了解 signifie connaître en profondeur — trop fort pour une simple information.',
+      explanation_en: '知道 = to know a specific piece of information (the room number). 了解 means to know in depth — too strong for a simple fact.' },
+    { sentence: '你___中国的传统节日吗？', answer: '了解', hint: 'Connais-tu bien les fêtes traditionnelles ? (connaissance approfondie)',
+      explanation_fr: '了解 (liǎojiě) = connaître en profondeur un sujet. On demande si la personne connaît bien les fêtes chinoises, pas seulement si elle sait qu\'elles existent.',
+      explanation_en: '了解 (liǎojiě) = to know a subject in depth. The question asks whether the person is familiar with Chinese festivals, not just whether they know they exist.' },
+    { sentence: '关于中国历史，我___得不多。', answer: '了解', hint: 'L\'histoire chinoise, je ne la connais pas beaucoup.',
+      explanation_fr: 'Réponse type du cours : 关于 + sujet，我了解得不多. 了解 + 得 + degré (complément de degré). 关于 place le sujet en tête de phrase.',
+      explanation_en: 'Model answer from class: 关于 + topic，我了解得不多. 了解 + 得 + degree (degree complement). 关于 puts the topic at the start.' },
+  ];
+  for (const q of pick(knowFills, 2)) {
+    round1.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(['知道', '了解', '认识', '懂']), hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // === ROUND 2: RENFORCEMENT ===
+
+  // 2a. 的 ou 得 ? (slides 练习 1 + 填空)
+  const deFills = [
+    { sentence: '王小明在上海___一个中学上学。', answer: '的',
+      explanation_fr: '上海的一个中学 = « un collège de Shanghai ». 上海 détermine le nom 中学 → 的 (déterminant + 的 + nom).',
+      explanation_en: '上海的一个中学 = "a middle school in Shanghai". 上海 modifies the noun 中学 → 的 (modifier + 的 + noun).' },
+    { sentence: '她可以说法语，可是说___不太好。', answer: '得',
+      explanation_fr: 'Verbe + 得 + appréciation : 说得不太好 = « elle ne le parle pas très bien ». 得 introduit le complément de degré après un VERBE.',
+      explanation_en: 'Verb + 得 + assessment: 说得不太好 = "she doesn\'t speak it very well". 得 introduces the degree complement after a VERB.' },
+    { sentence: '他家的小花猫吃鱼吃___很少。', answer: '得',
+      explanation_fr: 'Avec un objet, on répète le verbe : V + O + V + 得 + degré. 吃鱼吃得很少 = « il mange très peu de poisson ».',
+      explanation_en: 'With an object, the verb is repeated: V + O + V + 得 + degree. 吃鱼吃得很少 = "it eats very little fish".' },
+    { sentence: '这是谁___书？', answer: '的',
+      explanation_fr: 'Possession : 谁的书 = « le livre de qui ? ». Le possesseur + 的 + objet possédé.',
+      explanation_en: 'Possession: 谁的书 = "whose book?". Possessor + 的 + possessed noun.' },
+    { sentence: '他喝红茶喝___不太多。', answer: '得',
+      explanation_fr: 'V + O + V + 得 + degré : 喝红茶喝得不太多 = « il ne boit pas beaucoup de thé noir ».',
+      explanation_en: 'V + O + V + 得 + degree: 喝红茶喝得不太多 = "he doesn\'t drink much black tea".' },
+    { sentence: '她是一个非常漂亮___女孩子。', answer: '的',
+      explanation_fr: 'Adjectif (avec adverbe) + 的 + nom : 非常漂亮的女孩子. Un adjectif précédé d\'un adverbe prend toujours 的 devant le nom.',
+      explanation_en: 'Adjective (with adverb) + 的 + noun: 非常漂亮的女孩子. An adjective with an adverb always takes 的 before the noun.' },
+    { sentence: '这是一本政治学院的学生写___书。', answer: '的',
+      explanation_fr: 'Relative : 政治学院的学生写的书 = « un livre écrit par des étudiants de Sciences Po ». S + V + 的 + N.',
+      explanation_en: 'Relative clause: 政治学院的学生写的书 = "a book written by Sciences Po students". S + V + 的 + N.' },
+    { sentence: '他是从德国来___一个学生。', answer: '的',
+      explanation_fr: 'Relative : 从德国来的 + 学生 = « un étudiant venu d\'Allemagne ». La relative entière précède le nom.',
+      explanation_en: 'Relative clause: 从德国来的 + 学生 = "a student who came from Germany". The whole relative clause precedes the noun.' },
+    { sentence: '书架上___那本中文书是我的。', answer: '的',
+      explanation_fr: 'Un lieu peut déterminer un nom : 书架上的那本中文书 = « le livre chinois qui est sur l\'étagère ».',
+      explanation_en: 'A place can modify a noun: 书架上的那本中文书 = "the Chinese book on the shelf".' },
+  ];
+  for (const q of pick(deFills, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: ['的', '得'], hint: '的 ou 得 ?', explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2b. 以前 / 以后
+  const beforeAfter = [
+    { sentence: '我们去北京___去上海。', answer: '以前', hint: 'Nous irons à Shanghai avant d\'aller à Pékin.',
+      explanation_fr: '« Avant d\'aller à Pékin » = 去北京以前. 以前 se place APRÈS l\'événement de référence, contrairement au français.',
+      explanation_en: '"Before going to Beijing" = 去北京以前. 以前 goes AFTER the reference event, unlike English.' },
+    { sentence: '回家___，我先做作业，然后吃饭。', answer: '以后', hint: 'Après être rentré, je fais d\'abord mes devoirs.',
+      explanation_fr: '回家以后 = « après être rentré ». 以后 suit l\'action de référence.',
+      explanation_en: '回家以后 = "after getting home". 以后 follows the reference action.' },
+    { sentence: '睡觉___，我先刷牙，然后洗脸。', answer: '以前', hint: 'Avant de dormir, je me brosse les dents puis je me lave le visage.',
+      explanation_fr: '睡觉以前 = « avant de dormir ». On se brosse les dents avant de se coucher.',
+      explanation_en: '睡觉以前 = "before sleeping". You brush your teeth before going to bed.' },
+    { sentence: '我们三点___开会。', answer: '以前', hint: 'Nous avons une réunion avant trois heures.',
+      explanation_fr: 'Avec une heure : 三点以前 = « avant trois heures ». L\'heure vient d\'abord, puis 以前.',
+      explanation_en: 'With a time: 三点以前 = "before three o\'clock". The time comes first, then 以前.' },
+    { sentence: '下课___，我们一起吃月饼吧。', answer: '以后', hint: 'Après le cours, mangeons des gâteaux de lune ensemble.',
+      explanation_fr: '下课以后 = « après le cours ». Phrase du cours pour la fête de la mi-automne !',
+      explanation_en: '下课以后 = "after class". A sentence from class for the Mid-Autumn Festival!' },
+  ];
+  for (const q of pick(beforeAfter, 2)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: ['以前', '以后'], hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2c. Connecteurs & classificateurs verbaux
+  const connectorFills = [
+    { sentence: '___汉语很难，但是我觉得很有意思。', answer: '虽然', options: ['虽然', '如果', '因为', '所以'], hint: 'Bien que le chinois soit difficile…',
+      explanation_fr: '虽然 A，但是 B = « bien que A, B ». 但是 dans la 2e proposition appelle 虽然 dans la 1re. 如果 (si) et 因为 (parce que) ne vont pas avec 但是.',
+      explanation_en: '虽然 A，但是 B = "although A, B". 但是 in the second clause calls for 虽然 in the first. 如果 (if) and 因为 (because) don\'t pair with 但是.' },
+    { sentence: '我虽然去过好几次，___还想再去玩儿玩儿。', answer: '但是', options: ['但是', '所以', '就', '也'], hint: 'Bien que j\'y sois allé plusieurs fois, j\'ai envie d\'y retourner.',
+      explanation_fr: '虽然 appelle 但是 (ou 可是) au début de la 2e proposition. En chinois on garde les deux connecteurs.',
+      explanation_en: '虽然 calls for 但是 (or 可是) at the start of the second clause. Chinese keeps both connectors.' },
+    { sentence: '要是你想家了，___给妈妈打电话。', answer: '就', options: ['就', '才', '但是', '也'], hint: 'Si tu as le mal du pays, appelle ta mère.',
+      explanation_fr: '要是 A，就 B = « si A, alors B ». 就 introduit la conséquence.',
+      explanation_en: '要是 A，就 B = "if A, then B". 就 introduces the consequence.' },
+    { sentence: '这本书我看了三___，每次都从头看到尾。', answer: '遍', options: ['遍', '次', '本', '个'], hint: 'J\'ai lu ce livre trois fois, en entier à chaque fois.',
+      explanation_fr: '遍 insiste sur l\'intégralité de l\'action (du début à la fin) — idéal avec lire, écrire, écouter. 次 compte juste les occurrences.',
+      explanation_en: '遍 stresses the whole action from start to finish — ideal with read, write, listen. 次 just counts occurrences.' },
+    { sentence: '我去过两___中国。', answer: '次', options: ['次', '遍', '本', '个'], hint: 'Je suis allé deux fois en Chine.',
+      explanation_fr: '次 est le classificateur verbal général pour « fois ». Aller dans un pays n\'est pas une action qu\'on fait « en entier » → pas 遍. (回 serait aussi possible.)',
+      explanation_en: '次 is the general verbal classifier for "times". Visiting a country isn\'t done "from start to finish" → not 遍. (回 would also work.)' },
+    { sentence: '请你再说一___，我没听懂。', answer: '遍', options: ['遍', '本', '个', '天'], hint: 'Répète encore une fois, s\'il te plaît, je n\'ai pas compris.',
+      explanation_fr: '再说一遍 = « redire (toute la phrase) une fois ». Expression très fréquente : 遍 car on répète l\'énoncé en entier.',
+      explanation_en: '再说一遍 = "say (the whole thing) once more". Very common expression: 遍 because the whole utterance is repeated.' },
+  ];
+  for (const q of pick(connectorFills, 4)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(q.options), hint: q.hint, explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2d. Pronoms interrogatifs indéfinis
+  const whFills = [
+    { sentence: '我不知道你想吃___菜。', answer: '什么', explanation_fr: '什么菜 = « quel plat ». 什么 se place devant le nom qu\'il interroge.', explanation_en: '什么菜 = "what dish". 什么 goes before the noun it asks about.' },
+    { sentence: '我不知道他早上去___散步。', answer: '哪儿', explanation_fr: '去哪儿散步 = « aller se promener où ». 哪儿 remplace le lieu après 去.', explanation_en: '去哪儿散步 = "go for a walk where". 哪儿 replaces the place after 去.' },
+    { sentence: '我不知道他今天___那么难过。', answer: '为什么', explanation_fr: '为什么那么难过 = « pourquoi si triste ». On demande la cause.', explanation_en: '为什么那么难过 = "why so sad". Asking for the cause.' },
+    { sentence: '我不知道___去电影院。', answer: '怎么', explanation_fr: '怎么 + V = « comment faire ». 怎么去电影院 = comment aller au cinéma.', explanation_en: '怎么 + V = "how to do". 怎么去电影院 = how to get to the cinema.' },
+  ];
+  for (const q of pick(whFills, 2)) {
+    round2.push({ type: 'fill-mcq', sentence: q.sentence, correct: q.answer, options: shuffle(['什么', '哪儿', '为什么', '怎么']), hint: 'Question indirecte après 不知道', explanation_fr: q.explanation_fr, explanation_en: q.explanation_en });
+  }
+
+  // 2e. Corrections d'erreurs
+  const errorCorrections = [
+    { wrong: '我认识过他。', correct: '我认识他。', alts: ['我认识他了'],
+      explanation_fr: '认识 (connaître) est incompatible avec 过 : il crée un état sans limite, qui n\'est pas « coupé » du présent. On dit simplement 我认识他.',
+      explanation_en: '认识 (to know someone) is incompatible with 过: it creates an open-ended state, not "cut off" from the present. Just say 我认识他.' },
+    { wrong: '我不去过美国。', correct: '我没去过美国。', alts: ['我没有去过美国'],
+      explanation_fr: 'La négation de V + 过 est TOUJOURS 没(有) + V + 过, jamais 不.',
+      explanation_en: 'The negation of V + 过 is ALWAYS 没(有) + V + 过, never 不.' },
+    { wrong: '要是累了，就你休息一会儿吧。', correct: '要是累了，你就休息一会儿吧。', alts: ['要是累了的话，你就休息一会儿吧'],
+      explanation_fr: '就 est un adverbe : il se place APRÈS le sujet et devant le verbe. 你就休息, pas *就你休息. (Correction vue en cours.)',
+      explanation_en: '就 is an adverb: it goes AFTER the subject and before the verb. 你就休息, not *就你休息. (Correction from class.)' },
+    { wrong: '这本书不是我。', correct: '这本书不是我的。',
+      explanation_fr: 'Le nom sous-entendu exige 的 : 我的 = « le mien ». Sans 的, la phrase dit « ce livre n\'est pas moi ».',
+      explanation_en: 'An implied noun requires 的: 我的 = "mine". Without 的 the sentence says "this book is not me".' },
+    { wrong: '我们以前去北京去上海。', correct: '我们去北京以前去上海。',
+      explanation_fr: '以前 se place APRÈS l\'événement de référence : 去北京以前 = « avant d\'aller à Pékin ».',
+      explanation_en: '以前 goes AFTER the reference event: 去北京以前 = "before going to Beijing".' },
+    { wrong: '我在过法国。', correct: '我去过法国。',
+      explanation_fr: '在 (être à) et 是 (être) sont incompatibles avec 过. Pour l\'expérience d\'un lieu, on utilise 去过 (y être allé).',
+      explanation_en: '在 (to be at) and 是 (to be) are incompatible with 过. For having been somewhere, use 去过.' },
+    { wrong: '我学三年了中文。', correct: '我学了三年中文了。', alts: ['我学中文学了三年了', '我学了三年的中文了'],
+      explanation_fr: 'Structure : V + 了₁ + durée + O + 了₂. La durée suit directement le verbe et précède l\'objet ; 了₂ en fin de phrase = « depuis ».',
+      explanation_en: 'Structure: V + 了₁ + duration + O + 了₂. Duration follows the verb directly and precedes the object; final 了₂ = "for (still ongoing)".' },
+  ];
+  for (const q of pick(errorCorrections, 4)) {
+    round2.push({ type: 'error-correction', ...q });
+  }
+
+  // === ROUND 3: DÉFI ===
+
+  // 3a. Relatives et phrases : FR → ZH
+  const translations = [
+    { fr: 'les films que j\'ai déjà vus', zh: '我看过的电影', alts: ['我已经看过的电影'], pattern: 'S + V过 + 的 + N',
+      explanation_fr: 'La relative « que j\'ai déjà vus » = 我看过 ; elle se place avant 的 + 电影. Pas de pronom relatif en chinois.',
+      explanation_en: 'The relative "that I\'ve seen" = 我看过; it goes before 的 + 电影. Chinese has no relative pronoun.' },
+    { fr: 'le gâteau que j\'aime le plus', zh: '我最喜欢的蛋糕', pattern: 'S + 最 + V + 的 + N',
+      explanation_fr: '我最喜欢 (ce que j\'aime le plus) + 的 + 蛋糕. 最 se place devant le verbe de sentiment.',
+      explanation_en: '我最喜欢 (what I like most) + 的 + 蛋糕. 最 goes before the verb of feeling.' },
+    { fr: 'les gens qui parlent un peu anglais', zh: '会说一点儿英语的人', alts: ['会说一点英语的人', '说一点儿英语的人', '会说一点儿英文的人', '会说一点英文的人'], pattern: 'V + O + 的 + N',
+      explanation_fr: '« qui parlent un peu anglais » = 会说一点儿英语 ; puis 的 + 人. 一点儿 se place devant l\'objet.',
+      explanation_en: '"who speak a little English" = 会说一点儿英语; then 的 + 人. 一点儿 goes before the object.' },
+    { fr: 'les beaux vêtements que j\'ai achetés à Paris', zh: '我在巴黎买的漂亮衣服', alts: ['我在巴黎买的漂亮的衣服', '我在巴黎买的很漂亮的衣服'], pattern: 'S + 在 lieu + V + 的 + Adj + N',
+      explanation_fr: 'Toute la relative 我在巴黎买 précède 的 ; l\'adjectif 漂亮 reste collé au nom : 漂亮衣服.',
+      explanation_en: 'The whole relative 我在巴黎买 precedes 的; the adjective 漂亮 stays next to the noun: 漂亮衣服.' },
+    { fr: 'le siège où je suis assis', zh: '我坐的位子', alts: ['我坐的座位'], pattern: 'S + V + 的 + N',
+      explanation_fr: '« où je suis assis » = 我坐 + 的 + 位子. Le « où » français disparaît.',
+      explanation_en: '"where I\'m sitting" = 我坐 + 的 + 位子. The English "where" disappears.' },
+    { fr: 'les questions qu\'ils ont posées', zh: '他们问的问题', alts: ['他们问过的问题'], pattern: 'S + V + 的 + N',
+      explanation_fr: '他们问 (ils ont demandé) + 的 + 问题 (questions).',
+      explanation_en: '他们问 (they asked) + 的 + 问题 (questions).' },
+    { fr: 'Bien que cette chambre ne soit pas grande, elle est très confortable.', zh: '虽然这个房间不大，但是很舒服。', alts: ['虽然这个房间不大，可是很舒服', '这个房间虽然不大，但是很舒服', '这个房间虽然不大，可是很舒服'], pattern: '虽然…但是…',
+      explanation_fr: '虽然 + 这个房间不大，但是 (ou 可是) + 很舒服. On garde les deux connecteurs.',
+      explanation_en: '虽然 + 这个房间不大，但是 (or 可是) + 很舒服. Both connectors are kept.' },
+    { fr: 'Depuis combien d\'années apprends-tu le chinois ?', zh: '你学了几年汉语了？', alts: ['你学了几年中文了', '你学汉语学了几年了', '你学中文学了几年了'], pattern: 'V + 了₁ + durée + O + 了₂',
+      explanation_fr: '几年 (combien d\'années) se place entre 学了 et 汉语 ; le 了₂ final exprime « depuis ».',
+      explanation_en: '几年 (how many years) goes between 学了 and 汉语; the final 了₂ expresses "for (up to now)".' },
+    { fr: 'Je suis allé trois fois en Chine.', zh: '我去过三次中国。', alts: ['我去过中国三次', '我去过三回中国', '我去过中国三回'], pattern: 'V + 过 + 次 + O',
+      explanation_fr: '去过 + 三次 + 中国. Le classificateur verbal suit 过 ; avec un nom de lieu, il peut aussi venir après (去过中国三次).',
+      explanation_en: '去过 + 三次 + 中国. The verbal classifier follows 过; with a place name it can also come after (去过中国三次).' },
+  ];
+  for (const q of pick(translations, 4)) {
+    round3.push({ type: 'translate', ...q });
+  }
+
+  // 3b. Reading MCQ
+  const readingMCQ = [
+    { question: 'M 去过哪些国家？', correct: '意大利、英国和德国', options: ['意大利、英国和德国', '美国和英国', '中国和法国', '意大利和美国'] },
+    { question: 'W 喜欢怎么旅行？', correct: '坐汽车', options: ['坐汽车', '坐飞机', '坐火车', '骑自行车'] },
+    { question: '为什么 M 让 W 住在他家？', correct: '因为住旅馆太贵', options: ['因为住旅馆太贵', '因为他家很大', '因为他想家', '因为巴黎没有旅馆'] },
+    { question: '为什么 M 不让 W 讲电影的故事？', correct: '要是她讲了，电影就没有意思了', options: ['要是她讲了，电影就没有意思了', '因为他看过这个电影', '因为他想睡觉', '因为她讲得不好'] },
+    { question: '中秋节的晚上，家里人做什么？', correct: '一起吃饭、看月亮、吃月饼', options: ['一起吃饭、看月亮、吃月饼', '一起看电影', '一起去旅行', '一起写汉字'] },
+  ];
+  for (const q of pick(readingMCQ, 3)) {
+    round3.push({ type: 'reading-mcq', question: q.question, correct: q.correct, options: shuffle(q.options) });
+  }
+
+  // 3c. Grammar MCQ
+  const grammarMCQ = [
+    { prompt: 'Quelle phrase est correcte ?', pattern: 'V + 过', correct: '我去过中国两次。',
+      options: shuffle(['我去过中国两次。', '我知道过这件事。', '我是过学生。', '我不看过这个电影。']),
+      explanation_fr: '知道, 是 et 在 sont incompatibles avec 过 ; la négation de 过 est 没, pas 不. Seule 我去过中国两次 est correcte.',
+      explanation_en: '知道, 是 and 在 are incompatible with 过; the negation of 过 is 没, not 不. Only 我去过中国两次 is correct.' },
+    { prompt: '哪个句子正确使用了「要是…就…」？', pattern: '要是…就…', correct: '要是你想家了，你就给妈妈打电话。',
+      options: shuffle(['要是你想家了，你就给妈妈打电话。', '要是你想家了，就你给妈妈打电话。', '你就要是想家了，给妈妈打电话。', '要是你想家了，你给妈妈打电话就。']),
+      explanation_fr: '就 se place après le sujet (你就…) et devant le verbe. 要是 ouvre la condition.',
+      explanation_en: '就 goes after the subject (你就…) and before the verb. 要是 opens the condition.' },
+    { prompt: '「你要哪个本子？」— Quelle réponse est correcte ?', pattern: 'Adj + 的 (nom sous-entendu)', correct: '我要红的。',
+      options: shuffle(['我要红的。', '我要红。', '我要的红。', '红的我要是。']),
+      explanation_fr: 'Quand on omet le nom (本子), 的 est obligatoire après l\'adjectif : 红的 = « le rouge ».',
+      explanation_en: 'When the noun (本子) is dropped, 的 is required after the adjective: 红的 = "the red one".' },
+    { prompt: '「我学了三年汉语了」signifie :', pattern: '了₁ + durée + 了₂', correct: 'J\'apprends le chinois depuis trois ans (et je continue).',
+      options: shuffle(['J\'apprends le chinois depuis trois ans (et je continue).', 'J\'ai appris le chinois pendant trois ans (c\'est fini).', 'J\'apprendrai le chinois pendant trois ans.', 'J\'ai appris le chinois il y a trois ans.']),
+      explanation_fr: 'Le 了₂ final ramène l\'action au présent : elle dure encore. Sans 了₂ (我学了三年汉语), l\'action peut être terminée.',
+      explanation_en: 'The final 了₂ brings the action into the present: it\'s still going on. Without 了₂ (我学了三年汉语) the action may be over.' },
+    { prompt: 'Dans 了解 et 受不了, 了 se prononce :', pattern: '多音字 了', correct: 'liǎo',
+      options: shuffle(['liǎo', 'le', 'lè', 'liào']),
+      explanation_fr: '了 est un 多音字 : le (particule — 了₁, 了₂) et liǎo (sens « finir, comprendre ») dans 了解 liǎojiě et 受不了 shòubuliǎo.',
+      explanation_en: '了 has two readings: le (particle — 了₁, 了₂) and liǎo ("finish, understand") in 了解 liǎojiě and 受不了 shòubuliǎo.' },
+  ];
+  for (const q of pick(grammarMCQ, 3)) {
+    round3.push({ type: 'grammar-mcq', ...q });
+  }
+
+  // 3d. Pyramides & 先…然后
+  const orderItems = [
+    { fr: 'Le roman que j\'ai lu trois fois est un roman anglais.', chunks: ['我', '看过', '三遍', '的', '小说', '是', '英文小说'], answer: '我看过三遍的小说是英文小说',
+      explanation_fr: 'Pyramide : 小说 → 我看过的小说 → 我看过三遍的小说 → …是英文小说. Tout ce qui détermine 小说 se place avant 的.',
+      explanation_en: 'Pyramid: 小说 → 我看过的小说 → 我看过三遍的小说 → …是英文小说. Everything modifying 小说 goes before 的.' },
+    { fr: 'Je n\'ai jamais lu le livre traduit par son père.', chunks: ['我', '没', '看过', '他爸爸', '翻译', '的', '书'], answer: '我没看过他爸爸翻译的书',
+      explanation_fr: 'Noyau : 书 ; relative : 他爸爸翻译 + 的 ; verbe principal : 没看过.',
+      explanation_en: 'Head: 书; relative: 他爸爸翻译 + 的; main verb: 没看过.' },
+    { fr: 'Je vais souvent dans ce petit parc où il y a beaucoup de monde le dimanche.', chunks: ['我', '常常', '去', '那个', '星期天', '有很多人', '的', '小公园'], answer: '我常常去那个星期天有很多人的小公园',
+      explanation_fr: 'Le démonstratif 那个 se place en tête du groupe nominal, avant la relative 星期天有很多人的.',
+      explanation_en: 'The demonstrative 那个 comes first in the noun phrase, before the relative 星期天有很多人的.' },
+    { fr: 'Après être rentré, je fais d\'abord mes devoirs, puis je mange.', chunks: ['回家', '以后', '我', '先', '做作业', '然后', '吃饭'], answer: '回家以后我先做作业然后吃饭',
+      explanation_fr: '回家以后 (repère temporel en tête) + 我 + 先 + V₁ + 然后 + V₂.',
+      explanation_en: '回家以后 (time frame first) + 我 + 先 + V₁ + 然后 + V₂.' },
+    { fr: 'Ils apprennent d\'abord le chinois, puis vont travailler en Chine.', chunks: ['他们', '先', '学', '汉语', '然后', '去中国', '工作'], answer: '他们先学汉语然后去中国工作',
+      explanation_fr: '先 et 然后 encadrent les deux actions successives. 去中国工作 = aller en Chine pour travailler.',
+      explanation_en: '先 and 然后 frame the two successive actions. 去中国工作 = go to China to work.' },
+  ];
+  for (const q of pick(orderItems, 3)) {
+    round3.push({ type: 'order', ...q });
+  }
+
+  // 3e. Production libre
+  round3.push({
+    type: 'open-answer',
+    question: '下课以后，你做什么？',
+    instruction_fr: 'Répondez avec 先…，然后…',
+    checks: [
+      { label: 'Contient 先', re: '先' },
+      { label: 'Contient 然后 ou 再', re: '然后|再' },
+    ],
+    models: ['下课以后，我先去图书馆看书，然后回家吃饭。', '下课以后，我先跟朋友喝咖啡，然后再去超市买东西。'],
+    explanation_fr: 'Structure : 下课以后，(S) 先 + V₁，然后 (再) + V₂. 先 et 然后 se placent devant les verbes.',
+    explanation_en: 'Structure: 下课以后，(S) 先 + V₁，然后 (再) + V₂. 先 and 然后 go before the verbs.',
+  });
+
+  return {
+    rounds: [
+      { title: 'Évaluation', subtitle: 'Vocabulaire, 汉字 et texte', exercises: shuffle(round1) },
+      { title: 'Renforcement', subtitle: '的/得, 以前/以后, connecteurs', exercises: shuffle(round2) },
+      { title: 'Défi', subtitle: 'Relatives, traduction et production', exercises: shuffle(round3) },
+    ],
+  };
+}
+
+export default function LessonExercises({ lesson, buildSession }) {
+  const session = useMemo(() => (buildSession ? buildSession() : buildExercises(lesson)), [lesson, buildSession]);
   const [roundIdx, setRoundIdx] = useState(0);
   const [exIdx, setExIdx] = useState(0);
   const [state, setState] = useState('answering');
@@ -961,24 +1280,35 @@ export default function LessonExercises({ lesson }) {
   }, [exIdx, round, roundIdx, session, currentCorrect, currentTotal, state]);
 
   if (finished) {
-    const allCorrect = roundStats.reduce((s, r) => s + r.correct, 0) + currentCorrect;
-    const allTotal = roundStats.reduce((s, r) => s + r.total, 0) + currentTotal;
+    // roundStats already includes the final round once the session is finished
+    const statFor = (i) => (i < roundStats.length ? roundStats[i] : { correct: currentCorrect, total: currentTotal });
+    const allCorrect = session.rounds.reduce((s, _, i) => s + statFor(i).correct, 0);
+    const allTotal = session.rounds.reduce((s, _, i) => s + statFor(i).total, 0);
     const pct = allTotal > 0 ? Math.round((allCorrect / allTotal) * 100) : 0;
     const grade = pct >= 90 ? 'Excellent !' : pct >= 70 ? 'Bon travail !' : pct >= 50 ? 'Pas mal, continuez !' : 'À retravailler';
+    const hasPoints = session.rounds.every(r => r.points);
+    const maxPoints = hasPoints ? session.rounds.reduce((s, r) => s + r.points, 0) : 0;
+    const score = hasPoints
+      ? session.rounds.reduce((s, r, i) => { const st = statFor(i); return s + (st.total ? (st.correct / st.total) * r.points : 0); }, 0)
+      : 0;
     return (
       <div className="text-center py-12">
         <p className="text-6xl mb-4">{pct >= 90 ? '🏆' : pct >= 70 ? '👏' : pct >= 50 ? '💪' : '📚'}</p>
         <p className="text-2xl font-semibold mb-2">{grade}</p>
         <p className="text-muted mb-1">{allCorrect} / {allTotal} correct</p>
-        <p className="text-3xl font-bold text-accent mb-6">{pct}%</p>
+        <p className="text-3xl font-bold text-accent mb-1">{pct}%</p>
+        {hasPoints && (
+          <p className="text-sm text-muted mb-6">Note estimée : <span className="font-semibold text-ink">{Math.round(score * 2) / 2} / {maxPoints}</span></p>
+        )}
+        {!hasPoints && <div className="mb-5" />}
 
         <div className="space-y-2 max-w-sm mx-auto mb-8">
           {session.rounds.map((r, i) => {
-            const s = i < roundStats.length ? roundStats[i] : { correct: currentCorrect, total: currentTotal };
+            const s = statFor(i);
             const rPct = s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0;
             return (
               <div key={i} className="flex items-center justify-between bg-surface-alt border border-border rounded-lg px-4 py-2">
-                <span className="text-sm font-medium">{r.title}</span>
+                <span className="text-sm font-medium text-left">{r.title}{r.points ? <span className="text-muted font-normal"> · {r.points} pts</span> : null}</span>
                 <span className={`text-sm font-bold ${rPct >= 70 ? 'text-success' : rPct >= 50 ? 'text-accent' : 'text-primary'}`}>{rPct}%</span>
               </div>
             );
@@ -1018,14 +1348,14 @@ export default function LessonExercises({ lesson }) {
 
       {/* Exercise card */}
       <div className="bg-surface-alt border border-border rounded-2xl p-6 sm:p-8 max-w-lg mx-auto">
-        <ExerciseCard exercise={exercise} state={state} onAnswer={recordAnswer} />
+        <ExerciseCard key={`${roundIdx}-${exIdx}`} exercise={exercise} state={state} onAnswer={recordAnswer} />
         {state !== 'answering' && (
           <button onClick={next}
             className="mt-6 w-full py-3 bg-accent text-white rounded-xl font-medium hover:bg-accent/90 transition-colors">
             {exIdx + 1 >= round.exercises.length && roundIdx + 1 >= session.rounds.length
               ? 'Voir les résultats'
               : exIdx + 1 >= round.exercises.length
-                ? `Passer au ${session.rounds[roundIdx + 1].title}`
+                ? `Suite : ${session.rounds[roundIdx + 1].title}`
                 : 'Suivant'}
           </button>
         )}
@@ -1045,6 +1375,7 @@ function ExerciseCard({ exercise, state, onAnswer }) {
     case 'classifier': return <ClassifierExercise ex={exercise} state={state} onAnswer={onAnswer} />;
     case 'order': return <OrderExercise ex={exercise} state={state} onAnswer={onAnswer} />;
     case 'grammar-mcq': return <GrammarMCQ ex={exercise} state={state} onAnswer={onAnswer} />;
+    case 'open-answer': return <OpenAnswer ex={exercise} state={state} onAnswer={onAnswer} />;
     default: return null;
   }
 }
@@ -1106,7 +1437,7 @@ function FillMCQ({ ex, state, onAnswer }) {
   const handlePick = (opt) => {
     if (state !== 'answering') return;
     setPicked(opt);
-    onAnswer(opt === ex.correct);
+    onAnswer(opt === ex.correct || (ex.accept || []).includes(opt));
   };
 
   const parts = ex.sentence.split('___');
@@ -1119,7 +1450,7 @@ function FillMCQ({ ex, state, onAnswer }) {
           {state !== 'answering' ? ex.correct : picked || '　　'}
         </span>{parts[1]}
       </p>
-      <p className="text-sm text-muted mb-6">{ex.hint}</p>
+      {ex.hint ? <p className="text-sm text-muted mb-6">{ex.hint}</p> : <div className="mb-6" />}
       {state === 'answering' ? (
         <div className="flex flex-wrap gap-2 justify-center">
           {ex.options.map((opt, i) => (
@@ -1142,8 +1473,8 @@ function ErrorCorrection({ ex, state, onAnswer }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-    const norm = (s) => s.replace(/\s+/g, '').replace(/[。？！，]/g, '');
-    onAnswer(norm(input) === norm(ex.correct));
+    const norm = (s) => s.replace(/\s+/g, '').replace(/[。？！，、?!,.]/g, '');
+    onAnswer([ex.correct, ...(ex.alts || [])].some(a => norm(input) === norm(a)));
   };
 
   return (
@@ -1174,8 +1505,8 @@ function TranslateExercise({ ex, state, onAnswer }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-    const norm = (s) => s.replace(/\s+/g, '').replace(/[。？！，]/g, '');
-    onAnswer(norm(input) === norm(ex.zh));
+    const norm = (s) => s.replace(/\s+/g, '').replace(/[。？！，、?!,.]/g, '');
+    onAnswer([ex.zh, ...(ex.alts || [])].some(a => norm(input) === norm(a)));
   };
 
   return (
@@ -1205,7 +1536,10 @@ function ReadingMCQ({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension du texte</p>
-      <p className="text-xl hanzi-display font-medium mb-6 leading-relaxed">{ex.question}</p>
+      {ex.passage && (
+        <p className="text-left text-base hanzi-display leading-loose bg-border/20 rounded-xl p-4 mb-4">{ex.passage}</p>
+      )}
+      <p className={`${ex.passage ? 'text-lg' : 'text-xl'} hanzi-display font-medium mb-6 leading-relaxed`}>{ex.question}</p>
       {state === 'answering' ? (
         <div className="space-y-2">
           {ex.options.map((opt, i) => (
@@ -1262,8 +1596,8 @@ function OrderExercise({ ex, state, onAnswer }) {
 
   const check = () => {
     const user = placed.map(i => i.text).join('');
-    const norm = (s) => s.replace(/\s+/g, '');
-    onAnswer(norm(user) === norm(ex.answer));
+    const norm = (s) => s.replace(/[\s。？！，、]/g, '');
+    onAnswer([ex.answer, ...(ex.alts || [])].some(a => norm(user) === norm(a)));
   };
 
   return (
@@ -1336,6 +1670,74 @@ function GrammarMCQ({ ex, state, onAnswer }) {
       )}
       {state !== 'answering' && (
         <Feedback correct={state === 'correct'} answer={ex.correct} explanation_fr={ex.explanation_fr} explanation_en={ex.explanation_en} />
+      )}
+    </div>
+  );
+}
+
+function OpenAnswer({ ex, state, onAnswer }) {
+  const [input, setInput] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+  const answer = input.trim();
+  const results = (ex.checks || []).map(c => {
+    const hit = new RegExp(c.re).test(answer);
+    return { label: c.label, ok: c.absent ? !hit : hit };
+  });
+
+  return (
+    <div className="text-center">
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Répondez en chinois</p>
+      <p className="text-2xl hanzi-display font-medium mb-2 leading-relaxed">{ex.question}</p>
+      {ex.instruction_fr && <p className="text-sm text-muted mb-6">{ex.instruction_fr}</p>}
+      {!submitted ? (
+        <form onSubmit={(e) => { e.preventDefault(); if (answer) setSubmitted(true); }} className="space-y-3">
+          <textarea value={input} onChange={e => setInput(e.target.value)} rows={2} autoFocus
+            placeholder="Votre réponse en caractères..."
+            className="w-full px-4 py-3 rounded-xl border border-border bg-white focus:border-accent focus:outline-none text-lg hanzi-display resize-none" />
+          <button type="submit" disabled={!answer}
+            className="w-full py-3 bg-ink text-white rounded-xl font-medium hover:bg-ink/90 transition-colors disabled:opacity-40">
+            Vérifier
+          </button>
+        </form>
+      ) : (
+        <div className="text-left space-y-4">
+          <div className="rounded-xl bg-border/20 p-4">
+            <p className="text-xs font-semibold text-muted uppercase tracking-wider mb-1">Votre réponse</p>
+            <p className="text-lg hanzi-display">{answer}</p>
+          </div>
+          {results.length > 0 && (
+            <ul className="space-y-1">
+              {results.map((r, i) => (
+                <li key={i} className={`text-sm flex gap-2 ${r.ok ? 'text-success' : 'text-primary'}`}>
+                  <span>{r.ok ? '✓' : '✗'}</span><span>{r.label}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <div>
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Réponses modèles</p>
+            <ul className="space-y-1">
+              {ex.models.map((m, i) => <li key={i} className="text-base hanzi-display">{m}</li>)}
+            </ul>
+          </div>
+          {state === 'answering' ? (
+            <div>
+              <p className="text-sm text-muted mb-2 text-center">Comparez avec les modèles : votre réponse est-elle correcte ?</p>
+              <div className="flex gap-3 justify-center">
+                <button onClick={() => onAnswer(true)}
+                  className="flex-1 max-w-[180px] py-3 rounded-xl border border-border bg-surface-alt font-medium hover:border-success hover:bg-success/5 transition-colors">
+                  Oui, correcte ✓
+                </button>
+                <button onClick={() => onAnswer(false)}
+                  className="flex-1 max-w-[180px] py-3 rounded-xl border border-border bg-surface-alt font-medium hover:border-primary hover:bg-primary/5 transition-colors">
+                  À revoir ✗
+                </button>
+              </div>
+            </div>
+          ) : (
+            <Feedback correct={state === 'correct'} answer={ex.models[0]} explanation_fr={ex.explanation_fr} explanation_en={ex.explanation_en} />
+          )}
+        </div>
       )}
     </div>
   );

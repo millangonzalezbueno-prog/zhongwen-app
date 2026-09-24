@@ -501,5 +501,265 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L04",
+    "week": 3,
+    "title": "你看过中国电影吗",
+    "title_fr": "As-tu déjà vu des films chinois ?",
+    "title_en": "Have You Ever Seen a Chinese Film?",
+    "theme": "经历 — 过, 的, 以前/以后, 虽然…但是 / Experience",
+    "date": "2026-09-22",
+    "reading": {
+      "title": "你看过中国电影吗？",
+      "paragraphs": [
+        "M：那是什么画报？",
+        "W：是介绍中国电影的画报。你看过中国电影吗？",
+        "M：我在法国的时候看过三四个，都不错。我最喜欢看的是美国电影。",
+        "W：你去过美国吗？",
+        "M：没去过。我去过意大利、英国和德国。",
+        "W：你去过不少地方啊！我也喜欢旅行，可是我去过的地方不多。我很喜欢坐汽车旅行。",
+        "M：要是你以后来法国，就住在我家吧，住旅馆太贵。我现在住的小旅馆很便宜，巴黎旅馆比较贵。",
+        "W：好，可是我不知道哪年能去法国！",
+        "（四点半，他们来看电影。在门口……）",
+        "W：哎呀，糟糕，四点半的电影不是《法官妈妈》，是《天地英雄》，这个电影我看过！",
+        "M：有意思吗？",
+        "W：很有意思。",
+        "M：你再看一次吧，有时可以给我翻译我不懂的地方，有时可以睡睡觉，反正你没事儿。",
+        "W：行。这个电影讲的是古时候的一个故事：差不多一千年以前……",
+        "M：你别讲，要是你讲的话就没有意思了！",
+        "八月十五是中秋节。这天晚上的月亮很圆很亮，家里人一起吃饭，看月亮，吃月饼。虽然月饼有很多种，但是都是圆的。"
+      ],
+      "paragraphs_en": [
+        "M: What magazine is that?",
+        "W: It's a magazine introducing Chinese films. Have you ever seen a Chinese film?",
+        "M: When I was in France I saw three or four, all quite good. What I like watching most is American films.",
+        "W: Have you been to America?",
+        "M: No. I've been to Italy, England and Germany.",
+        "W: You've been to quite a few places! I like travelling too, but I haven't been to many places. I love travelling by car.",
+        "M: If you come to France one day, stay at my place — hotels are too expensive. The little hotel I'm staying in now is cheap; Paris hotels are fairly expensive.",
+        "W: OK, but I don't know which year I'll be able to go to France!",
+        "(Half past four, they come to see a film. At the entrance…)",
+        "W: Oh no — the 4:30 film isn't \"Judge Mom\", it's \"Warriors of Heaven and Earth\". I've seen this one!",
+        "M: Is it interesting?",
+        "W: Very interesting.",
+        "M: Watch it once more, then. Sometimes you can translate the bits I don't understand, sometimes you can have a nap — you've got nothing to do anyway.",
+        "W: Fine. The film tells a story from ancient times: about a thousand years ago…",
+        "M: Don't tell me! If you tell me it won't be interesting anymore!",
+        "The 15th of the 8th month is the Mid-Autumn Festival. That night the moon is very round and bright; families eat together, look at the moon and eat mooncakes. Although there are many kinds of mooncakes, they are all round."
+      ]
+    },
+    "vocab": [
+      { "word": "电影", "pinyin": "diànyǐng", "gloss_fr": "film, cinéma — 电 électricité + 影 ombre", "gloss_en": "film, movie — 电 electricity + 影 shadow", "category": "cinéma", "example": "你看过中国电影吗？", "hsk": 1 },
+      { "word": "画报", "pinyin": "huàbào", "gloss_fr": "revue illustrée", "gloss_en": "illustrated magazine", "category": "cinéma", "example": "那是介绍中国电影的画报。" },
+      { "word": "介绍", "pinyin": "jièshào", "gloss_fr": "présenter, introduire", "gloss_en": "to introduce, to present", "category": "cinéma", "example": "是介绍中国电影的画报。", "hsk": 2 },
+      { "word": "票", "pinyin": "piào", "gloss_fr": "billet, ticket", "gloss_en": "ticket", "category": "cinéma", "example": "我买了两张电影票。", "hsk": 2 },
+      { "word": "位子", "pinyin": "wèizi", "gloss_fr": "place, siège", "gloss_en": "seat, place", "category": "cinéma", "example": "这是我的位子。" },
+      { "word": "故事", "pinyin": "gùshi", "gloss_fr": "histoire, récit", "gloss_en": "story", "category": "cinéma", "example": "这个电影讲的是古时候的一个故事。", "hsk": 3 },
+      { "word": "演员", "pinyin": "yǎnyuán", "gloss_fr": "acteur, comédien — 女演员 actrice", "gloss_en": "actor — 女演员 actress", "category": "cinéma", "example": "他是一个有名的电影演员。" },
+      { "word": "演", "pinyin": "yǎn", "gloss_fr": "jouer (un rôle)", "gloss_en": "to act, to play (a role)", "category": "cinéma", "example": "她在电影里演一个日本人。" },
+      { "word": "看法", "pinyin": "kànfǎ", "gloss_fr": "opinion, avis", "gloss_en": "opinion, view", "category": "cinéma", "example": "你对这个电影有什么看法？" },
+      { "word": "法官", "pinyin": "fǎguān", "gloss_fr": "juge", "gloss_en": "judge", "category": "cinéma", "example": "《法官妈妈》是一个中国电影。" },
+      { "word": "英雄", "pinyin": "yīngxióng", "gloss_fr": "héros", "gloss_en": "hero", "category": "cinéma", "example": "《天地英雄》很有意思。" },
+      { "word": "外交官", "pinyin": "wàijiāoguān", "gloss_fr": "diplomate", "gloss_en": "diplomat", "category": "cinéma", "example": "我以后想当外交官。" },
+      { "word": "电视", "pinyin": "diànshì", "gloss_fr": "télévision", "gloss_en": "television", "category": "电 · 院", "example": "我晚上常常看电视。", "hsk": 1 },
+      { "word": "电话", "pinyin": "diànhuà", "gloss_fr": "téléphone — 打电话 téléphoner", "gloss_en": "telephone — 打电话 to phone", "category": "电 · 院", "example": "到时候我给你打电话。", "hsk": 1 },
+      { "word": "电脑", "pinyin": "diànnǎo", "gloss_fr": "ordinateur — 电 + 脑 cerveau", "gloss_en": "computer — 电 + 脑 brain", "category": "电 · 院", "example": "我用电脑写作业。", "hsk": 1 },
+      { "word": "电梯", "pinyin": "diàntī", "gloss_fr": "ascenseur", "gloss_en": "elevator, lift", "category": "电 · 院", "example": "这个楼没有电梯。", "hsk": 3 },
+      { "word": "医院", "pinyin": "yīyuàn", "gloss_fr": "hôpital — 医 médecine + 院 cour, institution", "gloss_en": "hospital — 医 medicine + 院 institution", "category": "电 · 院", "example": "我妈妈在医院工作。", "hsk": 1 },
+      { "word": "法院", "pinyin": "fǎyuàn", "gloss_fr": "tribunal", "gloss_en": "court of law", "category": "电 · 院", "example": "法官在法院工作。" },
+      { "word": "院子", "pinyin": "yuànzi", "gloss_fr": "cour (d'une maison)", "gloss_en": "courtyard", "category": "电 · 院", "example": "院子里有两棵苹果树。" },
+      { "word": "旅行", "pinyin": "lǚxíng", "gloss_fr": "voyager ; voyage", "gloss_en": "to travel; trip", "category": "verbe", "example": "我很喜欢坐汽车旅行。", "hsk": 4 },
+      { "word": "旅馆", "pinyin": "lǚguǎn", "gloss_fr": "hôtel (modeste)", "gloss_en": "hotel, inn", "category": "verbe", "example": "住旅馆太贵。" },
+      { "word": "讲", "pinyin": "jiǎng", "gloss_fr": "raconter, expliquer", "gloss_en": "to tell, to explain", "category": "verbe", "example": "今天我们讲新课。", "hsk": 3 },
+      { "word": "翻译", "pinyin": "fānyì", "gloss_fr": "traduire ; traduction, traducteur", "gloss_en": "to translate; translation, translator", "category": "verbe", "example": "你可以给我翻译我不懂的地方。", "hsk": 4 },
+      { "word": "了解", "pinyin": "liǎojiě", "gloss_fr": "connaître en profondeur, se renseigner sur", "gloss_en": "to understand in depth, to know well", "category": "verbe", "example": "你了解中国的传统节日吗？", "hsk": 3 },
+      { "word": "懂", "pinyin": "dǒng", "gloss_fr": "comprendre", "gloss_en": "to understand", "category": "verbe", "example": "如果还有不懂的地方，就请举手。", "hsk": 2 },
+      { "word": "举手", "pinyin": "jǔshǒu", "gloss_fr": "lever la main", "gloss_en": "to raise one's hand", "category": "verbe", "example": "有问题请举手。" },
+      { "word": "想家", "pinyin": "xiǎngjiā", "gloss_fr": "avoir le mal du pays", "gloss_en": "to be homesick", "category": "verbe", "example": "要是你想家了，就给妈妈打电话。" },
+      { "word": "受不了", "pinyin": "shòubuliǎo", "gloss_fr": "ne pas supporter — 了 se lit liǎo !", "gloss_en": "can't stand — 了 is read liǎo!", "category": "verbe", "example": "教室里太热了，我受不了了。" },
+      { "word": "先", "pinyin": "xiān", "gloss_fr": "d'abord", "gloss_en": "first", "category": "temps", "example": "我先做作业，然后吃饭。", "hsk": 3 },
+      { "word": "然后", "pinyin": "ránhòu", "gloss_fr": "puis, ensuite", "gloss_en": "then, afterwards", "category": "temps", "example": "先坐地铁，然后走十分钟。", "hsk": 3 },
+      { "word": "再", "pinyin": "zài", "gloss_fr": "encore (non réalisé), puis", "gloss_en": "again (not yet done), then", "category": "temps", "example": "你再看一次吧。", "hsk": 2 },
+      { "word": "小时候", "pinyin": "xiǎoshíhou", "gloss_fr": "dans l'enfance, quand on était petit", "gloss_en": "in childhood, when one was little", "category": "temps", "example": "我小时候不爱学习。" },
+      { "word": "有时候", "pinyin": "yǒushíhou", "gloss_fr": "parfois — aussi 有时", "gloss_en": "sometimes — also 有时", "category": "temps", "example": "我有时候吃中国饭。" },
+      { "word": "那时候", "pinyin": "nà shíhou", "gloss_fr": "à ce moment-là, à l'époque", "gloss_en": "at that time, back then", "category": "temps", "example": "那时候我们没有车。" },
+      { "word": "天天", "pinyin": "tiāntiān", "gloss_fr": "tous les jours", "gloss_en": "every day", "category": "temps", "example": "他天天说英文。" },
+      { "word": "古时候", "pinyin": "gǔ shíhou", "gloss_fr": "l'Antiquité, autrefois", "gloss_en": "ancient times", "category": "temps", "example": "这是古时候的衣服。" },
+      { "word": "虽然", "pinyin": "suīrán", "gloss_fr": "bien que — 虽然 A，但是 B", "gloss_en": "although — 虽然 A，但是 B", "category": "connecteur", "example": "虽然汉语很难，但是我觉得很有意思。", "hsk": 2 },
+      { "word": "但是", "pinyin": "dànshì", "gloss_fr": "mais", "gloss_en": "but", "category": "connecteur", "example": "我想买手机，但是我没有钱。", "hsk": 2 },
+      { "word": "要是", "pinyin": "yàoshi", "gloss_fr": "si (oral) — 要是…就…", "gloss_en": "if (colloquial) — 要是…就…", "category": "connecteur", "example": "要是你以后来法国，就住在我家吧。", "hsk": 4 },
+      { "word": "的话", "pinyin": "dehuà", "gloss_fr": "si (en fin de condition)", "gloss_en": "if (at end of condition clause)", "category": "connecteur", "example": "你太忙的话，我们就不去了。" },
+      { "word": "关于", "pinyin": "guānyú", "gloss_fr": "au sujet de, concernant", "gloss_en": "about, concerning", "category": "connecteur", "example": "关于中国历史，我了解得不多。", "hsk": 3 },
+      { "word": "比较", "pinyin": "bǐjiào", "gloss_fr": "relativement, assez", "gloss_en": "relatively, fairly", "category": "adverbe", "example": "巴黎旅馆比较贵。", "hsk": 3 },
+      { "word": "非常", "pinyin": "fēicháng", "gloss_fr": "extrêmement, particulièrement", "gloss_en": "extremely, very", "category": "adverbe", "example": "汉语非常难。", "hsk": 2 },
+      { "word": "特别", "pinyin": "tèbié", "gloss_fr": "spécialement, particulièrement", "gloss_en": "especially, particularly", "category": "adverbe", "example": "今天特别冷。", "hsk": 3 },
+      { "word": "反正", "pinyin": "fǎnzhèng", "gloss_fr": "de toute façon, en tout cas", "gloss_en": "anyway, in any case", "category": "adverbe", "example": "反正你没事儿。" },
+      { "word": "差不多", "pinyin": "chàbuduō", "gloss_fr": "presque, à peu près", "gloss_en": "almost, about", "category": "adverbe", "example": "差不多一千年以前。", "hsk": 4 },
+      { "word": "不少", "pinyin": "bùshǎo", "gloss_fr": "pas mal de, beaucoup", "gloss_en": "quite a few, a lot", "category": "adverbe", "example": "你去过不少地方啊！" },
+      { "word": "糟糕", "pinyin": "zāogāo", "gloss_fr": "très mauvais ; zut !", "gloss_en": "terrible; oh no!", "category": "adverbe", "example": "糟糕，四点半的电影不是《法官妈妈》！" },
+      { "word": "有名", "pinyin": "yǒumíng", "gloss_fr": "connu, réputé", "gloss_en": "famous, well-known", "category": "adverbe", "example": "他是有名的大夫。", "hsk": 3 },
+      { "word": "便宜", "pinyin": "piányi", "gloss_fr": "bon marché", "gloss_en": "cheap", "category": "adverbe", "example": "我现在住的小旅馆很便宜。", "hsk": 2 },
+      { "word": "传统", "pinyin": "chuántǒng", "gloss_fr": "tradition ; traditionnel", "gloss_en": "tradition; traditional", "category": "fête", "example": "中秋节是中国的一个传统节日。", "hsk": 5 },
+      { "word": "中秋节", "pinyin": "Zhōngqiūjié", "gloss_fr": "fête de la mi-automne (15/8 lunaire)", "gloss_en": "Mid-Autumn Festival (15th day, 8th lunar month)", "category": "fête", "example": "八月十五是中秋节。" },
+      { "word": "春节", "pinyin": "Chūnjié", "gloss_fr": "fête du Printemps (Nouvel An chinois)", "gloss_en": "Spring Festival (Chinese New Year)", "category": "fête", "example": "春节是中国最重要的节日。" },
+      { "word": "端午节", "pinyin": "Duānwǔjié", "gloss_fr": "fête des Bateaux-dragons (5/5 lunaire)", "gloss_en": "Dragon Boat Festival (5th day, 5th lunar month)", "category": "fête", "example": "端午节在五月五号。" },
+      { "word": "月亮", "pinyin": "yuèliang", "gloss_fr": "la lune", "gloss_en": "the moon", "category": "fête", "example": "这天晚上的月亮很圆很亮。", "hsk": 3 },
+      { "word": "月饼", "pinyin": "yuèbing", "gloss_fr": "gâteau de lune", "gloss_en": "mooncake", "category": "fête", "example": "下课以后，我们一起吃月饼吧。" },
+      { "word": "圆", "pinyin": "yuán", "gloss_fr": "rond", "gloss_en": "round", "category": "fête", "example": "月饼都是圆的。", "hsk": 5 },
+      { "word": "亮", "pinyin": "liàng", "gloss_fr": "brillant, lumineux", "gloss_en": "bright", "category": "fête", "example": "月亮很亮。", "hsk": 5 },
+      { "word": "年级", "pinyin": "niánjí", "gloss_fr": "année d'études, classe (一年级 = 1re année)", "gloss_en": "grade, year (一年级 = first year)", "category": "révision", "example": "妹妹的孩子应该上小学一年级了。", "hsk": 3 },
+      { "word": "复习", "pinyin": "fùxí", "gloss_fr": "réviser", "gloss_en": "to review, to revise", "category": "révision", "example": "你们明天复习哪一课？", "hsk": 3 },
+      { "word": "自学", "pinyin": "zìxué", "gloss_fr": "apprendre seul, en autodidacte", "gloss_en": "to self-study", "category": "révision", "example": "他自学了两年汉语。" },
+      { "word": "句子", "pinyin": "jùzi", "gloss_fr": "phrase", "gloss_en": "sentence", "category": "révision", "example": "请用这个词写一个句子。", "hsk": 3 },
+      { "word": "作业", "pinyin": "zuòyè", "gloss_fr": "devoir(s)", "gloss_en": "homework", "category": "révision", "example": "下了课还要做作业。", "hsk": 3 },
+      { "word": "新鲜", "pinyin": "xīnxiān", "gloss_fr": "frais", "gloss_en": "fresh", "category": "révision", "example": "这些葡萄很新鲜。", "hsk": 3 },
+      { "word": "葡萄", "pinyin": "pútao", "gloss_fr": "raisin", "gloss_en": "grape", "category": "révision", "example": "你想吃葡萄吗？", "hsk": 4 },
+      { "word": "棵", "pinyin": "kē", "gloss_fr": "clf. pour les arbres, les plantes", "gloss_en": "classifier for trees, plants", "category": "révision", "example": "他家门口有两棵高大的苹果树。" },
+      { "word": "门", "pinyin": "mén", "gloss_fr": "clf. pour les matières / cours ; porte", "gloss_en": "classifier for courses/subjects; door", "category": "révision", "example": "这个学期我选了五门课。", "hsk": 2 }
+    ],
+    "grammar": [
+      {
+        "pattern": "V + 了₁ + durée + (O) + 了₂ (depuis)",
+        "explanation_fr": "Quand une phrase contient un 了₁ après le verbe et qu'on ajoute un 了₂ en fin de phrase, l'action se prolonge jusqu'au moment où l'on parle. On traduit par « depuis + durée ». Le 了₂ ramène l'action au présent. Sans 了₂ (我学了三年汉语), l'action peut être terminée.",
+        "explanation_en": "When a sentence has 了₁ after the verb and 了₂ is added at the end, the action continues up to the moment of speaking. Translate with \"for + duration (and still ongoing)\". 了₂ brings the action into the present. Without 了₂ (我学了三年汉语), the action may be over.",
+        "examples": [
+          { "zh": "你学了几年汉语了？", "pinyin": "Nǐ xué le jǐ nián Hànyǔ le?", "fr": "Depuis combien d'années apprends-tu le chinois ?", "en": "How many years have you been learning Chinese?" },
+          { "zh": "我学了两年汉语了。", "pinyin": "Wǒ xué le liǎng nián Hànyǔ le.", "fr": "J'apprends le chinois depuis deux ans.", "en": "I've been learning Chinese for two years." },
+          { "zh": "她今年六十八岁了。", "pinyin": "Tā jīnnián liùshíbā suì le.", "fr": "Elle a (désormais) 68 ans cette année.", "en": "She is 68 this year (now)." }
+        ]
+      },
+      {
+        "pattern": "Place du complément de durée",
+        "explanation_fr": "La durée se place APRÈS le verbe. Quatre structures : ① S + V(了) + durée ; ② S + V(了) + durée + (的) + O ; ③ S + V + O + V(了) + durée (on répète le verbe) ; ④ avec un pronom complément : S + V(了) + Pronom + durée.",
+        "explanation_en": "Duration goes AFTER the verb. Four structures: ① S + V(了) + duration; ② S + V(了) + duration + (的) + O; ③ S + V + O + V(了) + duration (the verb is repeated); ④ with a pronoun object: S + V(了) + Pronoun + duration.",
+        "examples": [
+          { "zh": "我想休息两天。", "pinyin": "Wǒ xiǎng xiūxi liǎng tiān.", "fr": "Je veux me reposer deux jours.", "en": "I want to rest for two days." },
+          { "zh": "我学了三年（的）中文。", "pinyin": "Wǒ xué le sān nián (de) Zhōngwén.", "fr": "J'ai appris le chinois pendant trois ans.", "en": "I studied Chinese for three years." },
+          { "zh": "我学中文学了三年了。", "pinyin": "Wǒ xué Zhōngwén xué le sān nián le.", "fr": "J'apprends le chinois depuis trois ans.", "en": "I've been studying Chinese for three years." },
+          { "zh": "我教了你们三年。", "pinyin": "Wǒ jiāo le nǐmen sān nián.", "fr": "Je vous ai enseigné pendant trois ans.", "en": "I taught you for three years." },
+          { "zh": "我每个星期说五个小时汉语。", "pinyin": "Wǒ měi ge xīngqī shuō wǔ ge xiǎoshí Hànyǔ.", "fr": "Je parle chinois cinq heures par semaine.", "en": "I speak Chinese five hours a week." }
+        ]
+      },
+      {
+        "pattern": "V + 过 : l'expérience vécue",
+        "explanation_fr": "过 exprime une expérience dans un passé indéterminé : « déjà (une fois ou plus) », « il est déjà arrivé que ». Négation : 没(有) + V + 过 (jamais 不). « Pas encore » : 还没 + V + 过. Verbes INCOMPATIBLES : ① actions non répétables (mourir, vieillir) ; ② verbes d'état sans limite : 懂, 认识, 知道 ; ③ 是 et 在.",
+        "explanation_en": "过 expresses an experience at an unspecified time in the past: \"have (ever) done\". Negation: 没(有) + V + 过 (never 不). \"Not yet\": 还没 + V + 过. INCOMPATIBLE verbs: ① non-repeatable actions (die, grow old); ② open-ended state verbs: 懂, 认识, 知道; ③ 是 and 在.",
+        "examples": [
+          { "zh": "你看过中国电影吗？", "pinyin": "Nǐ kàn guo Zhōngguó diànyǐng ma?", "fr": "As-tu déjà vu des films chinois ?", "en": "Have you ever seen a Chinese film?" },
+          { "zh": "我在法国的时候看过三四个，都不错。", "pinyin": "Wǒ zài Fǎguó de shíhou kàn guo sān sì ge, dōu búcuò.", "fr": "Quand j'étais en France, j'en ai vu trois ou quatre, tous pas mal.", "en": "When I was in France I saw three or four, all quite good." },
+          { "zh": "他还没去过北京。", "pinyin": "Tā hái méi qù guo Běijīng.", "fr": "Il n'est pas encore allé à Pékin.", "en": "He hasn't been to Beijing yet." }
+        ]
+      },
+      {
+        "pattern": "Déterminant + 的 + déterminé",
+        "explanation_fr": "Le déterminant (ce qui qualifie) se place TOUJOURS avant le déterminé, avec 的 entre les deux. Le déterminant peut être un nom (今天的面包), un pronom (我的), un adjectif (好看的), un verbe (吃的) ou une proposition S+V (妈妈做的). Le nom après 的 est le noyau. 的 est omis pour les relations proches (我爸爸, 你朋友) et quand l'ensemble forme une catégorie (法国人, 中文书, 英国文学).",
+        "explanation_en": "The modifier ALWAYS comes before the modified noun, with 的 in between. The modifier can be a noun (今天的面包), a pronoun (我的), an adjective (好看的), a verb (吃的) or a clause S+V (妈妈做的). The noun after 的 is the head. 的 is dropped for close relationships (我爸爸, 你朋友) and when the whole forms a category (法国人, 中文书, 英国文学).",
+        "examples": [
+          { "zh": "好听的名字", "pinyin": "hǎotīng de míngzi", "fr": "un joli nom", "en": "a nice-sounding name" },
+          { "zh": "老师的字", "pinyin": "lǎoshī de zì", "fr": "l'écriture du professeur", "en": "the teacher's handwriting" },
+          { "zh": "妈妈做的面包", "pinyin": "māma zuò de miànbāo", "fr": "le pain que maman a fait", "en": "the bread mom made" }
+        ]
+      },
+      {
+        "pattern": "Relatives : (S) + V + 的 + N — le 金字塔",
+        "explanation_fr": "Un verbe ou une proposition (sujet + verbe) placé devant 的 correspond à une relative française (qui / que / où). Toute la relative précède le nom. On construit la phrase comme une pyramide (金字塔), en ajoutant les éléments par la gauche : 小说 → 我看过的小说 → 我看过三遍的小说 → 我看过三遍的小说是英文小说.",
+        "explanation_en": "A verb or clause (subject + verb) before 的 corresponds to a relative clause (who / that / where). The whole relative clause precedes the noun. Build the phrase like a pyramid (金字塔), adding elements on the left: 小说 → 我看过的小说 → 我看过三遍的小说 → 我看过三遍的小说是英文小说.",
+        "examples": [
+          { "zh": "学中文的学生", "pinyin": "xué Zhōngwén de xuésheng", "fr": "les élèves qui apprennent le chinois", "en": "students who study Chinese" },
+          { "zh": "他画的画", "pinyin": "tā huà de huà", "fr": "les peintures qu'il a faites", "en": "the paintings he made" },
+          { "zh": "我没看过他爸爸翻译的书。", "pinyin": "Wǒ méi kàn guo tā bàba fānyì de shū.", "fr": "Je n'ai jamais lu le livre traduit par son père.", "en": "I've never read the book his father translated." },
+          { "zh": "我常常去那个星期天有很多人的小公园。", "pinyin": "Wǒ chángcháng qù nàge xīngqītiān yǒu hěn duō rén de xiǎo gōngyuán.", "fr": "Je vais souvent dans ce petit parc où il y a beaucoup de monde le dimanche.", "en": "I often go to that little park that's crowded on Sundays." }
+        ]
+      },
+      {
+        "pattern": "Adj/V/N + 的 (nom sous-entendu)",
+        "explanation_fr": "Quand le contexte est clair (choix dans un ensemble, possession), on peut omettre le nom après 的 — mais 的 reste OBLIGATOIRE. Équivaut à « le grand », « le mien », « ce que / ce qui ».",
+        "explanation_en": "When the context is clear (choosing from a set, possession), the noun after 的 can be dropped — but 的 remains OBLIGATORY. Equivalent to \"the big one\", \"mine\", \"what / that which\".",
+        "examples": [
+          { "zh": "你要哪个本子？——我要大的。", "pinyin": "Nǐ yào nǎge běnzi? — Wǒ yào dà de.", "fr": "Quel cahier veux-tu ? — Le grand.", "en": "Which notebook do you want? — The big one." },
+          { "zh": "这本书不是我的。", "pinyin": "Zhè běn shū bú shì wǒ de.", "fr": "Ce livre n'est pas le mien.", "en": "This book isn't mine." },
+          { "zh": "这辆车是我姐姐的。", "pinyin": "Zhè liàng chē shì wǒ jiějie de.", "fr": "Cette voiture est celle de ma sœur.", "en": "This car is my sister's." }
+        ]
+      },
+      {
+        "pattern": "XYZ + 以前 / 以后 (avant / après)",
+        "explanation_fr": "以前 (avant) et 以后 (après) se placent APRÈS l'événement ou l'heure de référence — l'inverse du français. « Avant d'aller à Pékin » = 去北京以前. Seuls, ils signifient aussi « autrefois » et « plus tard ».",
+        "explanation_en": "以前 (before) and 以后 (after) go AFTER the reference event or time — the reverse of English. \"Before going to Beijing\" = 去北京以前. On their own they also mean \"in the past\" and \"later\".",
+        "examples": [
+          { "zh": "我们去北京以前去上海。", "pinyin": "Wǒmen qù Běijīng yǐqián qù Shànghǎi.", "fr": "Nous irons à Shanghai avant d'aller à Pékin.", "en": "We'll go to Shanghai before going to Beijing." },
+          { "zh": "我们三点以前开会。", "pinyin": "Wǒmen sān diǎn yǐqián kāihuì.", "fr": "Nous avons une réunion avant trois heures.", "en": "We have a meeting before 3 o'clock." },
+          { "zh": "我们星期二以后回家。", "pinyin": "Wǒmen xīngqī'èr yǐhòu huí jiā.", "fr": "Rentrons après mardi.", "en": "Let's go home after Tuesday." }
+        ]
+      },
+      {
+        "pattern": "先…，然后（再）…，最后…",
+        "explanation_fr": "Pour enchaîner des actions : 先 (d'abord) + V₁，然后 (puis) + V₂，最后 (finalement) + V₃. 再 peut remplacer ou renforcer 然后 (然后再). 先 et 再 sont des adverbes : ils se placent après le sujet, devant le verbe.",
+        "explanation_en": "To sequence actions: 先 (first) + V₁，然后 (then) + V₂，最后 (finally) + V₃. 再 can replace or reinforce 然后 (然后再). 先 and 再 are adverbs: they go after the subject, before the verb.",
+        "examples": [
+          { "zh": "回家以后，我先做作业，然后吃饭。", "pinyin": "Huí jiā yǐhòu, wǒ xiān zuò zuòyè, ránhòu chīfàn.", "fr": "Après être rentré, je fais d'abord mes devoirs, puis je mange.", "en": "After getting home, I first do my homework, then eat." },
+          { "zh": "先坐11号线到Châtelet，然后换4号线，出了地铁，再走10分钟。", "pinyin": "Xiān zuò shíyī hào xiàn dào Châtelet, ránhòu huàn sì hào xiàn, chū le dìtiě, zài zǒu shí fēnzhōng.", "fr": "Prends d'abord la ligne 11 jusqu'à Châtelet, puis change pour la 4 ; en sortant du métro, marche encore 10 minutes.", "en": "First take line 11 to Châtelet, then change to line 4; out of the metro, walk another 10 minutes." }
+        ]
+      },
+      {
+        "pattern": "Classificateurs verbaux : 次 / 回 / 遍",
+        "explanation_fr": "Ils comptent le nombre de fois et se placent APRÈS le verbe (+ 了/过). 次 (et 回, plus oral) = « fois » en général. 遍 insiste sur l'intégralité de l'action, du début à la fin : surtout avec lire, écrire, écouter, regarder. L'objet nom se place après : 去过三次中国 ; un pronom avant : 见过他两次.",
+        "explanation_en": "They count how many times and go AFTER the verb (+ 了/过). 次 (and 回, more colloquial) = \"time(s)\" in general. 遍 stresses doing the whole action from start to finish: mostly with read, write, listen, watch. A noun object goes after: 去过三次中国; a pronoun before: 见过他两次.",
+        "examples": [
+          { "zh": "我去过三次（回）中国。", "pinyin": "Wǒ qù guo sān cì (huí) Zhōngguó.", "fr": "Je suis allé trois fois en Chine.", "en": "I've been to China three times." },
+          { "zh": "我看了三遍这本书。", "pinyin": "Wǒ kàn le sān biàn zhè běn shū.", "fr": "J'ai lu ce livre trois fois (en entier).", "en": "I read this book three times (all the way through)." }
+        ]
+      },
+      {
+        "pattern": "虽然 A，但是 / 可是 B",
+        "explanation_fr": "« Bien que A, (mais) B ». Contrairement au français, on garde les DEUX connecteurs. 虽然 se place avant ou après le sujet ; 但是 / 可是 ouvre toujours la 2e proposition. On peut ajouter 还 : 虽然去过好几次，但是还想再去.",
+        "explanation_en": "\"Although A, (but) B\". Unlike English, BOTH connectors are kept. 虽然 goes before or after the subject; 但是 / 可是 always opens the second clause. 还 can be added: 虽然去过好几次，但是还想再去.",
+        "examples": [
+          { "zh": "虽然汉语很难，但是我觉得很有意思。", "pinyin": "Suīrán Hànyǔ hěn nán, dànshì wǒ juéde hěn yǒu yìsi.", "fr": "Bien que le chinois soit difficile, je le trouve très intéressant.", "en": "Although Chinese is hard, I find it very interesting." },
+          { "zh": "这个房间虽然很大，但是不舒服。", "pinyin": "Zhège fángjiān suīrán hěn dà, dànshì bù shūfu.", "fr": "Cette chambre, bien que grande, n'est pas confortable.", "en": "This room, although big, isn't comfortable." },
+          { "zh": "虽然月饼有很多种，但是都是圆的。", "pinyin": "Suīrán yuèbing yǒu hěn duō zhǒng, dànshì dōu shì yuán de.", "fr": "Bien qu'il y ait beaucoup de sortes de gâteaux de lune, ils sont tous ronds.", "en": "Although there are many kinds of mooncakes, they're all round." }
+        ]
+      },
+      {
+        "pattern": "要是 / 如果 …（的话），(S) 就 …",
+        "explanation_fr": "Cinq formes pour « si… alors… » : 要是…就, 如果…就, …的话，就, 要是…的话，就, 如果…的话，就. 要是 est plus oral. ATTENTION : 就 est un adverbe — il se place APRÈS le sujet de la 2e proposition : 要是累了，你就休息 (et non *就你休息).",
+        "explanation_en": "Five forms for \"if… then…\": 要是…就, 如果…就, …的话，就, 要是…的话，就, 如果…的话，就. 要是 is more colloquial. CAREFUL: 就 is an adverb — it goes AFTER the subject of the second clause: 要是累了，你就休息 (not *就你休息).",
+        "examples": [
+          { "zh": "要是你以后来法国，就住在我家吧。", "pinyin": "Yàoshi nǐ yǐhòu lái Fǎguó, jiù zhù zài wǒ jiā ba.", "fr": "Si tu viens en France plus tard, loge chez moi.", "en": "If you come to France one day, stay at my place." },
+          { "zh": "明天天气不好的话，我就不去上学。", "pinyin": "Míngtiān tiānqì bù hǎo dehuà, wǒ jiù bú qù shàngxué.", "fr": "S'il fait mauvais demain, je n'irai pas en cours.", "en": "If the weather is bad tomorrow, I won't go to school." },
+          { "zh": "要是累了（的话），你就休息一会儿吧。", "pinyin": "Yàoshi lèi le (dehuà), nǐ jiù xiūxi yíhuìr ba.", "fr": "Si tu es fatigué, repose-toi un moment.", "en": "If you're tired, rest for a while." }
+        ]
+      },
+      {
+        "pattern": "Adverbes de degré : 很 / 比较 / 非常 / 特别 / 最 / 太 / 不太",
+        "explanation_fr": "Ils se placent devant l'adjectif ou le verbe de sentiment (喜欢, 想). Du plus faible au plus fort : 不太 (pas très) < 比较 (assez) < 很 (très) < 非常 / 特别 (extrêmement) < 最 (le plus). 太 (trop) s'accompagne souvent de 了 : 太贵了. Dans le complément de degré, ils suivent 得 : 唱得非常好.",
+        "explanation_en": "They go before the adjective or verb of feeling (喜欢, 想). From weakest to strongest: 不太 (not very) < 比较 (fairly) < 很 (very) < 非常 / 特别 (extremely) < 最 (most). 太 (too) often takes 了: 太贵了. In degree complements they follow 得: 唱得非常好.",
+        "examples": [
+          { "zh": "巴黎旅馆比较贵。", "pinyin": "Bālí lǚguǎn bǐjiào guì.", "fr": "Les hôtels parisiens sont assez chers.", "en": "Paris hotels are fairly expensive." },
+          { "zh": "我非常喜欢看书。", "pinyin": "Wǒ fēicháng xǐhuan kàn shū.", "fr": "J'adore lire.", "en": "I really love reading." },
+          { "zh": "他开车开得比较快。", "pinyin": "Tā kāichē kāi de bǐjiào kuài.", "fr": "Il conduit assez vite.", "en": "He drives fairly fast." }
+        ]
+      },
+      {
+        "pattern": "知道 vs 了解 (+ 关于)",
+        "explanation_fr": "知道 = savoir une information, un fait (知道教室在哪儿). 了解 = connaître en profondeur, bien comprendre qqn ou qqch (了解中国历史). Pour répondre, on topicalise souvent avec 关于 : 关于中国历史，我了解得不多. Attention : 了 se lit liǎo dans 了解 et 受不了.",
+        "explanation_en": "知道 = to know a piece of information, a fact (知道教室在哪儿). 了解 = to know in depth, understand someone or something well (了解中国历史). Answers often put the topic first with 关于: 关于中国历史，我了解得不多. Note: 了 is read liǎo in 了解 and 受不了.",
+        "examples": [
+          { "zh": "你知道下次中文课的教室吗？", "pinyin": "Nǐ zhīdao xià cì Zhōngwén kè de jiàoshì ma?", "fr": "Sais-tu dans quelle salle a lieu le prochain cours de chinois ?", "en": "Do you know which room the next Chinese class is in?" },
+          { "zh": "你了解中国的传统节日吗？", "pinyin": "Nǐ liǎojiě Zhōngguó de chuántǒng jiérì ma?", "fr": "Connais-tu bien les fêtes traditionnelles chinoises ?", "en": "Are you familiar with traditional Chinese festivals?" },
+          { "zh": "关于中国历史，我了解得不多。", "pinyin": "Guānyú Zhōngguó lìshǐ, wǒ liǎojiě de bù duō.", "fr": "L'histoire chinoise, je ne la connais pas beaucoup.", "en": "As for Chinese history, I don't know much." }
+        ]
+      },
+      {
+        "pattern": "Interrogatifs dans une question indirecte : 我不知道 + 什么/哪儿/为什么/怎么",
+        "explanation_fr": "Après 不知道 (ne pas savoir), le mot interrogatif reste À SA PLACE dans la proposition, sans 吗 final. 什么 = quel/quoi, 哪儿 = où, 为什么 = pourquoi, 怎么 = comment.",
+        "explanation_en": "After 不知道 (not know), the question word stays IN PLACE in the clause, with no final 吗. 什么 = what, 哪儿 = where, 为什么 = why, 怎么 = how.",
+        "examples": [
+          { "zh": "我不知道你想吃什么菜。", "pinyin": "Wǒ bù zhīdao nǐ xiǎng chī shénme cài.", "fr": "Je ne sais pas quel plat tu veux manger.", "en": "I don't know what dish you want to eat." },
+          { "zh": "我不知道他今天为什么那么难过。", "pinyin": "Wǒ bù zhīdao tā jīntiān wèishénme nàme nánguò.", "fr": "Je ne sais pas pourquoi il est si triste aujourd'hui.", "en": "I don't know why he's so sad today." },
+          { "zh": "我不知道怎么去电影院。", "pinyin": "Wǒ bù zhīdao zěnme qù diànyǐngyuàn.", "fr": "Je ne sais pas comment aller au cinéma.", "en": "I don't know how to get to the cinema." }
+        ]
+      }
+    ]
   }
 ]
