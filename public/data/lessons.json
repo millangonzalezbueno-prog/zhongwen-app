@@ -761,5 +761,327 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L05",
+    "week": 4,
+    "title": "我昨天买了一条裤子",
+    "title_fr": "J'ai acheté un pantalon hier",
+    "title_en": "I Bought a Pair of Trousers Yesterday",
+    "theme": "买东西 · 天气 · 交通 — Achats, météo, transports / Shopping, weather, transport",
+    "date": "2026-09-29",
+    "reading": {
+      "title": "我昨天买了一条裤子",
+      "paragraphs": [
+        "M：我昨天买了一条裤子，太小，我想去换一条。",
+        "W：好，我们吃了饭就去商店。",
+        "（一个小时以后，在卖水果的地方）",
+        "W：这儿水果不少。苹果多少钱一斤？",
+        "V：三块五。",
+        "W：卖三块，行吗？",
+        "M：不行，不行！",
+        "W：算了，我们在别的地方买吧。",
+        "（在商店里）",
+        "M：小姐，我昨天买的这条裤子太小，能不能换一条？",
+        "V：可以，你试试这条。……这条合适吧？",
+        "M：也不合适。我怎么胖了？",
+        "W：你太馋，在北京吃得太多了！",
+        "M：北京的饭馆儿太多，你给我做的菜也太好吃了！（马德又试了一条裤子，很合适。）",
+        "（在商店门口）",
+        "M：哎呀，外边下雨了，还刮大风。我们在商店里再看看吧。",
+        "M：一支毛笔多少钱？",
+        "V：大毛笔七块，小毛笔五块六毛。",
+        "M：我要一支大的，两支小的。",
+        "V：还要别的吗？",
+        "M：不要别的了。一共多少钱？",
+        "V：一共十八块二。请到那儿交钱。",
+        "W：不下雨了，我们到超市买点儿好吃的东西吧。",
+        "M：你看，谁最馋？",
+        "海南岛在中国的南部，全年温热，夏季很长，从3月中到11月。7月到8月气温最高，30℃左右。海南岛没有冬天。海南岛很美，可以游泳、晒太阳、做水上运动。",
+        "新疆在中国的西北部。新疆的冬天非常冷，夏天非常热，很少下雨。新疆也很漂亮，有很多高山。新疆还有很有名的“丝绸之路”。",
+        "四川在中国的中部，那里的天气很暖和，冬天不太冷，夏天很热，常常下雨。那儿的山很多，也很高。在四川的西北部有大熊猫。四川也有很多有名的小吃，都很好吃。"
+      ],
+      "paragraphs_en": [
+        "M: I bought a pair of trousers yesterday — too small. I want to go and exchange them.",
+        "W: OK, we'll go to the shop once we've eaten.",
+        "(An hour later, at the fruit stall)",
+        "W: Lots of fruit here. How much is a jin of apples?",
+        "V: 3.50.",
+        "W: Would you sell them for 3, OK?",
+        "M: No way, no way!",
+        "W: Never mind, let's buy them somewhere else.",
+        "(In the shop)",
+        "M: Miss, the trousers I bought here yesterday are too small — could I exchange them?",
+        "V: Sure, try these on. … These fit, right?",
+        "M: These don't fit either. How come I've put on weight?",
+        "W: You're too greedy — you've eaten far too much in Beijing!",
+        "M: Beijing has too many restaurants, and the food you cook for me is too delicious! (Mathieu tried on another pair, which fit well.)",
+        "(At the shop entrance)",
+        "M: Oh no, it's raining outside, and windy too. Let's look around the shop some more.",
+        "M: How much is a writing brush?",
+        "V: Big brushes are 7 yuan, small ones 5.60.",
+        "M: I'll take one big one and two small ones.",
+        "V: Anything else?",
+        "M: Nothing else. How much in total?",
+        "V: 18.20 in total. Please pay over there.",
+        "W: It's stopped raining — let's go to the supermarket and buy something tasty.",
+        "M: See? Who's the greedy one?",
+        "Hainan Island is in the south of China. It is warm all year; summer is long, from mid-March to November. July and August are hottest, about 30 °C. Hainan has no winter. It's beautiful: you can swim, sunbathe and do water sports.",
+        "Xinjiang is in the north-west of China. Winters are very cold, summers very hot, and it rarely rains. Xinjiang is also beautiful, with many high mountains. It also has the famous 'Silk Road'.",
+        "Sichuan is in central China. The weather there is mild: winters aren't very cold, summers are hot, and it rains often. There are many high mountains. Giant pandas live in north-west Sichuan. Sichuan also has many famous snacks, all delicious."
+      ]
+    },
+    "vocab": [
+      { "word": "衣服", "pinyin": "yīfu", "gloss_fr": "vêtement(s) — clf. 件", "gloss_en": "clothes — clf. 件", "category": "vêtements", "example": "这件衣服多少钱？", "hsk": 1 },
+      { "word": "上衣", "pinyin": "shàngyī", "gloss_fr": "veste, haut — clf. 件", "gloss_en": "jacket, top — clf. 件", "category": "vêtements", "example": "一件红上衣" },
+      { "word": "外衣", "pinyin": "wàiyī", "gloss_fr": "vêtement de dessus — clf. 件", "gloss_en": "outer garment — clf. 件", "category": "vêtements", "example": "外边很冷，穿外衣吧。" },
+      { "word": "衬衫", "pinyin": "chènshān", "gloss_fr": "chemise — aussi 衬衣 ; clf. 件", "gloss_en": "shirt — also 衬衣; clf. 件", "category": "vêtements", "example": "今天我穿这件衬衫。", "hsk": 3 },
+      { "word": "裤子", "pinyin": "kùzi", "gloss_fr": "pantalon — clf. 条", "gloss_en": "trousers — clf. 条", "category": "vêtements", "example": "我昨天买了一条裤子。", "hsk": 3 },
+      { "word": "裙子", "pinyin": "qúnzi", "gloss_fr": "jupe, robe — clf. 条", "gloss_en": "skirt, dress — clf. 条", "category": "vêtements", "example": "你喜欢这条蓝裙子吗？", "hsk": 3 },
+      { "word": "牛仔裤", "pinyin": "niúzǎikù", "gloss_fr": "jean — clf. 条", "gloss_en": "jeans — clf. 条", "category": "vêtements", "example": "这条牛仔裤很适合你。" },
+      { "word": "鞋", "pinyin": "xié", "gloss_fr": "chaussure(s) — aussi 鞋子 ; clf. 双", "gloss_en": "shoe(s) — also 鞋子; clf. 双", "category": "vêtements", "example": "妈妈给他买了一双新鞋。", "hsk": 2 },
+      { "word": "袜子", "pinyin": "wàzi", "gloss_fr": "chaussette(s) — clf. 双", "gloss_en": "sock(s) — clf. 双", "category": "vêtements", "example": "一双白袜子" },
+      { "word": "手套", "pinyin": "shǒutào", "gloss_fr": "gants — clf. 双 ; verbe 戴", "gloss_en": "gloves — clf. 双; verb 戴", "category": "vêtements", "example": "冬天要戴手套。" },
+      { "word": "穿", "pinyin": "chuān", "gloss_fr": "porter, mettre (vêtements, chaussures)", "gloss_en": "to wear, put on (clothes, shoes)", "category": "vêtements", "example": "你穿得太少了。", "hsk": 2 },
+      { "word": "戴", "pinyin": "dài", "gloss_fr": "porter (chapeau, gants, écharpe, lunettes)", "gloss_en": "to wear (hat, gloves, scarf, glasses)", "category": "vêtements", "example": "外边风大，戴上帽子吧。", "hsk": 4 },
+      { "word": "件", "pinyin": "jiàn", "gloss_fr": "clf. vêtements du haut, affaires", "gloss_en": "clf. for tops, matters", "category": "classificateur", "example": "一件黑T恤" },
+      { "word": "条", "pinyin": "tiáo", "gloss_fr": "clf. objets longs : pantalon, jupe, écharpe, poisson", "gloss_en": "clf. for long things: trousers, skirt, scarf, fish", "category": "classificateur", "example": "一条蓝短裤" },
+      { "word": "双", "pinyin": "shuāng", "gloss_fr": "clf. paire : chaussures, chaussettes, gants", "gloss_en": "clf. pair: shoes, socks, gloves", "category": "classificateur", "example": "一双手套" },
+      { "word": "顶", "pinyin": "dǐng", "gloss_fr": "clf. chapeaux", "gloss_en": "clf. for hats", "category": "classificateur", "example": "这顶帽子太小了。" },
+      { "word": "支", "pinyin": "zhī", "gloss_fr": "clf. stylos, pinceaux", "gloss_en": "clf. for pens, brushes", "category": "classificateur", "example": "一支毛笔多少钱？" },
+      { "word": "串", "pinyin": "chuàn", "gloss_fr": "clf. grappe (raisin)", "gloss_en": "clf. bunch (grapes)", "category": "classificateur", "example": "一串葡萄" },
+      { "word": "根", "pinyin": "gēn", "gloss_fr": "clf. objets fins : une banane", "gloss_en": "clf. for thin things: one banana", "category": "classificateur", "example": "一根香蕉" },
+      { "word": "把", "pinyin": "bǎ", "gloss_fr": "clf. objets à poignée ; un régime (de bananes) ; chaise", "gloss_en": "clf. for handled objects; a bunch (bananas); chair", "category": "classificateur", "example": "一把香蕉，四把椅子" },
+      { "word": "斤", "pinyin": "jīn", "gloss_fr": "livre (500 g) — 公斤 = kilo", "gloss_en": "jin (500 g) — 公斤 = kilogram", "category": "classificateur", "example": "苹果多少钱一斤？" },
+      { "word": "颜色", "pinyin": "yánsè", "gloss_fr": "couleur", "gloss_en": "colour", "category": "couleurs", "example": "你喜欢什么颜色？", "hsk": 2 },
+      { "word": "红", "pinyin": "hóng", "gloss_fr": "rouge", "gloss_en": "red", "category": "couleurs", "example": "我的自行车是红色的。", "hsk": 2 },
+      { "word": "白", "pinyin": "bái", "gloss_fr": "blanc", "gloss_en": "white", "category": "couleurs", "example": "她的毛衣是白色的。", "hsk": 2 },
+      { "word": "黑", "pinyin": "hēi", "gloss_fr": "noir", "gloss_en": "black", "category": "couleurs", "example": "这件T恤是黑色的。", "hsk": 2 },
+      { "word": "绿", "pinyin": "lǜ", "gloss_fr": "vert", "gloss_en": "green", "category": "couleurs", "example": "我不太适合穿绿色的衣服。", "hsk": 3 },
+      { "word": "黄", "pinyin": "huáng", "gloss_fr": "jaune", "gloss_en": "yellow", "category": "couleurs", "example": "她的头发是黄色的。", "hsk": 3 },
+      { "word": "蓝", "pinyin": "lán", "gloss_fr": "bleu", "gloss_en": "blue", "category": "couleurs", "example": "她的眼睛是蓝色的。", "hsk": 3 },
+      { "word": "紫", "pinyin": "zǐ", "gloss_fr": "violet", "gloss_en": "purple", "category": "couleurs", "example": "紫色" },
+      { "word": "真", "pinyin": "zhēn", "gloss_fr": "vrai ; vraiment", "gloss_en": "real; really", "category": "couleurs", "example": "这儿的花是真的。", "hsk": 2 },
+      { "word": "新", "pinyin": "xīn", "gloss_fr": "neuf, nouveau", "gloss_en": "new", "category": "couleurs", "example": "爸爸的车是新的。", "hsk": 2 },
+      { "word": "买东西", "pinyin": "mǎi dōngxi", "gloss_fr": "faire des courses", "gloss_en": "to go shopping", "category": "achats", "example": "我们去超市买东西吧。" },
+      { "word": "钱", "pinyin": "qián", "gloss_fr": "argent", "gloss_en": "money", "category": "achats", "example": "一共多少钱？", "hsk": 1 },
+      { "word": "块", "pinyin": "kuài", "gloss_fr": "yuan (oral) — écrit 元 yuán", "gloss_en": "yuan (spoken) — written 元 yuán", "category": "achats", "example": "三块五", "hsk": 1 },
+      { "word": "毛", "pinyin": "máo", "gloss_fr": "dixième de yuan (oral) — écrit 角 jiǎo", "gloss_en": "tenth of a yuan (spoken) — written 角 jiǎo", "category": "achats", "example": "五块六毛" },
+      { "word": "一共", "pinyin": "yígòng", "gloss_fr": "au total", "gloss_en": "in total", "category": "achats", "example": "一共十八块二。", "hsk": 3 },
+      { "word": "交", "pinyin": "jiāo", "gloss_fr": "remettre, payer", "gloss_en": "to hand over, to pay", "category": "achats", "example": "请到那儿交钱。" },
+      { "word": "找", "pinyin": "zhǎo", "gloss_fr": "rendre (la monnaie) ; chercher", "gloss_en": "to give change; to look for", "category": "achats", "example": "找你三毛钱。", "hsk": 2 },
+      { "word": "换", "pinyin": "huàn", "gloss_fr": "échanger, changer", "gloss_en": "to exchange, to change", "category": "achats", "example": "我想去换一条。", "hsk": 3 },
+      { "word": "试", "pinyin": "shì", "gloss_fr": "essayer", "gloss_en": "to try (on)", "category": "achats", "example": "你试试这条。", "hsk": 3 },
+      { "word": "合适", "pinyin": "héshì", "gloss_fr": "adj. approprié, qui convient", "gloss_en": "adj. suitable, fitting", "category": "achats", "example": "这条裤子很合适。", "hsk": 4 },
+      { "word": "适合", "pinyin": "shìhé", "gloss_fr": "v. convenir à (+ objet)", "gloss_en": "v. to suit (+ object)", "category": "achats", "example": "这条牛仔裤很适合你。", "hsk": 4 },
+      { "word": "别的", "pinyin": "biéde", "gloss_fr": "autre(s)", "gloss_en": "other", "category": "achats", "example": "还要别的吗？" },
+      { "word": "行", "pinyin": "xíng", "gloss_fr": "ça va, d'accord — 不行 non, pas possible", "gloss_en": "OK — 不行 no way", "category": "achats", "example": "卖三块，行吗？" },
+      { "word": "算了", "pinyin": "suàn le", "gloss_fr": "tant pis, laisse tomber", "gloss_en": "forget it, never mind", "category": "achats", "example": "算了，我们在别的地方买吧。" },
+      { "word": "馋", "pinyin": "chán", "gloss_fr": "gourmand", "gloss_en": "greedy (for food)", "category": "achats", "example": "你看，谁最馋？" },
+      { "word": "胖", "pinyin": "pàng", "gloss_fr": "gros", "gloss_en": "fat", "category": "achats", "example": "我怎么胖了？", "hsk": 3 },
+      { "word": "市场", "pinyin": "shìchǎng", "gloss_fr": "marché", "gloss_en": "market", "category": "achats", "example": "超市 = 超级市场" },
+      { "word": "笔", "pinyin": "bǐ", "gloss_fr": "stylo, instrument d'écriture — clf. 支", "gloss_en": "pen — clf. 支", "category": "achats", "example": "我买了三支笔。", "hsk": 2 },
+      { "word": "毛笔", "pinyin": "máobǐ", "gloss_fr": "pinceau", "gloss_en": "writing brush", "category": "achats", "example": "大毛笔七块。" },
+      { "word": "铅笔", "pinyin": "qiānbǐ", "gloss_fr": "crayon — 铅 = 钅 + 㕣", "gloss_en": "pencil — 铅 = 钅 + 㕣", "category": "achats", "example": "一支铅笔" },
+      { "word": "钢笔", "pinyin": "gāngbǐ", "gloss_fr": "stylo-plume — 钢 = 钅 + 冈", "gloss_en": "fountain pen — 钢 = 钅 + 冈", "category": "achats", "example": "一支钢笔" },
+      { "word": "水果", "pinyin": "shuǐguǒ", "gloss_fr": "fruit(s)", "gloss_en": "fruit", "category": "fruits", "example": "这儿水果不少。", "hsk": 1 },
+      { "word": "苹果", "pinyin": "píngguǒ", "gloss_fr": "pomme — clf. 个", "gloss_en": "apple — clf. 个", "category": "fruits", "example": "苹果多少钱一斤？", "hsk": 1 },
+      { "word": "葡萄", "pinyin": "pútao", "gloss_fr": "raisin — clf. 串", "gloss_en": "grape — clf. 串", "category": "fruits", "example": "一串葡萄", "hsk": 4 },
+      { "word": "香蕉", "pinyin": "xiāngjiāo", "gloss_fr": "banane — clf. 根 / 把", "gloss_en": "banana — clf. 根 / 把", "category": "fruits", "example": "一根香蕉", "hsk": 3 },
+      { "word": "西瓜", "pinyin": "xīguā", "gloss_fr": "pastèque — clf. 个", "gloss_en": "watermelon — clf. 个", "category": "fruits", "example": "一个大西瓜", "hsk": 2 },
+      { "word": "芒果", "pinyin": "mángguǒ", "gloss_fr": "mangue — clf. 个", "gloss_en": "mango — clf. 个", "category": "fruits", "example": "芒果多少钱一个？" },
+      { "word": "果汁", "pinyin": "guǒzhī", "gloss_fr": "jus de fruit", "gloss_en": "fruit juice", "category": "fruits", "example": "我要一杯果汁。" },
+      { "word": "天气预报", "pinyin": "tiānqì yùbào", "gloss_fr": "bulletin météo", "gloss_en": "weather forecast", "category": "météo", "example": "天气预报说明天下雨。" },
+      { "word": "晴", "pinyin": "qíng", "gloss_fr": "ensoleillé, clair", "gloss_en": "sunny, clear", "category": "météo", "example": "今天晴。", "hsk": 2 },
+      { "word": "多云", "pinyin": "duōyún", "gloss_fr": "nuageux", "gloss_en": "cloudy", "category": "météo", "example": "今天多云。" },
+      { "word": "阴", "pinyin": "yīn", "gloss_fr": "couvert", "gloss_en": "overcast", "category": "météo", "example": "今天阴天。", "hsk": 2 },
+      { "word": "雨", "pinyin": "yǔ", "gloss_fr": "pluie — 下雨 pleuvoir", "gloss_en": "rain — 下雨 to rain", "category": "météo", "example": "昨天下了一天雨。", "hsk": 1 },
+      { "word": "雪", "pinyin": "xuě", "gloss_fr": "neige — 下雪 neiger", "gloss_en": "snow — 下雪 to snow", "category": "météo", "example": "今天上午下了一场雪。", "hsk": 2 },
+      { "word": "气候", "pinyin": "qìhou", "gloss_fr": "climat", "gloss_en": "climate", "category": "météo", "example": "四川的气候很暖和。", "hsk": 4 },
+      { "word": "左右", "pinyin": "zuǒyòu", "gloss_fr": "environ (après un nombre)", "gloss_en": "about (after a number)", "category": "météo", "example": "30度左右" },
+      { "word": "部", "pinyin": "bù", "gloss_fr": "partie, région (东部, 西北部…)", "gloss_en": "part, region (东部, 西北部…)", "category": "météo", "example": "海南岛在中国的南部。" },
+      { "word": "极了", "pinyin": "jí le", "gloss_fr": "extrêmement (après l'adjectif)", "gloss_en": "extremely (after the adjective)", "category": "météo", "example": "好看极了！" },
+      { "word": "这么", "pinyin": "zhème", "gloss_fr": "si, tellement ; de cette façon", "gloss_en": "so; this way", "category": "météo", "example": "饺子这么好吃！" },
+      { "word": "那么", "pinyin": "nàme", "gloss_fr": "si, tellement (là-bas) ; de cette façon", "gloss_en": "so (that); that way", "category": "météo", "example": "他今天为什么那么难过？" },
+      { "word": "汽车", "pinyin": "qìchē", "gloss_fr": "voiture", "gloss_en": "car", "category": "transport", "example": "开汽车", "hsk": 1 },
+      { "word": "出租车", "pinyin": "chūzūchē", "gloss_fr": "taxi", "gloss_en": "taxi", "category": "transport", "example": "坐出租车去飞机场", "hsk": 1 },
+      { "word": "自行车", "pinyin": "zìxíngchē", "gloss_fr": "vélo — verbe 骑", "gloss_en": "bicycle — verb 骑", "category": "transport", "example": "骑自行车", "hsk": 3 },
+      { "word": "摩托车", "pinyin": "mótuōchē", "gloss_fr": "moto — verbe 骑", "gloss_en": "motorbike — verb 骑", "category": "transport", "example": "骑摩托车" },
+      { "word": "电车", "pinyin": "diànchē", "gloss_fr": "tramway", "gloss_en": "tram", "category": "transport", "example": "坐电车" },
+      { "word": "飞机", "pinyin": "fēijī", "gloss_fr": "avion", "gloss_en": "plane", "category": "transport", "example": "坐飞机去中国", "hsk": 1 },
+      { "word": "船", "pinyin": "chuán", "gloss_fr": "bateau", "gloss_en": "boat", "category": "transport", "example": "你喜欢坐船吗？", "hsk": 3 },
+      { "word": "骑", "pinyin": "qí", "gloss_fr": "monter (à vélo, moto, cheval)", "gloss_en": "to ride (bike, motorbike, horse)", "category": "transport", "example": "我每天骑自行车上班。", "hsk": 3 },
+      { "word": "站", "pinyin": "zhàn", "gloss_fr": "arrêt, gare, station", "gloss_en": "stop, station", "category": "transport", "example": "公共汽车站，火车站", "hsk": 3 },
+      { "word": "飞机场", "pinyin": "fēijīchǎng", "gloss_fr": "aéroport — aussi 机场", "gloss_en": "airport — also 机场", "category": "transport", "example": "你坐公共汽车去飞机场吗？", "hsk": 2 },
+      { "word": "上车", "pinyin": "shàng chē", "gloss_fr": "monter (dans un véhicule)", "gloss_en": "to get on (a vehicle)", "category": "transport", "example": "上火车，上飞机" },
+      { "word": "下车", "pinyin": "xià chē", "gloss_fr": "descendre (d'un véhicule)", "gloss_en": "to get off (a vehicle)", "category": "transport", "example": "下飞机，下船" },
+      { "word": "又", "pinyin": "yòu", "gloss_fr": "de nouveau (déjà réalisé)", "gloss_en": "again (already done)", "category": "adverbe", "example": "马德又试了一条裤子。", "hsk": 3 },
+      { "word": "还", "pinyin": "hái", "gloss_fr": "encore, toujours ; en plus", "gloss_en": "still; also, in addition", "category": "adverbe", "example": "外边下雨了，还刮大风。", "hsk": 2 },
+      { "word": "场", "pinyin": "chǎng", "gloss_fr": "clf. verbal : match, film, pluie, neige", "gloss_en": "verbal clf.: match, film, rain, snow", "category": "classificateur", "example": "我和朋友看了一场中国电影。" },
+      { "word": "运动", "pinyin": "yùndòng", "gloss_fr": "sport, exercice", "gloss_en": "sport, exercise", "category": "sport", "example": "你最近常去运动吗？", "hsk": 3 },
+      { "word": "体育", "pinyin": "tǐyù", "gloss_fr": "éducation physique, sport", "gloss_en": "physical education, sports", "category": "sport", "example": "同学们都喜欢上体育课。", "hsk": 3 },
+      { "word": "比赛", "pinyin": "bǐsài", "gloss_fr": "match, compétition", "gloss_en": "match, competition", "category": "sport", "example": "今天晚上有足球比赛。", "hsk": 3 },
+      { "word": "兴趣", "pinyin": "xìngqù", "gloss_fr": "intérêt — 对…感兴趣", "gloss_en": "interest — 对…感兴趣", "category": "sport", "example": "你对什么运动感兴趣？", "hsk": 3 },
+      { "word": "爱好", "pinyin": "àihào", "gloss_fr": "passe-temps, passion ; aimer", "gloss_en": "hobby; to love doing", "category": "sport", "example": "我哥哥最大的爱好就是打篮球。", "hsk": 3 },
+      { "word": "水平", "pinyin": "shuǐpíng", "gloss_fr": "niveau", "gloss_en": "level", "category": "sport", "example": "他的汉语水平很高。", "hsk": 3 },
+      { "word": "跑步", "pinyin": "pǎobù", "gloss_fr": "courir, faire de la course", "gloss_en": "to run, jog", "category": "sport", "example": "我每天早上都跑步。", "hsk": 3 },
+      { "word": "游泳", "pinyin": "yóuyǒng", "gloss_fr": "nager, natation", "gloss_en": "to swim", "category": "sport", "example": "弟弟游泳游得很好。", "hsk": 3 },
+      { "word": "爬山", "pinyin": "páshān", "gloss_fr": "faire de la montagne, escalader", "gloss_en": "to climb a mountain, hike", "category": "sport", "example": "要是明天天气好的话，我们就去爬山。", "hsk": 3 },
+      { "word": "踢足球", "pinyin": "tī zúqiú", "gloss_fr": "jouer au football", "gloss_en": "to play football", "category": "sport", "example": "我喜欢的运动是：游泳、踢足球。", "hsk": 3 },
+      { "word": "打篮球", "pinyin": "dǎ lánqiú", "gloss_fr": "jouer au basket", "gloss_en": "to play basketball", "category": "sport", "example": "姐姐喜欢打篮球。", "hsk": 3 },
+      { "word": "锻炼", "pinyin": "duànliàn", "gloss_fr": "s'entraîner, faire de l'exercice", "gloss_en": "to work out, exercise", "category": "sport", "example": "我每天早上都去锻炼身体。", "hsk": 3 },
+      { "word": "参加", "pinyin": "cānjiā", "gloss_fr": "participer à", "gloss_en": "to take part in", "category": "sport", "example": "我希望有机会参加比赛。", "hsk": 3 },
+      { "word": "举行", "pinyin": "jǔxíng", "gloss_fr": "tenir (réunion, match)", "gloss_en": "to hold (meeting, match)", "category": "sport", "example": "明天我们要举行一场篮球比赛。", "hsk": 3 },
+      { "word": "提高", "pinyin": "tígāo", "gloss_fr": "élever, améliorer", "gloss_en": "to raise, improve", "category": "sport", "example": "我的汉语水平提高了。", "hsk": 3 },
+      { "word": "东西", "pinyin": "dōngxi", "gloss_fr": "chose, objet", "gloss_en": "thing", "category": "maison", "example": "这家超市里的东西很便宜。", "hsk": 2 },
+      { "word": "冰箱", "pinyin": "bīngxiāng", "gloss_fr": "réfrigérateur", "gloss_en": "fridge", "category": "maison", "example": "冰箱里还有喝的东西吗？", "hsk": 3 },
+      { "word": "空调", "pinyin": "kōngtiáo", "gloss_fr": "climatisation", "gloss_en": "air conditioning", "category": "maison", "example": "房间里太热了，你没开空调吧。", "hsk": 3 },
+      { "word": "椅子", "pinyin": "yǐzi", "gloss_fr": "chaise — clf. 把", "gloss_en": "chair — clf. 把", "category": "maison", "example": "房间里有四把椅子。", "hsk": 3 },
+      { "word": "灯", "pinyin": "dēng", "gloss_fr": "lampe, lumière", "gloss_en": "lamp, light", "category": "maison", "example": "房间里的灯不亮了。", "hsk": 3 },
+      { "word": "伞", "pinyin": "sǎn", "gloss_fr": "parapluie — clf. 把", "gloss_en": "umbrella — clf. 把", "category": "maison", "example": "下雨了，你有伞吗？", "hsk": 3 },
+      { "word": "报纸", "pinyin": "bàozhǐ", "gloss_fr": "journal — clf. 份 / 张", "gloss_en": "newspaper", "category": "maison", "example": "爷爷每天早上都看报纸。", "hsk": 2 },
+      { "word": "包", "pinyin": "bāo", "gloss_fr": "sac ; envelopper", "gloss_en": "bag; to wrap", "category": "maison", "example": "你看见我的包了吗？", "hsk": 3 }
+    ],
+    "grammar": [
+      {
+        "pattern": "是 vs adjectif prédicat : 很 + Adj",
+        "explanation_fr": "是 ne s'emploie que devant un NOM ou un pronom : identité, profession, origine, définition. Il ne sert PAS à qualifier. Pour décrire, l'adjectif est lui-même le prédicat, en général précédé de 很 (ou d'un autre adverbe) : 哥哥很忙, 手机很贵. *哥哥是忙 est faux.",
+        "explanation_en": "是 is only used before a NOUN or pronoun: identity, profession, origin, definition. It does NOT describe qualities. To describe, the adjective itself is the predicate, usually with 很 (or another adverb): 哥哥很忙, 手机很贵. *哥哥是忙 is wrong.",
+        "examples": [
+          { "zh": "我哥哥很忙。", "pinyin": "Wǒ gēge hěn máng.", "fr": "Mon grand frère est très occupé.", "en": "My older brother is busy." },
+          { "zh": "这个手机很贵。", "pinyin": "Zhège shǒujī hěn guì.", "fr": "Ce téléphone est cher.", "en": "This phone is expensive." },
+          { "zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "fr": "Je suis étudiant (nom → 是).", "en": "I am a student (noun → 是)." }
+        ]
+      },
+      {
+        "pattern": "S + 是 + couleur / 真 / 新 + 的",
+        "explanation_fr": "Les couleurs (白, 黑, 蓝, 红…), 真 et 新 sont des adjectifs « de catégorie » qui ne se combinent pas avec 很 dans ce sens. Pour dire « X est noir / vrai / neuf », on utilise 是 … 的 : 这件T恤是黑（色）的. Devant un nom, on dit 一件黑T恤 ou 一件黑色的T恤.",
+        "explanation_en": "Colours (白, 黑, 蓝, 红…), 真 and 新 are 'category' adjectives that don't combine with 很 in this sense. To say 'X is black / real / new', use 是 … 的: 这件T恤是黑（色）的. Before a noun: 一件黑T恤 or 一件黑色的T恤.",
+        "examples": [
+          { "zh": "这件T恤是黑色的。", "pinyin": "Zhè jiàn T-xù shì hēisè de.", "fr": "Ce T-shirt est noir.", "en": "This T-shirt is black." },
+          { "zh": "她的眼睛是蓝色的。", "pinyin": "Tā de yǎnjing shì lánsè de.", "fr": "Ses yeux sont bleus.", "en": "Her eyes are blue." },
+          { "zh": "这儿的花是真的。", "pinyin": "Zhèr de huā shì zhēn de.", "fr": "Les fleurs ici sont vraies.", "en": "The flowers here are real." },
+          { "zh": "爸爸的车是新的。", "pinyin": "Bàba de chē shì xīn de.", "fr": "La voiture de papa est neuve.", "en": "Dad's car is new." }
+        ]
+      },
+      {
+        "pattern": "Classificateurs des objets : 件 / 条 / 双 / 顶 / 支 / 串 / 根 / 把",
+        "explanation_fr": "件 : vêtements du haut (衣服, 衬衫, 毛衣, 大衣, T恤). 条 : objets longs (裤子, 裙子, 短裤, 围巾, 鱼). 双 : paires (鞋, 袜子, 手套, 筷子). 顶 : chapeaux (帽子). 支 : stylos, pinceaux (笔, 毛笔). 串 : grappe (葡萄). 根 : une banane, objet fin. 把 : objet à poignée (椅子, 伞) ou régime de bananes. 斤 / 公斤 : poids.",
+        "explanation_en": "件: tops (衣服, 衬衫, 毛衣, 大衣, T恤). 条: long things (裤子, 裙子, 短裤, 围巾, fish). 双: pairs (shoes, socks, gloves, chopsticks). 顶: hats. 支: pens, brushes. 串: bunch (grapes). 根: one banana, thin objects. 把: handled objects (chair, umbrella) or a bunch of bananas. 斤 / 公斤: weight.",
+        "examples": [
+          { "zh": "一件黑T恤，一条蓝短裤，一双白袜子", "pinyin": "yí jiàn hēi T-xù, yì tiáo lán duǎnkù, yì shuāng bái wàzi", "fr": "un T-shirt noir, un short bleu, une paire de chaussettes blanches", "en": "a black T-shirt, blue shorts, a pair of white socks" },
+          { "zh": "一顶帽子，一支毛笔，一串葡萄", "pinyin": "yì dǐng màozi, yì zhī máobǐ, yí chuàn pútao", "fr": "un chapeau, un pinceau, une grappe de raisin", "en": "a hat, a brush, a bunch of grapes" },
+          { "zh": "一根香蕉，一把香蕉", "pinyin": "yì gēn xiāngjiāo, yì bǎ xiāngjiāo", "fr": "une banane, un régime de bananes", "en": "one banana, a bunch of bananas" }
+        ]
+      },
+      {
+        "pattern": "穿 vs 戴",
+        "explanation_fr": "穿 chuān : vêtements qu'on enfile et chaussures (衣服, 裤子, 裙子, 鞋, 袜子). 戴 dài : accessoires posés sur la tête ou une partie du corps (帽子, 手套, 围巾, 眼镜). 你穿得太少了 = tu n'es pas assez couvert.",
+        "explanation_en": "穿 chuān: clothes you put on and shoes (衣服, 裤子, 裙子, 鞋, 袜子). 戴 dài: accessories placed on the head or a body part (hat, gloves, scarf, glasses). 你穿得太少了 = you're not dressed warmly enough.",
+        "examples": [
+          { "zh": "她穿了一条红裙子。", "pinyin": "Tā chuān le yì tiáo hóng qúnzi.", "fr": "Elle porte une jupe rouge.", "en": "She is wearing a red skirt." },
+          { "zh": "外边风大，戴上帽子吧。", "pinyin": "Wàibian fēng dà, dàishang màozi ba.", "fr": "Il y a du vent dehors, mets un chapeau.", "en": "It's windy outside, put on a hat." }
+        ]
+      },
+      {
+        "pattern": "多少钱 ? — S + 多少钱 + 一 + clf / 一 + clf + S + 多少钱",
+        "explanation_fr": "Deux ordres pour demander un prix unitaire : 苹果多少钱一斤 ? ou 一斤苹果多少钱 ? Pour un objet précis : 这件衣服多少钱 ? Pour le total : 一共多少钱 ? Monnaie orale : 块 (yuan) > 毛 (1/10) > 分 (1/100) ; à l'écrit 元 / 角 / 分. Le dernier niveau peut être omis : 三块五 = 3,50 ; 十八块二 = 18,20.",
+        "explanation_en": "Two word orders for a unit price: 苹果多少钱一斤? or 一斤苹果多少钱? For a specific item: 这件衣服多少钱? For the total: 一共多少钱? Spoken money: 块 (yuan) > 毛 (1/10) > 分 (1/100); written 元 / 角 / 分. The last unit can be dropped: 三块五 = 3.50; 十八块二 = 18.20.",
+        "examples": [
+          { "zh": "苹果多少钱一斤？——三块五。", "pinyin": "Píngguǒ duōshao qián yì jīn? — Sān kuài wǔ.", "fr": "Combien coûte la livre de pommes ? — 3,50.", "en": "How much is a jin of apples? — 3.50." },
+          { "zh": "一支毛笔多少钱？", "pinyin": "Yì zhī máobǐ duōshao qián?", "fr": "Combien coûte un pinceau ?", "en": "How much is one brush?" },
+          { "zh": "一共十八块二。请到那儿交钱。", "pinyin": "Yígòng shíbā kuài èr. Qǐng dào nàr jiāo qián.", "fr": "Ça fait 18,20 au total. Payez là-bas, s'il vous plaît.", "en": "That's 18.20 in total. Please pay over there." }
+        ]
+      },
+      {
+        "pattern": "又 / 再 / 还 (+ 也)",
+        "explanation_fr": "又 yòu : répétition DÉJÀ RÉALISÉE (他又来了！, 马德又试了一条裤子). 再 zài : répétition ou suite dans le FUTUR, ou action reportée (明天我再打一次 ; 先理发，再去买花儿 ; 明天再说吧). 还 hái : persistance d'une situation (他还不在, 我这个月还很忙), répétition liée à la volonté (我还想再吃一点儿), ou ajout (我要咖啡，还要水). 也 yě : « aussi » quand le SUJET change (我要咖啡，他也要咖啡).",
+        "explanation_en": "又 yòu: repetition ALREADY DONE (他又来了!, 马德又试了一条裤子). 再 zài: repetition or continuation in the FUTURE, or postponed action (明天我再打一次; 先理发，再去买花儿; 明天再说吧). 还 hái: persisting situation (他还不在, 我这个月还很忙), repetition tied to wanting (我还想再吃一点儿), or addition (我要咖啡，还要水). 也 yě: 'too' when the SUBJECT changes (我要咖啡，他也要咖啡).",
+        "examples": [
+          { "zh": "昨天我给他打了电话，他不在。今天我又打了一次，他还不在。明天我再打一次。", "pinyin": "Zuótiān wǒ gěi tā dǎ le diànhuà, tā bú zài. Jīntiān wǒ yòu dǎ le yí cì, tā hái bú zài. Míngtiān wǒ zài dǎ yí cì.", "fr": "Hier je l'ai appelé, il n'était pas là. Aujourd'hui j'ai rappelé, il n'était toujours pas là. Demain je rappellerai.", "en": "Yesterday I called him, he wasn't in. Today I called again, he still wasn't in. Tomorrow I'll call again." },
+          { "zh": "他昨天来了，今天为什么又来了？", "pinyin": "Tā zuótiān lái le, jīntiān wèishénme yòu lái le?", "fr": "Il est venu hier, pourquoi est-il revenu aujourd'hui ?", "en": "He came yesterday, why did he come again today?" },
+          { "zh": "我明天再来。", "pinyin": "Wǒ míngtiān zài lái.", "fr": "Je reviendrai demain.", "en": "I'll come again tomorrow." },
+          { "zh": "他会打网球，还会打篮球。", "pinyin": "Tā huì dǎ wǎngqiú, hái huì dǎ lánqiú.", "fr": "Il sait jouer au tennis, et aussi au basket.", "en": "He can play tennis, and basketball too." }
+        ]
+      },
+      {
+        "pattern": "太…了 ! / …极了 ! / 真…啊 ! / 这么…呀 !",
+        "explanation_fr": "Exclamations d'intensité : 太 + Adj + 了 (trop / tellement), Adj + 极了 (extrêmement — 极了 se place APRÈS l'adjectif), 真 + Adj + 啊 (vraiment), 这么 / 那么 + Adj (si, tellement). 太辣了 ! = 辣极了 !",
+        "explanation_en": "Intensity exclamations: 太 + Adj + 了 (too / so), Adj + 极了 (extremely — 极了 comes AFTER the adjective), 真 + Adj + 啊 (really), 这么 / 那么 + Adj (so). 太辣了! = 辣极了!",
+        "examples": [
+          { "zh": "今天太热了！", "pinyin": "Jīntiān tài rè le!", "fr": "Il fait trop chaud aujourd'hui !", "en": "It's so hot today!" },
+          { "zh": "好看极了！", "pinyin": "Hǎokàn jí le!", "fr": "C'est magnifique !", "en": "It's gorgeous!" },
+          { "zh": "今天真冷啊！", "pinyin": "Jīntiān zhēn lěng a!", "fr": "Qu'il fait froid aujourd'hui !", "en": "It's really cold today!" },
+          { "zh": "饺子这么好吃！", "pinyin": "Jiǎozi zhème hǎochī!", "fr": "Les raviolis sont si bons !", "en": "The dumplings are so good!" }
+        ]
+      },
+      {
+        "pattern": "怎么 vs 怎么样",
+        "explanation_fr": "怎么 + VERBE = comment (manière) : 你们怎么去巴黎 ? 中文 « Internet » 怎么说 ? 怎么 + Adj/了 = pourquoi (surprise) : 我怎么胖了 ? 怎么样 = comment est… / qu'en penses-tu, en fin de phrase ou après 得 : 你觉得这本小说怎么样 ? 天气怎么样 ? 你写字写得怎么样 ?",
+        "explanation_en": "怎么 + VERB = how (manner): 你们怎么去巴黎? 中文 'Internet' 怎么说? 怎么 + Adj/了 = how come (surprise): 我怎么胖了? 怎么样 = how is… / what do you think, at the end or after 得: 你觉得这本小说怎么样? 天气怎么样? 你写字写得怎么样?",
+        "examples": [
+          { "zh": "你们怎么去巴黎？", "pinyin": "Nǐmen zěnme qù Bālí?", "fr": "Comment allez-vous à Paris ?", "en": "How are you getting to Paris?" },
+          { "zh": "你觉得这本小说怎么样？", "pinyin": "Nǐ juéde zhè běn xiǎoshuō zěnmeyàng?", "fr": "Que penses-tu de ce roman ?", "en": "What do you think of this novel?" },
+          { "zh": "我怎么胖了？", "pinyin": "Wǒ zěnme pàng le?", "fr": "Comment se fait-il que j'aie grossi ?", "en": "How come I've put on weight?" }
+        ]
+      },
+      {
+        "pattern": "合适 (adj.) vs 适合 (verbe + objet)",
+        "explanation_fr": "合适 héshì est un ADJECTIF : il ne prend pas d'objet. X 很合适 / X 不合适. 适合 shìhé est un VERBE : il prend un objet. X 适合 + qqn / qqch. 你穿这条牛仔裤很合适 = 这条牛仔裤很适合你. *这条裤子很合适你 est faux.",
+        "explanation_en": "合适 héshì is an ADJECTIVE: no object. X 很合适 / X 不合适. 适合 shìhé is a VERB: it takes an object. X 适合 + someone / something. 你穿这条牛仔裤很合适 = 这条牛仔裤很适合你. *这条裤子很合适你 is wrong.",
+        "examples": [
+          { "zh": "你穿这条牛仔裤很合适。", "pinyin": "Nǐ chuān zhè tiáo niúzǎikù hěn héshì.", "fr": "Ce jean te va bien.", "en": "These jeans look right on you." },
+          { "zh": "这条牛仔裤很适合你。", "pinyin": "Zhè tiáo niúzǎikù hěn shìhé nǐ.", "fr": "Ce jean te convient.", "en": "These jeans suit you." },
+          { "zh": "这个工作不适合我。", "pinyin": "Zhège gōngzuò bú shìhé wǒ.", "fr": "Ce travail ne me convient pas.", "en": "This job doesn't suit me." }
+        ]
+      },
+      {
+        "pattern": "S + 不 + V + (O) + 了₂ : « ne plus »",
+        "explanation_fr": "了₂ en fin de phrase marque un changement de situation. Avec la négation 不, il signifie « ne… plus » : 不下雨了 = il ne pleut plus. 不要别的了 = je ne veux rien d'autre (plus rien). Comparer 下雨了 = il s'est mis à pleuvoir.",
+        "explanation_en": "Sentence-final 了₂ marks a change of situation. With 不 it means 'no longer': 不下雨了 = it's stopped raining. 不要别的了 = nothing else (any more). Compare 下雨了 = it's started raining.",
+        "examples": [
+          { "zh": "不下雨了，我们到超市买点儿好吃的东西吧。", "pinyin": "Bú xià yǔ le, wǒmen dào chāoshì mǎi diǎnr hǎochī de dōngxi ba.", "fr": "Il ne pleut plus, allons acheter de bonnes choses au supermarché.", "en": "It's stopped raining, let's go buy something tasty at the supermarket." },
+          { "zh": "我不想再学汉语了。", "pinyin": "Wǒ bù xiǎng zài xué Hànyǔ le.", "fr": "Je ne veux plus apprendre le chinois.", "en": "I don't want to study Chinese any more." }
+        ]
+      },
+      {
+        "pattern": "V₁ + 了 + O + 就 + V₂ (dès que… alors)",
+        "explanation_fr": "了 après le premier verbe marque l'achèvement d'une action ; 就 introduit l'action qui suit immédiatement. 我们吃了饭就去商店 = dès qu'on aura mangé, on ira au magasin. Valable pour le passé comme pour le futur.",
+        "explanation_en": "了 after the first verb marks completion; 就 introduces the action that follows right away. 我们吃了饭就去商店 = as soon as we've eaten, we'll go to the shop. Works for past and future.",
+        "examples": [
+          { "zh": "好，我们吃了饭就去商店。", "pinyin": "Hǎo, wǒmen chī le fàn jiù qù shāngdiàn.", "fr": "D'accord, on ira au magasin après avoir mangé.", "en": "OK, we'll go to the shop once we've eaten." },
+          { "zh": "他下了课就回家了。", "pinyin": "Tā xià le kè jiù huí jiā le.", "fr": "Il est rentré dès la fin du cours.", "en": "He went home right after class." }
+        ]
+      },
+      {
+        "pattern": "Transports : 坐 / 骑 / 开 + véhicule ; 上车 / 下车 ; 站 / 场",
+        "explanation_fr": "坐 (s'asseoir → prendre) pour les transports où l'on est passager : 坐公共汽车, 坐地铁, 坐出租车, 坐火车, 坐飞机, 坐船. 骑 (enfourcher) pour vélo et moto : 骑自行车, 骑摩托车. 开 (conduire) : 开车. 上车 / 下车 = monter / descendre. 站 = arrêt, gare (公共汽车站, 火车站) ; 场 = aire (飞机场, 足球场). Moyen de transport + 去 + lieu : 我坐地铁去学校.",
+        "explanation_en": "坐 (sit → take) for transport where you're a passenger: bus, metro, taxi, train, plane, boat. 骑 (straddle) for bikes and motorbikes. 开 (drive): 开车. 上车 / 下车 = get on / off. 站 = stop, station (bus stop, train station); 场 = ground (airport, football pitch). Means + 去 + place: 我坐地铁去学校.",
+        "examples": [
+          { "zh": "我坐地铁去学校。", "pinyin": "Wǒ zuò dìtiě qù xuéxiào.", "fr": "Je vais à l'école en métro.", "en": "I go to school by metro." },
+          { "zh": "你坐飞机还是坐火车去英国？", "pinyin": "Nǐ zuò fēijī háishi zuò huǒchē qù Yīngguó?", "fr": "Tu vas en Angleterre en avion ou en train ?", "en": "Are you going to England by plane or by train?" },
+          { "zh": "他每天骑自行车上班。", "pinyin": "Tā měitiān qí zìxíngchē shàngbān.", "fr": "Il va au travail à vélo tous les jours.", "en": "He cycles to work every day." }
+        ]
+      },
+      {
+        "pattern": "Classificateur verbal 场 chǎng",
+        "explanation_fr": "Avec 次, 回 et 遍, 场 est un classificateur VERBAL placé après le verbe (+ 了). Il compte un événement qui dure : une averse, une chute de neige, un film, un match. 下了一场雪, 看了一场电影, 看一场足球.",
+        "explanation_en": "Like 次, 回 and 遍, 场 is a VERBAL classifier placed after the verb (+ 了). It counts an event with duration: a shower, a snowfall, a film, a match. 下了一场雪, 看了一场电影, 看一场足球.",
+        "examples": [
+          { "zh": "今天上午下了一场雪。", "pinyin": "Jīntiān shàngwǔ xià le yì chǎng xuě.", "fr": "Il a neigé ce matin (une chute de neige).", "en": "There was a snowfall this morning." },
+          { "zh": "上个周末，我和朋友看了一场中国电影。", "pinyin": "Shàng ge zhōumò, wǒ hé péngyou kàn le yì chǎng Zhōngguó diànyǐng.", "fr": "Le week-end dernier, j'ai vu un film chinois avec des amis.", "en": "Last weekend I watched a Chinese film with friends." }
+        ]
+      },
+      {
+        "pattern": "Météo et climat : 天气怎么样 ? 气温多少度 ? 零下 / 左右 / 东南西北 + 部",
+        "explanation_fr": "天气怎么样 ? → 今天晴 / 多云 / 阴 ; 下雨（了）, 下雪（了）, 刮风（了）. 气温多少度 ? → 气温十五度 ; 零下十度 (−10 °C). 左右 après un nombre = environ : 30度左右. Régions : 东部, 南部, 西部, 北部, 东北部, 西北部 — 海南岛在中国的南部.",
+        "explanation_en": "天气怎么样? → 今天晴 / 多云 / 阴; 下雨（了）, 下雪（了）, 刮风（了）. 气温多少度? → 气温十五度; 零下十度 (−10 °C). 左右 after a number = about: 30度左右. Regions: 东部, 南部, 西部, 北部, 东北部, 西北部 — 海南岛在中国的南部.",
+        "examples": [
+          { "zh": "下雪了，今天真冷。——有零下10度吧？", "pinyin": "Xià xuě le, jīntiān zhēn lěng. — Yǒu líng xià shí dù ba?", "fr": "Il neige, qu'il fait froid ! — Il doit faire −10 °C ?", "en": "It's snowing, it's really cold. — Must be −10 °C?" },
+          { "zh": "7月到8月气温最高，30℃左右。", "pinyin": "Qī yuè dào bā yuè qìwēn zuì gāo, sānshí dù zuǒyòu.", "fr": "En juillet-août, les températures sont les plus élevées, environ 30 °C.", "en": "July to August is hottest, about 30 °C." },
+          { "zh": "新疆在中国的西北部。", "pinyin": "Xīnjiāng zài Zhōngguó de xīběi bù.", "fr": "Le Xinjiang est dans le nord-ouest de la Chine.", "en": "Xinjiang is in the north-west of China." }
+        ]
+      }
+    ]
   }
 ]

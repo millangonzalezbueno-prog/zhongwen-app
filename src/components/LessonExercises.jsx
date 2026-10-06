@@ -1,4 +1,6 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
+import HanziWriter from 'hanzi-writer';
+import { lessonL05 } from '../lib/examSessions';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -12,6 +14,7 @@ function shuffle(arr) {
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
 function buildExercises(lesson) {
+  if (lesson.id === 'L05') return lessonL05(lesson);
   if (lesson.id === 'L04') return buildExercisesL04(lesson);
   if (lesson.id === 'L03') return buildExercisesL03(lesson);
   if (lesson.id === 'L02') return buildExercisesL02(lesson);
@@ -1255,9 +1258,11 @@ export default function LessonExercises({ lesson, buildSession }) {
   const totalExercises = session.rounds.reduce((s, r) => s + r.exercises.length, 0);
   const globalIdx = session.rounds.slice(0, roundIdx).reduce((s, r) => s + r.exercises.length, 0) + exIdx;
 
-  const recordAnswer = useCallback((isCorrect) => {
-    setState(isCorrect ? 'correct' : 'wrong');
-    setCurrentCorrect(c => c + (isCorrect ? 1 : 0));
+  // A number between 0 and 1 gives partial credit (drag-and-drop, character writing).
+  const recordAnswer = useCallback((result) => {
+    const score = typeof result === 'number' ? result : (result ? 1 : 0);
+    setState(score >= 1 ? 'correct' : 'wrong');
+    setCurrentCorrect(c => c + score);
     setCurrentTotal(c => c + 1);
   }, []);
 
@@ -1295,7 +1300,7 @@ export default function LessonExercises({ lesson, buildSession }) {
       <div className="text-center py-12">
         <p className="text-6xl mb-4">{pct >= 90 ? '🏆' : pct >= 70 ? '👏' : pct >= 50 ? '💪' : '📚'}</p>
         <p className="text-2xl font-semibold mb-2">{grade}</p>
-        <p className="text-muted mb-1">{allCorrect} / {allTotal} correct</p>
+        <p className="text-muted mb-1">{Math.round(allCorrect * 10) / 10} / {allTotal} correct</p>
         <p className="text-3xl font-bold text-accent mb-1">{pct}%</p>
         {hasPoints && (
           <p className="text-sm text-muted mb-6">Note estimée : <span className="font-semibold text-ink">{Math.round(score * 2) / 2} / {maxPoints}</span></p>
@@ -1376,6 +1381,8 @@ function ExerciseCard({ exercise, state, onAnswer }) {
     case 'order': return <OrderExercise ex={exercise} state={state} onAnswer={onAnswer} />;
     case 'grammar-mcq': return <GrammarMCQ ex={exercise} state={state} onAnswer={onAnswer} />;
     case 'open-answer': return <OpenAnswer ex={exercise} state={state} onAnswer={onAnswer} />;
+    case 'dnd-fill': return <DndFill ex={exercise} state={state} onAnswer={onAnswer} />;
+    case 'hanzi-write': return <HanziWrite ex={exercise} state={state} onAnswer={onAnswer} />;
     default: return null;
   }
 }
@@ -1670,6 +1677,235 @@ function GrammarMCQ({ ex, state, onAnswer }) {
       )}
       {state !== 'answering' && (
         <Feedback correct={state === 'correct'} answer={ex.correct} explanation_fr={ex.explanation_fr} explanation_en={ex.explanation_en} />
+      )}
+    </div>
+  );
+}
+
+function DndFill({ ex, state, onAnswer }) {
+  const tiles = useMemo(() => ex.bank.map((text, id) => ({ id, text })), [ex]);
+  const [slots, setSlots] = useState(() => ex.items.map(() => null));
+  const [selected, setSelected] = useState(null);
+  const [dragOver, setDragOver] = useState(null);
+  const [ghost, setGhost] = useState(null);
+  const dragRef = useRef(null);
+  const done = state !== 'answering';
+
+  // Pointer-based dragging works for mouse and touch alike; a press without movement stays a tap.
+  const slotAt = (x, y) => {
+    const el = document.elementFromPoint(x, y)?.closest('[data-slot]');
+    return el ? Number(el.dataset.slot) : null;
+  };
+  const onTileDown = (e, tile) => {
+    if (done) return;
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+    dragRef.current = { id: tile.id, text: tile.text, x: e.clientX, y: e.clientY, moved: false };
+  };
+  const onTileMove = (e) => {
+    const d = dragRef.current;
+    if (!d) return;
+    if (!d.moved && Math.hypot(e.clientX - d.x, e.clientY - d.y) < 6) return;
+    d.moved = true;
+    setGhost({ text: d.text, x: e.clientX, y: e.clientY });
+    setDragOver(slotAt(e.clientX, e.clientY));
+  };
+  const onTileUp = (e) => {
+    const d = dragRef.current;
+    dragRef.current = null;
+    if (!d) return;
+    if (d.moved) {
+      const slot = slotAt(e.clientX, e.clientY);
+      if (slot !== null) place(slot, d.id);
+      setGhost(null);
+      setDragOver(null);
+      // Swallow only the click that immediately follows this drag.
+      dragRef.lastMoved = true;
+      setTimeout(() => { dragRef.lastMoved = false; }, 0);
+    }
+  };
+
+  const placedIds = new Set(slots.filter(v => v !== null));
+  const free = tiles.filter(t => !placedIds.has(t.id));
+  const isRight = (i) => {
+    const t = slots[i] === null ? null : tiles[slots[i]].text;
+    return t !== null && (t === ex.items[i].answer || (ex.items[i].accept || []).includes(t));
+  };
+
+  const place = (slotIdx, tileId) => {
+    if (done || tileId === null || tileId === undefined) return;
+    setSlots(prev => prev.map((v, i) => (i === slotIdx ? tileId : v === tileId ? null : v)));
+    setSelected(null);
+  };
+  const clearSlot = (slotIdx) => {
+    if (done) return;
+    if (selected !== null) { place(slotIdx, selected); return; }
+    setSlots(prev => prev.map((v, i) => (i === slotIdx ? null : v)));
+  };
+  const check = () => {
+    const right = ex.items.filter((_, i) => isRight(i)).length;
+    onAnswer(right / ex.items.length);
+  };
+  const rightCount = ex.items.filter((_, i) => isRight(i)).length;
+
+  return (
+    <div>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider text-center">{ex.label || 'Glisser-déposer'}</p>
+      {ex.instruction && <p className="text-sm text-muted mb-4 text-center">{ex.instruction}</p>}
+
+      {!done && (
+        <div className="flex flex-wrap gap-2 justify-center min-h-[48px] p-3 mb-4 rounded-xl bg-border/20 border border-dashed border-border">
+          {free.length === 0 && <span className="text-xs text-muted self-center">Toutes les étiquettes sont placées</span>}
+          {free.map(t => (
+            <button key={t.id}
+              onPointerDown={(e) => onTileDown(e, t)} onPointerMove={onTileMove} onPointerUp={onTileUp}
+              onPointerCancel={() => { dragRef.current = null; setGhost(null); setDragOver(null); }}
+              onClick={() => { if (dragRef.lastMoved) { dragRef.lastMoved = false; return; } setSelected(s => (s === t.id ? null : t.id)); }}
+              style={{ touchAction: 'none' }}
+              className={`px-3 py-1.5 rounded-lg border hanzi-display text-lg font-medium cursor-grab active:cursor-grabbing select-none transition-colors ${
+                selected === t.id ? 'bg-accent text-white border-accent' : 'bg-white border-border hover:border-accent/50'
+              }`}>
+              {t.text}
+            </button>
+          ))}
+        </div>
+      )}
+      {!done && <p className="text-xs text-muted text-center -mt-2 mb-4">Glissez une étiquette, ou touchez-la puis touchez le blanc.</p>}
+
+      <ol className="space-y-2">
+        {ex.items.map((item, i) => {
+          const [before, after] = item.sentence.split('___');
+          const filled = slots[i] !== null;
+          const ok = done && isRight(i);
+          return (
+            <li key={i} className={`rounded-xl px-3 py-2 border ${
+              done ? (ok ? 'border-success/40 bg-success/5' : 'border-primary/40 bg-primary/5') : 'border-border bg-white/60'
+            }`}>
+              <div className="flex items-baseline gap-2">
+                <span className="text-xs text-muted tabular-nums w-5 shrink-0">{i + 1}.</span>
+                <p className="hanzi-display text-lg leading-loose flex-1">
+                  {before}
+                  <span data-slot={i}
+                    onClick={() => (filled ? clearSlot(i) : place(i, selected))}
+                    role="button" tabIndex={done ? -1 : 0}
+                    onKeyDown={(e) => { if (e.key !== 'Enter') return; if (filled) clearSlot(i); else place(i, selected); }}
+                    className={`inline-flex items-center justify-center min-w-[2.6em] mx-1 px-2 rounded-md border-2 align-middle transition-colors ${
+                      done ? (ok ? 'border-success text-success' : 'border-primary text-primary line-through decoration-1')
+                        : dragOver === i ? 'border-accent bg-accent/10'
+                        : filled ? 'border-accent text-accent cursor-pointer'
+                        : selected !== null ? 'border-dashed border-accent cursor-pointer' : 'border-dashed border-border'
+                    }`}>
+                    {filled ? tiles[slots[i]].text : '　'}
+                  </span>
+                  {done && !ok && <span className="text-success font-medium mr-1">{item.answer}</span>}
+                  {after}
+                </p>
+              </div>
+              {done && (item.explanation_fr || item.explanation_en) && (
+                <p className="text-xs text-muted mt-1 pl-7">
+                  {item.explanation_fr}{item.explanation_en && <span className="italic opacity-70"> — {item.explanation_en}</span>}
+                </p>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+
+      {ghost && (
+        <span className="fixed z-50 pointer-events-none -translate-x-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg border border-accent bg-accent text-white hanzi-display text-lg font-medium shadow-lg"
+          style={{ left: ghost.x, top: ghost.y }}>
+          {ghost.text}
+        </span>
+      )}
+
+      {!done && (
+        <button onClick={check} disabled={free.length > 0 && slots.some(v => v === null)}
+          className="mt-4 w-full py-3 bg-ink text-white rounded-xl font-medium hover:bg-ink/90 transition-colors disabled:opacity-40">
+          Vérifier
+        </button>
+      )}
+      {done && (
+        <Feedback correct={state === 'correct'} answer={`${rightCount} / ${ex.items.length}`} />
+      )}
+    </div>
+  );
+}
+
+function HanziWrite({ ex, state, onAnswer }) {
+  const boxRef = useRef(null);
+  const writerRef = useRef(null);
+  const hintedRef = useRef(false);
+  const [mistakes, setMistakes] = useState(null);
+  const [loadError, setLoadError] = useState(false);
+  const done = state !== 'answering';
+  const prompt = ex.word.replace(ex.char, '□');
+
+  useEffect(() => {
+    const el = boxRef.current;
+    if (!el) return;
+    el.innerHTML = '';
+    hintedRef.current = false;
+    try {
+      writerRef.current = HanziWriter.create(el, ex.char, {
+        width: 220, height: 220, padding: 10,
+        showOutline: false, showCharacter: false,
+        strokeColor: '#1d4ed8', outlineColor: '#dbeafe', drawingColor: '#1b2230',
+        showHintAfterMisses: 3,
+        onLoadCharDataError: () => setLoadError(true),
+      });
+      writerRef.current.quiz({
+        onComplete: ({ totalMistakes }) => {
+          setMistakes(totalMistakes);
+          let score = totalMistakes <= 1 ? 1 : totalMistakes <= 3 ? 0.5 : 0;
+          if (hintedRef.current) score = Math.min(score, 0.5);
+          onAnswer(score);
+        },
+      });
+    } catch {
+      setLoadError(true);
+    }
+    return () => { el.innerHTML = ''; writerRef.current = null; };
+  }, [ex.char, onAnswer]);
+
+  const hint = () => { hintedRef.current = true; writerRef.current?.showOutline(); };
+  const giveUp = () => {
+    writerRef.current?.cancelQuiz();
+    writerRef.current?.hideOutline();
+    writerRef.current?.animateCharacter();
+    onAnswer(0);
+  };
+  const replay = () => { writerRef.current?.hideCharacter(); writerRef.current?.animateCharacter(); };
+
+  return (
+    <div className="text-center">
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">汉字 — Écrivez de mémoire</p>
+      <p className="text-3xl hanzi-display font-medium mb-1">{prompt}</p>
+      <p className="text-accent font-medium">{ex.wordPinyin}</p>
+      <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr}</p>
+
+      <div className="relative mx-auto w-[220px] h-[220px] rounded-xl border border-border bg-white">
+        <svg className="absolute inset-0 pointer-events-none" width="220" height="220" aria-hidden="true">
+          <line x1="0" y1="0" x2="220" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
+          <line x1="220" y1="0" x2="0" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
+          <line x1="110" y1="0" x2="110" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
+          <line x1="0" y1="110" x2="220" y2="110" stroke="#e5e7eb" strokeDasharray="4 4" />
+        </svg>
+        <div ref={boxRef} className="relative" />
+      </div>
+      {loadError && <p className="text-xs text-primary mt-2">Impossible de charger ce caractère (connexion ?).</p>}
+
+      {!done ? (
+        <div className="flex gap-2 justify-center mt-4">
+          <button onClick={hint} className="px-4 py-2 rounded-xl border border-border text-sm hover:border-accent/50">Indice (contour)</button>
+          <button onClick={giveUp} className="px-4 py-2 rounded-xl border border-border text-sm hover:border-primary/50">Je ne sais pas</button>
+        </div>
+      ) : (
+        <>
+          <button onClick={replay} className="mt-3 text-sm text-accent hover:underline">Revoir l'ordre des traits</button>
+          <Feedback correct={state === 'correct'} answer={`${ex.char} — ${ex.word}`}
+            extra={mistakes === null ? 'Réponse montrée.' : `${mistakes} erreur${mistakes > 1 ? 's' : ''} de trait${hintedRef.current ? ' · indice utilisé' : ''}`}
+            explanation_fr={[ex.parts && `${ex.char} = ${ex.parts}`, ex.sentence].filter(Boolean).join(' · ')}
+            explanation_en={ex.en} />
+        </>
       )}
     </div>
   );

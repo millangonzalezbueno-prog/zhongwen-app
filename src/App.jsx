@@ -8,6 +8,7 @@ import Dashboard from './components/Dashboard';
 import BrowseView from './components/BrowseView';
 import LessonView from './components/LessonView';
 import HomeworkView from './components/HomeworkView';
+import ExamPrepView from './components/ExamPrepView';
 
 const TABS = [
   { id: 'home', label: 'Accueil' },
@@ -128,6 +129,12 @@ function App() {
             <StrokePractice data={data} onCharClick={handleCharClick} />
           </div>
         )}
+        {!activeLesson && studyMode === 'exam1' && (
+          <div>
+            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
+            <ExamPrepView data={data} />
+          </div>
+        )}
         {!activeLesson && studyMode === 'homework1' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
@@ -159,8 +166,22 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
   return (
     <div>
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-1">Devoirs</h2>
-        <p className="text-muted mb-5">Entraînement sur les devoirs à rendre.</p>
+        <h2 className="text-2xl font-semibold mb-1">Évaluations</h2>
+        <p className="text-muted mb-5">Examen et devoirs : entraînement ciblé.</p>
+        <button onClick={() => onSelectMode('exam1')}
+          className="w-full mb-3 bg-surface-alt border-2 border-primary/50 rounded-2xl p-5 text-left hover:shadow-md hover:border-primary transition-all group">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shrink-0">
+              <span className="text-white text-lg font-bold hanzi-display">考</span>
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-medium text-primary mb-0.5">Examen le mercredi 14 octobre</p>
+              <p className="text-lg font-semibold group-hover:text-primary transition-colors">Préparation à l'examen</p>
+              <p className="text-sm text-muted">Examen blanc sur 20, 14 thèmes d'entraînement, 20 caractères à tracer</p>
+              <p className="text-xs text-muted mt-1">Semaines 1 à 4 &middot; leçons L01 à L05</p>
+            </div>
+          </div>
+        </button>
         <button onClick={() => onSelectMode('homework1')}
           className="w-full bg-surface-alt border border-primary/30 rounded-2xl p-5 text-left hover:shadow-md hover:border-primary/60 transition-all group">
           <div className="flex items-start gap-4">
