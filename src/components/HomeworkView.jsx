@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import LessonExercises from './LessonExercises';
+import Zh from './Zh';
 
 const DUE_DATE = new Date(2026, 9, 6); // 6 octobre 2026
 
@@ -341,11 +342,11 @@ function AnswerKey() {
   );
   const Item = ({ n, prompt, answer, note }) => (
     <li className="text-sm">
-      <p className="hanzi-display text-base"><span className="text-muted mr-2">{n}</span>{prompt}</p>
+      <p className="hanzi-display text-base"><span className="text-muted mr-2">{n}</span><Zh text={prompt} /></p>
       {shown && (
         <div className="mt-1 pl-6">
-          <p className="hanzi-display text-success font-medium">{answer}</p>
-          {note && <p className="text-xs text-muted mt-0.5">{note}</p>}
+          <p className="hanzi-display text-success font-medium"><Zh text={answer} /></p>
+          {note && <p className="text-xs text-muted mt-0.5"><Zh text={note} pinyin={false} /></p>}
         </div>
       )}
     </li>

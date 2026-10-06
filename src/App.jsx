@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react';
-import { loadCharacters, loadVocab, loadGrammar, loadLessons } from './lib/data';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+import { loadCharacters, loadVocab, loadGrammar, loadLessons, loadGlossary } from './lib/data';
+import { buildDict, charDetails } from './lib/gloss';
+import { GlossProvider, PinyinToggle } from './components/Zh';
 import ReviewSession from './components/ReviewSession';
 import ExercisesView from './components/ExercisesView';
 import StrokePractice from './components/StrokePractice';
@@ -28,16 +30,18 @@ function App() {
   });
   const [popupChar, setPopupChar] = useState(null);
 
-  const handleCharClick = (ch) => {
-    if (!data) return;
-    const found = data.characters.find(c => c.hanzi === ch);
-    if (found) setPopupChar(found);
-  };
+  const dict = useMemo(() => (data ? buildDict(data) : null), [data]);
+
+  // Any character opens the stroke-order popup; the 361-character bank is enriched with lesson and CEDICT data.
+  const handleCharClick = useCallback((ch) => {
+    if (!dict) return;
+    setPopupChar(charDetails(ch, dict));
+  }, [dict]);
 
   useEffect(() => {
-    Promise.all([loadCharacters(), loadVocab(), loadGrammar(), loadLessons()])
-      .then(([characters, vocab, grammar, lessons]) => {
-        setData({ characters, vocab, grammar, lessons });
+    Promise.all([loadCharacters(), loadVocab(), loadGrammar(), loadLessons(), loadGlossary()])
+      .then(([characters, vocab, grammar, lessons, glossary]) => {
+        setData({ characters, vocab, grammar, lessons, glossary });
         setLoading(false);
       })
       .catch(err => {
@@ -74,13 +78,15 @@ function App() {
   };
 
   return (
+    <GlossProvider dict={dict} onCharClick={handleCharClick}>
     <div className="min-h-screen flex flex-col">
       <header className="bg-surface-alt border-b border-border px-4 py-3">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <button onClick={goHome} className="text-xl font-semibold hanzi-display hover:opacity-80 transition-opacity">
             <span className="text-primary">中文</span> Révision
           </button>
-          <nav className="flex gap-1">
+          <nav className="flex gap-1 items-center">
+            <PinyinToggle />
             {TABS.map(t => (
               <button
                 key={t.id}
@@ -156,6 +162,7 @@ function App() {
         />
       )}
     </div>
+    </GlossProvider>
   );
 }
 

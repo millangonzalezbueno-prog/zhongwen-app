@@ -5,6 +5,20 @@ let _lessons = null;
 
 const base = import.meta.env.BASE_URL;
 
+let _glossary = null;
+
+export async function loadGlossary() {
+  if (!_glossary) {
+    try {
+      const res = await fetch(`${base}data/glossary.json`);
+      _glossary = await res.json();
+    } catch {
+      _glossary = {};
+    }
+  }
+  return _glossary;
+}
+
 export async function loadCharacters() {
   if (!_characters) {
     const res = await fetch(`${base}data/characters.json`);

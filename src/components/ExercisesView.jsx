@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
+import Zh from './Zh';
 import { filterByTier } from '../lib/data';
 
 function shuffle(arr) {
@@ -109,7 +110,7 @@ function GapFillSession({ data, tiers }) {
 
   return <ExerciseRunner exercises={exercises} title="Compléter" renderExercise={(ex, state, onAnswer) => (
     <div className="text-center">
-      <p className="text-2xl hanzi-display mb-4 font-medium">{ex.prompt}</p>
+      <p className="text-2xl hanzi-display mb-4 font-medium"><Zh text={ex.prompt} /></p>
       <p className="text-muted mb-6">{ex.hint}</p>
       {state === 'answering' ? (
         <AnswerInput onSubmit={onAnswer} placeholder="Votre réponse..." />
@@ -141,7 +142,7 @@ function SentenceSession({ data, tiers }) {
 
   return <ExerciseRunner exercises={exercises} title="Phrases" renderExercise={(ex, state, onAnswer) => (
     <div className="text-center">
-      <p className="text-3xl hanzi-display mb-2 font-medium">{ex.sentence_zh}</p>
+      <p className="text-3xl hanzi-display mb-2 font-medium"><Zh text={ex.sentence_zh} /></p>
       <p className="text-accent text-sm mb-6">{ex.pinyin}</p>
       <p className="text-muted text-sm mb-4">Quelle est la bonne traduction ?</p>
       {state === 'answering' ? (
@@ -316,7 +317,7 @@ function AnswerFeedback({ correct, answer, extra }) {
       <p className={`font-medium mb-1 ${correct ? 'text-success' : 'text-primary'}`}>
         {correct ? 'Correct !' : 'Incorrect'}
       </p>
-      <p className="text-lg hanzi-display font-medium">{answer}</p>
+      <p className="text-lg hanzi-display font-medium"><Zh text={answer} /></p>
       {extra && <p className="text-sm text-muted mt-1">{extra}</p>}
     </div>
   );
@@ -465,7 +466,7 @@ function OrderSession({ data, tiers }) {
           <div className="text-center">
             <div className="rounded-xl p-3 bg-success/10 mb-4">
               <p className="font-medium text-success mb-1">Correct !</p>
-              <p className="hanzi-display text-lg">{ex.answer}</p>
+              <p className="hanzi-display text-lg"><Zh text={ex.answer} /></p>
               {ex.pinyin && <p className="text-accent text-sm">{ex.pinyin}</p>}
             </div>
             <button onClick={next}
@@ -479,7 +480,7 @@ function OrderSession({ data, tiers }) {
           <div className="text-center">
             <div className="rounded-xl p-3 bg-primary/10 mb-4">
               <p className="font-medium text-primary mb-1">Incorrect — réessayez ou passez</p>
-              <p className="text-sm text-muted">Réponse : <span className="hanzi-display">{ex.answer}</span></p>
+              <p className="text-sm text-muted">Réponse : <span className="hanzi-display"><Zh text={ex.answer} /></span></p>
             </div>
             <div className="flex gap-2">
               <button onClick={() => {

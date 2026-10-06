@@ -1,6 +1,8 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import HanziWriter from 'hanzi-writer';
 import { lessonL05 } from '../lib/examSessions';
+import Zh, { PinyinToggle } from './Zh';
+import { contextPinyin } from '../lib/gloss';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -1336,7 +1338,10 @@ export default function LessonExercises({ lesson, buildSession }) {
           <p className="text-xs font-semibold text-accent uppercase tracking-wider">{round.title}</p>
           <p className="text-xs text-muted">{round.subtitle}</p>
         </div>
-        <span className="text-sm text-muted font-medium">{globalIdx + 1} / {totalExercises}</span>
+        <span className="flex items-center gap-2">
+          <PinyinToggle />
+          <span className="text-sm text-muted font-medium">{globalIdx + 1} / {totalExercises}</span>
+        </span>
       </div>
 
       {/* Global progress */}
@@ -1404,7 +1409,7 @@ function VocabMCQ({ ex, state, onAnswer }) {
                   'bg-surface-alt border-border text-muted opacity-50'
                 : 'bg-surface-alt border-border hover:border-accent/50 hover:bg-accent/5'
             }`}>
-            {opt}
+            <Zh text={opt} gloss={false} />
           </button>
         ))}
       </div>
@@ -1420,7 +1425,7 @@ function TrueFalse({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension — Vrai ou faux ?</p>
-      <p className="text-xl hanzi-display font-medium mb-6 leading-relaxed">{ex.statement}</p>
+      <p className="text-xl hanzi-display font-medium mb-6 leading-relaxed"><Zh text={ex.statement} /></p>
       {state === 'answering' ? (
         <div className="flex gap-3 justify-center">
           <button onClick={() => handlePick(true)}
@@ -1453,9 +1458,9 @@ function FillMCQ({ ex, state, onAnswer }) {
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Complétez</p>
       <p className="text-xl hanzi-display font-medium mb-2 leading-relaxed">
-        {parts[0]}<span className="inline-block min-w-[3em] border-b-2 border-accent mx-1 text-accent">
-          {state !== 'answering' ? ex.correct : picked || '　　'}
-        </span>{parts[1]}
+        <Zh text={parts[0]} /><span className="inline-block min-w-[3em] border-b-2 border-accent mx-1 text-accent">
+          {state !== 'answering' ? <Zh text={ex.correct} /> : picked || '　　'}
+        </span><Zh text={parts[1]} />
       </p>
       {ex.hint ? <p className="text-sm text-muted mb-6">{ex.hint}</p> : <div className="mb-6" />}
       {state === 'answering' ? (
@@ -1463,7 +1468,7 @@ function FillMCQ({ ex, state, onAnswer }) {
           {ex.options.map((opt, i) => (
             <button key={i} onClick={() => handlePick(opt)}
               className="px-5 py-2.5 rounded-xl border border-border bg-surface-alt hanzi-display text-lg font-medium hover:border-accent/50 hover:bg-accent/5 transition-colors">
-              {opt}
+              <Zh text={opt} gloss={false} />
             </button>
           ))}
         </div>
@@ -1487,7 +1492,7 @@ function ErrorCorrection({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">改错 — Corrigez l'erreur</p>
-      <p className="text-2xl hanzi-display font-medium mb-2 text-primary leading-relaxed">{ex.wrong}</p>
+      <p className="text-2xl hanzi-display font-medium mb-2 text-primary leading-relaxed"><Zh text={ex.wrong} /></p>
       <p className="text-xs text-muted mb-6">Cette phrase contient une erreur. Réécrivez-la correctement.</p>
       {state === 'answering' ? (
         <form onSubmit={handleSubmit} className="space-y-3">
@@ -1544,15 +1549,15 @@ function ReadingMCQ({ ex, state, onAnswer }) {
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension du texte</p>
       {ex.passage && (
-        <p className="text-left text-base hanzi-display leading-loose bg-border/20 rounded-xl p-4 mb-4">{ex.passage}</p>
+        <p className="text-left text-base hanzi-display leading-loose bg-border/20 rounded-xl p-4 mb-4"><Zh text={ex.passage} /></p>
       )}
-      <p className={`${ex.passage ? 'text-lg' : 'text-xl'} hanzi-display font-medium mb-6 leading-relaxed`}>{ex.question}</p>
+      <p className={`${ex.passage ? 'text-lg' : 'text-xl'} hanzi-display font-medium mb-6 leading-relaxed`}><Zh text={ex.question} /></p>
       {state === 'answering' ? (
         <div className="space-y-2">
           {ex.options.map((opt, i) => (
             <button key={i} onClick={() => handlePick(opt)}
               className="w-full text-left px-4 py-3 rounded-xl border border-border bg-surface-alt hover:border-accent/50 hover:bg-accent/5 transition-colors text-sm hanzi-display">
-              {opt}
+              <Zh text={opt} gloss={false} />
             </button>
           ))}
         </div>
@@ -1569,13 +1574,13 @@ function ClassifierExercise({ ex, state, onAnswer }) {
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Classificateur (量词)</p>
       <p className="text-sm text-muted mb-2">Quel classificateur utiliser avec :</p>
-      <p className="text-3xl hanzi-display font-medium mb-6">{ex.noun}</p>
+      <p className="text-3xl hanzi-display font-medium mb-6"><Zh text={ex.noun} /></p>
       {state === 'answering' ? (
         <div className="flex flex-wrap gap-3 justify-center">
           {ex.options.map((opt, i) => (
             <button key={i} onClick={() => handlePick(opt)}
               className="w-16 h-16 rounded-xl border border-border bg-surface-alt hanzi-display text-2xl font-medium hover:border-accent/50 hover:bg-accent/5 transition-colors">
-              {opt}
+              <Zh text={opt} gloss={false} />
             </button>
           ))}
         </div>
@@ -1621,7 +1626,7 @@ function OrderExercise({ ex, state, onAnswer }) {
         {placed.map(item => (
           <button key={item.id} onClick={() => handleTile(item, 'placed')} disabled={state !== 'answering'}
             className="px-3 py-2 bg-white shadow-sm border border-border rounded-lg font-medium hanzi-display text-lg hover:bg-primary-light transition-colors">
-            {item.text}
+            <Zh text={item.text} gloss={false} />
           </button>
         ))}
       </div>
@@ -1631,7 +1636,7 @@ function OrderExercise({ ex, state, onAnswer }) {
           {available.map(item => (
             <button key={item.id} onClick={() => handleTile(item, 'available')}
               className="px-3 py-2 bg-surface-alt border border-border rounded-lg font-medium hanzi-display text-lg hover:border-accent/50 hover:bg-accent/5 transition-colors">
-              {item.text}
+              <Zh text={item.text} gloss={false} />
             </button>
           ))}
         </div>
@@ -1662,7 +1667,7 @@ function GrammarMCQ({ ex, state, onAnswer }) {
           {ex.options.map((opt, i) => (
             <button key={i} onClick={() => handlePick(opt)}
               className="w-full text-left px-4 py-3 rounded-xl border border-border bg-surface-alt hover:border-accent/50 hover:bg-accent/5 transition-colors text-base hanzi-display">
-              {opt}
+              <Zh text={opt} gloss={false} />
             </button>
           ))}
         </div>
@@ -1671,7 +1676,7 @@ function GrammarMCQ({ ex, state, onAnswer }) {
           {ex.options.map((opt, i) => (
             <div key={i} className={`w-full text-left px-4 py-3 rounded-xl border text-base hanzi-display ${
               opt === ex.correct ? 'bg-success/10 border-success text-success font-medium' : 'bg-surface-alt border-border text-muted opacity-50'
-            }`}>{opt}</div>
+            }`}><Zh text={opt} /></div>
           ))}
         </div>
       )}
@@ -1764,7 +1769,7 @@ function DndFill({ ex, state, onAnswer }) {
               className={`px-3 py-1.5 rounded-lg border hanzi-display text-lg font-medium cursor-grab active:cursor-grabbing select-none transition-colors ${
                 selected === t.id ? 'bg-accent text-white border-accent' : 'bg-white border-border hover:border-accent/50'
               }`}>
-              {t.text}
+              <Zh text={t.text} gloss={false} />
             </button>
           ))}
         </div>
@@ -1783,7 +1788,7 @@ function DndFill({ ex, state, onAnswer }) {
               <div className="flex items-baseline gap-2">
                 <span className="text-xs text-muted tabular-nums w-5 shrink-0">{i + 1}.</span>
                 <p className="hanzi-display text-lg leading-loose flex-1">
-                  {before}
+                  <Zh text={before} />
                   <span data-slot={i}
                     onClick={() => (filled ? clearSlot(i) : place(i, selected))}
                     role="button" tabIndex={done ? -1 : 0}
@@ -1796,13 +1801,13 @@ function DndFill({ ex, state, onAnswer }) {
                     }`}>
                     {filled ? tiles[slots[i]].text : '　'}
                   </span>
-                  {done && !ok && <span className="text-success font-medium mr-1">{item.answer}</span>}
-                  {after}
+                  {done && !ok && <span className="text-success font-medium mr-1"><Zh text={item.answer} /></span>}
+                  <Zh text={after} />
                 </p>
               </div>
               {done && (item.explanation_fr || item.explanation_en) && (
                 <p className="text-xs text-muted mt-1 pl-7">
-                  {item.explanation_fr}{item.explanation_en && <span className="italic opacity-70"> — {item.explanation_en}</span>}
+                  <Zh text={item.explanation_fr} />{item.explanation_en && <span className="italic opacity-70"> — <Zh text={item.explanation_en} /></span>}
                 </p>
               )}
             </li>
@@ -1923,7 +1928,7 @@ function OpenAnswer({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Répondez en chinois</p>
-      <p className="text-2xl hanzi-display font-medium mb-2 leading-relaxed">{ex.question}</p>
+      <p className="text-2xl hanzi-display font-medium mb-2 leading-relaxed"><Zh text={ex.question} /></p>
       {ex.instruction_fr && <p className="text-sm text-muted mb-6">{ex.instruction_fr}</p>}
       {!submitted ? (
         <form onSubmit={(e) => { e.preventDefault(); if (answer) setSubmitted(true); }} className="space-y-3">
@@ -1939,7 +1944,7 @@ function OpenAnswer({ ex, state, onAnswer }) {
         <div className="text-left space-y-4">
           <div className="rounded-xl bg-border/20 p-4">
             <p className="text-xs font-semibold text-muted uppercase tracking-wider mb-1">Votre réponse</p>
-            <p className="text-lg hanzi-display">{answer}</p>
+            <p className="text-lg hanzi-display"><Zh text={answer} /></p>
           </div>
           {results.length > 0 && (
             <ul className="space-y-1">
@@ -1953,7 +1958,7 @@ function OpenAnswer({ ex, state, onAnswer }) {
           <div>
             <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Réponses modèles</p>
             <ul className="space-y-1">
-              {ex.models.map((m, i) => <li key={i} className="text-base hanzi-display">{m}</li>)}
+              {ex.models.map((m, i) => <li key={i} className="text-base hanzi-display"><Zh text={m} /></li>)}
             </ul>
           </div>
           {state === 'answering' ? (
@@ -1979,26 +1984,36 @@ function OpenAnswer({ ex, state, onAnswer }) {
   );
 }
 
+// Pinyin under a Chinese answer sentence (hidden when the global pinyin toggle already shows it above).
+function AnswerPinyin({ text }) {
+  if (typeof text !== 'string' || !/[\u4e00-\u9fff]/.test(text)) return null;
+  const py = contextPinyin(text);
+  const line = [...text].map((ch, i) => py[i] ?? (/[，。？！、；：]/.test(ch) ? ch : ch.trim() ? ` ${ch} ` : ' '))
+    .join(' ').replace(/\s+([，。？！、；：])/g, '$1').replace(/\s+/g, ' ').trim();
+  return <p className="text-sm text-accent mt-0.5">{line}</p>;
+}
+
 function Feedback({ correct, answer, extra, explanation_fr, explanation_en }) {
   return (
     <div className={`rounded-xl p-4 mt-4 ${correct ? 'bg-success/10' : 'bg-primary/10'}`}>
       <p className={`font-medium mb-1 ${correct ? 'text-success' : 'text-primary'}`}>
         {correct ? 'Correct !' : 'Incorrect'}
       </p>
-      <p className="text-lg hanzi-display font-medium">{answer}</p>
-      {extra && <p className="text-sm text-muted mt-1">{extra}</p>}
+      <p className="text-lg hanzi-display font-medium"><Zh text={answer} /></p>
+      <AnswerPinyin text={answer} />
+      {extra && <p className="text-sm text-muted mt-1"><Zh text={extra} /></p>}
       {(explanation_fr || explanation_en) && (
         <div className="mt-3 pt-3 border-t border-border/50 space-y-2 text-left">
           {explanation_fr && (
             <div>
               <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-0.5">Explication</p>
-              <p className="text-sm text-muted leading-relaxed">{explanation_fr}</p>
+              <p className="text-sm text-muted leading-relaxed"><Zh text={explanation_fr} pinyin={false} /></p>
             </div>
           )}
           {explanation_en && (
             <div>
               <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-0.5">Explanation</p>
-              <p className="text-sm text-muted/70 leading-relaxed italic">{explanation_en}</p>
+              <p className="text-sm text-muted/70 leading-relaxed italic"><Zh text={explanation_en} pinyin={false} /></p>
             </div>
           )}
         </div>

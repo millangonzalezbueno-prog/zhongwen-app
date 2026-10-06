@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import HanziWriter from 'hanzi-writer';
 import LessonExercises from './LessonExercises';
+import Zh from './Zh';
 import { EXAM_DATE, HANZI, TOPICS } from '../data/examPrep';
 import { mockExam, topicSession, hanziDictation } from '../lib/examSessions';
 
@@ -241,8 +242,8 @@ function HanziStudio() {
             {current.parts && (
               <p className="mt-3 text-sm"><span className="text-muted">Composants : </span><span className="hanzi-display text-base">{current.char} = {current.parts}</span></p>
             )}
-            <p className="mt-2 text-sm"><span className="text-muted">Mot : </span><span className="hanzi-display text-base">{current.word}</span> <span className="text-accent">{current.wordPinyin}</span></p>
-            <p className="mt-2 text-sm hanzi-display leading-relaxed bg-accent/5 rounded-lg p-3">{current.sentence}</p>
+            <p className="mt-2 text-sm"><span className="text-muted">Mot : </span><span className="hanzi-display text-base"><Zh text={current.word} pinyin={false} /></span> <span className="text-accent">{current.wordPinyin}</span></p>
+            <p className="mt-2 text-sm hanzi-display leading-relaxed bg-accent/5 rounded-lg p-3"><Zh text={current.sentence} /></p>
           </div>
           <div className="flex flex-col items-center">
             <div className="flex gap-1 mb-3" role="tablist">
@@ -380,9 +381,9 @@ function ProgramTab({ lessons }) {
                     </div>
                     {isOpen && (
                       <div className="px-3 pb-3 text-sm border-t border-border/50 pt-2">
-                        <p className="text-muted">{g.explanation_fr}</p>
+                        <p className="text-muted"><Zh text={g.explanation_fr} pinyin={false} /></p>
                         {g.examples?.[0] && (
-                          <p className="mt-2 hanzi-display">{g.examples[0].zh} <span className="text-xs text-muted">— {g.examples[0].fr}</span></p>
+                          <p className="mt-2 hanzi-display"><Zh text={g.examples[0].zh} /> <span className="text-xs text-muted">— {g.examples[0].fr}</span></p>
                         )}
                       </div>
                     )}

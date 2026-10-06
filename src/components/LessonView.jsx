@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import LessonReader from './LessonReader';
 import LessonExercises from './LessonExercises';
+import Zh from './Zh';
 
 const TABS = [
   { id: 'lecture', label: 'Lecture' },
@@ -136,8 +137,8 @@ function VocabTab({ lesson, onCharClick }) {
                       {v.gloss_en && <p className="text-sm text-muted/70 mt-0.5 italic">{v.gloss_en}</p>}
                       {v.forms && <p className="text-xs text-muted mt-1 italic">{v.forms}</p>}
                       {v.example && (
-                        <p className="text-xs text-muted mt-2 border-t border-border/50 pt-2 leading-relaxed">
-                          {v.example}
+                        <p className="text-xs text-muted mt-2 border-t border-border/50 pt-2 leading-relaxed hanzi-display">
+                          <Zh text={v.example} />
                         </p>
                       )}
                     </>
@@ -190,12 +191,12 @@ function GrammarTab({ lesson }) {
           </button>
           {expanded.has(i) && (
             <div className="px-4 pb-4 border-t border-border/50 pt-3">
-              <p className="text-sm text-muted mb-2">{g.explanation_fr}</p>
+              <p className="text-sm text-muted mb-2"><Zh text={g.explanation_fr} pinyin={false} /></p>
               {g.explanation_en && <p className="text-sm text-muted/70 mb-4 italic">{g.explanation_en}</p>}
               <div className="space-y-3">
                 {g.examples.map((ex, j) => (
                   <div key={j} className="bg-accent/5 rounded-lg p-3">
-                    <p className="text-base hanzi-display mb-1">{ex.zh}</p>
+                    <p className="text-base hanzi-display mb-1"><Zh text={ex.zh} pinyin={false} /></p>
                     <p className="text-xs text-accent">{ex.pinyin}</p>
                     <p className="text-xs text-muted mt-1">{ex.fr}</p>
                     {ex.en && <p className="text-xs text-muted/70 italic">{ex.en}</p>}

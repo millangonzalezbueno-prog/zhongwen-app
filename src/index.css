@@ -29,3 +29,17 @@ body {
 .hanzi-display {
   font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
+
+/* Pinyin above characters (global 拼音 toggle) */
+ruby.zh-ruby {
+  ruby-position: over;
+}
+ruby.zh-ruby rt {
+  font-size: max(0.55em, 10px);
+  line-height: 1.1;
+  padding: 0 0.2em 1px;
+  color: var(--color-accent, #2563eb);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  user-select: none;
+}
