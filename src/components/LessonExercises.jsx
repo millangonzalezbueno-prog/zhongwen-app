@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import HanziWriter from 'hanzi-writer';
-import { lessonL05, lessonL06 } from '../lib/examSessions';
+import { lessonL05, lessonL06, hanziWrite, vocabMcq } from '../lib/examSessions';
+import { HANZI } from '../data/examPrep';
 import Zh, { PinyinToggle } from './Zh';
 import { contextPinyin } from '../lib/gloss';
 
@@ -15,7 +16,22 @@ function shuffle(arr) {
 
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
+// Every lesson ends with the week's must-knows: the 我认识 words and the characters to write.
 function buildExercises(lesson) {
+  const session = buildLessonExercises(lesson);
+  const core = lesson.vocab.filter(v => v.core);
+  const chars = (lesson.hanzi || []).map(ch => HANZI.find(h => h.char === ch)).filter(Boolean);
+  const extra = [
+    ...(core.length ? vocabMcq([{ ...lesson, vocab: core }], Math.min(5, core.length)) : []),
+    ...pick(chars, 4).map(hanziWrite),
+  ];
+  if (extra.length) {
+    session.rounds.push({ title: 'À savoir', subtitle: 'Mots « 我认识 » et caractères à écrire', exercises: extra });
+  }
+  return session;
+}
+
+function buildLessonExercises(lesson) {
   if (lesson.id === 'L06') return lessonL06(lesson);
   if (lesson.id === 'L05') return lessonL05(lesson);
   if (lesson.id === 'L04') return buildExercisesL04(lesson);

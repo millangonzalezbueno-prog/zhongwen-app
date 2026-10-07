@@ -1,5 +1,5 @@
 import {
-  ORANGE_HANZI, CLASSIFIERS, WORD_BANKS, GRAMMAR_FILLS, GRAMMAR_MCQ, ERROR_CORRECTIONS,
+  HANZI, CLASSIFIERS, WORD_BANKS, GRAMMAR_FILLS, GRAMMAR_MCQ, ERROR_CORRECTIONS,
   ORDERS, TRANSLATIONS, READINGS, OPEN_QUESTIONS, L05_TRUE_FALSE, TOPICS,
 } from '../data/examPrep.js';
 
@@ -160,6 +160,9 @@ export function topicSession(topicId, lessons) {
     case 'vocab':
       exercises = vocabMcq(lessons, 20);
       break;
+    case 'core':
+      exercises = vocabMcq(lessons.map(l => ({ ...l, vocab: l.vocab.filter(v => v.core) })), 20);
+      break;
     case 'vocabfill':
       exercises = vocabChoices(lessons, 15);
       break;
@@ -200,14 +203,14 @@ export function mockExam(lessons) {
     ...pick(grammarPool.filter(q => !isNew(q) && q.topic !== 'yzh'), 4),
     ...pick(ERROR_CORRECTIONS, 1),
   ].map(prepOptions);
-  const week5 = ORANGE_HANZI.filter(h => h.week === 5);
-  const hanzi = [...pick(week5, 2), ...pick(ORANGE_HANZI.filter(h => h.week !== 5), 3)];
+  const week5 = HANZI.filter(h => h.week === 5);
+  const hanzi = [...pick(week5, 2), ...pick(HANZI.filter(h => h.week !== 5), 3)];
   return {
     timeLimit: 60,
     rounds: [
       { title: 'Section 1 — Ordre des mots', subtitle: 'Remettez les mots dans le bon ordre', points: 4,
         exercises: shuffle([...pick(ORDERS.filter(isNew), 2), ...pick(ORDERS.filter(q => !isNew(q)), 3)]).map(prepOrder) },
-      { title: 'Section 2 — 汉字', subtitle: 'Écrivez les caractères (diapositives orange)', points: 4,
+      { title: 'Section 2 — 汉字', subtitle: 'Écrivez les caractères (diapositives orange et 我会写)', points: 4,
         exercises: shuffle(hanzi).map(hanziWrite) },
       { title: 'Section 3 — Vocabulaire', subtitle: 'Choisissez le bon mot', points: 4,
         exercises: vocabChoices(lessons, 5, { bankShare: 0.8 }) },
@@ -217,7 +220,7 @@ export function mockExam(lessons) {
   };
 }
 
-export function hanziDictation(chars = ORANGE_HANZI) {
+export function hanziDictation(chars = HANZI) {
   return {
     rounds: [{ title: 'Dictée — 汉字', subtitle: `${chars.length} caractères de mémoire`, exercises: shuffle(chars).map(hanziWrite) }],
   };
@@ -258,7 +261,7 @@ export function lessonL06(lesson) {
       { title: 'Évaluation', subtitle: 'Vocabulaire et textes', exercises: shuffle([
         ...vocabMcq([lesson], 5),
         ...pick(READINGS.filter(L6), 4),
-        ...pick(ORANGE_HANZI.filter(h => h.week === 5), 2).map(hanziWrite),
+        ...pick(HANZI.filter(h => h.week === 5), 2).map(hanziWrite),
       ]) },
       { title: 'Renforcement', subtitle: '正在…呢, 快要…了, 着, 一点儿/有点儿, 还是/或者', exercises: shuffle([
         ...pick(GRAMMAR_FILLS.filter(L6), 8).map(prepOptions),

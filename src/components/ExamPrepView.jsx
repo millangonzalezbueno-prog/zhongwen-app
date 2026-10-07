@@ -1,11 +1,10 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
-import HanziWriter from 'hanzi-writer';
 import LessonExercises from './LessonExercises';
 import Zh from './Zh';
-import { EXAM_DATE, HANZI, ORANGE_HANZI, TOPICS } from '../data/examPrep';
-import { mockExam, topicSession, hanziDictation, mistakesSession, shuffle } from '../lib/examSessions';
+import HanziStudio from './HanziStudio';
+import { EXAM_DATE, HANZI, TOPICS } from '../data/examPrep';
+import { mockExam, topicSession, mistakesSession, shuffle } from '../lib/examSessions';
 
-const HANZI_KEY = 'zw-exam-hanzi-v1';
 const CHECK_KEY = 'zw-exam-checklist-v1';
 const MISTAKES_KEY = 'zw-exam-mistakes-v1';
 const HISTORY_KEY = 'zw-exam-history-v1';
@@ -58,7 +57,7 @@ export default function ExamPrepView({ data }) {
         <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">Examen — semaines 1 à 5 · 1 heure</p>
         <h2 className="text-2xl font-semibold">Préparation à l'examen du 14 octobre</h2>
         <p className="text-sm text-muted">
-          Leçons L01 à L06 et les {ORANGE_HANZI.length} caractères des diapositives orange ·{' '}
+          Leçons L01 à L06 et les {HANZI.length} caractères à savoir écrire ·{' '}
           <span className={`font-semibold ${daysLeft <= 3 ? 'text-primary' : 'text-accent'}`}>
             {daysLeft > 0 ? `J-${daysLeft}` : daysLeft === 0 ? 'c\'est aujourd\'hui !' : 'examen passé'}
           </span>
@@ -94,7 +93,7 @@ export default function ExamPrepView({ data }) {
 
 const EXAM_SECTIONS = [
   ['Ordre des mots', 'Remettre les mots dans l\'ordre', 5, 4],
-  ['汉字', 'Écrire les caractères des diapositives orange', 5, 4],
+  ['汉字', 'Écrire les caractères (diapositives orange et listes 我会写)', 5, 4],
   ['Vocabulaire', 'Choisir le bon mot', 5, 4],
   ['Grammaire', 'Toutes les leçons, semaine 5 comprise', 10, 8],
 ];
@@ -313,194 +312,6 @@ function MistakesTab({ mistakes }) {
           </li>
         ))}
       </ul>
-    </div>
-  );
-}
-
-// ---------- 汉字 à tracer ----------
-
-const MODES = [
-  { id: 'animate', label: 'Animation' },
-  { id: 'guided', label: 'Guidé' },
-  { id: 'memory', label: 'De mémoire' },
-];
-
-function HanziStudio({ onResult }) {
-  const [selected, setSelected] = useState(HANZI[0].char);
-  const [mode, setMode] = useState('animate');
-  const [scores, setScores] = useState(() => loadJson(HANZI_KEY, {}));
-  const [dictation, setDictation] = useState(null);
-  const buildDictation = useCallback(() => hanziDictation(
-    dictation?.size ? shuffle(ORANGE_HANZI).slice(0, dictation.size) : ORANGE_HANZI,
-  ), [dictation]);
-
-  const current = HANZI.find(h => h.char === selected);
-  const mastered = ORANGE_HANZI.filter(h => scores[h.char] === 'ok').length;
-
-  const record = (char, ok) => {
-    setScores(prev => {
-      const next = { ...prev, [char]: ok ? 'ok' : (prev[char] === 'ok' ? 'ok' : 'todo') };
-      saveJson(HANZI_KEY, next);
-      return next;
-    });
-  };
-
-  const recordDictation = (ex, score) => { onResult?.(ex, score); if (ex?.char) record(ex.char, score >= 1); };
-
-  if (dictation) {
-    return (
-      <div>
-        <div className="flex items-center justify-between mb-3">
-          <button onClick={() => setDictation(null)} className="text-sm text-accent hover:underline">&larr; Caractères</button>
-          <button onClick={() => setDictation(d => ({ ...d, run: d.run + 1 }))} className="text-sm text-accent hover:underline">Recommencer ↻</button>
-        </div>
-        <LessonExercises key={`dict-${dictation.run}-${dictation.size}`} buildSession={buildDictation} onResult={recordDictation} />
-      </div>
-    );
-  }
-
-  return (
-    <div>
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-        <p className="text-sm text-muted max-w-md">
-          Les {ORANGE_HANZI.length} caractères des diapositives orange (section 2 de l'examen).
-          Les caractères en pointillés viennent seulement des listes « 我会写 ».{' '}
-          <span className="font-medium text-ink">{mastered} / {ORANGE_HANZI.length} maîtrisés</span>
-        </p>
-        <div className="flex gap-2">
-          <button onClick={() => setDictation({ size: 5, run: 1 })}
-            className="px-4 py-2 border border-accent text-accent rounded-xl text-sm font-medium hover:bg-accent/5 transition-colors">
-            Dictée express (5)
-          </button>
-          <button onClick={() => setDictation({ size: 0, run: 1 })}
-            className="px-4 py-2 bg-accent text-white rounded-xl text-sm font-medium hover:bg-accent/90 transition-colors">
-            Les {ORANGE_HANZI.length} caractères
-          </button>
-        </div>
-      </div>
-
-      {[3, 4, 5].map(week => (
-        <div key={week} className="mb-4">
-          <p className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">Semaine {week}</p>
-          <div className="flex flex-wrap gap-2">
-            {HANZI.filter(h => h.week === week).map(h => {
-              const st = scores[h.char];
-              return (
-                <button key={h.char} onClick={() => setSelected(h.char)}
-                  className={`relative w-12 h-12 rounded-xl border hanzi-display text-2xl transition-colors ${
-                    selected === h.char ? 'border-accent bg-accent/10' : 'border-border bg-surface-alt hover:border-accent/40'
-                  } ${h.orange === false ? 'border-dashed text-muted' : ''}`}
-                  title={h.orange === false ? 'Liste 我会写 seulement (pas de diapositive orange)' : 'Diapositive orange'}
-                  aria-label={`${h.char} ${h.pinyin}${st === 'ok' ? ', maîtrisé' : ''}`}>
-                  {h.char}
-                  {st === 'ok' && <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-success text-white text-[10px] leading-4">✓</span>}
-                  {st === 'todo' && <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-primary" />}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      ))}
-
-      {current && (
-        <div className="grid gap-6 md:grid-cols-[1fr_auto] bg-surface-alt border border-border rounded-2xl p-5 mt-2">
-          <div>
-            <p className="text-5xl hanzi-display font-medium">{current.char}</p>
-            <p className="text-accent font-medium mt-1">{current.pinyin}</p>
-            <p className="text-sm text-muted">{current.fr}</p>
-            <p className="text-sm text-muted/70 italic">{current.en}</p>
-            {current.orange === false && <p className="text-xs text-muted mt-1">Liste « 我会写 » seulement — pas de diapositive orange.</p>}
-            {current.parts && (
-              <p className="mt-3 text-sm"><span className="text-muted">Composants : </span><span className="hanzi-display text-base">{current.char} = {current.parts}</span></p>
-            )}
-            <p className="mt-2 text-sm"><span className="text-muted">Mot : </span><span className="hanzi-display text-base"><Zh text={current.word} pinyin={false} /></span> <span className="text-accent">{current.wordPinyin}</span></p>
-            <p className="mt-2 text-sm hanzi-display leading-relaxed bg-accent/5 rounded-lg p-3"><Zh text={current.sentence} /></p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="flex gap-1 mb-3" role="tablist">
-              {MODES.map(m => (
-                <button key={m.id} onClick={() => setMode(m.id)} role="tab" aria-selected={mode === m.id}
-                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                    mode === m.id ? 'bg-accent text-white' : 'bg-border/50 text-muted hover:bg-border'
-                  }`}>
-                  {m.label}
-                </button>
-              ))}
-            </div>
-            <TraceBox key={`${current.char}-${mode}`} char={current.char} mode={mode}
-              onResult={(ok) => record(current.char, ok)} />
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-function TraceBox({ char, mode, onResult }) {
-  const boxRef = useRef(null);
-  const writerRef = useRef(null);
-  const onResultRef = useRef(onResult);
-  const [result, setResult] = useState(null);
-  onResultRef.current = onResult;
-
-  useEffect(() => {
-    const el = boxRef.current;
-    if (!el) return;
-    el.innerHTML = '';
-    const writer = HanziWriter.create(el, char, {
-      width: 220, height: 220, padding: 10,
-      showOutline: mode !== 'memory', showCharacter: mode === 'animate',
-      strokeColor: '#1d4ed8', outlineColor: '#dbeafe', drawingColor: '#1b2230',
-      delayBetweenStrokes: 250,
-    });
-    writerRef.current = writer;
-    if (mode === 'animate') {
-      writer.loopCharacterAnimation();
-    } else {
-      writer.quiz({
-        onComplete: ({ totalMistakes }) => {
-          setResult(totalMistakes);
-          if (mode === 'memory') onResultRef.current(totalMistakes <= 1);
-        },
-      });
-    }
-    return () => { el.innerHTML = ''; writerRef.current = null; };
-  }, [char, mode]);
-
-  const restart = () => {
-    setResult(null);
-    writerRef.current?.hideCharacter();
-    writerRef.current?.quiz({
-      onComplete: ({ totalMistakes }) => {
-        setResult(totalMistakes);
-        if (mode === 'memory') onResultRef.current(totalMistakes <= 1);
-      },
-    });
-  };
-
-  return (
-    <div className="flex flex-col items-center">
-      <div className="relative w-[220px] h-[220px] rounded-xl border border-border bg-white">
-        <svg className="absolute inset-0 pointer-events-none" width="220" height="220" aria-hidden="true">
-          <line x1="0" y1="0" x2="220" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
-          <line x1="220" y1="0" x2="0" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
-          <line x1="110" y1="0" x2="110" y2="220" stroke="#e5e7eb" strokeDasharray="4 4" />
-          <line x1="0" y1="110" x2="220" y2="110" stroke="#e5e7eb" strokeDasharray="4 4" />
-        </svg>
-        <div ref={boxRef} className="relative" />
-      </div>
-      <p className="text-xs text-muted mt-2 h-4">
-        {mode === 'animate' && 'Regardez l\'ordre des traits.'}
-        {mode !== 'animate' && result === null && (mode === 'guided' ? 'Tracez sur le contour.' : 'Tracez sans modèle.')}
-        {mode !== 'animate' && result !== null && (
-          <span className={result <= 1 ? 'text-success' : 'text-primary'}>
-            {result <= 1 ? 'Parfait' : 'À revoir'} — {result} erreur{result > 1 ? 's' : ''}
-          </span>
-        )}
-      </p>
-      {mode !== 'animate' && (
-        <button onClick={restart} className="mt-2 text-sm text-accent hover:underline">Recommencer</button>
-      )}
     </div>
   );
 }

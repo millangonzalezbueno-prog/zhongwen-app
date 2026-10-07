@@ -2,16 +2,22 @@ import { useState, useMemo } from 'react';
 import LessonReader from './LessonReader';
 import LessonExercises from './LessonExercises';
 import Zh from './Zh';
+import HanziStudio from './HanziStudio';
+import { HANZI } from '../data/examPrep';
 
 const TABS = [
   { id: 'lecture', label: 'Lecture' },
   { id: 'vocab', label: 'Vocabulaire' },
   { id: 'grammar', label: 'Grammaire' },
+  { id: 'hanzi', label: '汉字' },
   { id: 'exercices', label: 'Exercices' },
 ];
 
 export default function LessonView({ lesson, appData, onCharClick }) {
   const [tab, setTab] = useState('lecture');
+  // Characters from this week's orange 汉字 slides and 我会写 list.
+  const hanzi = useMemo(() => (lesson.hanzi || []).map(ch => HANZI.find(h => h.char === ch)).filter(Boolean), [lesson]);
+  const tabs = TABS.filter(t => t.id !== 'hanzi' || hanzi.length > 0);
 
   return (
     <div>
@@ -25,10 +31,10 @@ export default function LessonView({ lesson, appData, onCharClick }) {
         )}
       </div>
 
-      <div className="flex gap-1 mb-6 border-b border-border pb-px">
-        {TABS.map(t => (
+      <div className="flex gap-1 mb-6 border-b border-border pb-px overflow-x-auto">
+        {tabs.map(t => (
           <button key={t.id} onClick={() => setTab(t.id)}
-            className={`px-4 py-2 text-sm font-medium rounded-t-lg transition-colors ${
+            className={`px-4 py-2 text-sm font-medium rounded-t-lg whitespace-nowrap transition-colors ${
               tab === t.id
                 ? 'bg-surface-alt text-accent border border-border border-b-transparent -mb-px'
                 : 'text-muted hover:text-primary'
@@ -50,6 +56,10 @@ export default function LessonView({ lesson, appData, onCharClick }) {
         <GrammarTab lesson={lesson} />
       )}
 
+      {tab === 'hanzi' && hanzi.length > 0 && (
+        <HanziStudio chars={hanzi} grouped={false} />
+      )}
+
       {tab === 'exercices' && (
         <LessonExercises lesson={lesson} />
       )}
@@ -58,7 +68,13 @@ export default function LessonView({ lesson, appData, onCharClick }) {
 }
 
 const LOCATIVES = ['左','右','前','后','里','外','上','下','旁边','中间','附近','东','南','西','北','对面'];
-const CATEGORY_LABELS = { locatif: 'Locatifs', vocabulaire: 'Vocabulaire', classificateur: 'Classif.', moment: 'Moments', calendrier: 'Calendrier', adverbe: 'Adverbes', vocab: 'Vocab' };
+const CATEGORY_LABELS = {
+  locatif: 'Locatifs', vocabulaire: 'Vocabulaire', classificateur: 'Classificateurs', moment: 'Moments', calendrier: 'Calendrier',
+  adverbe: 'Adverbes & adjectifs', vocab: 'Vocab', temps: 'Temps', météo: 'Météo', grammaire: 'Grammaire', voyage: 'Voyage',
+  vêtement: 'Vêtements', vêtements: 'Vêtements', cinéma: 'Cinéma', connecteur: 'Connecteurs', fête: 'Fêtes', révision: 'Révision',
+  verbe: 'Verbes', achats: 'Achats', couleurs: 'Couleurs', fruits: 'Fruits', maison: 'Maison (HSK3)', sport: 'Sport (HSK3)',
+  transport: 'Transports', études: 'Études', aspect: 'Aspects', degré: 'Degré', trajet: 'Trajets', repas: 'Repas & famille', nature: 'Nature (HSK3)',
+};
 const getCategory = (v) => {
   if (v.category) return v.category;
   if (v.forms || LOCATIVES.includes(v.word)) return 'locatif';
@@ -80,9 +96,12 @@ function VocabTab({ lesson, onCharClick }) {
     return cats;
   }, [lesson.vocab]);
 
+  const coreCount = lesson.vocab.filter(v => v.core).length;
   const vocabFiltered = filter === 'all'
     ? lesson.vocab
-    : lesson.vocab.filter(v => getCategory(v) === filter);
+    : filter === 'core'
+      ? lesson.vocab.filter(v => v.core)
+      : lesson.vocab.filter(v => getCategory(v) === filter);
 
   const toggle = (word) => {
     setFlipped(prev => {
@@ -104,6 +123,7 @@ function VocabTab({ lesson, onCharClick }) {
       <div className="flex gap-2 mb-4 flex-wrap">
         {[
           { id: 'all', label: `Tous (${lesson.vocab.length})` },
+          ...(coreCount ? [{ id: 'core', label: `★ À connaître (${coreCount})` }] : []),
           ...categories.map(cat => ({
             id: cat,
             label: `${CATEGORY_LABELS[cat] || cat} (${lesson.vocab.filter(v => getCategory(v) === cat).length})`,
@@ -158,6 +178,9 @@ function VocabTab({ lesson, onCharClick }) {
                   </svg>
                 </button>
               </div>
+              {v.core && (
+                <span title="Liste « 我认识下面的这些生词 » du cours" className="inline-block mt-2 mr-1 text-xs px-1.5 py-0.5 rounded-full font-medium bg-warning/15 text-warning">★ à connaître</span>
+              )}
               {v.hsk && (
                 <span className={`inline-block mt-2 text-xs px-1.5 py-0.5 rounded-full font-medium ${
                   v.hsk <= 1 ? 'bg-a1/10 text-a1' : v.hsk <= 2 ? 'bg-a2/10 text-a2' : 'bg-b1/10 text-b1'

@@ -10,12 +10,12 @@ export const HANZI = [
   { char: '兴', pinyin: 'xìng', fr: 'joie — 高兴 content', en: 'joy — 高兴 happy', parts: '⺍ + 一 + 八', word: '高兴', wordPinyin: 'gāoxìng', sentence: '我们常常去中国，住在他们家，他们很高兴。', week: 3 },
   { char: '坐', pinyin: 'zuò', fr: "s'asseoir ; prendre (un transport)", en: 'to sit; to take (transport)', parts: '人 + 人 + 土', word: '坐地铁', wordPinyin: 'zuò dìtiě', sentence: '我们坐在这里写字吧。', week: 3 },
   { char: '分', pinyin: 'fēn', fr: 'minute ; diviser', en: 'minute; to divide', parts: '八 + 刀', word: '十分', wordPinyin: 'shí fēn', sentence: '我十点十分给你打电话。', week: 3 },
-  { char: '半', orange: false, pinyin: 'bàn', fr: 'demi, et demie', en: 'half', parts: null, word: '十点半', wordPinyin: 'shí diǎn bàn', sentence: '差不多十点半去你那儿。', week: 3 },
-  { char: '年', orange: false, pinyin: 'nián', fr: 'année', en: 'year', parts: null, word: '今年', wordPinyin: 'jīnnián', sentence: '二〇〇一年我十八岁。', week: 3 },
+  { char: '半', pinyin: 'bàn', fr: 'demi, et demie', en: 'half', parts: null, word: '十点半', wordPinyin: 'shí diǎn bàn', sentence: '差不多十点半去你那儿。', week: 3 },
+  { char: '年', pinyin: 'nián', fr: 'année', en: 'year', parts: null, word: '今年', wordPinyin: 'jīnnián', sentence: '二〇〇一年我十八岁。', week: 3 },
   { char: '号', pinyin: 'hào', fr: 'numéro ; jour du mois', en: 'number; day of the month', parts: '口 + 丂', word: '几号', wordPinyin: 'jǐ hào', sentence: '今天二〇二六年九月二十二号。', week: 3 },
   { char: '点', pinyin: 'diǎn', fr: 'heure ; point', en: "o'clock; dot", parts: '占 + 灬', word: '九点', wordPinyin: 'jiǔ diǎn', sentence: '我早上九点去张先生家。', week: 3 },
   { char: '岁', pinyin: 'suì', fr: 'an (âge)', en: 'year of age', parts: '山 + 夕', word: '几岁', wordPinyin: 'jǐ suì', sentence: '她今年六十八岁了。', week: 3 },
-  { char: '了', orange: false, pinyin: 'le / liǎo', fr: 'particule aspectuelle ; 了解', en: 'aspect particle; 了解', parts: null, word: '了解', wordPinyin: 'liǎojiě', sentence: '她今年六十八岁了。', week: 3 },
+  { char: '了', pinyin: 'le / liǎo', fr: 'particule aspectuelle ; 了解', en: 'aspect particle; 了解', parts: null, word: '了解', wordPinyin: 'liǎojiě', sentence: '她今年六十八岁了。', week: 3 },
   { char: '时', pinyin: 'shí', fr: 'temps, moment', en: 'time, moment', parts: '日 + 寸', word: '时候', wordPinyin: 'shíhou', sentence: '你什么时候来？', week: 4 },
   { char: '候', pinyin: 'hou', fr: '时候 moment', en: '时候 time', parts: '亻 + 丨 + ユ + 矢', word: '时候', wordPinyin: 'shíhou', sentence: '你什么时候来？', week: 4 },
   { char: '早', pinyin: 'zǎo', fr: 'tôt ; matin', en: 'early; morning', parts: '日 + 十', word: '早上', wordPinyin: 'zǎoshang', sentence: '我早上九点去张先生家。', week: 4 },
@@ -38,8 +38,6 @@ export const HANZI = [
   { char: '笔', pinyin: 'bǐ', fr: 'stylo, pinceau — 毛笔', en: 'pen, brush — 毛笔', parts: '⺮ + 毛', word: '毛笔', wordPinyin: 'máobǐ', sentence: '我去商店买了很多毛笔。', week: 5 },
 ];
 
-// Characters the exam can ask you to write: only those with an orange 汉字 slide.
-export const ORANGE_HANZI = HANZI.filter(h => h.orange !== false);
 
 // ---------- Classificateurs (glisser-déposer) ----------
 
@@ -607,6 +605,7 @@ export const TOPICS = [
 
 // Week 5 topics go first: they are the newest material on the exam.
 TOPICS.unshift(
+  { id: 'core', title: '★ Mots à connaître', desc: 'Les listes « 我认识下面的这些生词 » du cours', badge: '认', exam: true },
   { id: 'vocabfill', title: 'Choisir le bon mot', desc: 'Section 3 de l\'examen — tout le vocabulaire', badge: '词', exam: true },
   { id: 'temps', title: '正在…呢 / 快要…了 / 会 / 着', desc: 'Aspects de la semaine 5', badge: '着', isNew: true },
   { id: 'dian', title: '一点儿 / 有点儿', desc: 'Plainte ou quantité ?', badge: '点', isNew: true },
