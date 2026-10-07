@@ -1,5 +1,5 @@
 import {
-  HANZI, CLASSIFIERS, WORD_BANKS, GRAMMAR_FILLS, GRAMMAR_MCQ, ERROR_CORRECTIONS,
+  ORANGE_HANZI, CLASSIFIERS, WORD_BANKS, GRAMMAR_FILLS, GRAMMAR_MCQ, ERROR_CORRECTIONS,
   ORDERS, TRANSLATIONS, READINGS, OPEN_QUESTIONS, L05_TRUE_FALSE, TOPICS,
 } from '../data/examPrep.js';
 
@@ -87,6 +87,49 @@ export function vocabMcq(lessons, n) {
 }
 
 const byTopic = (pool, topic) => pool.filter(q => q.topic === topic);
+const HAN = /[一-鿿]/g;
+
+// "Choose the right word" from the curated word banks: distractors come from the same bank,
+// so they are plausible but only one fits.
+function bankChoice(set, item) {
+  const others = pick(set.items.filter(i => i.answer !== item.answer && !(item.accept || []).includes(i.answer)), 3).map(i => i.answer);
+  return {
+    type: 'fill-mcq', topic: 'vocabfill', l: set.l, sentence: item.sentence, correct: item.answer, accept: item.accept,
+    options: shuffle([item.answer, ...others]), hint: 'Choisissez le bon mot.',
+  };
+}
+
+// "Choose the right word" generated from each lesson's vocabulary examples. Distractors come
+// from the same lesson but another category; the meaning hint rules out the cases where a
+// distractor would still be grammatical (他___很早起床: 总是 vs 现在).
+function exampleChoices(lessons) {
+  const out = [];
+  for (const l of lessons) {
+    for (const v of l.vocab) {
+      const ex = v.example || '';
+      if (ex.startsWith('*') || ex.split(v.word).length !== 2) continue;
+      if ((ex.match(HAN) || []).length < v.word.length + 3 || /^clf\./.test(v.gloss_fr || '')) continue;
+      const pool = l.vocab.filter(x => x.word !== v.word && x.category !== v.category && !ex.includes(x.word)
+        && !/^clf\./.test(x.gloss_fr || '') && x.word.length === v.word.length);
+      if (pool.length < 3) continue;
+      out.push({
+        type: 'fill-mcq', topic: 'vocabfill', l: l.id, sentence: ex.replace(v.word, '___'), correct: v.word,
+        options: shuffle([v.word, ...pick(pool, 3).map(x => x.word)]),
+        hint: `Sens : ${v.gloss_fr.split('—')[0].split(';')[0].trim()}`,
+        explanation_fr: `${v.word} (${v.pinyin}) : ${v.gloss_fr}`, explanation_en: v.gloss_en,
+      });
+    }
+  }
+  return out;
+}
+
+export function vocabChoices(lessons, n, { bankShare = 0.6 } = {}) {
+  const fromBanks = shuffle(WORD_BANKS.flatMap(set => set.items.map(item => bankChoice(set, item))));
+  const fromExamples = shuffle(exampleChoices(lessons));
+  const nBank = Math.round(n * bankShare);
+  const chosen = [...fromBanks.slice(0, nBank), ...fromExamples.slice(0, n - nBank)];
+  return shuffle(chosen);
+}
 
 export function topicSession(topicId, lessons) {
   const topic = TOPICS.find(t => t.id === topicId) || { title: 'Mélange', desc: '' };
@@ -117,6 +160,9 @@ export function topicSession(topicId, lessons) {
     case 'vocab':
       exercises = vocabMcq(lessons, 20);
       break;
+    case 'vocabfill':
+      exercises = vocabChoices(lessons, 15);
+      break;
     case 'mix':
       exercises = [
         classifierDnd(6),
@@ -143,28 +189,35 @@ export function topicSession(topicId, lessons) {
   };
 }
 
-// Mock exam: same families as the homework, weighted to 20 points.
-export function mockExam() {
+// Mock exam with the real structure: 1 hour, word order ×5, 汉字 ×5, vocabulary ×5, grammar ×10.
+// Points follow the number of items (4 / 4 / 4 / 8 = 20).
+export function mockExam(lessons) {
+  const isNew = (q) => q.l === 'L06';
+  const grammarPool = [...GRAMMAR_FILLS, ...GRAMMAR_MCQ];
   const grammar = [
-    ...pick(byTopic(GRAMMAR_FILLS, 'yzh'), 2),
-    ...pick(GRAMMAR_FILLS.filter(q => q.topic !== 'yzh'), 2),
-    ...pick(GRAMMAR_MCQ, 1),
+    ...pick(grammarPool.filter(isNew), 4),
+    ...pick(byTopic(GRAMMAR_FILLS, 'yzh'), 1),
+    ...pick(grammarPool.filter(q => !isNew(q) && q.topic !== 'yzh'), 4),
     ...pick(ERROR_CORRECTIONS, 1),
   ].map(prepOptions);
+  const week5 = ORANGE_HANZI.filter(h => h.week === 5);
+  const hanzi = [...pick(week5, 2), ...pick(ORANGE_HANZI.filter(h => h.week !== 5), 3)];
   return {
+    timeLimit: 60,
     rounds: [
-      { title: 'Partie 1 — 汉字', subtitle: 'Écrivez les caractères de mémoire', points: 3, exercises: pick(HANZI, 6).map(hanziWrite) },
-      { title: 'Partie 2 — 回答问题', subtitle: 'Répondez en chinois', points: 4, exercises: pick(OPEN_QUESTIONS, 4) },
-      { title: 'Partie 3 — 完成句子', subtitle: 'Remettez les mots dans l\'ordre', points: 3, exercises: pick(ORDERS, 5).map(prepOrder) },
-      { title: 'Partie 4 — 选词填空', subtitle: 'Chaque mot une fois', points: 2, exercises: [wordBankDnd(pick(WORD_BANKS, 1)[0])] },
-      { title: 'Partie 5 — 量词', subtitle: 'Glisser-déposer', points: 3, exercises: [classifierDnd(8)] },
-      { title: 'Partie 6 — 语法', subtitle: 'Choisissez, corrigez', points: 2, exercises: shuffle(grammar) },
-      { title: 'Partie 7 — 阅读', subtitle: 'Choisissez la bonne réponse', points: 3, exercises: pick(READINGS, 4) },
+      { title: 'Section 1 — Ordre des mots', subtitle: 'Remettez les mots dans le bon ordre', points: 4,
+        exercises: shuffle([...pick(ORDERS.filter(isNew), 2), ...pick(ORDERS.filter(q => !isNew(q)), 3)]).map(prepOrder) },
+      { title: 'Section 2 — 汉字', subtitle: 'Écrivez les caractères (diapositives orange)', points: 4,
+        exercises: shuffle(hanzi).map(hanziWrite) },
+      { title: 'Section 3 — Vocabulaire', subtitle: 'Choisissez le bon mot', points: 4,
+        exercises: vocabChoices(lessons, 5, { bankShare: 0.8 }) },
+      { title: 'Section 4 — Grammaire', subtitle: 'Toutes les leçons, semaine 5 comprise', points: 8,
+        exercises: shuffle(grammar) },
     ],
   };
 }
 
-export function hanziDictation(chars = HANZI) {
+export function hanziDictation(chars = ORANGE_HANZI) {
   return {
     rounds: [{ title: 'Dictée — 汉字', subtitle: `${chars.length} caractères de mémoire`, exercises: shuffle(chars).map(hanziWrite) }],
   };
@@ -195,4 +248,35 @@ export function lessonL05(lesson) {
       ]) },
     ],
   };
+}
+
+// Lesson 6 exercises, drawn from the week 5 part of the bank.
+export function lessonL06(lesson) {
+  const L6 = (q) => q.l === 'L06';
+  return {
+    rounds: [
+      { title: 'Évaluation', subtitle: 'Vocabulaire et textes', exercises: shuffle([
+        ...vocabMcq([lesson], 5),
+        ...pick(READINGS.filter(L6), 4),
+        ...pick(ORANGE_HANZI.filter(h => h.week === 5), 2).map(hanziWrite),
+      ]) },
+      { title: 'Renforcement', subtitle: '正在…呢, 快要…了, 着, 一点儿/有点儿, 还是/或者', exercises: shuffle([
+        ...pick(GRAMMAR_FILLS.filter(L6), 8).map(prepOptions),
+        ...pick(ERROR_CORRECTIONS.filter(L6), 3),
+        wordBankDnd(pick(WORD_BANKS.filter(L6), 1)[0]),
+      ]) },
+      { title: 'Défi', subtitle: 'Ordre, traduction, production', exercises: shuffle([
+        ...pick(ORDERS.filter(L6), 4).map(prepOrder),
+        ...pick(GRAMMAR_MCQ.filter(L6), 3).map(prepOptions),
+        ...pick(TRANSLATIONS.filter(L6), 3),
+        ...pick(OPEN_QUESTIONS.filter(L6), 1),
+      ]) },
+    ],
+  };
+}
+
+// Replays the exercises missed earlier (stored by the exam page).
+export function mistakesSession(items) {
+  const exercises = shuffle(items).slice(0, 20).map(q => (q.type === 'order' ? prepOrder(q) : prepOptions(q)));
+  return { rounds: [{ title: 'Mes erreurs', subtitle: `${items.length} exercice${items.length > 1 ? 's' : ''} à revoir`, exercises }] };
 }

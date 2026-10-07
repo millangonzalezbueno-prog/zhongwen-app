@@ -1083,5 +1083,276 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L06",
+    "week": 5,
+    "title": "快要考试了，我正在复习呢",
+    "title_fr": "L'examen approche, je révise",
+    "title_en": "Exams Are Coming, I'm Revising",
+    "theme": "时态 — 正在…呢, 快要…了, 会, 着 / Aspect and tense",
+    "date": "2026-10-06",
+    "reading": {
+      "title": "快要考试了，我正在复习呢",
+      "paragraphs": [
+        "王月：你最近在忙什么呢？",
+        "马京：快要考试了，我正在复习呢。",
+        "王月：你有什么考试？",
+        "马京：我有四门考试：数学、政治学、法学和汉语。这个星期三就要考了。",
+        "王月：你觉得难吗？",
+        "马京：汉语有点儿难，特别是汉字和语法。",
+        "王月：你复习得怎么样了？",
+        "马京：还不错，我每天都复习两个小时。",
+        "王月：加油！",
+        "马京：谢谢！我希望能有一个好成绩。",
+        "（王月拿着啤酒去看马京，他们一边喝啤酒，一边聊天。）",
+        "王月：上个星期的考试，你考得怎么样？",
+        "马京：考得还可以。",
+        "王月：你的法学和政治学多少分？",
+        "马京：法学七十四分，政治学七十六分，马马虎虎。我不喜欢这两门课。",
+        "王月：你的数学考试考得怎么样？",
+        "马京：不错，九十四分！",
+        "王月：汉语呢？",
+        "马京：我喜欢学汉语，我的汉语学得不错。星期五的汉语考试，我得了九十六分！",
+        "王月：你的汉语很好啊！",
+        "王月：马京，今天你走路还是坐公共汽车回家？",
+        "马京：我坐公共汽车，你呢？",
+        "王月：我不知道。我可以坐公共汽车，也可以坐地铁。",
+        "马京：你坐公共汽车吧，我们可以一起回家。",
+        "王月：好的。张星，今天你怎么回家？骑自行车回家吗？",
+        "张星：不骑自行车，我骑小摩托车回家。你们看，我的新摩托车！",
+        "马京：太酷了！",
+        "张星：子文，你怎么回家？你想不想坐我的摩托车回家？",
+        "子文：我想走路回家。",
+        "W：从这里到动物园，怎么去最好？坐地铁、公共汽车还是骑自行车？",
+        "L：先坐二十二路汽车，坐三站，在西单换车，再坐一〇五路电车到动物园。"
+      ],
+      "paragraphs_en": [
+        "Wang Yue: What have you been busy with lately?",
+        "Ma Jing: Exams are coming up, I'm revising.",
+        "Wang Yue: Which exams do you have?",
+        "Ma Jing: Four: maths, political science, law and Chinese. They're this Wednesday.",
+        "Wang Yue: Do you find them hard?",
+        "Ma Jing: Chinese is a bit hard, especially characters and grammar.",
+        "Wang Yue: How is your revision going?",
+        "Ma Jing: Not bad, I revise two hours every day.",
+        "Wang Yue: Good luck!",
+        "Ma Jing: Thanks! I hope I get a good mark.",
+        "(Wang Yue brings some beer to see Ma Jing; they chat while drinking.)",
+        "Wang Yue: How did last week's exams go?",
+        "Ma Jing: They went OK.",
+        "Wang Yue: What did you get in law and political science?",
+        "Ma Jing: 74 in law, 76 in political science — so-so. I don't like those two courses.",
+        "Wang Yue: How did your maths exam go?",
+        "Ma Jing: Well — 94!",
+        "Wang Yue: And Chinese?",
+        "Ma Jing: I like studying Chinese and I'm doing well. I got 96 in Friday's Chinese exam!",
+        "Wang Yue: Your Chinese is really good!",
+        "Wang Yue: Ma Jing, are you walking or taking the bus home today?",
+        "Ma Jing: I'm taking the bus. And you?",
+        "Wang Yue: I don't know. I could take the bus, or the metro.",
+        "Ma Jing: Take the bus, then we can go home together.",
+        "Wang Yue: OK. Zhang Xing, how are you getting home today? By bike?",
+        "Zhang Xing: Not by bike — I'm riding my little motorbike. Look, my new motorbike!",
+        "Ma Jing: So cool!",
+        "Zhang Xing: Ziwen, how are you getting home? Want a ride on my motorbike?",
+        "Ziwen: I want to walk home.",
+        "W: What's the best way from here to the zoo? Metro, bus or bike?",
+        "L: First take bus 22 for three stops, change at Xidan, then take trolley 105 to the zoo."
+      ]
+    },
+    "vocab": [
+      { "word": "最近", "pinyin": "zuìjìn", "gloss_fr": "récemment, ces derniers temps", "gloss_en": "recently, lately", "category": "études", "example": "你最近在忙什么呢？", "hsk": 3 },
+      { "word": "特别", "pinyin": "tèbié", "gloss_fr": "particulièrement, surtout", "gloss_en": "especially, particularly", "category": "études", "example": "汉语有点儿难，特别是汉字和语法。", "hsk": 3 },
+      { "word": "快要", "pinyin": "kuàiyào", "gloss_fr": "être sur le point de (+ 了)", "gloss_en": "about to (+ 了)", "category": "études", "example": "快要考试了，我正在复习呢。", "hsk": 2 },
+      { "word": "就要", "pinyin": "jiùyào", "gloss_fr": "être sur le point de (avec une date précise)", "gloss_en": "about to (with a precise time)", "category": "études", "example": "这个星期三就要考了。" },
+      { "word": "正在", "pinyin": "zhèngzài", "gloss_fr": "être en train de (+ 呢)", "gloss_en": "in the middle of (+ 呢)", "category": "études", "example": "我正在复习呢。", "hsk": 2 },
+      { "word": "不错", "pinyin": "búcuò", "gloss_fr": "pas mal, bien", "gloss_en": "not bad, good", "category": "études", "example": "你们的汉语不错。", "hsk": 2 },
+      { "word": "希望", "pinyin": "xīwàng", "gloss_fr": "souhaiter, espérer", "gloss_en": "to hope, to wish", "category": "études", "example": "我希望能有一个好成绩。", "hsk": 2 },
+      { "word": "准备", "pinyin": "zhǔnbèi", "gloss_fr": "préparer, s'apprêter à", "gloss_en": "to prepare, to plan to", "category": "études", "example": "准备考试，准备去中国", "hsk": 2 },
+      { "word": "拿", "pinyin": "ná", "gloss_fr": "prendre, tenir", "gloss_en": "to take, to hold", "category": "études", "example": "拿一瓶果汁", "hsk": 3 },
+      { "word": "找", "pinyin": "zhǎo", "gloss_fr": "chercher ; rendre (la monnaie)", "gloss_en": "to look for; to give change", "category": "études", "example": "你在找什么？", "hsk": 2 },
+      { "word": "帮", "pinyin": "bāng", "gloss_fr": "aider", "gloss_en": "to help", "category": "études", "example": "帮我写作业", "hsk": 3 },
+      { "word": "帮助", "pinyin": "bāngzhù", "gloss_fr": "aider ; aide", "gloss_en": "to help; help", "category": "études", "example": "谢谢大家这一年的帮助！", "hsk": 2 },
+      { "word": "政治学", "pinyin": "zhèngzhìxué", "gloss_fr": "science politique", "gloss_en": "political science", "category": "études", "example": "学政治学" },
+      { "word": "法学", "pinyin": "fǎxué", "gloss_fr": "droit", "gloss_en": "law (discipline)", "category": "études", "example": "在大学学法学" },
+      { "word": "数学", "pinyin": "shùxué", "gloss_fr": "mathématiques", "gloss_en": "mathematics", "category": "études", "example": "你的数学考试考得怎么样？", "hsk": 3 },
+      { "word": "成绩", "pinyin": "chéngjì", "gloss_fr": "résultats, note", "gloss_en": "results, grade", "category": "études", "example": "好成绩", "hsk": 3 },
+      { "word": "考试", "pinyin": "kǎoshì", "gloss_fr": "examen ; passer un examen", "gloss_en": "exam; to take an exam", "category": "études", "example": "快要考试了。", "hsk": 2 },
+      { "word": "分", "pinyin": "fēn", "gloss_fr": "point (note)", "gloss_en": "point (mark)", "category": "études", "example": "我得了九十六分！", "hsk": 3 },
+      { "word": "马马虎虎", "pinyin": "mǎmahūhū", "gloss_fr": "comme ci comme ça", "gloss_en": "so-so", "category": "études", "example": "法学七十四分，马马虎虎。" },
+      { "word": "加油", "pinyin": "jiāyóu", "gloss_fr": "courage ! allez !", "gloss_en": "come on! keep going!", "category": "études", "example": "加油！" },
+      { "word": "一边", "pinyin": "yìbiān", "gloss_fr": "一边…一边… : tout en", "gloss_en": "一边…一边…: while", "category": "études", "example": "他们一边喝啤酒，一边聊天。", "hsk": 3 },
+      { "word": "聊天", "pinyin": "liáotiān", "gloss_fr": "bavarder", "gloss_en": "to chat", "category": "études", "example": "他们站着聊天。", "hsk": 3 },
+      { "word": "啤酒", "pinyin": "píjiǔ", "gloss_fr": "bière", "gloss_en": "beer", "category": "études", "example": "王月拿着啤酒去看马京。", "hsk": 3 },
+      { "word": "会", "pinyin": "huì", "gloss_fr": "va (probabilité, prévision)", "gloss_en": "will (probability)", "category": "aspect", "example": "我觉得晚上一定会下雨。", "hsk": 1 },
+      { "word": "一定", "pinyin": "yídìng", "gloss_fr": "certainement", "gloss_en": "certainly", "category": "aspect", "example": "我觉得晚上一定会下雨。", "hsk": 3 },
+      { "word": "也许", "pinyin": "yěxǔ", "gloss_fr": "peut-être", "gloss_en": "perhaps", "category": "aspect", "example": "她也许不会来了。", "hsk": 4 },
+      { "word": "可能", "pinyin": "kěnéng", "gloss_fr": "probablement, possible", "gloss_en": "probably, possible", "category": "aspect", "example": "他坐的出租车可能会晚点。", "hsk": 2 },
+      { "word": "着", "pinyin": "zhe", "gloss_fr": "suffixe d'état durable", "gloss_en": "durative suffix", "category": "aspect", "example": "门开着。", "hsk": 2 },
+      { "word": "放", "pinyin": "fàng", "gloss_fr": "poser, mettre", "gloss_en": "to put, place", "category": "aspect", "example": "桌子上放着一瓶香水。", "hsk": 3 },
+      { "word": "站", "pinyin": "zhàn", "gloss_fr": "être debout", "gloss_en": "to stand", "category": "aspect", "example": "他们站着聊天。", "hsk": 3 },
+      { "word": "等", "pinyin": "děng", "gloss_fr": "attendre", "gloss_en": "to wait", "category": "aspect", "example": "他们等着上飞机。", "hsk": 2 },
+      { "word": "带", "pinyin": "dài", "gloss_fr": "porter sur soi, emporter", "gloss_en": "to carry, bring", "category": "aspect", "example": "那个漂亮的女人带着伞。", "hsk": 3 },
+      { "word": "起飞", "pinyin": "qǐfēi", "gloss_fr": "décoller", "gloss_en": "to take off", "category": "aspect", "example": "飞机快起飞了。", "hsk": 3 },
+      { "word": "结婚", "pinyin": "jiéhūn", "gloss_fr": "se marier", "gloss_en": "to marry", "category": "aspect", "example": "他们下个月就要结婚了。", "hsk": 3 },
+      { "word": "过生日", "pinyin": "guò shēngrì", "gloss_fr": "fêter son anniversaire", "gloss_en": "to celebrate a birthday", "category": "aspect", "example": "我快要过生日了。" },
+      { "word": "新年", "pinyin": "xīnnián", "gloss_fr": "Nouvel An", "gloss_en": "New Year", "category": "aspect", "example": "新年就要到了。", "hsk": 2 },
+      { "word": "丢", "pinyin": "diū", "gloss_fr": "perdre (qqch)", "gloss_en": "to lose (something)", "category": "aspect", "example": "* 丢着 est impossible." },
+      { "word": "死", "pinyin": "sǐ", "gloss_fr": "mourir", "gloss_en": "to die", "category": "aspect", "example": "* 他死着 est impossible.", "hsk": 4 },
+      { "word": "完", "pinyin": "wán", "gloss_fr": "finir", "gloss_en": "to finish", "category": "aspect", "example": "吃完早饭以后，他马上去学校。", "hsk": 2 },
+      { "word": "一点儿", "pinyin": "yìdiǎnr", "gloss_fr": "un peu (quantité, comparaison)", "gloss_en": "a little (amount, comparison)", "category": "degré", "example": "我想喝一点儿咖啡。", "hsk": 1 },
+      { "word": "有点儿", "pinyin": "yǒudiǎnr", "gloss_fr": "un peu (+ adj. négatif)", "gloss_en": "a bit (+ negative adj.)", "category": "degré", "example": "这个手机有点儿贵。", "hsk": 3 },
+      { "word": "帅", "pinyin": "shuài", "gloss_fr": "beau (garçon)", "gloss_en": "handsome", "category": "degré", "example": "她的男朋友很帅。", "hsk": 4 },
+      { "word": "咸", "pinyin": "xián", "gloss_fr": "salé", "gloss_en": "salty", "category": "degré", "example": "今天的汤有点儿咸。" },
+      { "word": "汤", "pinyin": "tāng", "gloss_fr": "soupe", "gloss_en": "soup", "category": "degré", "example": "今天的汤有点儿咸，加一点儿水吧。", "hsk": 4 },
+      { "word": "生气", "pinyin": "shēngqì", "gloss_fr": "se fâcher", "gloss_en": "to be angry", "category": "degré", "example": "我有点儿生气。", "hsk": 3 },
+      { "word": "难过", "pinyin": "nánguò", "gloss_fr": "triste", "gloss_en": "sad", "category": "degré", "example": "我有点儿难过。", "hsk": 3 },
+      { "word": "累", "pinyin": "lèi", "gloss_fr": "fatigué", "gloss_en": "tired", "category": "degré", "example": "我有点儿累，想喝一点儿咖啡。", "hsk": 2 },
+      { "word": "糖", "pinyin": "táng", "gloss_fr": "sucre ; bonbon", "gloss_en": "sugar; sweets", "category": "degré", "example": "要糖吗？要一点儿。", "hsk": 4 },
+      { "word": "卫生间", "pinyin": "wèishēngjiān", "gloss_fr": "toilettes — aussi 厕所 cèsuǒ", "gloss_en": "bathroom — also 厕所 cèsuǒ", "category": "degré", "example": "我有点儿想去卫生间。", "hsk": 4 },
+      { "word": "还是", "pinyin": "háishi", "gloss_fr": "ou (dans une question)", "gloss_en": "or (in a question)", "category": "trajet", "example": "你坐火车还是坐飞机回家？", "hsk": 3 },
+      { "word": "或者", "pinyin": "huòzhě", "gloss_fr": "ou (dans une affirmation)", "gloss_en": "or (in a statement)", "category": "trajet", "example": "你星期一来或者星期三来都行。", "hsk": 3 },
+      { "word": "决定", "pinyin": "juédìng", "gloss_fr": "décider", "gloss_en": "to decide", "category": "trajet", "example": "我还没决定去美国还是去加拿大。", "hsk": 3 },
+      { "word": "离", "pinyin": "lí", "gloss_fr": "être éloigné de — A 离 B 远/近", "gloss_en": "distant from — A 离 B 远/近", "category": "trajet", "example": "你家离学校远吗？", "hsk": 2 },
+      { "word": "远", "pinyin": "yuǎn", "gloss_fr": "loin", "gloss_en": "far", "category": "trajet", "example": "你家离学校远不远？", "hsk": 2 },
+      { "word": "近", "pinyin": "jìn", "gloss_fr": "proche", "gloss_en": "near", "category": "trajet", "example": "我家离学校很近。", "hsk": 2 },
+      { "word": "走路", "pinyin": "zǒulù", "gloss_fr": "marcher, aller à pied", "gloss_en": "to walk", "category": "trajet", "example": "我想走路回家。", "hsk": 3 },
+      { "word": "回家", "pinyin": "huí jiā", "gloss_fr": "rentrer à la maison", "gloss_en": "to go home", "category": "trajet", "example": "今天你怎么回家？", "hsk": 1 },
+      { "word": "动物", "pinyin": "dòngwù", "gloss_fr": "animal", "gloss_en": "animal", "category": "trajet", "example": "动物 → 动物园", "hsk": 3 },
+      { "word": "动物园", "pinyin": "dòngwùyuán", "gloss_fr": "zoo", "gloss_en": "zoo", "category": "trajet", "example": "从这里到动物园，怎么去最好？" },
+      { "word": "换车", "pinyin": "huàn chē", "gloss_fr": "changer (de bus, de train)", "gloss_en": "to change (bus, train)", "category": "trajet", "example": "在西单换车。" },
+      { "word": "路", "pinyin": "lù", "gloss_fr": "route ; ligne (de bus)", "gloss_en": "road; (bus) line", "category": "trajet", "example": "先坐二十二路汽车。", "hsk": 2 },
+      { "word": "打羽毛球", "pinyin": "dǎ yǔmáoqiú", "gloss_fr": "jouer au badminton", "gloss_en": "to play badminton", "category": "trajet", "example": "每天下午，我都会去跑步或者打羽毛球。" },
+      { "word": "酷", "pinyin": "kù", "gloss_fr": "cool", "gloss_en": "cool", "category": "trajet", "example": "太酷了！" },
+      { "word": "见面", "pinyin": "jiànmiàn", "gloss_fr": "se rencontrer", "gloss_en": "to meet", "category": "trajet", "example": "我们明天见面吧。", "hsk": 3 },
+      { "word": "唱歌", "pinyin": "chànggē", "gloss_fr": "chanter", "gloss_en": "to sing", "category": "trajet", "example": "她唱着歌做饭。", "hsk": 2 },
+      { "word": "饭前酒", "pinyin": "fànqiánjiǔ", "gloss_fr": "apéritif", "gloss_en": "aperitif", "category": "repas", "example": "先喝饭前酒，再吃前菜。" },
+      { "word": "前菜", "pinyin": "qiáncài", "gloss_fr": "entrée", "gloss_en": "starter", "category": "repas", "example": "先.... 再...... 然后....... 最后" },
+      { "word": "主菜", "pinyin": "zhǔcài", "gloss_fr": "plat principal", "gloss_en": "main course", "category": "repas", "example": "然后吃主菜。" },
+      { "word": "奶酪", "pinyin": "nǎilào", "gloss_fr": "fromage", "gloss_en": "cheese", "category": "repas", "example": "法国人吃了主菜以后吃奶酪。" },
+      { "word": "甜点", "pinyin": "tiándiǎn", "gloss_fr": "dessert", "gloss_en": "dessert", "category": "repas", "example": "最后吃甜点。" },
+      { "word": "饭后酒", "pinyin": "fànhòujiǔ", "gloss_fr": "digestif", "gloss_en": "digestif", "category": "repas", "example": "饭后酒" },
+      { "word": "海鲜", "pinyin": "hǎixiān", "gloss_fr": "fruits de mer", "gloss_en": "seafood", "category": "repas", "example": "海鲜配白葡萄酒。" },
+      { "word": "葡萄酒", "pinyin": "pútaojiǔ", "gloss_fr": "vin (rouge 红, blanc 白)", "gloss_en": "wine (red 红, white 白)", "category": "repas", "example": "红肉配红葡萄酒。" },
+      { "word": "饮食习惯", "pinyin": "yǐnshí xíguàn", "gloss_fr": "habitudes alimentaires", "gloss_en": "eating habits", "category": "repas", "example": "法国人的饮食习惯" },
+      { "word": "爷爷", "pinyin": "yéye", "gloss_fr": "grand-père (paternel)", "gloss_en": "grandfather (paternal)", "category": "repas", "example": "爷爷每天早上都看报纸。", "hsk": 3 },
+      { "word": "奶奶", "pinyin": "nǎinai", "gloss_fr": "grand-mère (paternelle)", "gloss_en": "grandmother (paternal)", "category": "repas", "example": "爷爷奶奶", "hsk": 3 },
+      { "word": "父亲", "pinyin": "fùqīn", "gloss_fr": "père (soutenu)", "gloss_en": "father (formal)", "category": "repas", "example": "爸爸 = 父亲", "hsk": 4 },
+      { "word": "母亲", "pinyin": "mǔqīn", "gloss_fr": "mère (soutenu)", "gloss_en": "mother (formal)", "category": "repas", "example": "妈妈 = 母亲", "hsk": 4 },
+      { "word": "丈夫", "pinyin": "zhàngfu", "gloss_fr": "mari", "gloss_en": "husband", "category": "repas", "example": "丈夫 / 妻子 / 爱人", "hsk": 2 },
+      { "word": "妻子", "pinyin": "qīzi", "gloss_fr": "épouse", "gloss_en": "wife", "category": "repas", "example": "他的妻子是老师。", "hsk": 2 },
+      { "word": "儿子", "pinyin": "érzi", "gloss_fr": "fils", "gloss_en": "son", "category": "repas", "example": "她有一个儿子和一个女儿。", "hsk": 1 },
+      { "word": "自然", "pinyin": "zìrán", "gloss_fr": "nature ; naturel", "gloss_en": "nature; natural", "category": "nature", "example": "我们要保护自然环境。", "hsk": 4 },
+      { "word": "草", "pinyin": "cǎo", "gloss_fr": "herbe", "gloss_en": "grass", "category": "nature", "example": "春天来了，树和草都绿了。", "hsk": 3 },
+      { "word": "树", "pinyin": "shù", "gloss_fr": "arbre", "gloss_en": "tree", "category": "nature", "example": "树上有一只小猫。", "hsk": 3 },
+      { "word": "河", "pinyin": "hé", "gloss_fr": "rivière, fleuve", "gloss_en": "river", "category": "nature", "example": "长江是中国的第一大河。", "hsk": 3 },
+      { "word": "太阳", "pinyin": "tàiyáng", "gloss_fr": "soleil", "gloss_en": "sun", "category": "nature", "example": "你看，太阳出来了。", "hsk": 3 },
+      { "word": "环境", "pinyin": "huánjìng", "gloss_fr": "environnement", "gloss_en": "environment", "category": "nature", "example": "这里的环境很好，空气非常新鲜。", "hsk": 3 },
+      { "word": "空气", "pinyin": "kōngqì", "gloss_fr": "air", "gloss_en": "air", "category": "nature", "example": "公园里空气非常新鲜。", "hsk": 3 }
+    ],
+    "grammar": [
+      {
+        "pattern": "S + 正在 / 正 / 在 + V(O) + 呢 : en train de",
+        "explanation_fr": "Une action EN COURS s'exprime par 正在, 正 ou 在 devant le verbe, souvent avec 呢 en fin de phrase ; 呢 seul suffit aussi à l'oral (我们上课呢). L'action peut se dérouler dans le passé : 昨天他来的时候，我正在画画呢. Ne pas mettre 了 : *我们正在上课了.",
+        "explanation_en": "An action IN PROGRESS uses 正在, 正 or 在 before the verb, often with sentence-final 呢; 呢 alone also works in speech (我们上课呢). It can be in the past: 昨天他来的时候，我正在画画呢. No 了: *我们正在上课了.",
+        "examples": [
+          { "zh": "快要考试了，我正在复习呢。", "pinyin": "Kuàiyào kǎoshì le, wǒ zhèngzài fùxí ne.", "fr": "L'examen approche, je suis en train de réviser.", "en": "The exam is coming, I'm revising." },
+          { "zh": "你在做什么呢？——我在画画呢。", "pinyin": "Nǐ zài zuò shénme ne? — Wǒ zài huà huà ne.", "fr": "Que fais-tu ? — Je dessine.", "en": "What are you doing? — I'm drawing." },
+          { "zh": "昨天下午他来的时候，我正在画画呢。", "pinyin": "Zuótiān xiàwǔ tā lái de shíhou, wǒ zhèngzài huà huà ne.", "fr": "Hier après-midi, quand il est venu, j'étais en train de dessiner.", "en": "When he came yesterday afternoon, I was drawing." }
+        ]
+      },
+      {
+        "pattern": "(快)要 / 快 / 就要 + V + 了 : futur imminent",
+        "explanation_fr": "« être sur le point de » : 要…了, 快…了, 快要…了, 就要…了. Avec une indication de temps précise (这个星期三, 明天, 八点), on emploie 就要…了 (ou 要…了), JAMAIS 快要 : 这个星期三就要考了 / *这个星期三快要考了.",
+        "explanation_en": "'about to': 要…了, 快…了, 快要…了, 就要…了. With a precise time (这个星期三, 明天, 八点), use 就要…了 (or 要…了), NEVER 快要: 这个星期三就要考了 / *这个星期三快要考了.",
+        "examples": [
+          { "zh": "快要考试了。", "pinyin": "Kuàiyào kǎoshì le.", "fr": "L'examen approche.", "en": "The exam is coming up." },
+          { "zh": "这个星期三就要考了。", "pinyin": "Zhège xīngqīsān jiùyào kǎo le.", "fr": "On passe l'examen dès ce mercredi.", "en": "The exam is this very Wednesday." },
+          { "zh": "飞机快起飞了。", "pinyin": "Fēijī kuài qǐfēi le.", "fr": "L'avion va bientôt décoller.", "en": "The plane is about to take off." },
+          { "zh": "今天是12月20日，新年就要到了。", "pinyin": "Jīntiān shì shí'èr yuè èrshí rì, xīnnián jiùyào dào le.", "fr": "Nous sommes le 20 décembre, le Nouvel An arrive bientôt.", "en": "It's 20 December, New Year is almost here." }
+        ]
+      },
+      {
+        "pattern": "会 + V : le prévisible, le probable (+ 一定 / 也许 / 可能)",
+        "explanation_fr": "会 devant le verbe indique qu'une action est prévisible ou probable. On renforce avec 一定 (certainement) ou on atténue avec 也许 / 可能 (peut-être). Négation : 不会. (Registre écrit : 将 / 将会.)",
+        "explanation_en": "会 before the verb marks an action as foreseeable or likely. Strengthen with 一定 (certainly) or soften with 也许 / 可能 (perhaps). Negation: 不会. (Written register: 将 / 将会.)",
+        "examples": [
+          { "zh": "我觉得晚上一定会下雨。", "pinyin": "Wǒ juéde wǎnshang yídìng huì xià yǔ.", "fr": "Je pense qu'il va sûrement pleuvoir ce soir.", "en": "I think it will definitely rain tonight." },
+          { "zh": "这个周末，我们也许会去打篮球。", "pinyin": "Zhège zhōumò, wǒmen yěxǔ huì qù dǎ lánqiú.", "fr": "Ce week-end, on ira peut-être jouer au basket.", "en": "We might play basketball this weekend." },
+          { "zh": "她也许不会来了。", "pinyin": "Tā yěxǔ bú huì lái le.", "fr": "Elle ne viendra peut-être plus.", "en": "She probably won't come any more." }
+        ]
+      },
+      {
+        "pattern": "V + 着 : état durable",
+        "explanation_fr": "着 transforme un verbe d'action en état qui dure, sans début ni fin précis. ① S + V着 + N : 她穿着一件白毛衣. ② Lieu + V着 + N (existence) : 桌子上放着一瓶香水 (pas de 在 devant le lieu, pas de 了 avec 着). ③ V₁着 + V₂ : manière (他们站着聊天, 我喜欢看着电视吃饭). INCOMPATIBLE avec les verbes ponctuels (死, 丢, 完, 来) et avec une durée : *我走着两个小时 → 我走了两个小时.",
+        "explanation_en": "着 turns an action verb into an ongoing state with no set start or end. ① S + V着 + N: 她穿着一件白毛衣. ② Place + V着 + N (existence): 桌子上放着一瓶香水 (no 在 before the place, no 了 with 着). ③ V₁着 + V₂: manner (他们站着聊天, 我喜欢看着电视吃饭). INCOMPATIBLE with punctual verbs (死, 丢, 完, 来) and with durations: *我走着两个小时 → 我走了两个小时.",
+        "examples": [
+          { "zh": "门开着呢，请进。", "pinyin": "Mén kāizhe ne, qǐng jìn.", "fr": "La porte est ouverte, entrez.", "en": "The door is open, come in." },
+          { "zh": "桌子上放着一瓶香水。", "pinyin": "Zhuōzi shang fàngzhe yì píng xiāngshuǐ.", "fr": "Il y a un flacon de parfum posé sur la table.", "en": "There's a bottle of perfume on the table." },
+          { "zh": "外面下着雨。", "pinyin": "Wàimiàn xiàzhe yǔ.", "fr": "Il pleut dehors.", "en": "It's raining outside." },
+          { "zh": "他们站着聊天。", "pinyin": "Tāmen zhànzhe liáotiān.", "fr": "Ils bavardent debout.", "en": "They're chatting standing up." }
+        ]
+      },
+      {
+        "pattern": "有点儿 + Adj vs Adj / V + 一点儿",
+        "explanation_fr": "有点儿 + adjectif (ou verbe de sentiment) : « un peu » pour se plaindre ou exprimer un sentiment négatif (这个手机有点儿贵, 我有点儿累). Exceptions : 有点儿喜欢, 有点儿想. 一点儿 : ① V + 一点儿 + N = petite quantité (喝一点儿咖啡) ; ② Adj + 一点儿 = comparaison, « un peu plus » (便宜一点儿吧 !, 快一点儿 !). *一点儿贵 est faux.",
+        "explanation_en": "有点儿 + adjective (or feeling verb): 'a bit', to complain or express a negative feeling (这个手机有点儿贵, 我有点儿累). Exceptions: 有点儿喜欢, 有点儿想. 一点儿: ① V + 一点儿 + N = small amount (喝一点儿咖啡); ② Adj + 一点儿 = comparison, 'a bit more' (便宜一点儿吧!, 快一点儿!). *一点儿贵 is wrong.",
+        "examples": [
+          { "zh": "这个手机有点儿贵，便宜一点儿吧。", "pinyin": "Zhège shǒujī yǒudiǎnr guì, piányi yìdiǎnr ba.", "fr": "Ce téléphone est un peu cher, faites un peu moins cher.", "en": "This phone is a bit expensive — a bit cheaper, please." },
+          { "zh": "今天的汤有点儿咸，加一点儿水吧。", "pinyin": "Jīntiān de tāng yǒudiǎnr xián, jiā yìdiǎnr shuǐ ba.", "fr": "La soupe est un peu salée aujourd'hui, ajoute un peu d'eau.", "en": "Today's soup is a bit salty — add a little water." },
+          { "zh": "我有点儿累，想喝一点儿咖啡。", "pinyin": "Wǒ yǒudiǎnr lèi, xiǎng hē yìdiǎnr kāfēi.", "fr": "Je suis un peu fatigué, j'ai envie d'un peu de café.", "en": "I'm a bit tired, I'd like some coffee." }
+        ]
+      },
+      {
+        "pattern": "还是 vs 或者",
+        "explanation_fr": "还是 = « ou » dans une QUESTION alternative (你想喝咖啡还是茶 ?) et après 我不知道 / 我想知道 / 我还没决定 (我不知道她是英国人还是德国人). 或者 = « ou » dans une AFFIRMATION (你星期一来或者星期三来都行), dans 或者 A 或者 B (soit… soit…) et dans une question oui/non avec 吗 (你想喝点咖啡或者茶吗 ?). Réponse à « A 还是 B ? » : on choisit (咖啡) ou 我喜欢A，也喜欢B.",
+        "explanation_en": "还是 = 'or' in an alternative QUESTION (你想喝咖啡还是茶?) and after 我不知道 / 我想知道 / 我还没决定 (我不知道她是英国人还是德国人). 或者 = 'or' in a STATEMENT (你星期一来或者星期三来都行), in 或者 A 或者 B (either… or…), and in a yes/no question with 吗 (你想喝点咖啡或者茶吗?). Answering 'A 还是 B?': pick one (咖啡) or 我喜欢A，也喜欢B.",
+        "examples": [
+          { "zh": "你坐火车还是坐飞机回家？", "pinyin": "Nǐ zuò huǒchē háishi zuò fēijī huí jiā?", "fr": "Tu rentres en train ou en avion ?", "en": "Are you going home by train or by plane?" },
+          { "zh": "我还没决定去美国还是去加拿大。", "pinyin": "Wǒ hái méi juédìng qù Měiguó háishi qù Jiānádà.", "fr": "Je n'ai pas encore décidé si j'irai aux États-Unis ou au Canada.", "en": "I haven't decided yet whether to go to the US or Canada." },
+          { "zh": "每天下午，我都会去跑步或者打羽毛球。", "pinyin": "Měitiān xiàwǔ, wǒ dōu huì qù pǎobù huòzhě dǎ yǔmáoqiú.", "fr": "Tous les après-midi, je vais courir ou jouer au badminton.", "en": "Every afternoon I go running or play badminton." },
+          { "zh": "你想喝点咖啡或者茶吗？——不用了，谢谢。", "pinyin": "Nǐ xiǎng hē diǎn kāfēi huòzhě chá ma? — Búyòng le, xièxie.", "fr": "Tu veux un café ou un thé ? — Non merci.", "en": "Would you like some coffee or tea? — No thanks." }
+        ]
+      },
+      {
+        "pattern": "再 : ensuite, plus tard (先…再… ; V了O 再…)",
+        "explanation_fr": "Deux autres emplois de 再 : ① action qui suit une autre, souvent avec 先 : 我先去上海，再去北京，然后去山东 ; ② action REPORTÉE à plus tard, après un moment ou une autre action placés AVANT 再 : 下雨了，我们吃了饭再走吧 ; 他不在家，我晚上再给他打电话. À l'oral, l'accent tombe sur le moment (晚上, 吃了饭).",
+        "explanation_en": "Two more uses of 再: ① an action following another, often with 先: 我先去上海，再去北京，然后去山东; ② an action POSTPONED until a time or another action placed BEFORE 再: 下雨了，我们吃了饭再走吧; 他不在家，我晚上再给他打电话. In speech the stress falls on the time (晚上, 吃了饭).",
+        "examples": [
+          { "zh": "今天太热，我们后天再去香山吧。", "pinyin": "Jīntiān tài rè, wǒmen hòutiān zài qù Xiāngshān ba.", "fr": "Il fait trop chaud aujourd'hui, allons aux Collines parfumées après-demain.", "en": "It's too hot today — let's go to Fragrant Hills the day after tomorrow." },
+          { "zh": "天黑了，你在我这儿吃了饭再回家吧。", "pinyin": "Tiān hēi le, nǐ zài wǒ zhèr chī le fàn zài huí jiā ba.", "fr": "Il fait nuit, mange ici avant de rentrer.", "en": "It's dark — eat here before you go home." },
+          { "zh": "我们先休息一刻钟再去吧。", "pinyin": "Wǒmen xiān xiūxi yí kè zhōng zài qù ba.", "fr": "Reposons-nous un quart d'heure avant d'y aller.", "en": "Let's rest a quarter of an hour, then go." }
+        ]
+      },
+      {
+        "pattern": "A 离 B 远 / 近 ; 从 A 到 B 要多长时间 ?",
+        "explanation_fr": "Distance : A 离 B + 远 / 近 (你家离学校远吗 ? 我家离学校很近). Trajet : 从 A 到 B + moyen + 要 + durée (从你家到学校坐地铁要多长时间 ?). Itinéraire : 先坐二十二路汽车，在西单换车，再坐电车到动物园.",
+        "explanation_en": "Distance: A 离 B + 远 / 近 (你家离学校远吗? 我家离学校很近). Journey: 从 A 到 B + means + 要 + duration (从你家到学校坐地铁要多长时间?). Route: 先坐二十二路汽车，在西单换车，再坐电车到动物园.",
+        "examples": [
+          { "zh": "你家离学校远吗？", "pinyin": "Nǐ jiā lí xuéxiào yuǎn ma?", "fr": "Ta maison est-elle loin de l'école ?", "en": "Is your home far from school?" },
+          { "zh": "从你家到学校坐地铁要多长时间？", "pinyin": "Cóng nǐ jiā dào xuéxiào zuò dìtiě yào duō cháng shíjiān?", "fr": "Combien de temps faut-il en métro de chez toi à l'école ?", "en": "How long does it take by metro from your home to school?" },
+          { "zh": "先坐二十二路汽车，坐三站，在西单换车，再坐一〇五路电车到动物园。", "pinyin": "Xiān zuò èrshí'èr lù qìchē, zuò sān zhàn, zài Xīdān huàn chē, zài zuò yāo líng wǔ lù diànchē dào dòngwùyuán.", "fr": "Prends d'abord le bus 22 sur trois arrêts, change à Xidan, puis prends le trolley 105 jusqu'au zoo.", "en": "Take bus 22 for three stops, change at Xidan, then take trolley 105 to the zoo." }
+        ]
+      },
+      {
+        "pattern": "一边 V₁，一边 V₂ : faire deux choses à la fois",
+        "explanation_fr": "一边…一边… relie deux actions simultanées du même sujet. Chaque 一边 se place devant un verbe : 他们一边喝啤酒，一边聊天.",
+        "explanation_en": "一边…一边… links two simultaneous actions by the same subject. Each 一边 goes before a verb: 他们一边喝啤酒，一边聊天.",
+        "examples": [
+          { "zh": "他们一边喝啤酒，一边聊天。", "pinyin": "Tāmen yìbiān hē píjiǔ, yìbiān liáotiān.", "fr": "Ils bavardent en buvant une bière.", "en": "They chat while drinking beer." },
+          { "zh": "她一边唱歌，一边做饭。", "pinyin": "Tā yìbiān chàng gē, yìbiān zuò fàn.", "fr": "Elle cuisine en chantant.", "en": "She sings while cooking." }
+        ]
+      },
+      {
+        "pattern": "V + O + V + 得 : bien placer le complément (phrases « malades »)",
+        "explanation_fr": "Rappel des corrections du cours : ① complément de degré avec objet → on répète le verbe : 她复习中文复习得很好 (*她复习中文得很好). ② Lieu + 上 + V着 + N, sans 在 ni 了 : 桌子上放着一瓶香水 (*在桌子放着了一瓶香水). ③ 先 après le sujet, 了 juste après le verbe : 我先喝了一杯茶，然后开始学习 (*先我喝一杯茶了).",
+        "explanation_en": "Class corrections: ① degree complement with an object → repeat the verb: 她复习中文复习得很好 (*她复习中文得很好). ② Place + 上 + V着 + N, no 在 or 了: 桌子上放着一瓶香水 (*在桌子放着了一瓶香水). ③ 先 after the subject, 了 right after the verb: 我先喝了一杯茶，然后开始学习 (*先我喝一杯茶了).",
+        "examples": [
+          { "zh": "你的数学考试考得怎么样？——不错，九十四分！", "pinyin": "Nǐ de shùxué kǎoshì kǎo de zěnmeyàng? — Búcuò, jiǔshísì fēn!", "fr": "Comment s'est passé ton examen de maths ? — Bien, 94 !", "en": "How did your maths exam go? — Well, 94!" },
+          { "zh": "我的汉语学得不错。", "pinyin": "Wǒ de Hànyǔ xué de búcuò.", "fr": "Mon chinois progresse bien.", "en": "My Chinese is coming along well." }
+        ]
+      }
+    ]
   }
 ]

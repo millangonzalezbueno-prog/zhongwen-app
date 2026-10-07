@@ -184,8 +184,8 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
             <div className="flex-1 min-w-0">
               <p className="text-xs font-medium text-primary mb-0.5">Examen le mercredi 14 octobre</p>
               <p className="text-lg font-semibold group-hover:text-primary transition-colors">Préparation à l'examen</p>
-              <p className="text-sm text-muted">Examen blanc sur 20, 14 thèmes d'entraînement, 20 caractères à tracer</p>
-              <p className="text-xs text-muted mt-1">Semaines 1 à 4 &middot; leçons L01 à L05</p>
+              <p className="text-sm text-muted">Sujet blanc au format réel (1 h, 4 sections), 18 thèmes, 27 caractères à tracer, mes erreurs</p>
+              <p className="text-xs text-muted mt-1">Semaines 1 à 5 &middot; leçons L01 à L06 &middot; ordre des mots, 汉字, vocabulaire, grammaire</p>
             </div>
           </div>
         </button>

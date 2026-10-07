@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import HanziWriter from 'hanzi-writer';
-import { lessonL05 } from '../lib/examSessions';
+import { lessonL05, lessonL06 } from '../lib/examSessions';
 import Zh, { PinyinToggle } from './Zh';
 import { contextPinyin } from '../lib/gloss';
 
@@ -16,6 +16,7 @@ function shuffle(arr) {
 function pick(arr, n) { return shuffle(arr).slice(0, n); }
 
 function buildExercises(lesson) {
+  if (lesson.id === 'L06') return lessonL06(lesson);
   if (lesson.id === 'L05') return lessonL05(lesson);
   if (lesson.id === 'L04') return buildExercisesL04(lesson);
   if (lesson.id === 'L03') return buildExercisesL03(lesson);
@@ -1245,7 +1246,8 @@ function buildExercisesL04(lesson) {
   };
 }
 
-export default function LessonExercises({ lesson, buildSession }) {
+// onResult(exercise, score) fires after every answer; onFinish(summary) once at the end.
+export default function LessonExercises({ lesson, buildSession, onResult, onFinish }) {
   const session = useMemo(() => (buildSession ? buildSession() : buildExercises(lesson)), [lesson, buildSession]);
   const [roundIdx, setRoundIdx] = useState(0);
   const [exIdx, setExIdx] = useState(0);
@@ -1259,6 +1261,10 @@ export default function LessonExercises({ lesson, buildSession }) {
   const exercise = round?.exercises[exIdx];
   const totalExercises = session.rounds.reduce((s, r) => s + r.exercises.length, 0);
   const globalIdx = session.rounds.slice(0, roundIdx).reduce((s, r) => s + r.exercises.length, 0) + exIdx;
+  const exerciseRef = useRef(exercise);
+  const onResultRef = useRef(onResult);
+  exerciseRef.current = exercise;
+  onResultRef.current = onResult;
 
   // A number between 0 and 1 gives partial credit (drag-and-drop, character writing).
   const recordAnswer = useCallback((result) => {
@@ -1266,7 +1272,23 @@ export default function LessonExercises({ lesson, buildSession }) {
     setState(score >= 1 ? 'correct' : 'wrong');
     setCurrentCorrect(c => c + score);
     setCurrentTotal(c => c + 1);
+    onResultRef.current?.(exerciseRef.current, score);
   }, []);
+
+  const onFinishRef = useRef(onFinish);
+  onFinishRef.current = onFinish;
+  useEffect(() => {
+    if (!finished) return;
+    const stats = session.rounds.map((r, i) => roundStats[i] || { correct: 0, total: 0 });
+    const correct = stats.reduce((a, st) => a + st.correct, 0);
+    const total = stats.reduce((a, st) => a + st.total, 0);
+    const hasPoints = session.rounds.every(r => r.points);
+    const score = hasPoints
+      ? session.rounds.reduce((a, r, i) => a + (stats[i].total ? (stats[i].correct / stats[i].total) * r.points : 0), 0)
+      : null;
+    onFinishRef.current?.({ correct, total, score, maxPoints: hasPoints ? session.rounds.reduce((a, r) => a + r.points, 0) : null,
+      rounds: session.rounds.map((r, i) => ({ title: r.title, ...stats[i] })) });
+  }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const next = useCallback(() => {
     if (exIdx + 1 < round.exercises.length) {
@@ -1885,7 +1907,7 @@ function HanziWrite({ ex, state, onAnswer }) {
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">汉字 — Écrivez de mémoire</p>
       <p className="text-3xl hanzi-display font-medium mb-1">{prompt}</p>
       <p className="text-accent font-medium">{ex.wordPinyin}</p>
-      <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr}</p>
+      <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr.split(ex.char).join('□')}</p>
 
       <div className="relative mx-auto w-[220px] h-[220px] rounded-xl border border-border bg-white">
         <svg className="absolute inset-0 pointer-events-none" width="220" height="220" aria-hidden="true">

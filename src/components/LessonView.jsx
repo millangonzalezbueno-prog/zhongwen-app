@@ -122,8 +122,10 @@ function VocabTab({ lesson, onCharClick }) {
         {vocabFiltered.map(v => {
           const isFlipped = flipped.has(v.word);
           return (
-            <button key={v.word} onClick={() => toggle(v.word)}
-              className="bg-surface-alt border border-border rounded-xl p-4 text-left hover:shadow-sm transition-all group">
+            <div key={v.word} role="button" tabIndex={0} aria-expanded={isFlipped}
+              onClick={() => toggle(v.word)}
+              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(v.word); } }}
+              className="bg-surface-alt border border-border rounded-xl p-4 text-left hover:shadow-sm transition-all group cursor-pointer">
               <div className="flex items-start justify-between gap-2">
                 <div className="flex-1">
                   <p className="text-xl hanzi-display font-medium mb-1"
@@ -161,7 +163,7 @@ function VocabTab({ lesson, onCharClick }) {
                   v.hsk <= 1 ? 'bg-a1/10 text-a1' : v.hsk <= 2 ? 'bg-a2/10 text-a2' : 'bg-b1/10 text-b1'
                 }`}>HSK{v.hsk}</span>
               )}
-            </button>
+            </div>
           );
         })}
       </div>
