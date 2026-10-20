@@ -74,6 +74,7 @@ const CATEGORY_LABELS = {
   vêtement: 'Vêtements', vêtements: 'Vêtements', cinéma: 'Cinéma', connecteur: 'Connecteurs', fête: 'Fêtes', révision: 'Révision',
   verbe: 'Verbes', achats: 'Achats', couleurs: 'Couleurs', fruits: 'Fruits', maison: 'Maison (HSK3)', sport: 'Sport (HSK3)',
   transport: 'Transports', études: 'Études', aspect: 'Aspects', degré: 'Degré', trajet: 'Trajets', repas: 'Repas & famille', nature: 'Nature (HSK3)',
+  actions: 'Actions', culture: 'Culture & 汉字', description: 'Description', voyage: 'Voyage', résultatif: 'Résultatifs', '动物': 'Animaux (HSK3)', fêtes: 'Fêtes',
 };
 const getCategory = (v) => {
   if (v.category) return v.category;

@@ -54,13 +54,17 @@ export default function ExamPrepView({ data }) {
   return (
     <div>
       <div className="mb-6">
-        <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">Examen — semaines 1 à 5 · 1 heure</p>
-        <h2 className="text-2xl font-semibold">Préparation à l'examen du 14 octobre</h2>
+        <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">
+          {daysLeft >= 0 ? 'Examen — semaines 1 à 5 · 1 heure' : `Révisions — ${data.lessons.length} leçons`}
+        </p>
+        <h2 className="text-2xl font-semibold">{daysLeft >= 0 ? 'Préparation à l\'examen du 14 octobre' : 'Révisions & entraînement'}</h2>
         <p className="text-sm text-muted">
-          Leçons L01 à L06 et les {HANZI.length} caractères à savoir écrire ·{' '}
-          <span className={`font-semibold ${daysLeft <= 3 ? 'text-primary' : 'text-accent'}`}>
-            {daysLeft > 0 ? `J-${daysLeft}` : daysLeft === 0 ? 'c\'est aujourd\'hui !' : 'examen passé'}
-          </span>
+          Leçons L01 à L{String(data.lessons.length).padStart(2, '0')} et les {HANZI.length} caractères à savoir écrire
+          {daysLeft >= 0 && <> ·{' '}
+            <span className={`font-semibold ${daysLeft <= 3 ? 'text-primary' : 'text-accent'}`}>
+              {daysLeft > 0 ? `J-${daysLeft}` : 'c\'est aujourd\'hui !'}
+            </span></>}
+          {daysLeft < 0 && ' · le sujet blanc suit le format du partiel du 14 octobre'}
         </p>
       </div>
 
@@ -92,10 +96,10 @@ export default function ExamPrepView({ data }) {
 // ---------- Examen blanc ----------
 
 const EXAM_SECTIONS = [
-  ['Ordre des mots', 'Remettre les mots dans l\'ordre', 5, 4],
-  ['汉字', 'Écrire les caractères (diapositives orange et listes 我会写)', 5, 4],
-  ['Vocabulaire', 'Choisir le bon mot', 5, 4],
-  ['Grammaire', 'Toutes les leçons, semaine 5 comprise', 10, 8],
+  ['完成句子', 'Remettre les mots dans l\'ordre', 5, 4],
+  ['用汉字填空', 'Écrire le caractère dans la phrase, d\'après le pinyin', 5, 4],
+  ['选词填空', 'Placer cinq mots dans cinq phrases', 5, 4],
+  ['Grammaire', 'Toutes les leçons', 10, 8],
 ];
 
 function formatClock(sec) {
@@ -150,8 +154,8 @@ function MockExamTab({ lessons, onResult }) {
     return (
       <div className="max-w-lg mx-auto space-y-4">
         <div className="bg-surface-alt border border-border rounded-2xl p-6">
-          <h3 className="font-semibold mb-1">Sujet blanc — format réel de l'examen</h3>
-          <p className="text-sm text-muted mb-4">1 heure, 4 sections, 25 questions. Le chronomètre démarre avec le sujet ; chaque sujet est tiré au hasard dans toute la banque.</p>
+          <h3 className="font-semibold mb-1">Sujet blanc — format du partiel du 14 octobre</h3>
+          <p className="text-sm text-muted mb-4">1 heure, 4 sections, 25 questions, comme le vrai sujet. Le chronomètre démarre avec le sujet ; chaque sujet est tiré au hasard dans toute la banque.</p>
           <table className="w-full text-sm mb-5">
             <thead>
               <tr className="text-xs text-muted uppercase tracking-wider">
@@ -244,7 +248,7 @@ function TrainingTab({ lessons, onResult }) {
               <span className="block font-medium hanzi-display">{t.title}</span>
               <span className="block text-xs text-muted">{t.desc}</span>
             </span>
-            {t.isNew && <span className="text-[10px] font-semibold uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full shrink-0">Semaine 5</span>}
+            {t.tag && <span className="text-[10px] font-semibold uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full shrink-0">{t.tag}</span>}
             {t.exam && <span className="text-[10px] font-semibold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full shrink-0">Examen</span>}
           </button>
         ))}

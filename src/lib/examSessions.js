@@ -65,6 +65,12 @@ export function hanziWrite(h) {
   return { type: 'hanzi-write', ...h };
 }
 
+// The character to write inside its example sentence, as on the 14 October paper.
+export function hanziInContext(h) {
+  const reading = h.pinyin.split(' / ')[0];
+  return { type: 'hanzi-write', ...h, context: h.sentence.replace(h.char, '___'), contextPinyin: reading };
+}
+
 export function vocabMcq(lessons, n) {
   const pool = lessons.flatMap(l => l.vocab.map(v => ({ ...v, lesson: l.id })))
     .filter(v => v.word.length >= 1 && v.gloss_fr && !/^clf\./.test(v.gloss_fr));
@@ -192,10 +198,17 @@ export function topicSession(topicId, lessons) {
   };
 }
 
-// Mock exam with the real structure: 1 hour, word order ×5, 汉字 ×5, vocabulary ×5, grammar ×10.
-// Points follow the number of items (4 / 4 / 4 / 8 = 20).
+// Section 3 of the real paper: five sentences, five words, each used once.
+function fiveWordBank() {
+  const set = pick(WORD_BANKS, 1)[0];
+  const items = pick(set.items, 5);
+  return { type: 'dnd-fill', label: `选词填空 — ${set.title}`, instruction: 'Chaque mot une fois.', items, bank: shuffle(items.map(i => i.answer)) };
+}
+
+// Mock exam in the format of the 14 October paper: word order ×5, characters in context ×5,
+// word bank ×5, grammar ×10. Points follow the number of items (4 / 4 / 4 / 8 = 20).
 export function mockExam(lessons) {
-  const isNew = (q) => q.l === 'L06';
+  const isNew = (q) => ['L06', 'L07', 'L08'].includes(q.l);
   const grammarPool = [...GRAMMAR_FILLS, ...GRAMMAR_MCQ];
   const grammar = [
     ...pick(grammarPool.filter(isNew), 4),
@@ -203,18 +216,18 @@ export function mockExam(lessons) {
     ...pick(grammarPool.filter(q => !isNew(q) && q.topic !== 'yzh'), 4),
     ...pick(ERROR_CORRECTIONS, 1),
   ].map(prepOptions);
-  const week5 = HANZI.filter(h => h.week === 5);
-  const hanzi = [...pick(week5, 2), ...pick(HANZI.filter(h => h.week !== 5), 3)];
+  const recent = HANZI.filter(h => h.week >= 5);
+  const hanzi = [...pick(recent, 2), ...pick(HANZI.filter(h => h.week < 5), 3)];
   return {
     timeLimit: 60,
     rounds: [
       { title: 'Section 1 — Ordre des mots', subtitle: 'Remettez les mots dans le bon ordre', points: 4,
         exercises: shuffle([...pick(ORDERS.filter(isNew), 2), ...pick(ORDERS.filter(q => !isNew(q)), 3)]).map(prepOrder) },
-      { title: 'Section 2 — 汉字', subtitle: 'Écrivez les caractères (diapositives orange et 我会写)', points: 4,
-        exercises: shuffle(hanzi).map(hanziWrite) },
-      { title: 'Section 3 — Vocabulaire', subtitle: 'Choisissez le bon mot', points: 4,
-        exercises: vocabChoices(lessons, 5, { bankShare: 0.8 }) },
-      { title: 'Section 4 — Grammaire', subtitle: 'Toutes les leçons, semaine 5 comprise', points: 8,
+      { title: 'Section 2 — 用汉字填空', subtitle: 'Écrivez le caractère dans la phrase', points: 4,
+        exercises: shuffle(hanzi).map(hanziInContext) },
+      { title: 'Section 3 — 选词填空', subtitle: 'Placez les mots de la liste', points: 4,
+        exercises: [fiveWordBank()] },
+      { title: 'Section 4 — Grammaire', subtitle: 'Toutes les leçons', points: 8,
         exercises: shuffle(grammar) },
     ],
   };
@@ -282,4 +295,31 @@ export function lessonL06(lesson) {
 export function mistakesSession(items) {
   const exercises = shuffle(items).slice(0, 20).map(q => (q.type === 'order' ? prepOrder(q) : prepOptions(q)));
   return { rounds: [{ title: 'Mes erreurs', subtitle: `${items.length} exercice${items.length > 1 ? 's' : ''} à revoir`, exercises }] };
+}
+
+// Lessons 7 onwards: exercises drawn from the items of the bank tagged with the lesson id.
+export function lessonFromBank(lesson) {
+  const own = (q) => q.l === lesson.id;
+  const chars = (lesson.hanzi || []).map(ch => HANZI.find(h => h.char === ch)).filter(Boolean);
+  const banks = WORD_BANKS.filter(own);
+  return {
+    rounds: [
+      { title: 'Évaluation', subtitle: 'Vocabulaire et textes', exercises: shuffle([
+        ...vocabMcq([lesson], 6),
+        ...pick(READINGS.filter(own), 3),
+      ]) },
+      { title: 'Renforcement', subtitle: 'Grammaire de la leçon', exercises: shuffle([
+        ...pick(GRAMMAR_FILLS.filter(own), 8).map(prepOptions),
+        ...pick(ERROR_CORRECTIONS.filter(own), 3),
+        ...(banks.length ? [wordBankDnd(pick(banks, 1)[0])] : []),
+        ...pick(chars, 2).map(hanziInContext),
+      ]) },
+      { title: 'Défi', subtitle: 'Ordre, traduction, production', exercises: shuffle([
+        ...pick(ORDERS.filter(own), 4).map(prepOrder),
+        ...pick(GRAMMAR_MCQ.filter(own), 3).map(prepOptions),
+        ...pick(TRANSLATIONS.filter(own), 3),
+        ...pick(OPEN_QUESTIONS.filter(own), 1),
+      ]) },
+    ].filter(r => r.exercises.length > 0),
+  };
 }

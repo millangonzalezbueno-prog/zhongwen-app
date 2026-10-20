@@ -11,6 +11,9 @@ import BrowseView from './components/BrowseView';
 import LessonView from './components/LessonView';
 import HomeworkView from './components/HomeworkView';
 import ExamPrepView from './components/ExamPrepView';
+import PaperView from './components/PaperView';
+import { PAPERS } from './data/papers';
+import { HANZI } from './data/examPrep';
 
 const TABS = [
   { id: 'home', label: 'Accueil' },
@@ -141,6 +144,12 @@ function App() {
             <ExamPrepView data={data} />
           </div>
         )}
+        {!activeLesson && (studyMode === 'midterm' || studyMode === 'devoir2') && (
+          <div>
+            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
+            <PaperView key={studyMode} paper={PAPERS[studyMode]} />
+          </div>
+        )}
         {!activeLesson && studyMode === 'homework1' && (
           <div>
             <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
@@ -174,35 +183,24 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
     <div>
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-1">Évaluations</h2>
-        <p className="text-muted mb-5">Examen et devoirs : entraînement ciblé.</p>
-        <button onClick={() => onSelectMode('exam1')}
-          className="w-full mb-3 bg-surface-alt border-2 border-primary/50 rounded-2xl p-5 text-left hover:shadow-md hover:border-primary transition-all group">
-          <div className="flex items-start gap-4">
-            <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shrink-0">
-              <span className="text-white text-lg font-bold hanzi-display">考</span>
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-xs font-medium text-primary mb-0.5">Examen le mercredi 14 octobre</p>
-              <p className="text-lg font-semibold group-hover:text-primary transition-colors">Préparation à l'examen</p>
-              <p className="text-sm text-muted">Sujet blanc au format réel (1 h, 4 sections), 18 thèmes, 27 caractères à tracer, mes erreurs</p>
-              <p className="text-xs text-muted mt-1">Semaines 1 à 5 &middot; leçons L01 à L06 &middot; ordre des mots, 汉字, vocabulaire, grammaire</p>
-            </div>
-          </div>
-        </button>
-        <button onClick={() => onSelectMode('homework1')}
-          className="w-full bg-surface-alt border border-primary/30 rounded-2xl p-5 text-left hover:shadow-md hover:border-primary/60 transition-all group">
-          <div className="flex items-start gap-4">
-            <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shrink-0">
-              <span className="text-white text-lg font-bold hanzi-display">作</span>
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-xs font-medium text-primary mb-0.5">À rendre le 6 octobre</p>
-              <p className="text-lg font-semibold hanzi-display group-hover:text-primary transition-colors">中文作业 1</p>
-              <p className="text-sm text-muted">Examen blanc noté sur 20, variantes et corrigé</p>
-              <p className="text-xs text-muted mt-1">5 parties &middot; questions, ordre des mots, 选词填空, 量词, lecture</p>
-            </div>
-          </div>
-        </button>
+        <p className="text-muted mb-5">Devoirs, examens et révisions.</p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <EvalCard glyph="作" kicker="Distribué le 14 octobre — rendu à confirmer" title="中文作业 2"
+            text="6 parties : tenues, relatives en 的, 别, ordre des mots, mots à placer, phrases malades"
+            onClick={() => onSelectMode('devoir2')} highlight />
+          <EvalCard glyph="复" kicker="Semaines 1 à 7 · L01 à L08" title="Révisions & entraînement"
+            text={`Sujet blanc au format du partiel, ${data.lessons.length} leçons, ${HANZI.length} caractères à écrire, mes erreurs`}
+            onClick={() => onSelectMode('exam1')} />
+          <EvalCard glyph="考" kicker="Partiel du 14 octobre" title="期中考试 — sujet réel"
+            text="Le vrai sujet à refaire, puis le corrigé : ordre, 汉字, 选词填空, grammaire"
+            onClick={() => onSelectMode('midterm')} />
+          <EvalCard glyph="作" kicker="Rendu le 6 octobre" title="中文作业 1"
+            text="Examen blanc noté sur 20, variantes et corrigé"
+            onClick={() => onSelectMode('homework1')} />
+        </div>
+        <p className="text-sm text-muted mt-3">
+          À venir : exposés oraux en groupe (fin novembre – début décembre) · devoir 3 (leçons 13 à 24) · test de fin de semestre.
+        </p>
       </section>
 
       {data.lessons && data.lessons.length > 0 && (
@@ -271,6 +269,26 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
         </div>
       </section>
     </div>
+  );
+}
+
+function EvalCard({ glyph, kicker, title, text, onClick, highlight }) {
+  return (
+    <button onClick={onClick}
+      className={`bg-surface-alt rounded-2xl p-5 text-left hover:shadow-md transition-all group ${
+        highlight ? 'border-2 border-primary/50 hover:border-primary' : 'border border-border hover:border-primary/40'
+      }`}>
+      <div className="flex items-start gap-4">
+        <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shrink-0">
+          <span className="text-white text-lg font-bold hanzi-display">{glyph}</span>
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="text-xs font-medium text-primary mb-0.5">{kicker}</p>
+          <p className="text-lg font-semibold hanzi-display group-hover:text-primary transition-colors">{title}</p>
+          <p className="text-sm text-muted">{text}</p>
+        </div>
+      </div>
+    </button>
   );
 }
 

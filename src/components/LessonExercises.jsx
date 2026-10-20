@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import HanziWriter from 'hanzi-writer';
-import { lessonL05, lessonL06, hanziWrite, vocabMcq } from '../lib/examSessions';
+import { lessonL05, lessonL06, lessonFromBank, hanziWrite, vocabMcq } from '../lib/examSessions';
 import { HANZI } from '../data/examPrep';
 import Zh, { PinyinToggle } from './Zh';
 import { contextPinyin } from '../lib/gloss';
@@ -32,6 +32,7 @@ function buildExercises(lesson) {
 }
 
 function buildLessonExercises(lesson) {
+  if (['L07', 'L08'].includes(lesson.id)) return lessonFromBank(lesson);
   if (lesson.id === 'L06') return lessonL06(lesson);
   if (lesson.id === 'L05') return lessonL05(lesson);
   if (lesson.id === 'L04') return buildExercisesL04(lesson);
@@ -1561,9 +1562,9 @@ function TranslateExercise({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Traduisez en chinois</p>
-      <p className="text-lg font-medium mb-2">{ex.fr}</p>
-      <p className="text-xs text-accent mb-6">Structure : {ex.pattern}</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">{ex.label || 'Traduisez en chinois'}</p>
+      <p className={`text-lg font-medium mb-2 ${ex.label ? 'hanzi-display' : ''}`}><Zh text={ex.fr} /></p>
+      {ex.pattern ? <p className="text-xs text-accent mb-6">Structure : {ex.pattern}</p> : <div className="mb-6" />}
       {state === 'answering' ? (
         <form onSubmit={handleSubmit} className="space-y-3">
           <input type="text" value={input} onChange={e => setInput(e.target.value)}
@@ -1881,6 +1882,8 @@ function HanziWrite({ ex, state, onAnswer }) {
   const [loadError, setLoadError] = useState(false);
   const done = state !== 'answering';
   const prompt = ex.word.replace(ex.char, '□');
+  // Midterm format: write the character inside a sentence, from its pinyin.
+  const contextParts = ex.context ? ex.context.split('___') : null;
 
   useEffect(() => {
     const el = boxRef.current;
@@ -1921,9 +1924,15 @@ function HanziWrite({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">汉字 — Écrivez de mémoire</p>
-      <p className="text-3xl hanzi-display font-medium mb-1">{prompt}</p>
-      <p className="text-accent font-medium">{ex.wordPinyin}</p>
-      <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr.split(ex.char).join('□')}</p>
+      {contextParts ? (
+        <p className="text-xl hanzi-display font-medium leading-relaxed mb-4">
+          {contextParts[0]}<span className="text-accent">□（{ex.contextPinyin || ex.pinyin}）</span>{contextParts.slice(1).join('___')}
+        </p>
+      ) : (<>
+        <p className="text-3xl hanzi-display font-medium mb-1">{prompt}</p>
+        <p className="text-accent font-medium">{ex.wordPinyin}</p>
+        <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr.split(ex.char).join('□')}</p>
+      </>)}
 
       <div className="relative mx-auto w-[220px] h-[220px] rounded-xl border border-border bg-white">
         <svg className="absolute inset-0 pointer-events-none" width="220" height="220" aria-hidden="true">
@@ -1944,7 +1953,7 @@ function HanziWrite({ ex, state, onAnswer }) {
       ) : (
         <>
           <button onClick={replay} className="mt-3 text-sm text-accent hover:underline">Revoir l'ordre des traits</button>
-          <Feedback correct={state === 'correct'} answer={`${ex.char} — ${ex.word}`}
+          <Feedback correct={state === 'correct'} answer={ex.context ? ex.context.replace('___', ex.char) : `${ex.char} — ${ex.word}`}
             extra={mistakes === null ? 'Réponse montrée.' : `${mistakes} erreur${mistakes > 1 ? 's' : ''} de trait${hintedRef.current ? ' · indice utilisé' : ''}`}
             explanation_fr={[ex.parts && `${ex.char} = ${ex.parts}`, ex.sentence].filter(Boolean).join(' · ')}
             explanation_en={ex.en} />

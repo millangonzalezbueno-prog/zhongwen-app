@@ -36,6 +36,19 @@ export const HANZI = [
   { char: '新', pinyin: 'xīn', fr: 'nouveau, neuf', en: 'new', parts: '亲 + 斤', word: '新书', wordPinyin: 'xīn shū', sentence: '我还去书店买了一本新书。', week: 5 },
   { char: '讲', pinyin: 'jiǎng', fr: 'raconter, expliquer', en: 'to tell, to explain', parts: '讠 + 井', word: '讲故事', wordPinyin: 'jiǎng gùshi', sentence: '我给你讲一个故事。', week: 5 },
   { char: '笔', pinyin: 'bǐ', fr: 'stylo, pinceau — 毛笔', en: 'pen, brush — 毛笔', parts: '⺮ + 毛', word: '毛笔', wordPinyin: 'máobǐ', sentence: '我去商店买了很多毛笔。', week: 5 },
+  { char: '元', pinyin: 'yuán', fr: 'yuan ; premier — 公元', en: 'yuan; first — 公元', parts: '二 + 儿', word: '公元', wordPinyin: 'gōngyuán', sentence: '这本书三十元。', week: 6 },
+  { char: '远', pinyin: 'yuǎn', fr: 'loin', en: 'far', parts: '辶 + 元', word: '很远', wordPinyin: 'hěn yuǎn', sentence: '我家离学校不太远。', week: 6 },
+  { char: '化', pinyin: 'huà', fr: 'transformer — 文化, 化学', en: 'change — 文化, 化学', parts: '亻 + 𠤎', word: '文化', wordPinyin: 'wénhuà', sentence: '书名是“中国文化里的花”。', week: 6 },
+  { char: '花', pinyin: 'huā', fr: 'fleur', en: 'flower', parts: '艹 + 化', word: '花儿', wordPinyin: 'huār', sentence: '春去花还在，人来鸟不惊。', week: 6 },
+  { char: '合', pinyin: 'hé', fr: 'joindre — 合作, 合适', en: 'join — 合作, 合适', parts: '人 + 一 + 口', word: '合作', wordPinyin: 'hézuò', sentence: '今天王文问我想不想跟他合作。', week: 6 },
+  { char: '作', pinyin: 'zuò', fr: 'faire — 合作, 作业, 工作', en: 'do — 合作, 作业, 工作', parts: '亻 + 乍', word: '作业', wordPinyin: 'zuòyè', sentence: '下了课还要做作业。', week: 6 },
+  { char: '电', pinyin: 'diàn', fr: 'électricité — 电影, 电话', en: 'electricity — 电影, 电话', parts: null, word: '电影', wordPinyin: 'diànyǐng', sentence: '我很想去看这个美国新电影。', week: 6 },
+  { char: '影', pinyin: 'yǐng', fr: 'ombre, image — 电影', en: 'shadow, image — 电影', parts: '景 + 彡', word: '电影', wordPinyin: 'diànyǐng', sentence: '我吃了饭就去看电影。', week: 6 },
+  { char: '觉', pinyin: 'jué', fr: 'sentir — 觉得', en: 'feel — 觉得', parts: '⺍ + 冖 + 见', word: '觉得', wordPinyin: 'juéde', sentence: '可是我觉得都很贵。', week: 6 },
+  { char: '得', pinyin: 'de / děi / dé', fr: 'particule ; devoir ; obtenir', en: 'particle; must; obtain', parts: '彳 + 日 + 一 + 寸', word: '觉得', wordPinyin: 'juéde', sentence: '你们说汉语说得很好。', week: 6 },
+  { char: '现', pinyin: 'xiàn', fr: 'apparaître — 现在', en: 'appear — 现在', parts: '王 + 见', word: '现在', wordPinyin: 'xiànzài', sentence: '我现在钱不多，去小商店吧。', week: 6 },
+  { char: '在', pinyin: 'zài', fr: 'être à ; en train de', en: 'be at; in the middle of', parts: '𠂇 + 丨 + 土', word: '现在', wordPinyin: 'xiànzài', sentence: '我家在学校附近。', week: 6 },
+  { char: '里', pinyin: 'lǐ', fr: 'dedans — 这里, 里边', en: 'inside — 这里, 里边', parts: '田 + 土', word: '这里', wordPinyin: 'zhèlǐ', sentence: '书名是“中国文化里的花”。', week: 6 },
 ];
 
 
@@ -607,9 +620,9 @@ export const TOPICS = [
 TOPICS.unshift(
   { id: 'core', title: '★ Mots à connaître', desc: 'Les listes « 我认识下面的这些生词 » du cours', badge: '认', exam: true },
   { id: 'vocabfill', title: 'Choisir le bon mot', desc: 'Section 3 de l\'examen — tout le vocabulaire', badge: '词', exam: true },
-  { id: 'temps', title: '正在…呢 / 快要…了 / 会 / 着', desc: 'Aspects de la semaine 5', badge: '着', isNew: true },
-  { id: 'dian', title: '一点儿 / 有点儿', desc: 'Plainte ou quantité ?', badge: '点', isNew: true },
-  { id: 'lieu', title: 'Lieux : 离, 从…到, locatifs', desc: 'Distances, itinéraires, 前面 / 对面…', badge: '离', isNew: true },
+  { id: 'temps', title: '正在…呢 / 快要…了 / 会 / 着', desc: 'Aspects de la semaine 5', badge: '着' },
+  { id: 'dian', title: '一点儿 / 有点儿', desc: 'Plainte ou quantité ?', badge: '点' },
+  { id: 'lieu', title: 'Lieux : 离, 从…到, locatifs', desc: 'Distances, itinéraires, 前面 / 对面…', badge: '离' },
 );
 
 // ---------- Semaine 5 (L06) : 正在…呢, 快要…了, 会, 着, 一点儿/有点儿, 还是/或者, 再, 离 ----------
@@ -833,3 +846,208 @@ WORD_BANKS.push(
     W('我还没___去美国还是去加拿大。', '决定'),
   ] },
 );
+
+// ---------- Semaines 6 et 7 (L07, L08) : révision des aspects, 是…的, résultatifs, 比, description ----------
+
+GRAMMAR_FILLS.push(
+  F('shide', 'L08', '你是什么时候来北京___？', '的', ['的', '了', '过'],
+    'Question sur une circonstance d\'une action passée → 是…的.', 'Question about a circumstance of a past action → 是…的.'),
+  F('shide', 'L08', '我___坐地铁来的。', '是', ['是', '在', '有'],
+    'S + 是 + moyen + V + 的.', 'S + 是 + means + V + 的.'),
+  F('shide', 'L08', '他不___昨天来的，是今天来的。', '是', ['是', '在', '要'],
+    'À la négative, 是 est obligatoire : 不是…的.', 'In the negative, 是 is required: 不是…的.'),
+  F('shide', 'L08', '他的女朋友去英国___。', '了', ['了', '的', '过'],
+    'Nouvelle information (fait accompli annoncé) → 了.', 'New information (reported fact) → 了.'),
+  F('shide', 'L08', '他的女朋友去英国了。——是吗？什么时候去___？', '的', ['的', '了', '吗'],
+    'Le fait est connu ; on demande « quand » → 是…的.', 'The fact is known; asking "when" → 是…的.'),
+  F('shide', 'L08', '我是在北京学___汉语。', '的', ['的', '了', '过'],
+    'L\'objet peut suivre 的 : 学的汉语.', 'The object can follow 的: 学的汉语.'),
+  F('shide', 'L08', '你是学什么专业___？', '的', ['的', '了', '吗'],
+    'Catégorie, cursus → 是…的.', 'Category, field → 是…的.'),
+  F('shide', 'L08', '你买什么了？——买衣服了。——是给谁买___？', '的', ['的', '了', '着'],
+    'Circonstance (pour qui) d\'un achat déjà fait → 的.', 'Circumstance (for whom) of a known purchase → 的.'),
+  F('shide', 'L08', '巴黎政治学院是一月二十七号开学___。', '的', ['的', '了', '过'],
+    'Date d\'un fait passé mise en relief → 是…的.', 'Date of a past event in focus → 是…的.'),
+  F('result', 'L08', '看！我看___了一只猫。', '见', ['见', '完', '懂', '饱'],
+    '看见 = voir (résultat de regarder).', '看见 = see (result of looking).', { accept: ['到'] }),
+  F('result', 'L08', '我看___了这本书，很有意思。', '完', ['完', '见', '懂', '错'],
+    '看完 = finir de lire.', '看完 = finish reading.'),
+  F('result', 'L08', '老师说得太快，我没听___。', '懂', ['懂', '完', '见', '饱'],
+    '听懂 = comprendre ; négation 没 + V + résultat.', '听懂 = understand; negation 没 + V + result.'),
+  F('result', 'L08', '我吃___了，不想再吃了。', '饱', ['饱', '错', '懂', '见'],
+    '吃饱 = être rassasié.', '吃饱 = be full.'),
+  F('result', 'L08', '对不起，我写___了一个字。', '错', ['错', '完', '见', '饱'],
+    '写错 = mal écrire, se tromper en écrivant.', '写错 = write wrongly.'),
+  F('result', 'L08', '今天早上，我听___有人叫我的名字。', '到', ['到', '懂', '完', '饱'],
+    '听到 = 听见 : entendre.', '听到 = 听见: hear.', { accept: ['见'] }),
+  F('result', 'L08', '坐火车___坐飞机便宜。', '比', ['比', '跟', '和', '对'],
+    'A 比 B + Adj.', 'A 比 B + Adj.'),
+  F('result', 'L08', '这是我___一次来中国。', '第', ['第', '两', '每', '这'],
+    'Ordinal : 第 + nombre.', 'Ordinal: 第 + number.'),
+  F('result', 'L08', '我好___没吃中国菜了！', '久', ['久', '多', '长', '远'],
+    '好久没 + V + 了 = ça fait longtemps que…', '好久没 + V + 了 = it\'s been ages since…'),
+  F('temps', 'L07', '我去___两次中国，那里的风景太美了。', '过', ['过', '了', '着', '正在'],
+    'Expérience : V + 过 + nombre de fois.', 'Experience: V + 过 + number of times.'),
+  F('temps', 'L07', '你看！墙上挂___一张非常漂亮的山水画。', '着', ['着', '了', '过', '正在'],
+    'Lieu + V着 + N : état (le tableau est accroché).', 'Place + V着 + N: state (the painting hangs).'),
+  F('temps', 'L07', '我明天吃___晚饭就去电影院找你们。', '了', ['了', '着', '过', '正在'],
+    '了 ≠ passé : action future accomplie avant la suivante.', '了 ≠ past: future action completed before the next.'),
+  F('temps', 'L07', '别喝了，这杯咖啡已经凉___。', '了', ['了', '着', '过', '呢'],
+    '了₂ : changement d\'état (le café a refroidi).', '了₂: change of state (the coffee went cold).'),
+  F('temps', 'L07', '他坐___看书。', '着', ['着', '了', '过', '正在'],
+    'V₁着 + V₂ : assis, il lit.', 'V₁着 + V₂: he reads sitting.'),
+  F('temps', 'L07', '他去日本___，现在还在那儿。', '了', ['了', '过', '着'],
+    '去…了 : il est parti et y est encore. 去过 = il en est revenu.', '去…了: he went and is still there. 去过 = he\'s been and come back.'),
+  F('temps', 'L07', '门关___，请敲门。', '着', ['着', '了', '过'],
+    'État maintenu : 门关着.', 'Lasting state: 门关着.'),
+  F('temps', 'L07', '我___洗车呢。', '正在', ['正在', '着', '过', '了'],
+    'Action en cours → 正在 + V + 呢.', 'Ongoing → 正在 + V + 呢.'),
+  F('temps', 'L07', '他等___你半个小时了！', '了', ['了', '着', '过'],
+    'V + 了 + durée + 了 : « depuis ».', 'V + 了 + duration + 了: "for (so far)".'),
+  F('desc', 'L07', '她长___很漂亮。', '得', ['得', '的', '了'],
+    '长得 + appréciation.', '长得 + assessment.'),
+  F('desc', 'L07', '她___得很漂亮，眼睛很大。', '长', ['长', '看', '有'],
+    '长 zhǎng 得 : « avoir l\'air, être (physiquement) ».', '长 zhǎng 得: "look (physically)".'),
+  F('desc', 'L07', '我最好的朋友个子不太___，一米六五。', '高', ['高', '长', '大'],
+    'Taille → 个子高 / 矮.', 'Height → 个子高 / 矮.'),
+  F('desc', 'L07', '她不胖也不___。', '瘦', ['瘦', '短', '长'],
+    '胖 ≠ 瘦.', '胖 ≠ 瘦.'),
+  F('desc', 'L07', '她长得很漂亮，大大___眼睛，长长的头发。', '的', ['的', '得', '了'],
+    'Adjectif redoublé + 的 + nom.', 'Doubled adjective + 的 + noun.'),
+  F('lex', 'L07', '请你___一边开车一边打电话！', '别', ['别', '没', '都'],
+    'Interdiction → 别 (= 不要).', 'Prohibition → 别 (= 不要).'),
+  F('lex', 'L07', '明天我___去看我妈妈。', '得', ['得', '的', '着'],
+    '得 děi = devoir.', '得 děi = must.'),
+  F('lex', 'L07', '我们先休息休息，___去买点东西。', '再', ['再', '又', '还'],
+    '先…，再…', '先…，再…'),
+);
+
+const M = (topic, l, prompt, pattern, correct, wrongs, fr, en) => ({
+  type: 'grammar-mcq', topic, l, pattern, prompt, correct, options: [correct, ...wrongs], explanation_fr: fr, explanation_en: en,
+});
+
+GRAMMAR_MCQ.push(
+  M('shide', 'L08', 'Quelle phrase est correcte ?', '是…的', '他是昨天到的。', ['他是明天到的。', '你的裙子是在哪儿买？', '你的裙子在哪儿买了？'],
+    '是…的 ne s\'emploie que pour le passé et garde son 的.', '是…的 is only for the past and keeps its 的.'),
+  M('shide', 'L08', 'Quelle phrase est correcte ?', '不是…的', '他不是昨天来的。', ['他不昨天来的。', '他没是昨天来的。', '他昨天不来的。'],
+    'Négation : 不是…的 ; 是 ne peut pas être omis.', 'Negation: 不是…的; 是 can\'t be dropped.'),
+  M('result', 'L08', 'Quelle phrase est correcte ?', '比', '他比我高一点儿。', ['他比我很高。', '他比我高很。', '他高比我。'],
+    'Pas de 很 après 比 ; l\'écart se place après l\'adjectif.', 'No 很 with 比; the difference goes after the adjective.'),
+  M('result', 'L08', 'Quelle phrase est correcte ?', 'Résultatif', '今天早上，我看见他在公园跑步。', ['今天早上，我看他在公园跑步。', '今天早上，我看完他在公园跑步。', '今天早上，我看懂他在公园跑步。'],
+    'Voir quelqu\'un (résultat) → 看见.', 'Seeing someone (result) → 看见.'),
+  M('result', 'L08', 'Quelle phrase est correcte ?', 'Résultatif', '我下午和朋友看了电影。', ['我下午和朋友看见电影。', '我下午和朋友看懂电影。', '我下午看电影和朋友。'],
+    'Aller voir un film = 看电影 (action), pas 看见.', 'Watching a film = 看电影 (action), not 看见.'),
+  M('temps', 'L07', 'Il porte un vêtement noir :', '着', '他穿着一件黑色的衣服。', ['他正在穿一件黑色的衣服。', '他穿过一件黑色的衣服。', '他穿了一件黑色的衣服呢。'],
+    'État (le vêtement est sur lui) → 穿着. 正在穿 = il est en train de l\'enfiler.', 'State (he has it on) → 穿着. 正在穿 = putting it on.'),
+  M('temps', 'L07', 'Il est parti au Japon et y est encore :', '了 / 过', '他去日本了。', ['他去过日本。', '他去着日本。', '他正在去过日本。'],
+    '去…了 = changement de situation, il y est. 去过 = expérience, il est revenu.', '去…了 = change, he\'s there. 去过 = experience, he\'s back.'),
+  M('temps', 'L07', 'Le bus approche de l\'arrêt :', '快要…了', '车快要到站了。', ['车到了。', '车正在到站。', '车到过站了。'],
+    'Imminent → 快要…了.', 'Imminent → 快要…了.'),
+  M('desc', 'L07', 'Quelle phrase est correcte ?', 'AABB', '大家都高高兴兴的。', ['大家都很高高兴兴的。', '大家都高兴高兴的。', '大家都高高兴的。'],
+    'AB → AABB, sans 很.', 'AB → AABB, without 很.'),
+);
+
+ERROR_CORRECTIONS.push(
+  E('dian', 'L07', '我一点儿饿。', '我有点儿饿。', 'Sentiment négatif → 有点儿 + Adj.', 'Negative feeling → 有点儿 + Adj.', ['我有点饿']),
+  E('duree', 'L07', '我一天三次吃饭。', '我一天吃三次饭。', 'Fréquence après le verbe : 吃三次饭.', 'Frequency after the verb: 吃三次饭.', ['我一天吃饭吃三次', '我一天吃三顿饭']),
+  E('lex', 'L07', '小张在大学门口一定等她。', '小张一定在大学门口等她。', '一定 (adverbe) avant le complément de lieu 在….', '一定 (adverb) before the 在… phrase.'),
+  E('shide', 'L08', '我是明天走的。', '我明天走。', '是…的 est réservé au passé.', '是…的 is only for the past.', ['我明天要走', '我明天就走']),
+  E('shide', 'L08', '你的裙子是在哪儿买？', '你的裙子是在哪儿买的？', 'Ne pas oublier 的.', 'Don\'t drop 的.'),
+  E('result', 'L08', '他比我很高。', '他比我高。', 'Pas de 很 avec 比.', 'No 很 with 比.', ['他比我高一点儿', '他比我高很多']),
+  E('result', 'L08', '我下午和朋友看见电影。', '我下午和朋友看了电影。', '看电影 (action), pas 看见.', '看电影 (action), not 看见.', ['我下午和朋友看电影了', '下午我和朋友看了电影']),
+  E('desc', 'L07', '大家都很高高兴兴的。', '大家都高高兴兴的。', 'Pas de 很 devant un adjectif redoublé.', 'No 很 before a doubled adjective.'),
+);
+
+ORDERS.push(
+  O('L08', 'Je suis venu en avion.', ['我', '是', '坐飞机', '来', '的'], '我是坐飞机来的', [], 'S + 是 + moyen + V + 的.', 'S + 是 + means + V + 的.'),
+  O('L08', 'Quand es-tu arrivé à Pékin ?', ['你', '是', '什么时候', '来', '北京', '的'], '你是什么时候来北京的', ['你是什么时候来的北京'], '是 + circonstance + V + O + 的 (ou V + 的 + O).', '是 + circumstance + V + O + 的 (or V + 的 + O).'),
+  O('L08', 'Le train est moins cher que l\'avion.', ['坐火车', '比', '坐飞机', '便宜'], '坐火车比坐飞机便宜', [], 'A 比 B + Adj.', 'A 比 B + Adj.'),
+  O('L08', 'C\'est la première fois que je viens en Chine.', ['这是', '我', '第一次', '来', '中国'], '这是我第一次来中国', [], '第一次 + V.', '第一次 + V.'),
+  O('L08', 'J\'ai fini de lire ce livre.', ['我', '看完', '了', '这本书'], '我看完了这本书', [], 'V + résultat + 了 + O.', 'V + result + 了 + O.'),
+  O('L07', 'Elle est très jolie.', ['她', '长得', '很', '漂亮'], '她长得很漂亮', [], '长得 + appréciation.', '长得 + assessment.'),
+  O('L07', 'Ne téléphone pas en conduisant.', ['你', '别', '一边', '开车', '一边', '打电话'], '你别一边开车一边打电话', [], '别 + 一边…一边….', '别 + 一边…一边….'),
+  O('L07', 'Un très joli paysage est accroché au mur.', ['墙上', '挂着', '一张', '漂亮的', '山水画'], '墙上挂着一张漂亮的山水画', [], 'Lieu + V着 + N.', 'Place + V着 + N.'),
+  O('L08', 'Ça fait longtemps que je n\'ai pas mangé chinois !', ['我', '好久', '没', '吃', '中国菜', '了'], '我好久没吃中国菜了', [], '好久没 + V + 了.', '好久没 + V + 了.'),
+);
+
+TRANSLATIONS.push(
+  T('L08', 'Je suis venu en métro.', '我是坐地铁来的。', '是…的', ['我坐地铁来的'], 'S + 是 + moyen + V + 的.', 'S + 是 + means + V + 的.'),
+  T('L08', 'Quand es-tu arrivé à Pékin ?', '你是什么时候来北京的？', '是…的', ['你是什么时候到北京的', '你是什么时候来的北京', '你什么时候来北京的'], '是 + quand + V + 的.', '是 + when + V + 的.'),
+  T('L08', 'Le train est moins cher que l\'avion.', '坐火车比坐飞机便宜。', '比', ['火车比飞机便宜'], 'A 比 B + Adj.', 'A 比 B + Adj.'),
+  T('L08', 'J\'ai fini de lire ce livre.', '我看完了这本书。', 'Résultatif', ['这本书我看完了', '我看完这本书了'], 'V + 完.', 'V + 完.'),
+  T('L07', 'Elle est très jolie.', '她长得很漂亮。', '长得', [], '长得 + Adj.', '长得 + Adj.'),
+  T('L08', 'Ça fait longtemps que je n\'ai pas mangé chinois !', '我好久没吃中国菜了！', '好久没…了', ['好久没吃中国菜了'], '好久没 + V + 了.', '好久没 + V + 了.'),
+  T('L07', 'Ne téléphone pas en conduisant.', '你别一边开车一边打电话。', '别 + 一边…一边', ['别一边开车一边打电话'], '别 + 一边…一边.', '别 + 一边…一边.'),
+  T('L07', 'Demain je dois aller voir ma mère.', '明天我得去看我妈妈。', '得 děi', ['我明天得去看我妈妈', '明天我得去看妈妈'], '得 děi = devoir.', '得 děi = must.'),
+);
+
+READINGS.push(
+  R('L08', '王月：你是什么时候来北京的？马京：我是七月十八号到的。王月：你以前来过中国吗？马京：没来过，这是我第一次来中国。', '马京是什么时候到北京的？',
+    ['A 七月八号', 'B 七月十八号', 'C 八月十八号'], 'B 七月十八号', '我是七月十八号到的.', '我是七月十八号到的.'),
+  R('L08', '王月：你以前来过中国吗？马京：没来过，这是我第一次来中国。', '马京以前来过中国吗？',
+    ['A 来过一次', 'B 没来过', 'C 来过很多次'], 'B 没来过', '这是我第一次来中国.', '这是我第一次来中国.'),
+  R('L08', '坐飞机很快，只用十个小时。坐火车也不错，虽然时间很长，但是能看见很多不同的风景，还可以跟别人聊天。坐火车比坐飞机便宜。我下次坐火车来。', '他下次为什么想坐火车来？',
+    ['A 坐火车很快', 'B 坐火车便宜，还能看风景', 'C 他不喜欢坐飞机'], 'B 坐火车便宜，还能看风景', '便宜 + 不同的风景 + 聊天.', 'Cheaper + scenery + chatting.'),
+  R('L07', '我最好的朋友个子不太高，一米六五，她不胖也不瘦。她不喜欢穿裙子，也不喜欢穿红衣服，她喜欢白色和黑色。', '她喜欢穿什么颜色的衣服？',
+    ['A 红色', 'B 白色和黑色', 'C 很多颜色'], 'B 白色和黑色', '她喜欢白色和黑色.', '她喜欢白色和黑色.'),
+  R('L07', '夏天很热，口渴可以吃多汁的西瓜。你知道吗？吃香蕉可以让你睡觉睡得好。菠萝可以和肉一起做菜。', '吃香蕉可以：',
+    ['A 让你睡觉睡得好', 'B 让你不口渴', 'C 和肉一起做菜'], 'A 让你睡觉睡得好', '吃香蕉可以让你睡觉睡得好.', '吃香蕉可以让你睡觉睡得好.'),
+  R('L07', '去年在中国旅游，我去了不少地方。我先去看了黄河。黄河是中国有名的大河。我坐在船上，一边看一边照相。', '在船上，我做什么？',
+    ['A 一边看一边照相', 'B 一边吃饭一边聊天', 'C 睡觉'], 'A 一边看一边照相', '一边看一边照相.', '一边看一边照相.'),
+  R('L08', '老师：你是和谁一起去的？学生：我是和朋友一起去的。老师：（是）给谁买的？学生：（是）给我自己买的。', '学生是给谁买的衣服？',
+    ['A 给朋友', 'B 给自己', 'C 给老师'], 'B 给自己', '给我自己买的.', '给我自己买的.'),
+);
+
+OPEN_QUESTIONS.push(
+  Q('L08', '你是什么时候来巴黎的？', 'Utilisez 是…的.',
+    [{ label: '是…的', re: '是.*的' }],
+    ['我是去年九月来巴黎的。', '我是两年前来的。'], 'S + 是 + temps + V + 的.', 'S + 是 + time + V + 的.'),
+  Q('L08', '你是怎么来学校的？', 'Utilisez 是…的 + moyen de transport.',
+    [{ label: '是…的', re: '是.*的' }, { label: 'Moyen', re: '坐|骑|走路|开车' }],
+    ['我是坐地铁来的。', '我是骑自行车来的。'], 'S + 是 + moyen + 来的.', 'S + 是 + means + 来的.'),
+  Q('L07', '你最好的朋友长得怎么样？', 'Utilisez 长得 + description.',
+    [{ label: '长得', re: '长得' }, { label: 'Une partie du corps ou la taille', re: '眼睛|头发|个子|鼻子|米' }],
+    ['他长得很帅，个子很高，一米八。', '她长得很漂亮，大大的眼睛，长长的头发。'], '长得 + Adj ; 个子 / 眼睛 / 头发.', '长得 + Adj; 个子 / 眼睛 / 头发.'),
+);
+
+WORD_BANKS.push(
+  { id: 'midterm', l: 'L06', title: 'Comme le partiel (14 oct.)', items: [
+    W('明天早上考试，请大家八点以前到，考试八点半___。', '开始'),
+    W('王老师___喜欢喝茶，下午常常喝一杯茶。', '比较'),
+    W('这个地方很___，每年有很多外国人来旅游。', '有名'),
+    W('我每天晚上都___说汉语，所以现在说得越来越好了。', '练习'),
+    W('银行就在超市的___，走过去只要两分钟。', '旁边'),
+  ] },
+  { id: 'devoir2', l: 'L07', title: 'Comme le devoir 2', items: [
+    W('请你___说一遍。', '再'),
+    W('我买花茶，___都不要。', '别的'),
+    W('你下午来___我练习汉语口语，好吗？', '帮'),
+    W('明天是她的生日，我们___送她什么呢？', '应该'),
+    W('星期天我没有时间，我___去看我妈妈。', '得'),
+  ] },
+  { id: 'portrait', l: 'L07', title: 'Portrait (L07)', items: [
+    W('你们看这张___，这四个女孩都是我的中国朋友。', '照片'),
+    W('我最好的朋友___不太高，一米六五。', '个子'),
+    W('她不___也不瘦。', '胖'),
+    W('她___很漂亮。', '长得'),
+    W('她的___很大。', '眼睛'),
+    W('她的___很长，是黑色的。', '头发'),
+  ] },
+  { id: 'voyage', l: 'L08', title: 'Je suis venu en avion (L08)', items: [
+    W('这是我___一次来中国。', '第'),
+    W('坐火车能看见很多___的地方。', '不同'),
+    W('还可以跟别人聊天，___很有意思。', '一定'),
+    W('坐火车___坐飞机便宜。', '比'),
+    W('本子很___，只要两块钱。', '便宜'),
+    W('香山的___特别美，秋天有红叶。', '风景'),
+  ] },
+);
+
+TOPICS.splice(1, 0,
+  { id: 'shide', title: '是…的 (emphase)', desc: 'Quand, comment, avec qui — et 的 ou 了 ?', badge: '是', tag: 'Nouveau' },
+  { id: 'result', title: 'Résultatifs, 比, 第', desc: '看见 / 看完 / 听懂, comparatif, ordinaux', badge: '完', tag: 'Nouveau' },
+  { id: 'desc', title: 'Décrire quelqu\'un', desc: '长得, 个子, AABB', badge: '长', tag: 'Nouveau' },
+);
+const temps = TOPICS.find(t => t.id === 'temps');
+temps.title = '正在 / 着 / 了 / 过 / 快要';
+temps.desc = 'Les aspects, révision complète';
