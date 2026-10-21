@@ -9,10 +9,7 @@ import CharacterPopup from './components/CharacterPopup';
 import Dashboard from './components/Dashboard';
 import BrowseView from './components/BrowseView';
 import LessonView from './components/LessonView';
-import HomeworkView from './components/HomeworkView';
 import ExamPrepView from './components/ExamPrepView';
-import PaperView from './components/PaperView';
-import { PAPERS } from './data/papers';
 import { HANZI } from './data/examPrep';
 
 const TABS = [
@@ -144,18 +141,6 @@ function App() {
             <ExamPrepView data={data} />
           </div>
         )}
-        {!activeLesson && (studyMode === 'midterm' || studyMode === 'devoir2') && (
-          <div>
-            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
-            <PaperView key={studyMode} paper={PAPERS[studyMode]} />
-          </div>
-        )}
-        {!activeLesson && studyMode === 'homework1' && (
-          <div>
-            <button onClick={goHome} className="text-sm text-accent mb-4 hover:underline">&larr; Retour</button>
-            <HomeworkView />
-          </div>
-        )}
         {!activeLesson && !studyMode && tab === 'home' && (
           <HomeView data={data} onSelectMode={setStudyMode} onOpenLesson={openLesson} />
         )}
@@ -183,20 +168,11 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
     <div>
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-1">Évaluations</h2>
-        <p className="text-muted mb-5">Devoirs, examens et révisions.</p>
-        <div className="grid gap-3 sm:grid-cols-2">
-          <EvalCard glyph="作" kicker="Distribué le 14 octobre — rendu à confirmer" title="中文作业 2"
-            text="6 parties : tenues, relatives en 的, 别, ordre des mots, mots à placer, phrases malades"
-            onClick={() => onSelectMode('devoir2')} highlight />
+        <p className="text-muted mb-5">Révisions et entraînement pour les devoirs et les examens.</p>
+        <div className="grid gap-3">
           <EvalCard glyph="复" kicker="Semaines 1 à 7 · L01 à L08" title="Révisions & entraînement"
             text={`Sujet blanc au format du partiel, ${data.lessons.length} leçons, ${HANZI.length} caractères à écrire, mes erreurs`}
-            onClick={() => onSelectMode('exam1')} />
-          <EvalCard glyph="考" kicker="Partiel du 14 octobre" title="期中考试 — sujet réel"
-            text="Le vrai sujet à refaire, puis le corrigé : ordre, 汉字, 选词填空, grammaire"
-            onClick={() => onSelectMode('midterm')} />
-          <EvalCard glyph="作" kicker="Rendu le 6 octobre" title="中文作业 1"
-            text="Examen blanc noté sur 20, variantes et corrigé"
-            onClick={() => onSelectMode('homework1')} />
+            onClick={() => onSelectMode('exam1')} highlight />
         </div>
         <p className="text-sm text-muted mt-3">
           À venir : exposés oraux en groupe (fin novembre – début décembre) · devoir 3 (leçons 13 à 24) · test de fin de semestre.

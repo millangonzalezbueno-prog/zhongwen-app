@@ -64,7 +64,6 @@ export const CLASSIFIERS = [
   C('这___蓝裙子你喜欢吗？', '条', '条 pour 裙子.', '条 for 裙子.', { l: 'L05' }),
   C('冬天要带一___围巾。', '条', '条 pour 围巾 (objet long).', '条 for 围巾 (long object).', { l: 'L05' }),
   C('河里有一___小鱼。', '条', '条 pour les poissons.', '条 for fish.', { l: 'L02' }),
-  C('妈妈给他买了一___新鞋。', '双', '双 : une paire (鞋, 袜子, 手套, 筷子).', '双: a pair (shoes, socks, gloves, chopsticks).', { l: 'L05' }),
   C('冬天我常常戴一___手套。', '双', '双 pour 手套.', '双 for gloves.', { l: 'L05' }),
   C('爷爷每天都用那___筷子吃饭。', '双', '双 pour 筷子.', '双 for chopsticks.', { l: 'L02' }),
   C('这___帽子太小了，有大一点儿的吗？', '顶', '顶 : chapeaux.', '顶: hats.', { l: 'L05' }),
@@ -77,7 +76,6 @@ export const CLASSIFIERS = [
   C('苹果多少钱一___？', '斤', '斤 : unité de poids (500 g).', '斤: unit of weight (500 g).', { l: 'L05', accept: ['个'] }),
   C('我吃了两___苹果。', '个', '个 : classificateur général (苹果, 西瓜, 芒果).', '个: general classifier (apples, watermelons, mangoes).', { l: 'L05' }),
   C('我买了三___新书。', '本', '本 : livres, cahiers, revues.', '本: books, notebooks, magazines.', { l: 'L02' }),
-  C('爸爸昨天买了一___新车。', '辆', '辆 : véhicules (车, 自行车, 公共汽车).', '辆: vehicles (cars, bikes, buses).', { l: 'L02' }),
   C('我家有两___自行车。', '辆', '辆 pour 自行车.', '辆 for bikes.', { l: 'L05' }),
   C('那___老人已经一百岁了。', '位', '位 : personnes (poli).', '位: people (polite).', { l: 'L02', accept: ['个'] }),
   C('我买了两___飞机票。', '张', '张 : objets plats (票, 纸, 床, 桌子).', '张: flat objects (tickets, paper, beds, tables).', { l: 'L02' }),
@@ -87,7 +85,7 @@ export const CLASSIFIERS = [
   C('我吃了一___面条。', '碗', '碗 : un bol.', '碗: a bowl.', { l: 'L02' }),
   C('弟弟吃了三___蛋糕。', '块', '块 : un morceau (蛋糕, 面包).', '块: a piece (cake, bread).', { l: 'L02', accept: ['个'] }),
   C('他家有五___人。', '口', '口 : membres de la famille.', '口: family members.', { l: 'L02', accept: ['个'] }),
-  C('你想吃哪___面包？', '种', '种 : sorte, espèce.', '种: kind, sort.', { l: 'L02', accept: ['块'] }),
+  C('这家商店有很多___水果。', '种', '种 : sorte, espèce (beaucoup de sortes de fruits).', '种: kind, sort (many kinds of fruit).', { l: 'L05' }),
   C('今天的最后一___课是体育课。', '节', '节 : une séance de cours.', '节: a class period.', { l: 'L02' }),
   C('这个学期，我选了五___课。', '门', '门 : une matière au programme.', '门: a course/subject.', { l: 'L04' }),
   C('院子里有两___苹果树。', '棵', '棵 : arbres, plantes.', '棵: trees, plants.', { l: 'L04' }),
@@ -158,14 +156,6 @@ export const WORD_BANKS = [
     W('今天上午下了一___雪。', '场'),
     W('七月到八月气温最高，三十度___。', '左右'),
     W('新疆在中国的西北___。', '部'),
-  ] },
-  { id: 'devoir', l: 'L04', title: 'Comme le devoir', items: [
-    W('妹妹的孩子今年六岁了，应该上小学一___了。', '年级'),
-    W('我___明天早上去北京西站买火车票。', '打算'),
-    W('爸爸昨天买了一___新车。', '辆'),
-    W('这个___我们一起练习汉语口语，好吗？', '周末'),
-    W('我每天早上八点___上课。', '半'),
-    W('我还没去过那个___，漂亮吗？', '地方'),
   ] },
 ];
 
@@ -948,9 +938,6 @@ GRAMMAR_MCQ.push(
 );
 
 ERROR_CORRECTIONS.push(
-  E('dian', 'L07', '我一点儿饿。', '我有点儿饿。', 'Sentiment négatif → 有点儿 + Adj.', 'Negative feeling → 有点儿 + Adj.', ['我有点饿']),
-  E('duree', 'L07', '我一天三次吃饭。', '我一天吃三次饭。', 'Fréquence après le verbe : 吃三次饭.', 'Frequency after the verb: 吃三次饭.', ['我一天吃饭吃三次', '我一天吃三顿饭']),
-  E('lex', 'L07', '小张在大学门口一定等她。', '小张一定在大学门口等她。', '一定 (adverbe) avant le complément de lieu 在….', '一定 (adverb) before the 在… phrase.'),
   E('shide', 'L08', '我是明天走的。', '我明天走。', '是…的 est réservé au passé.', '是…的 is only for the past.', ['我明天要走', '我明天就走']),
   E('shide', 'L08', '你的裙子是在哪儿买？', '你的裙子是在哪儿买的？', 'Ne pas oublier 的.', 'Don\'t drop 的.'),
   E('result', 'L08', '他比我很高。', '他比我高。', 'Pas de 很 avec 比.', 'No 很 with 比.', ['他比我高一点儿', '他比我高很多']),
@@ -1011,20 +998,6 @@ OPEN_QUESTIONS.push(
 );
 
 WORD_BANKS.push(
-  { id: 'midterm', l: 'L06', title: 'Comme le partiel (14 oct.)', items: [
-    W('明天早上考试，请大家八点以前到，考试八点半___。', '开始'),
-    W('王老师___喜欢喝茶，下午常常喝一杯茶。', '比较'),
-    W('这个地方很___，每年有很多外国人来旅游。', '有名'),
-    W('我每天晚上都___说汉语，所以现在说得越来越好了。', '练习'),
-    W('银行就在超市的___，走过去只要两分钟。', '旁边'),
-  ] },
-  { id: 'devoir2', l: 'L07', title: 'Comme le devoir 2', items: [
-    W('请你___说一遍。', '再'),
-    W('我买花茶，___都不要。', '别的'),
-    W('你下午来___我练习汉语口语，好吗？', '帮'),
-    W('明天是她的生日，我们___送她什么呢？', '应该'),
-    W('星期天我没有时间，我___去看我妈妈。', '得'),
-  ] },
   { id: 'portrait', l: 'L07', title: 'Portrait (L07)', items: [
     W('你们看这张___，这四个女孩都是我的中国朋友。', '照片'),
     W('我最好的朋友___不太高，一米六五。', '个子'),
