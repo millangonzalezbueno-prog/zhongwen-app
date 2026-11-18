@@ -32,7 +32,7 @@ function buildExercises(lesson) {
 }
 
 function buildLessonExercises(lesson) {
-  if (['L07', 'L08'].includes(lesson.id)) return lessonFromBank(lesson);
+  if (Number(lesson.id.slice(1)) >= 7) return lessonFromBank(lesson);
   if (lesson.id === 'L06') return lessonL06(lesson);
   if (lesson.id === 'L05') return lessonL05(lesson);
   if (lesson.id === 'L04') return buildExercisesL04(lesson);

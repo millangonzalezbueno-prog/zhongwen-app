@@ -208,7 +208,8 @@ function fiveWordBank() {
 // Mock exam in the format of the 14 October paper: word order ×5, characters in context ×5,
 // word bank ×5, grammar ×10. Points follow the number of items (4 / 4 / 4 / 8 = 20).
 export function mockExam(lessons) {
-  const isNew = (q) => ['L06', 'L07', 'L08'].includes(q.l);
+  // The most recent lessons weigh more in the paper.
+  const isNew = (q) => Number((q.l || 'L00').slice(1)) >= 8;
   const grammarPool = [...GRAMMAR_FILLS, ...GRAMMAR_MCQ];
   const grammar = [
     ...pick(grammarPool.filter(isNew), 4),

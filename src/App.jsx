@@ -170,7 +170,7 @@ function HomeView({ data, onSelectMode, onOpenLesson }) {
         <h2 className="text-2xl font-semibold mb-1">Évaluations</h2>
         <p className="text-muted mb-5">Révisions et entraînement pour les devoirs et les examens.</p>
         <div className="grid gap-3">
-          <EvalCard glyph="复" kicker="Semaines 1 à 7 · L01 à L08" title="Révisions & entraînement"
+          <EvalCard glyph="复" kicker={`Semaines 1 à ${Math.max(...data.lessons.map(l => l.week))} · L01 à L${String(data.lessons.length).padStart(2, '0')}`} title="Révisions & entraînement"
             text={`Sujet blanc au format du partiel, ${data.lessons.length} leçons, ${HANZI.length} caractères à écrire, mes erreurs`}
             onClick={() => onSelectMode('exam1')} highlight />
         </div>

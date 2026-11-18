@@ -1732,5 +1732,463 @@
         ]
       }
     ]
+  },
+  {
+    "id": "L09",
+    "week": 8,
+    "title": "我约好了三点",
+    "title_fr": "On avait rendez-vous à 3 h",
+    "title_en": "We Agreed on Three O'Clock",
+    "theme": "一…就, 就/才, résultatifs et potentiels — Rendez-vous / Appointments",
+    "date": "2026-10-21",
+    "reading": {
+      "title": "什么时候有空？",
+      "paragraphs": [
+        "王力：马德，你好！怎么样？",
+        "马德：还可以。你呢？",
+        "王力：我很好。我很想去看电影。你想看电影吗？",
+        "马德：我也很想看电影！",
+        "王力：星期三和星期四下午我有空。星期六我也没事。你什么时候有空？",
+        "马德：这个星期我很忙，我有很多约会：跟医生的约会，跟我女朋友的约会，我还约了同学一起复习汉语口语。下个星期怎么样？",
+        "王力：好啊。",
+        "马德：下个星期三和星期四下午我有空，可是星期五下午我有汉语课。我们星期六看电影，好吗？",
+        "王力：看完电影，我们去吃中国饭，你说呢？我今天晚上给你打电话。",
+        "马德：好，我们晚上聊。",
+        "小丽：周末你有什么打算？",
+        "小刚：我想好了，请你吃饭、看电影、喝咖啡。",
+        "小丽：请我？",
+        "小刚：是啊，我已经找好饭馆了，电影票也买好了。",
+        "小丽：我还没想好要不要跟你去呢。",
+        "A：你知道吗？小明找到工作了。B：太好了！他什么时候开始上班？A：下个星期一开始上班。B：这是他的第一份工作，希望他能喜欢。"
+      ],
+      "paragraphs_en": [
+        "Wang Li: Hi Ma De! How's it going?",
+        "Ma De: Not bad. You?",
+        "Wang Li: Great. I'd really like to see a film. Do you want to?",
+        "Ma De: I'd love to see a film too!",
+        "Wang Li: I'm free Wednesday and Thursday afternoons, and Saturday too. When are you free?",
+        "Ma De: I'm very busy this week, lots of appointments: the doctor, my girlfriend, and I've arranged to revise spoken Chinese with a classmate. How about next week?",
+        "Wang Li: OK.",
+        "Ma De: Next Wednesday and Thursday afternoons I'm free, but Friday afternoon I have Chinese class. Shall we see a film on Saturday?",
+        "Wang Li: After the film let's go for Chinese food, what do you say? I'll call you tonight.",
+        "Ma De: Fine, let's talk tonight.",
+        "Xiaoli: Any plans for the weekend?",
+        "Xiaogang: I've decided: I'm taking you to dinner, a film and coffee.",
+        "Xiaoli: Me?",
+        "Xiaogang: Yes, I've already found a restaurant and bought the film tickets.",
+        "Xiaoli: I haven't decided yet whether to go with you!",
+        "A: Did you hear? Xiaoming found a job. B: Great! When does he start? A: Next Monday. B: It's his first job, I hope he likes it."
+      ]
+    },
+    "vocab": [
+      { "word": "有空", "pinyin": "yǒu kòng", "gloss_fr": "être libre, avoir du temps = 没事儿", "gloss_en": "be free = 没事儿", "category": "rendez-vous", "example": "星期三和星期四下午我有空。" },
+      { "word": "没空", "pinyin": "méi kòng", "gloss_fr": "ne pas être libre = 有事", "gloss_en": "be busy = 有事", "category": "rendez-vous", "example": "对不起，我下午没空，下午我开会。" },
+      { "word": "约会", "pinyin": "yuēhuì", "gloss_fr": "rendez-vous", "gloss_en": "appointment, date", "category": "rendez-vous", "example": "这个星期我很忙，我有很多约会。", "hsk": 4 },
+      { "word": "约", "pinyin": "yuē", "gloss_fr": "donner rendez-vous, convenir", "gloss_en": "to arrange to meet", "category": "rendez-vous", "example": "我还约了同学一起复习汉语口语。", "hsk": 4 },
+      { "word": "约好", "pinyin": "yuēhǎo", "gloss_fr": "convenir (d'un rendez-vous)", "gloss_en": "to agree on (a meeting)", "category": "rendez-vous", "example": "我们约好三点来图书馆。" },
+      { "word": "对不起", "pinyin": "duìbuqǐ", "gloss_fr": "pardon, désolé", "gloss_en": "sorry", "category": "rendez-vous", "example": "对不起，我下午没空。", "hsk": 1 },
+      { "word": "开会", "pinyin": "kāihuì", "gloss_fr": "être en réunion", "gloss_en": "to have a meeting", "category": "rendez-vous", "example": "下午我开会。", "hsk": 3 },
+      { "word": "聊", "pinyin": "liáo", "gloss_fr": "bavarder", "gloss_en": "to chat", "category": "rendez-vous", "example": "好，我们晚上聊。" },
+      { "word": "就", "pinyin": "jiù", "gloss_fr": "dès, tôt (plus tôt que prévu) ; alors", "gloss_en": "as early as; then", "category": "就/才", "example": "他明天就来。", "hsk": 2 },
+      { "word": "才", "pinyin": "cái", "gloss_fr": "seulement, pas avant (plus tard que prévu) ; à peine", "gloss_en": "only then, not until; only", "category": "就/才", "example": "他明天才来。", "hsk": 3 },
+      { "word": "放学", "pinyin": "fàngxué", "gloss_fr": "sortir de l'école", "gloss_en": "school lets out", "category": "就/才", "example": "我们昨天下午4点就放学了。" },
+      { "word": "成为", "pinyin": "chéngwéi", "gloss_fr": "devenir", "gloss_en": "to become", "category": "就/才", "example": "他1936年就成为电影明星了。", "hsk": 4 },
+      { "word": "明星", "pinyin": "míngxīng", "gloss_fr": "star, vedette", "gloss_en": "star, celebrity", "category": "就/才", "example": "他1936年就成为电影明星了。" },
+      { "word": "解决", "pinyin": "jiějué", "gloss_fr": "résoudre", "gloss_en": "to solve", "category": "就/才", "example": "他只用了五分钟就解决了这个问题。", "hsk": 3 },
+      { "word": "问题", "pinyin": "wèntí", "gloss_fr": "question, problème", "gloss_en": "question, problem", "category": "就/才", "example": "他只用了五分钟就解决了这个问题。", "hsk": 2 },
+      { "word": "找到", "pinyin": "zhǎodào", "gloss_fr": "trouver", "gloss_en": "to find", "category": "résultatif", "example": "你知道吗？小明找到工作了。" },
+      { "word": "打错", "pinyin": "dǎcuò", "gloss_fr": "se tromper (de numéro)", "gloss_en": "to dial the wrong number", "category": "résultatif", "example": "你打错了，我们这儿没有叫张欢的。" },
+      { "word": "想好", "pinyin": "xiǎnghǎo", "gloss_fr": "bien réfléchir, avoir décidé", "gloss_en": "to have thought it through", "category": "résultatif", "example": "我想好了，请你吃饭。" },
+      { "word": "买好", "pinyin": "mǎihǎo", "gloss_fr": "avoir acheté (c'est réglé)", "gloss_en": "to have bought (done)", "category": "résultatif", "example": "我已经买好去北京的飞机票了。" },
+      { "word": "准备好", "pinyin": "zhǔnbèi hǎo", "gloss_fr": "être prêt", "gloss_en": "to be ready", "category": "résultatif", "example": "去旅游的东西准备好了吗？" },
+      { "word": "学会", "pinyin": "xuéhuì", "gloss_fr": "apprendre (et maîtriser)", "gloss_en": "to learn (master)", "category": "résultatif", "example": "我两个月前开始学开车，还没学会呢。" },
+      { "word": "收到", "pinyin": "shōudào", "gloss_fr": "recevoir", "gloss_en": "to receive", "category": "résultatif", "example": "我收到了你的信。" },
+      { "word": "念", "pinyin": "niàn", "gloss_fr": "lire à voix haute", "gloss_en": "to read aloud", "category": "résultatif", "example": "我念错了一个字。" },
+      { "word": "卖完", "pinyin": "màiwán", "gloss_fr": "être épuisé (vendu)", "gloss_en": "sold out", "category": "résultatif", "example": "今天的报纸都卖完了。" },
+      { "word": "记住", "pinyin": "jìzhù", "gloss_fr": "retenir", "gloss_en": "to memorise", "category": "résultatif", "example": "这个字很难，我总是记不住。", "hsk": 3 },
+      { "word": "护照", "pinyin": "hùzhào", "gloss_fr": "passeport", "gloss_en": "passport", "category": "résultatif", "example": "你看见我的护照了吗？我找不到了。", "hsk": 3 },
+      { "word": "离开", "pinyin": "líkāi", "gloss_fr": "quitter", "gloss_en": "to leave", "category": "résultatif", "example": "我是在这里出生的，离不开这个城市。", "hsk": 3 },
+      { "word": "考上", "pinyin": "kǎoshàng", "gloss_fr": "réussir (un concours)", "gloss_en": "to pass (an entrance exam)", "category": "résultatif", "example": "他考上了北京大学。" },
+      { "word": "想起", "pinyin": "xiǎngqǐ", "gloss_fr": "se rappeler", "gloss_en": "to recall", "category": "résultatif", "example": "我想不起他的名字了。" },
+      { "word": "京剧", "pinyin": "jīngjù", "gloss_fr": "opéra de Pékin", "gloss_en": "Peking opera", "category": "résultatif", "example": "我听不懂京剧。", "hsk": 4 },
+      { "word": "份", "pinyin": "fèn", "gloss_fr": "clf. ensemble (travail, journal, repas)", "gloss_en": "clf. for a portion, job, newspaper", "category": "résultatif", "example": "这是他的第一份工作。", "hsk": 4 },
+      { "word": "传说", "pinyin": "chuánshuō", "gloss_fr": "légende", "gloss_en": "legend", "category": "Pangu", "example": "传说：盘古开天" },
+      { "word": "盘古", "pinyin": "Pángǔ", "gloss_fr": "Pangu (créateur du monde)", "gloss_en": "Pangu (creator of the world)", "category": "Pangu", "example": "盘古开天" },
+      { "word": "醒", "pinyin": "xǐng", "gloss_fr": "se réveiller", "gloss_en": "to wake up", "category": "Pangu", "example": "盘古醒了。" },
+      { "word": "变成", "pinyin": "biànchéng", "gloss_fr": "devenir, se transformer en", "gloss_en": "to turn into", "category": "Pangu", "example": "他的眼睛变成了太阳和月亮。" },
+      { "word": "发生", "pinyin": "fāshēng", "gloss_fr": "se produire", "gloss_en": "to happen", "category": "Pangu", "example": "发生了什么事？", "hsk": 4 },
+      { "word": "突然", "pinyin": "tūrán", "gloss_fr": "soudain", "gloss_en": "suddenly", "category": "Pangu", "example": "天突然黑了。", "hsk": 3 },
+      { "word": "担心", "pinyin": "dānxīn", "gloss_fr": "s'inquiéter", "gloss_en": "to worry", "category": "Pangu", "example": "爷爷住院了，我很担心。", "hsk": 3 },
+      { "word": "活动", "pinyin": "huódòng", "gloss_fr": "activité ; bouger", "gloss_en": "activity; to move about", "category": "活动 HSK3", "example": "这次活动很有意思。", "hsk": 4 },
+      { "word": "节目", "pinyin": "jiémù", "gloss_fr": "programme, spectacle", "gloss_en": "programme, show", "category": "活动 HSK3", "example": "她最喜欢看音乐节目。", "hsk": 3 },
+      { "word": "音乐", "pinyin": "yīnyuè", "gloss_fr": "musique", "gloss_en": "music", "category": "活动 HSK3", "example": "他喜欢一边看书，一边听音乐。", "hsk": 3 },
+      { "word": "表演", "pinyin": "biǎoyǎn", "gloss_fr": "représenter, jouer ; spectacle", "gloss_en": "to perform; performance", "category": "活动 HSK3", "example": "你们要表演什么节目？", "hsk": 3 },
+      { "word": "唱歌", "pinyin": "chànggē", "gloss_fr": "chanter", "gloss_en": "to sing", "category": "活动 HSK3", "example": "我妈妈唱歌唱得非常好听。", "hsk": 2 },
+      { "word": "跳舞", "pinyin": "tiàowǔ", "gloss_fr": "danser", "gloss_en": "to dance", "category": "活动 HSK3", "example": "他一听见音乐就跳舞。", "hsk": 2 },
+      { "word": "玩", "pinyin": "wán", "gloss_fr": "jouer, s'amuser", "gloss_en": "to play, have fun", "category": "活动 HSK3", "example": "周末你打算去哪儿玩？", "hsk": 2 },
+      { "word": "游戏", "pinyin": "yóuxì", "gloss_fr": "jeu", "gloss_en": "game", "category": "活动 HSK3", "example": "我不喜欢玩手机游戏。", "hsk": 3 },
+      { "word": "事情", "pinyin": "shìqing", "gloss_fr": "affaire, chose", "gloss_en": "matter, thing", "category": "活动 HSK3", "example": "今天我有很多事情要做。", "hsk": 2 },
+      { "word": "办法", "pinyin": "bànfǎ", "gloss_fr": "moyen, solution", "gloss_en": "way, solution", "category": "活动 HSK3", "example": "你有好办法吗？", "hsk": 3 },
+      { "word": "作用", "pinyin": "zuòyòng", "gloss_fr": "rôle, effet", "gloss_en": "role, effect", "category": "活动 HSK3", "example": "这种药很有作用。", "hsk": 3 },
+      { "word": "机会", "pinyin": "jīhuì", "gloss_fr": "occasion, chance", "gloss_en": "opportunity", "category": "活动 HSK3", "example": "谢谢你给我这个机会。", "hsk": 3 },
+      { "word": "习惯", "pinyin": "xíguàn", "gloss_fr": "habitude ; s'habituer", "gloss_en": "habit; to get used to", "category": "活动 HSK3", "example": "来中国三个月了，他还是不习惯用筷子。", "hsk": 3 },
+      { "word": "要求", "pinyin": "yāoqiú", "gloss_fr": "exiger ; exigence", "gloss_en": "to require; requirement", "category": "活动 HSK3", "example": "妈妈要求我每天晚上看半个小时的书。", "hsk": 3 },
+      { "word": "影响", "pinyin": "yǐngxiǎng", "gloss_fr": "influencer ; influence", "gloss_en": "to influence; influence", "category": "活动 HSK3", "example": "玩手机游戏会影响学习。", "hsk": 3 },
+      { "word": "会议", "pinyin": "huìyì", "gloss_fr": "réunion, conférence", "gloss_en": "meeting, conference", "category": "活动 HSK3", "example": "我们下午两点有一个重要会议。", "hsk": 3 }
+    ],
+    "grammar": [
+      {
+        "pattern": "A + 一 + V₁…，就 + V₂ : dès que…",
+        "explanation_fr": "Deux actions (ou états) qui se suivent immédiatement. 一 et 就 sont des adverbes : ils se placent après le sujet, devant le verbe. Avec deux sujets différents, chacun garde sa place : 我一跟他说这件事，他就生气. Fréquent avec les résultatifs : 她一看见这只狗就很喜欢, 他一听见音乐就跳舞.",
+        "explanation_en": "Two actions (or states) in immediate succession. 一 and 就 are adverbs: after the subject, before the verb. With two subjects, each keeps its place: 我一跟他说这件事，他就生气. Common with resultatives: 她一看见这只狗就很喜欢, 他一听见音乐就跳舞.",
+        "examples": [
+          { "zh": "弟弟一回家就看电视。", "pinyin": "Dìdi yì huí jiā jiù kàn diànshì.", "fr": "Dès qu'il rentre, mon petit frère regarde la télé.", "en": "As soon as he gets home my brother watches TV." },
+          { "zh": "骑自行车很容易，你一定一学就会。", "pinyin": "Qí zìxíngchē hěn róngyì, nǐ yídìng yì xué jiù huì.", "fr": "Le vélo, c'est facile : tu sauras dès que tu essaieras.", "en": "Cycling is easy — you'll get it as soon as you try." },
+          { "zh": "他一想到前女友就很难过。", "pinyin": "Tā yì xiǎngdào qián nǚyǒu jiù hěn nánguò.", "fr": "Dès qu'il pense à son ex, il est triste.", "en": "Whenever he thinks of his ex he feels sad." }
+        ]
+      },
+      {
+        "pattern": "就 vs 才 : plus tôt / plus tard que prévu",
+        "explanation_fr": "Jugement subjectif du locuteur. 就 + V : l'action arrive tôt, vite, facilement (souvent avec 了) : 我三点就到了, 我们走了一个小时就到了. 才 + V : l'action arrive tard, difficilement (sans 了) : 他四点才到, 我做了三个小时才做完作业. 才 + nombre : « seulement, à peine » : 她才三岁, 现在才两点. 他明天就来 (dès demain) ≠ 他明天才来 (pas avant demain).",
+        "explanation_en": "The speaker's subjective view. 就 + V: early, quickly, easily (often with 了): 我三点就到了. 才 + V: late, with difficulty (no 了): 他四点才到, 我做了三个小时才做完作业. 才 + number: 'only, barely': 她才三岁. 他明天就来 (as early as tomorrow) ≠ 他明天才来 (not until tomorrow).",
+        "examples": [
+          { "zh": "我三点就到了，他四点才到。", "pinyin": "Wǒ sān diǎn jiù dào le, tā sì diǎn cái dào.", "fr": "Je suis arrivé dès 3 h, lui seulement à 4 h.", "en": "I got there at 3; he didn't arrive till 4." },
+          { "zh": "我们约好三点来图书馆，你怎么四点才来？", "pinyin": "Wǒmen yuēhǎo sān diǎn lái túshūguǎn, nǐ zěnme sì diǎn cái lái?", "fr": "On avait dit 3 h à la bibliothèque, pourquoi n'arrives-tu qu'à 4 h ?", "en": "We said 3 at the library — why are you only here at 4?" },
+          { "zh": "我看了三遍才看懂。", "pinyin": "Wǒ kàn le sān biàn cái kàndǒng.", "fr": "Il m'a fallu lire trois fois pour comprendre.", "en": "I only understood after reading it three times." }
+        ]
+      },
+      {
+        "pattern": "Résultatifs : V + 好 / 完 / 到 / 见 / 懂 / 会 / 错 / 住",
+        "explanation_fr": "V + 好 : l'action est menée à bien, c'est réglé (想好, 买好, 准备好, 约好, 吃好). V + 完 : fini. V + 到 : atteint (找到, 收到, 买到). V + 见 : perçu (看见, 听见). V + 懂 : compris. V + 会 : maîtrisé. V + 错 : raté (打错, 写错, 听错). V + 住 : fixé (记住). Négation : 没 + V + résultat (还没学会). Corrections : 饭还没做好, 我已经买好去北京的飞机票了.",
+        "explanation_en": "V + 好: done properly, settled (想好, 买好, 准备好, 约好). V + 完: finished. V + 到: reached (找到, 收到, 买到). V + 见: perceived. V + 懂: understood. V + 会: mastered. V + 错: wrong (打错, 写错, 听错). V + 住: fixed (记住). Negation: 没 + V + result (还没学会).",
+        "examples": [
+          { "zh": "我已经买好去北京的飞机票了。", "pinyin": "Wǒ yǐjīng mǎihǎo qù Běijīng de fēijīpiào le.", "fr": "J'ai déjà acheté mon billet d'avion pour Pékin.", "en": "I've already got my plane ticket to Beijing." },
+          { "zh": "你打错了，我们这儿没有叫张欢的。", "pinyin": "Nǐ dǎcuò le, wǒmen zhèr méiyǒu jiào Zhāng Huān de.", "fr": "Vous vous êtes trompé de numéro, il n'y a pas de Zhang Huan ici.", "en": "Wrong number — there's no Zhang Huan here." },
+          { "zh": "我两个月前开始学开车，还没学会呢。", "pinyin": "Wǒ liǎng ge yuè qián kāishǐ xué kāichē, hái méi xuéhuì ne.", "fr": "J'ai commencé à apprendre à conduire il y a deux mois, je ne sais pas encore.", "en": "I started learning to drive two months ago and still can't." }
+        ]
+      },
+      {
+        "pattern": "Verbes potentiels : V + 得 / 不 + résultat",
+        "explanation_fr": "Intercaler 得 ou 不 entre le verbe et le résultat exprime la possibilité ou l'impossibilité : 看得见 (arriver à voir), 看不懂 (ne pas arriver à comprendre en lisant), 听不见, 找不到, 记不住, 想不起, 吃得饱, 说不完, 考不上, 离不开. Question : 你看得懂吗 ? / 看得懂看不懂 ?",
+        "explanation_en": "Putting 得 or 不 between verb and result expresses possibility or impossibility: 看得见 (can see), 看不懂 (can't understand reading), 听不见, 找不到, 记不住, 想不起, 吃得饱, 说不完, 考不上, 离不开. Question: 你看得懂吗? / 看得懂看不懂?",
+        "examples": [
+          { "zh": "老师写的字很小，我看不见。", "pinyin": "Lǎoshī xiě de zì hěn xiǎo, wǒ kàn bu jiàn.", "fr": "Le professeur écrit tout petit, je n'arrive pas à voir.", "en": "The teacher's writing is tiny, I can't see it." },
+          { "zh": "这个字很难，我总是记不住。", "pinyin": "Zhège zì hěn nán, wǒ zǒngshì jì bu zhù.", "fr": "Ce caractère est difficile, je n'arrive jamais à le retenir.", "en": "This character is hard, I can never remember it." },
+          { "zh": "这本小说很简单，我看得懂。", "pinyin": "Zhè běn xiǎoshuō hěn jiǎndān, wǒ kàn de dǒng.", "fr": "Ce roman est simple, j'arrive à le comprendre.", "en": "This novel is simple, I can understand it." }
+        ]
+      },
+      {
+        "pattern": "V + résultat + O : le résultatif ne se sépare pas",
+        "explanation_fr": "Le verbe et son résultat forment un bloc ; l'objet se place APRÈS le résultat : 我吃完饭了 (*我吃饭完了), 我洗完澡再做作业 (*我洗澡完), 我考完试去旅游, 我跑完步去喝咖啡, 我听不懂京剧 (*我听京剧不懂).",
+        "explanation_en": "Verb and result form a block; the object goes AFTER the result: 我吃完饭了 (*我吃饭完了), 我洗完澡再做作业, 我考完试去旅游, 我跑完步去喝咖啡, 我听不懂京剧 (*我听京剧不懂).",
+        "examples": [
+          { "zh": "我吃完饭了。", "pinyin": "Wǒ chīwán fàn le.", "fr": "J'ai fini de manger.", "en": "I've finished eating." },
+          { "zh": "我考完试去旅游。", "pinyin": "Wǒ kǎowán shì qù lǚyóu.", "fr": "Après les examens, je pars en voyage.", "en": "After the exams I'm going travelling." }
+        ]
+      },
+      {
+        "pattern": "Proposer et refuser : …，好吗？ / 对不起，我没空",
+        "explanation_fr": "Proposer : 我们下午去看电影，好吗 ? / 好不好 ? / 你想…吗 ? Accepter : 好啊 ! Refuser poliment en justifiant : 对不起，我下午没（有）空，下午我开会. 有空 = 没事儿 ; 没空 = 有事. 约 + qqn : donner rendez-vous ; 跟朋友约会.",
+        "explanation_en": "Suggest: 我们下午去看电影，好吗? / 好不好? / 你想…吗? Accept: 好啊! Decline politely with a reason: 对不起，我下午没（有）空，下午我开会. 有空 = 没事儿; 没空 = 有事. 约 + someone: arrange to meet.",
+        "examples": [
+          { "zh": "我们星期六看电影，好吗？——好啊！", "pinyin": "Wǒmen xīngqīliù kàn diànyǐng, hǎo ma? — Hǎo a!", "fr": "On va au cinéma samedi ? — D'accord !", "en": "Shall we see a film on Saturday? — Sure!" },
+          { "zh": "你什么时候有空？", "pinyin": "Nǐ shénme shíhou yǒu kòng?", "fr": "Quand es-tu libre ?", "en": "When are you free?" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L10",
+    "week": 9,
+    "title": "上海比北京大",
+    "title_fr": "Shanghai est plus grand que Pékin",
+    "title_en": "Shanghai Is Bigger Than Beijing",
+    "theme": "比, 一样, 没有 — Comparaison / Comparison",
+    "date": "2026-11-03",
+    "reading": {
+      "title": "上海比北京大",
+      "paragraphs": [
+        "去年夏天，我们去中国工作，在北京住了一个月。我们还去了上海。",
+        "上海比北京大，可是没有北京漂亮。上海的夏天和北京一样热，但是上海的冬天没有北京那么冷。",
+        "在北京，我们住的地方离北京市中心很远，去市中心要坐地铁。北京地铁没有巴黎地铁多，但是比巴黎地铁人多。",
+        "A：前边说话的那个人就是我的汉语老师，你可能不认识她。B：是新来的汉语老师吗？A：是去年来的，她姓王，28岁。B：她比我们老师小两岁。",
+        "A：你每天早上几点起床？B：六点多。A：你比我早起一个小时。B：我睡得也早，我每天晚上十点就睡觉，早起早睡身体好。",
+        "很久以前，有一个叫“年”的动物。每年冬天的最后一天，它就出来吃东西。一个老人发现“年”怕红色，也怕很大的声音。所以，每年春节，人们都用红色的东西，还放鞭炮。"
+      ],
+      "paragraphs_en": [
+        "Last summer we went to work in China and stayed a month in Beijing. We also went to Shanghai.",
+        "Shanghai is bigger than Beijing but not as pretty. Summer in Shanghai is as hot as in Beijing, but winter in Shanghai isn't as cold.",
+        "In Beijing we lived far from the city centre and took the metro there. Beijing has fewer metro lines than Paris, but they're more crowded.",
+        "A: The person talking in front is my Chinese teacher — you might not know her. B: Is she the new Chinese teacher? A: She came last year; her name is Wang, she's 28. B: She's two years younger than our teacher.",
+        "A: What time do you get up? B: A bit after six. A: You get up an hour earlier than me. B: I also go to bed early — at ten every night. Early to bed, early to rise is good for you.",
+        "Long ago there was a creature called the Nian. On the last day of each winter it came out to eat. An old man found that the Nian was afraid of red and of loud noises. So every Spring Festival people use red things and set off firecrackers."
+      ]
+    },
+    "vocab": [
+      { "word": "比", "pinyin": "bǐ", "gloss_fr": "comparer ; plus… que", "gloss_en": "to compare; more… than", "category": "comparaison", "example": "姚明比乔丹高。", "hsk": 2 },
+      { "word": "更", "pinyin": "gèng", "gloss_fr": "encore plus", "gloss_en": "even more", "category": "comparaison", "example": "妹妹比姐姐更漂亮。", "hsk": 3 },
+      { "word": "一些", "pinyin": "yìxiē", "gloss_fr": "un peu (plus), quelques", "gloss_en": "a bit (more), some", "category": "comparaison", "example": "这个手机比那个手机贵一些。", "hsk": 3 },
+      { "word": "多了", "pinyin": "duō le", "gloss_fr": "beaucoup plus (après l'adjectif)", "gloss_en": "much more (after the adjective)", "category": "comparaison", "example": "北京比巴黎大多了。" },
+      { "word": "得多", "pinyin": "de duō", "gloss_fr": "beaucoup plus (après l'adjectif)", "gloss_en": "much more (after the adjective)", "category": "comparaison", "example": "他们比他高得多。" },
+      { "word": "一样", "pinyin": "yíyàng", "gloss_fr": "pareil — A 跟 B 一样 + Adj", "gloss_en": "the same — A 跟 B 一样 + Adj", "category": "comparaison", "example": "包子跟饺子一样好吃。", "hsk": 3 },
+      { "word": "没有", "pinyin": "méiyǒu", "gloss_fr": "moins… que — A 没有 B + Adj", "gloss_en": "not as… as — A 没有 B + Adj", "category": "comparaison", "example": "包子没有饺子好吃。", "hsk": 1 },
+      { "word": "厘米", "pinyin": "límǐ", "gloss_fr": "centimètre", "gloss_en": "centimetre", "category": "comparaison", "example": "姚明比乔丹高20厘米。" },
+      { "word": "笨", "pinyin": "bèn", "gloss_fr": "bête, maladroit", "gloss_en": "stupid, clumsy", "category": "comparaison", "example": "他没有我笨。" },
+      { "word": "聪明", "pinyin": "cōngming", "gloss_fr": "intelligent", "gloss_en": "clever", "category": "comparaison", "example": "姐姐比妹妹聪明。", "hsk": 3 },
+      { "word": "老", "pinyin": "lǎo", "gloss_fr": "vieux, âgé", "gloss_en": "old", "category": "comparaison", "example": "爷爷比爸爸老。", "hsk": 3 },
+      { "word": "年轻", "pinyin": "niánqīng", "gloss_fr": "jeune", "gloss_en": "young", "category": "comparaison", "example": "她比我们老师年轻两岁。", "hsk": 3 },
+      { "word": "旧", "pinyin": "jiù", "gloss_fr": "ancien, usé", "gloss_en": "old, used", "category": "comparaison", "example": "我的自行车比你的旧。", "hsk": 3 },
+      { "word": "慢", "pinyin": "màn", "gloss_fr": "lent", "gloss_en": "slow", "category": "comparaison", "example": "公共汽车比地铁慢。", "hsk": 2 },
+      { "word": "少", "pinyin": "shǎo", "gloss_fr": "peu", "gloss_en": "few, little", "category": "comparaison", "example": "男生比女生少三个。", "hsk": 1 },
+      { "word": "同屋", "pinyin": "tóngwū", "gloss_fr": "colocataire", "gloss_en": "roommate", "category": "comparaison", "example": "我7点起床，同屋8点起床。" },
+      { "word": "世界", "pinyin": "shìjiè", "gloss_fr": "monde", "gloss_en": "world", "category": "comparaison", "example": "世界上最大的国家", "hsk": 3 },
+      { "word": "差", "pinyin": "chà", "gloss_fr": "mauvais, faible", "gloss_en": "poor, bad", "category": "comparaison", "example": "他的汉语水平比以前差。", "hsk": 3 },
+      { "word": "多大", "pinyin": "duō dà", "gloss_fr": "quel âge ? (adulte)", "gloss_en": "how old? (adult)", "category": "âge", "example": "你今年多大？", "hsk": 1 },
+      { "word": "几岁", "pinyin": "jǐ suì", "gloss_fr": "quel âge ? (enfant)", "gloss_en": "how old? (child)", "category": "âge", "example": "你几岁？", "hsk": 1 },
+      { "word": "岁数", "pinyin": "suìshu", "gloss_fr": "âge (poli, personne âgée) — aussi 年岁", "gloss_en": "age (polite, elderly) — also 年岁", "category": "âge", "example": "您今年多大岁数？" },
+      { "word": "祝", "pinyin": "zhù", "gloss_fr": "souhaiter", "gloss_en": "to wish", "category": "âge", "example": "祝你生日快乐！", "hsk": 3 },
+      { "word": "生日快乐", "pinyin": "shēngrì kuàilè", "gloss_fr": "joyeux anniversaire", "gloss_en": "happy birthday", "category": "âge", "example": "祝你生日快乐！", "hsk": 2 },
+      { "word": "农历", "pinyin": "nónglì", "gloss_fr": "calendrier lunaire (agricole)", "gloss_en": "lunar calendar", "category": "âge", "example": "春节是农历一月一日。" },
+      { "word": "公历", "pinyin": "gōnglì", "gloss_fr": "calendrier grégorien", "gloss_en": "Gregorian calendar", "category": "âge", "example": "公历是中国的官方日历。" },
+      { "word": "年", "pinyin": "nián", "gloss_fr": "année ; le monstre Nian", "gloss_en": "year; the Nian monster", "category": "âge", "example": "“年”是一个传说里的动物。", "hsk": 1 },
+      { "word": "往", "pinyin": "wǎng", "gloss_fr": "vers", "gloss_en": "towards", "category": "prépositions", "example": "请大家往前看！", "hsk": 2 },
+      { "word": "用", "pinyin": "yòng", "gloss_fr": "avec, au moyen de", "gloss_en": "with, using", "category": "prépositions", "example": "你用什么笔画画？", "hsk": 3 },
+      { "word": "给", "pinyin": "gěi", "gloss_fr": "à, pour (+ personne)", "gloss_en": "to, for (+ person)", "category": "prépositions", "example": "妈妈每天晚上给她打电话。", "hsk": 2 },
+      { "word": "不客气", "pinyin": "bú kèqi", "gloss_fr": "de rien", "gloss_en": "you're welcome", "category": "vie quotidienne", "example": "甲：谢谢你！乙：不客气。", "hsk": 1 },
+      { "word": "没关系", "pinyin": "méi guānxi", "gloss_fr": "ce n'est rien", "gloss_en": "never mind", "category": "vie quotidienne", "example": "甲：对不起。乙：没关系。", "hsk": 1 },
+      { "word": "欢迎", "pinyin": "huānyíng", "gloss_fr": "bienvenue ; accueillir", "gloss_en": "welcome", "category": "vie quotidienne", "example": "欢迎你来我家。", "hsk": 2 },
+      { "word": "刷牙", "pinyin": "shuāyá", "gloss_fr": "se brosser les dents", "gloss_en": "to brush one's teeth", "category": "vie quotidienne", "example": "我每天早上和晚上都刷牙。", "hsk": 3 },
+      { "word": "洗澡", "pinyin": "xǐzǎo", "gloss_fr": "prendre une douche", "gloss_en": "to shower", "category": "vie quotidienne", "example": "太热了，我先去洗澡。", "hsk": 3 },
+      { "word": "上班", "pinyin": "shàngbān", "gloss_fr": "aller au travail", "gloss_en": "to go to work", "category": "vie quotidienne", "example": "我每天坐公共汽车去上班。", "hsk": 2 },
+      { "word": "见面", "pinyin": "jiànmiàn", "gloss_fr": "se voir", "gloss_en": "to meet", "category": "vie quotidienne", "example": "我们明天见个面吧。", "hsk": 3 },
+      { "word": "打扫", "pinyin": "dǎsǎo", "gloss_fr": "nettoyer, faire le ménage", "gloss_en": "to clean", "category": "vie quotidienne", "example": "这个周末，我准备打扫我的房间。", "hsk": 3 },
+      { "word": "干净", "pinyin": "gānjìng", "gloss_fr": "propre", "gloss_en": "clean", "category": "vie quotidienne", "example": "房间打扫得很干净。", "hsk": 3 },
+      { "word": "告诉", "pinyin": "gàosu", "gloss_fr": "dire, informer", "gloss_en": "to tell", "category": "vie quotidienne", "example": "你能告诉我学校怎么走吗？", "hsk": 2 },
+      { "word": "一般", "pinyin": "yìbān", "gloss_fr": "en général ; moyen", "gloss_en": "usually; average", "category": "vie quotidienne", "example": "我一般7点钟起床。", "hsk": 3 },
+      { "word": "重要", "pinyin": "zhòngyào", "gloss_fr": "important", "gloss_en": "important", "category": "vie quotidienne", "example": "这次会议很重要。", "hsk": 3 },
+      { "word": "帮忙", "pinyin": "bāngmáng", "gloss_fr": "donner un coup de main", "gloss_en": "to help out", "category": "vie quotidienne", "example": "谢谢你帮我的忙。", "hsk": 3 },
+      { "word": "照顾", "pinyin": "zhàogù", "gloss_fr": "s'occuper de", "gloss_en": "to take care of", "category": "vie quotidienne", "example": "你好好照顾自己。", "hsk": 3 },
+      { "word": "关心", "pinyin": "guānxīn", "gloss_fr": "se soucier de", "gloss_en": "to care about", "category": "vie quotidienne", "example": "爸爸很关心我的学习。", "hsk": 3 },
+      { "word": "满意", "pinyin": "mǎnyì", "gloss_fr": "satisfait", "gloss_en": "satisfied", "category": "vie quotidienne", "example": "你的回答不能让人满意。", "hsk": 3 },
+      { "word": "同意", "pinyin": "tóngyì", "gloss_fr": "être d'accord", "gloss_en": "to agree", "category": "vie quotidienne", "example": "我同意你的看法。", "hsk": 3 }
+    ],
+    "grammar": [
+      {
+        "pattern": "A + 比 + B + Adj : plus… que",
+        "explanation_fr": "Comparatif de supériorité : A 比 B + adjectif (姚明比乔丹高, 北京比这儿热). JAMAIS de 很, 非常, 太 ou 极了 devant ou après l'adjectif : *飞机比火车很快 → 飞机比火车快（得多）. L'adjectif reste après B : *北京的东西便宜比巴黎 → 北京的东西比巴黎便宜.",
+        "explanation_en": "Comparative of superiority: A 比 B + adjective. NEVER 很, 非常, 太 or 极了 with the adjective: *飞机比火车很快 → 飞机比火车快（得多）. The adjective comes after B: *北京的东西便宜比巴黎 → 北京的东西比巴黎便宜.",
+        "examples": [
+          { "zh": "姚明比乔丹高。", "pinyin": "Yáo Míng bǐ Qiáodān gāo.", "fr": "Yao Ming est plus grand que Jordan.", "en": "Yao Ming is taller than Jordan." },
+          { "zh": "坐地铁比坐公共汽车方便。", "pinyin": "Zuò dìtiě bǐ zuò gōnggòng qìchē fāngbiàn.", "fr": "Le métro est plus pratique que le bus.", "en": "The metro is more convenient than the bus." }
+        ]
+      },
+      {
+        "pattern": "A + 比 + B + Adj + 一点儿 / 一些 / quantité / 多了 / 得多",
+        "explanation_fr": "L'écart se place APRÈS l'adjectif : un peu → 一点儿 / 一些 (他比我高一点儿) ; chiffré → quantité (这个手机比那个贵129欧元, 姚明比乔丹高20厘米, 她比我们老师小两岁, 你比我早起一个小时) ; beaucoup → 多了 / 得多 (北京比巴黎大多了). *他比我一点高, *哥哥比我三岁大 sont faux.",
+        "explanation_en": "The difference goes AFTER the adjective: a little → 一点儿 / 一些; exact → amount (贵129欧元, 高20厘米, 小两岁, 早起一个小时); a lot → 多了 / 得多. *他比我一点高, *哥哥比我三岁大 are wrong.",
+        "examples": [
+          { "zh": "这个手机比那个手机贵一些。", "pinyin": "Zhège shǒujī bǐ nàge shǒujī guì yìxiē.", "fr": "Ce téléphone est un peu plus cher que celui-là.", "en": "This phone is a bit more expensive than that one." },
+          { "zh": "摩托车比自行车贵2250元。", "pinyin": "Mótuōchē bǐ zìxíngchē guì liǎngqiān èrbǎi wǔshí yuán.", "fr": "La moto coûte 2250 yuans de plus que le vélo.", "en": "The motorbike costs 2,250 yuan more than the bike." },
+          { "zh": "北京比巴黎大多了。", "pinyin": "Běijīng bǐ Bālí dà duō le.", "fr": "Pékin est beaucoup plus grand que Paris.", "en": "Beijing is much bigger than Paris." }
+        ]
+      },
+      {
+        "pattern": "A + 比 + B + 更 / 还 + Adj : encore plus",
+        "explanation_fr": "Quand B a déjà la qualité, on renforce avec 更 ou 还 devant l'adjectif : 妹妹比姐姐更漂亮 (la grande sœur est jolie, la petite encore plus). 更 / 还 sont les seuls adverbes admis dans une phrase en 比.",
+        "explanation_en": "When B already has the quality, add 更 or 还 before the adjective: 妹妹比姐姐更漂亮. 更 / 还 are the only adverbs allowed in a 比 sentence.",
+        "examples": [
+          { "zh": "妹妹比姐姐更漂亮。", "pinyin": "Mèimei bǐ jiějie gèng piàoliang.", "fr": "La cadette est encore plus jolie que l'aînée.", "en": "The younger sister is even prettier than the elder." }
+        ]
+      },
+      {
+        "pattern": "A + 跟 / 和 + B + 一样 + Adj : aussi… que",
+        "explanation_fr": "Comparatif d'égalité : 张三跟李四一样高, 包子和饺子一样好吃. Sans adjectif : 这两张画不一样. Négation : A 跟 B 不一样. *我比他一样高 est faux.",
+        "explanation_en": "Comparative of equality: 张三跟李四一样高, 包子和饺子一样好吃. Without adjective: 这两张画不一样. Negation: A 跟 B 不一样. *我比他一样高 is wrong.",
+        "examples": [
+          { "zh": "上海的夏天和北京一样热。", "pinyin": "Shànghǎi de xiàtiān hé Běijīng yíyàng rè.", "fr": "L'été à Shanghai est aussi chaud qu'à Pékin.", "en": "Summer in Shanghai is as hot as in Beijing." }
+        ]
+      },
+      {
+        "pattern": "A + 没有 + B + (那么) + Adj : moins… que",
+        "explanation_fr": "Comparatif d'infériorité / négation du 比 : A 没（有） B + Adj = A n'est pas aussi… que B : 包子没有饺子好吃, 上海没有北京漂亮. On peut ajouter 那么 : 上海的冬天没有北京那么冷. *我比姐姐不好看 → 我没有姐姐好看.",
+        "explanation_en": "Comparative of inferiority / negating 比: A 没（有） B + Adj = A is not as… as B: 包子没有饺子好吃. Add 那么: 上海的冬天没有北京那么冷. *我比姐姐不好看 → 我没有姐姐好看.",
+        "examples": [
+          { "zh": "自行车没有摩托车贵。", "pinyin": "Zìxíngchē méiyǒu mótuōchē guì.", "fr": "Le vélo est moins cher que la moto.", "en": "The bike isn't as expensive as the motorbike." },
+          { "zh": "北京地铁没有巴黎地铁多，但是比巴黎地铁人多。", "pinyin": "Běijīng dìtiě méiyǒu Bālí dìtiě duō, dànshì bǐ Bālí dìtiě rén duō.", "fr": "Il y a moins de lignes à Pékin qu'à Paris, mais plus de monde.", "en": "Beijing has fewer metro lines than Paris, but more people on them." }
+        ]
+      },
+      {
+        "pattern": "Demander l'âge : 几岁 / 多大 / 多大岁数",
+        "explanation_fr": "Enfant : 你几岁 ? Adulte : 你（今年）多大 ? Personne âgée (poli) : 您多大年岁 / 岁数 ? Réponse : 我（今年）十八岁. 祝你生日快乐 !",
+        "explanation_en": "Child: 你几岁? Adult: 你（今年）多大? Elderly (polite): 您多大年岁 / 岁数? Answer: 我（今年）十八岁. 祝你生日快乐!",
+        "examples": [
+          { "zh": "你今年多大？——我今年十八岁。", "pinyin": "Nǐ jīnnián duō dà? — Wǒ jīnnián shíbā suì.", "fr": "Quel âge as-tu ? — 18 ans.", "en": "How old are you? — 18." }
+        ]
+      },
+      {
+        "pattern": "Prépositions : 坐 离 往 比 给 和/跟 用 从…到",
+        "explanation_fr": "La préposition et son complément se placent AVANT le verbe : 我和我的中国同学常去KTV, 你用什么笔画画 ?, 妈妈每天晚上给她打电话, 他朋友明天坐火车去海边, 你家离学校远不远 ?, 从北京到上海要多长时间 ?, 请大家往前看 !, 他比妹妹跑得快.",
+        "explanation_en": "Preposition + its object go BEFORE the verb: 我和我的中国同学常去KTV, 你用什么笔画画?, 妈妈每天晚上给她打电话, 他朋友明天坐火车去海边, 你家离学校远不远?, 从北京到上海要多长时间?, 请大家往前看!, 他比妹妹跑得快.",
+        "examples": [
+          { "zh": "你用什么笔画画？", "pinyin": "Nǐ yòng shénme bǐ huà huà?", "fr": "Avec quel crayon dessines-tu ?", "en": "What pen do you draw with?" },
+          { "zh": "请大家往前看！", "pinyin": "Qǐng dàjiā wǎng qián kàn!", "fr": "Regardez tous devant vous !", "en": "Everyone look ahead!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L11",
+    "week": 10,
+    "title": "考试的那个星期",
+    "title_fr": "La semaine des examens",
+    "title_en": "Exam Week",
+    "theme": "又…又, santé, 一下, 愿意 — Corps et santé / Body & health",
+    "date": "2026-11-04",
+    "reading": {
+      "title": "考试的那个星期",
+      "paragraphs": [
+        "考试的那个星期，马京从星期一到星期五每天都有考试。星期五下午考完试以后，他觉得又累又饿，头也有一点儿疼。他想先去吃饭，然后好好地休息休息。吃完晚饭，他看了半个小时的电视新闻，又看了一会儿报纸，就上床睡觉了。",
+        "星期六早上，天气非常好，蓝天白云，马京决定去树林里骑自行车，他骑了差不多两个小时，觉得舒服极了！下午他先去理发，然后去花店给他的女朋友买了她喜欢的花，因为晚上他跟他的女朋友有一个约会。",
+        "晚上，马京在饭店等了三刻钟左右他的女朋友才到。她一看见马京就说：“对不起，我来晚了，地铁有问题。”吃饭的时候，马京说：“我告诉你一件事儿，你别生气，我决定明年去中国学一年历史。”他的女朋友不高兴地说：“什么？你要离开我？如果你在中国住一年，也许会再找一个女朋友！”",
+        "我今天生病了，发烧，咳嗽，还有点儿头疼。我今天没去上学，我下午去医院看医生了。",
+        "医生：你哪儿疼？病人：我左腿疼。医生：还有哪儿不舒服？病人：我的头有点儿疼。医生：你发烧吗？病人：发烧，三十九度二。",
+        "医生：好，我看一下。你的身体没有大问题。你感冒了。吃一点儿药吧。要多喝水，少吃零食。今天别去上学了，休息一天吧。病人：我也不想去上学，谢谢医生。",
+        "医生：你愿意吃中药还是西药？病人：我愿意吃西药。医生：好，你先吃一个星期西药，下星期再来。",
+        "张太太：对不起，我明天不能和你们出去玩儿了。李太太：为什么？怎么了？张太太：我儿子生病了，我要在家照顾他。李太太：他吃药了吗？要不要去医院？张太太：不用去医院，他昨天吃了感冒药，现在好一些了。李太太：那我们下次再一起出去玩儿吧。"
+      ],
+      "paragraphs_en": [
+        "During exam week, Ma Jing had exams every day from Monday to Friday. After the last one on Friday afternoon he felt tired and hungry, and had a bit of a headache. He wanted to eat first and then have a good rest. After dinner he watched half an hour of TV news, read the paper for a while, and went to bed.",
+        "On Saturday morning the weather was lovely — blue sky, white clouds. Ma Jing decided to go cycling in the woods; he rode for almost two hours and felt great! In the afternoon he got a haircut, then went to the florist to buy his girlfriend the flowers she likes, because he had a date with her that evening.",
+        "In the evening Ma Jing waited about 45 minutes at the restaurant before his girlfriend arrived. As soon as she saw him she said, 'Sorry I'm late, there was a problem with the metro.' During dinner Ma Jing said, 'I have something to tell you — don't be angry. I've decided to go to China next year to study history for a year.' His girlfriend said unhappily, 'What? You're leaving me? If you live in China for a year, you might find another girlfriend!'",
+        "I'm ill today: fever, cough, and a slight headache. I didn't go to school; in the afternoon I went to the hospital to see a doctor.",
+        "Doctor: Where does it hurt? Patient: My left leg. Doctor: Anything else? Patient: My head hurts a bit. Doctor: Do you have a fever? Patient: Yes, 39.2.",
+        "Doctor: Let me have a look. Nothing serious. You have a cold. Take some medicine. Drink plenty of water and eat fewer snacks. Don't go to school today, rest for a day. Patient: I don't want to go anyway — thank you, doctor.",
+        "Doctor: Would you rather take Chinese or Western medicine? Patient: Western. Doctor: Fine, take it for a week and come back next week.",
+        "Mrs Zhang: Sorry, I can't go out with you tomorrow. Mrs Li: Why, what's wrong? Mrs Zhang: My son is ill, I have to stay home and look after him. Mrs Li: Has he taken medicine? Does he need the hospital? Mrs Zhang: No need, he took cold medicine yesterday and he's a bit better. Mrs Li: Then let's go out together next time."
+      ]
+    },
+    "vocab": [
+      { "word": "决定", "pinyin": "juédìng", "gloss_fr": "décider ; décision", "gloss_en": "to decide; decision", "category": "texte", "example": "我们决定明天走。", "hsk": 3 },
+      { "word": "疼", "pinyin": "téng", "gloss_fr": "avoir mal — aussi 痛 tòng", "gloss_en": "to hurt — also 痛 tòng", "category": "santé", "example": "你哪儿疼？", "hsk": 3 },
+      { "word": "新闻", "pinyin": "xīnwén", "gloss_fr": "informations, nouvelles", "gloss_en": "news", "category": "texte", "example": "我每天晚上八点都看新闻。", "hsk": 3 },
+      { "word": "舒服", "pinyin": "shūfu", "gloss_fr": "confortable ; se sentir bien", "gloss_en": "comfortable; feel well", "category": "santé", "example": "我觉得不舒服。", "hsk": 3 },
+      { "word": "告诉", "pinyin": "gàosu", "gloss_fr": "dire, informer", "gloss_en": "to tell", "category": "texte", "example": "我告诉你一件事儿，你别生气。", "hsk": 2 },
+      { "word": "饿", "pinyin": "è", "gloss_fr": "avoir faim", "gloss_en": "hungry", "category": "texte", "example": "他觉得又累又饿。", "hsk": 3 },
+      { "word": "理发", "pinyin": "lǐfà", "gloss_fr": "se faire couper les cheveux", "gloss_en": "to get a haircut", "category": "texte", "example": "下午他先去理发。" },
+      { "word": "花店", "pinyin": "huādiàn", "gloss_fr": "fleuriste", "gloss_en": "florist", "category": "texte", "example": "然后去花店给他的女朋友买了她喜欢的花。" },
+      { "word": "树林", "pinyin": "shùlín", "gloss_fr": "bois, forêt", "gloss_en": "woods", "category": "texte", "example": "马京决定去树林里骑自行车。" },
+      { "word": "白云", "pinyin": "báiyún", "gloss_fr": "nuage blanc", "gloss_en": "white cloud", "category": "texte", "example": "蓝天白云" },
+      { "word": "历史", "pinyin": "lìshǐ", "gloss_fr": "histoire", "gloss_en": "history", "category": "texte", "example": "我决定明年去中国学一年历史。", "hsk": 3 },
+      { "word": "又…又…", "pinyin": "yòu… yòu…", "gloss_fr": "à la fois… et…", "gloss_en": "both… and…", "category": "又…又", "example": "中国菜又便宜，又好吃。", "hsk": 3 },
+      { "word": "丑", "pinyin": "chǒu", "gloss_fr": "laid", "gloss_en": "ugly", "category": "又…又", "example": "她又丑又笨。" },
+      { "word": "困难", "pinyin": "kùnnan", "gloss_fr": "difficulté", "gloss_en": "difficulty", "category": "又…又", "example": "山又高，路又远，困难很多。", "hsk": 4 },
+      { "word": "打工", "pinyin": "dǎgōng", "gloss_fr": "faire un petit boulot", "gloss_en": "to work a part-time job", "category": "又…又", "example": "他要一边学习一边打工。" },
+      { "word": "有才", "pinyin": "yǒucái", "gloss_fr": "talentueux", "gloss_en": "talented", "category": "又…又", "example": "他的女朋友又漂亮又有才。" },
+      { "word": "选举", "pinyin": "xuǎnjǔ", "gloss_fr": "élire ; élection", "gloss_en": "to elect; election", "category": "新闻", "example": "美国中期选举" },
+      { "word": "罢工", "pinyin": "bàgōng", "gloss_fr": "grève", "gloss_en": "strike", "category": "新闻", "example": "法国明天大罢工。" },
+      { "word": "游行", "pinyin": "yóuxíng", "gloss_fr": "manifestation ; manifester", "gloss_en": "demonstration; to march", "category": "新闻", "example": "欧洲年轻人游行。" },
+      { "word": "组织", "pinyin": "zǔzhī", "gloss_fr": "organiser ; organisation", "gloss_en": "to organise; organisation", "category": "新闻", "example": "工会组织罢工。" },
+      { "word": "反对", "pinyin": "fǎnduì", "gloss_fr": "s'opposer à", "gloss_en": "to oppose", "category": "新闻", "example": "很多人反对这个决定。" },
+      { "word": "身体", "pinyin": "shēntǐ", "gloss_fr": "corps ; santé", "gloss_en": "body; health", "category": "santé", "example": "今天我的身体不太舒服。", "hsk": 2 },
+      { "word": "健康", "pinyin": "jiànkāng", "gloss_fr": "santé ; en bonne santé", "gloss_en": "health; healthy", "category": "santé", "example": "为了身体健康，我每天都去运动。", "hsk": 3 },
+      { "word": "脸", "pinyin": "liǎn", "gloss_fr": "visage", "gloss_en": "face", "category": "santé", "example": "女儿的脸圆圆的，很可爱。", "hsk": 3 },
+      { "word": "耳朵", "pinyin": "ěrduo", "gloss_fr": "oreille", "gloss_en": "ear", "category": "santé", "example": "我的耳朵有点疼。", "hsk": 3 },
+      { "word": "脚", "pinyin": "jiǎo", "gloss_fr": "pied", "gloss_en": "foot", "category": "santé", "example": "他的脚很大。", "hsk": 3 },
+      { "word": "腿", "pinyin": "tuǐ", "gloss_fr": "jambe", "gloss_en": "leg", "category": "santé", "example": "姐姐的腿长，跑得快。", "hsk": 3 },
+      { "word": "牙", "pinyin": "yá", "gloss_fr": "dent", "gloss_en": "tooth", "category": "santé", "example": "我牙疼。", "hsk": 3 },
+      { "word": "手", "pinyin": "shǒu", "gloss_fr": "main", "gloss_en": "hand", "category": "santé", "example": "他的手很大。", "hsk": 2 },
+      { "word": "肚子", "pinyin": "dùzi", "gloss_fr": "ventre", "gloss_en": "belly", "category": "santé", "example": "我肚子疼。", "hsk": 3 },
+      { "word": "体重", "pinyin": "tǐzhòng", "gloss_fr": "poids", "gloss_en": "body weight", "category": "santé", "example": "体重65公斤" },
+      { "word": "身高", "pinyin": "shēngāo", "gloss_fr": "taille", "gloss_en": "height", "category": "santé", "example": "身高1,75米" },
+      { "word": "生病", "pinyin": "shēngbìng", "gloss_fr": "tomber malade", "gloss_en": "to fall ill", "category": "santé", "example": "我生病了，不能去上班了。", "hsk": 2 },
+      { "word": "感冒", "pinyin": "gǎnmào", "gloss_fr": "rhume ; s'enrhumer", "gloss_en": "cold; to catch a cold", "category": "santé", "example": "你感冒了。", "hsk": 3 },
+      { "word": "发烧", "pinyin": "fāshāo", "gloss_fr": "avoir de la fièvre", "gloss_en": "to have a fever", "category": "santé", "example": "发烧，三十九度二。", "hsk": 3 },
+      { "word": "咳嗽", "pinyin": "késou", "gloss_fr": "tousser", "gloss_en": "to cough", "category": "santé", "example": "我发烧，咳嗽，还有点儿头疼。", "hsk": 4 },
+      { "word": "药", "pinyin": "yào", "gloss_fr": "médicament", "gloss_en": "medicine", "category": "santé", "example": "吃一点儿药吧。", "hsk": 2 },
+      { "word": "吃药", "pinyin": "chī yào", "gloss_fr": "prendre des médicaments", "gloss_en": "to take medicine", "category": "santé", "example": "我要吃药，不喝茶了。" },
+      { "word": "中药", "pinyin": "zhōngyào", "gloss_fr": "médecine chinoise (remède)", "gloss_en": "Chinese medicine", "category": "santé", "example": "你愿意吃中药还是西药？" },
+      { "word": "西药", "pinyin": "xīyào", "gloss_fr": "médicament occidental", "gloss_en": "Western medicine", "category": "santé", "example": "我愿意吃西药。" },
+      { "word": "看病", "pinyin": "kànbìng", "gloss_fr": "consulter (un médecin)", "gloss_en": "to see a doctor", "category": "santé", "example": "我下午去医院看病。" },
+      { "word": "医生", "pinyin": "yīshēng", "gloss_fr": "médecin", "gloss_en": "doctor", "category": "santé", "example": "去医院看医生。", "hsk": 1 },
+      { "word": "病人", "pinyin": "bìngrén", "gloss_fr": "patient, malade", "gloss_en": "patient", "category": "santé", "example": "病人：我左腿疼。" },
+      { "word": "检查", "pinyin": "jiǎnchá", "gloss_fr": "examiner, contrôler", "gloss_en": "to examine", "category": "santé", "example": "你去医院检查一下身体吧。", "hsk": 3 },
+      { "word": "零食", "pinyin": "língshí", "gloss_fr": "grignotage, en-cas", "gloss_en": "snacks", "category": "santé", "example": "要多喝水，少吃零食。" },
+      { "word": "吐", "pinyin": "tù", "gloss_fr": "vomir", "gloss_en": "to vomit", "category": "santé", "example": "我肚子疼，想吐。" },
+      { "word": "怎么办", "pinyin": "zěnme bàn", "gloss_fr": "que faire ?", "gloss_en": "what to do?", "category": "santé", "example": "病得很重，怎么办？" },
+      { "word": "办", "pinyin": "bàn", "gloss_fr": "faire, organiser", "gloss_en": "to do, organise", "category": "santé", "example": "巴黎政治学院今年办了一个汉语班。", "hsk": 3 },
+      { "word": "愿意", "pinyin": "yuànyì", "gloss_fr": "vouloir bien, être d'accord pour", "gloss_en": "to be willing", "category": "santé", "example": "你愿意吃中药还是西药？", "hsk": 3 },
+      { "word": "照顾", "pinyin": "zhàogù", "gloss_fr": "s'occuper de", "gloss_en": "to take care of", "category": "santé", "example": "我儿子生病了，我要在家照顾他。", "hsk": 3 },
+      { "word": "一下", "pinyin": "yíxià", "gloss_fr": "un peu, un instant (après le verbe)", "gloss_en": "a bit, briefly (after the verb)", "category": "santé", "example": "我累了，我们休息一下吧。", "hsk": 2 },
+      { "word": "作文", "pinyin": "zuòwén", "gloss_fr": "rédaction", "gloss_en": "essay", "category": "santé", "example": "我用中文写了一篇作文。" },
+      { "word": "篇", "pinyin": "piān", "gloss_fr": "clf. textes, articles", "gloss_en": "clf. for essays, articles", "category": "santé", "example": "一篇作文" },
+      { "word": "情绪", "pinyin": "qíngxù", "gloss_fr": "humeur, état d'âme", "gloss_en": "mood", "category": "émotions HSK3", "example": "这两天，她的情绪不太好。" },
+      { "word": "害怕", "pinyin": "hàipà", "gloss_fr": "avoir peur", "gloss_en": "to be afraid", "category": "émotions HSK3", "example": "我害怕一个人晚上出门。", "hsk": 3 },
+      { "word": "放心", "pinyin": "fàngxīn", "gloss_fr": "être rassuré", "gloss_en": "to rest assured", "category": "émotions HSK3", "example": "你放心，我一定不会迟到。", "hsk": 3 },
+      { "word": "担心", "pinyin": "dānxīn", "gloss_fr": "s'inquiéter", "gloss_en": "to worry", "category": "émotions HSK3", "example": "爷爷住院了，我很担心。", "hsk": 3 },
+      { "word": "生气", "pinyin": "shēngqì", "gloss_fr": "se fâcher", "gloss_en": "to get angry", "category": "émotions HSK3", "example": "这个人很爱生气。", "hsk": 3 },
+      { "word": "快乐", "pinyin": "kuàilè", "gloss_fr": "heureux, joyeux", "gloss_en": "happy", "category": "émotions HSK3", "example": "女儿给我的生活带来很多快乐。", "hsk": 2 },
+      { "word": "难过", "pinyin": "nánguò", "gloss_fr": "triste", "gloss_en": "sad", "category": "émotions HSK3", "example": "他要离开了，我很难过。", "hsk": 3 },
+      { "word": "着急", "pinyin": "zháojí", "gloss_fr": "s'inquiéter, s'impatienter", "gloss_en": "anxious, in a hurry", "category": "émotions HSK3", "example": "孩子这么晚还没回家，父母心里都很着急。", "hsk": 3 },
+      { "word": "热情", "pinyin": "rèqíng", "gloss_fr": "chaleureux", "gloss_en": "warm, enthusiastic", "category": "émotions HSK3", "example": "大多数法国人都很热情。", "hsk": 3 },
+      { "word": "安静", "pinyin": "ānjìng", "gloss_fr": "calme, silencieux", "gloss_en": "quiet", "category": "émotions HSK3", "example": "教室里没人，很安静。", "hsk": 3 },
+      { "word": "奇怪", "pinyin": "qíguài", "gloss_fr": "étrange", "gloss_en": "strange", "category": "émotions HSK3", "example": "我觉得很奇怪，他今天为什么没来？", "hsk": 3 },
+      { "word": "突然", "pinyin": "tūrán", "gloss_fr": "soudain", "gloss_en": "suddenly", "category": "émotions HSK3", "example": "天突然下雨了。", "hsk": 3 },
+      { "word": "小心", "pinyin": "xiǎoxīn", "gloss_fr": "faire attention", "gloss_en": "be careful", "category": "émotions HSK3", "example": "请小心，路上有很多水。", "hsk": 3 },
+      { "word": "可爱", "pinyin": "kě'ài", "gloss_fr": "mignon", "gloss_en": "cute", "category": "émotions HSK3", "example": "这只小狗很可爱。", "hsk": 3 }
+    ],
+    "grammar": [
+      {
+        "pattern": "又 + Adj/V₁，又 + Adj/V₂ : à la fois… et…",
+        "explanation_fr": "Coexistence de deux qualités, deux états ou cumul d'actions : 中国菜又便宜，又好吃, 今天又刮风，又下雨, 他又会说又会写. Respecter l'harmonie de sens : deux qualités ou deux défauts (她又漂亮，又聪明 / 她又丑又笨), pas *她又漂亮又笨. ≠ 一边…一边 : actions SIMULTANÉES (她一边复习一边听音乐). Peut se répéter trois fois : 苹果又大，又红，又好吃.",
+        "explanation_en": "Two qualities, states or accumulated actions: 中国菜又便宜，又好吃, 今天又刮风，又下雨, 他又会说又会写. Keep the meanings in harmony: two qualities or two flaws (她又漂亮又聪明 / 她又丑又笨), not *她又漂亮又笨. ≠ 一边…一边: SIMULTANEOUS actions. Can be repeated: 苹果又大，又红，又好吃.",
+        "examples": [
+          { "zh": "考完试以后，他觉得又累又饿。", "pinyin": "Kǎowán shì yǐhòu, tā juéde yòu lèi yòu è.", "fr": "Après l'examen, il était fatigué et affamé.", "en": "After the exam he felt tired and hungry." },
+          { "zh": "这个饭店的服务又快又好。", "pinyin": "Zhège fàndiàn de fúwù yòu kuài yòu hǎo.", "fr": "Le service de ce restaurant est rapide et bon.", "en": "This restaurant's service is fast and good." }
+        ]
+      },
+      {
+        "pattern": "S + 怎么了 ? / 哪儿不舒服 ? / Partie du corps + 疼",
+        "explanation_fr": "Chez le médecin : 你怎么了 ? 你哪儿不舒服 ? Douleur : S + partie du corps + 疼 (痛) : 我头疼, 我左腿疼, 我肚子疼. État : 我感冒了, 发烧了, 咳嗽, 生病了. Que faire ? 去医院看病 / 看医生, 吃药, 多喝水, 少吃零食, 休息一天.",
+        "explanation_en": "At the doctor's: 你怎么了? 你哪儿不舒服? Pain: subject + body part + 疼 (痛): 我头疼, 我左腿疼, 我肚子疼. State: 我感冒了, 发烧了, 咳嗽, 生病了. What to do? 去医院看病 / 看医生, 吃药, 多喝水, 少吃零食, 休息一天.",
+        "examples": [
+          { "zh": "医生：你哪儿疼？病人：我左腿疼。", "pinyin": "Yīshēng: Nǐ nǎr téng? Bìngrén: Wǒ zuǒ tuǐ téng.", "fr": "Médecin : Où avez-vous mal ? Patient : À la jambe gauche.", "en": "Doctor: Where does it hurt? Patient: My left leg." },
+          { "zh": "你感冒了。吃一点儿药吧。要多喝水，少吃零食。", "pinyin": "Nǐ gǎnmào le. Chī yìdiǎnr yào ba. Yào duō hē shuǐ, shǎo chī língshí.", "fr": "Vous êtes enrhumé. Prenez un médicament, buvez beaucoup et grignotez moins.", "en": "You have a cold. Take some medicine, drink lots of water and eat fewer snacks." }
+        ]
+      },
+      {
+        "pattern": "V + 一下 / V V / V 一 V : faire un peu, brièvement",
+        "explanation_fr": "一下 après le verbe exprime une action brève et adoucit le ton : 我们休息一下吧, 我问一下老师, 我给你们介绍一下, 请你把这个句子翻译一下. Équivalents : redoublement 看看 / 看一看. Plus poli encore : 请帮我看一下，好吗 ?",
+        "explanation_en": "一下 after the verb makes an action brief and softens the tone: 我们休息一下吧, 我问一下老师, 我给你们介绍一下. Equivalents: 看看 / 看一看. Politer still: 请帮我看一下，好吗?",
+        "examples": [
+          { "zh": "老师，我用中文写了一篇作文，请帮我看一下，好吗？", "pinyin": "Lǎoshī, wǒ yòng Zhōngwén xiě le yì piān zuòwén, qǐng bāng wǒ kàn yíxià, hǎo ma?", "fr": "Professeur, j'ai écrit une rédaction en chinois, pourriez-vous la regarder ?", "en": "Teacher, I wrote an essay in Chinese — could you have a look?" },
+          { "zh": "我给你们介绍一下，这位是王老师。", "pinyin": "Wǒ gěi nǐmen jièshào yíxià, zhè wèi shì Wáng lǎoshī.", "fr": "Je vous présente : voici le professeur Wang.", "en": "Let me introduce: this is Teacher Wang." }
+        ]
+      },
+      {
+        "pattern": "愿意 vs 想",
+        "explanation_fr": "愿意 = vouloir bien, accepter de son plein gré (avec ses contraintes) ; plus d'engagement que 想 (avoir envie). 你愿意吃中药还是西药 ? — 我愿意吃西药. 他很愿意帮助别人.",
+        "explanation_en": "愿意 = be willing, accept of one's own free will; more commitment than 想 (feel like). 你愿意吃中药还是西药? — 我愿意吃西药. 他很愿意帮助别人.",
+        "examples": [
+          { "zh": "医生：你愿意吃中药还是西药？病人：我愿意吃西药。", "pinyin": "Yīshēng: Nǐ yuànyì chī zhōngyào háishi xīyào? Bìngrén: Wǒ yuànyì chī xīyào.", "fr": "Médecin : Préférez-vous un remède chinois ou occidental ? Patient : Occidental.", "en": "Doctor: Would you take Chinese or Western medicine? Patient: Western." }
+        ]
+      },
+      {
+        "pattern": "Adj + 地 + V : manière (不高兴地说)",
+        "explanation_fr": "地 relie un adjectif (souvent redoublé ou avec adverbe) au verbe qu'il qualifie : 他的女朋友不高兴地说, 好好地休息休息. Les trois « de » : 的 devant un nom (我的书), 地 devant un verbe (高兴地说), 得 après un verbe (说得很好).",
+        "explanation_en": "地 links an adjective (often doubled or with an adverb) to the verb it describes: 他的女朋友不高兴地说, 好好地休息休息. The three 'de': 的 before a noun, 地 before a verb, 得 after a verb.",
+        "examples": [
+          { "zh": "他的女朋友不高兴地说：“什么？你要离开我？”", "pinyin": "Tā de nǚpéngyou bù gāoxìng de shuō: “Shénme? Nǐ yào líkāi wǒ?”", "fr": "Sa copine dit, mécontente : « Quoi ? Tu vas me quitter ? »", "en": "His girlfriend said unhappily: 'What? You're leaving me?'" },
+          { "zh": "他想先去吃饭，然后好好地休息休息。", "pinyin": "Tā xiǎng xiān qù chī fàn, ránhòu hǎohǎo de xiūxi xiūxi.", "fr": "Il veut d'abord manger, puis bien se reposer.", "en": "He wants to eat first, then have a good rest." }
+        ]
+      },
+      {
+        "pattern": "等了 + durée + 才 : attendre longtemps (révision 就 / 才)",
+        "explanation_fr": "Le texte combine la durée et 才 : 马京在饭店等了三刻钟左右他的女朋友才到 — elle n'est arrivée qu'au bout de trois quarts d'heure (c'est long). Et 一…就 : 她一看见马京就说 « 对不起 ».",
+        "explanation_en": "The text combines duration and 才: 马京在饭店等了三刻钟左右他的女朋友才到 — she only arrived after about 45 minutes (that's long). And 一…就: 她一看见马京就说 'sorry'.",
+        "examples": [
+          { "zh": "马京在饭店等了三刻钟左右，他的女朋友才到。", "pinyin": "Mǎ Jīng zài fàndiàn děng le sān kè zhōng zuǒyòu, tā de nǚpéngyou cái dào.", "fr": "Ma Jing attendit environ trois quarts d'heure au restaurant avant que sa copine n'arrive.", "en": "Ma Jing waited about 45 minutes at the restaurant before his girlfriend arrived." }
+        ]
+      }
+    ]
   }
 ]

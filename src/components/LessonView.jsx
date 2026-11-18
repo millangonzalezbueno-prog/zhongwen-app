@@ -74,7 +74,7 @@ const CATEGORY_LABELS = {
   vêtement: 'Vêtements', vêtements: 'Vêtements', cinéma: 'Cinéma', connecteur: 'Connecteurs', fête: 'Fêtes', révision: 'Révision',
   verbe: 'Verbes', achats: 'Achats', couleurs: 'Couleurs', fruits: 'Fruits', maison: 'Maison (HSK3)', sport: 'Sport (HSK3)',
   transport: 'Transports', études: 'Études', aspect: 'Aspects', degré: 'Degré', trajet: 'Trajets', repas: 'Repas & famille', nature: 'Nature (HSK3)',
-  actions: 'Actions', culture: 'Culture & 汉字', description: 'Description', voyage: 'Voyage', résultatif: 'Résultatifs', '动物': 'Animaux (HSK3)', fêtes: 'Fêtes',
+  actions: 'Actions', culture: 'Culture & 汉字', description: 'Description', voyage: 'Voyage', résultatif: 'Résultatifs', '动物': 'Animaux (HSK3)', fêtes: 'Fêtes', 'rendez-vous': 'Rendez-vous', '就/才': '就 / 才', Pangu: 'Légende de Pangu', '活动 HSK3': 'Activités (HSK3)', comparaison: 'Comparaison', âge: 'Âge & calendrier', prépositions: 'Prépositions', 'vie quotidienne': 'Vie quotidienne (HSK3)', texte: 'Texte', '又…又': '又…又', '新闻': 'Actualités', santé: 'Santé', 'émotions HSK3': 'Émotions (HSK3)',
 };
 const getCategory = (v) => {
   if (v.category) return v.category;
