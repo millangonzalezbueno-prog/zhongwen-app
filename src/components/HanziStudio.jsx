@@ -62,15 +62,16 @@ export default function HanziStudio({ chars = HANZI, onResult, grouped = true })
         <p className="text-sm text-muted max-w-md">
           {chars.length} caractère{chars.length > 1 ? 's' : ''} à savoir écrire (diapositives orange et listes « 我会写 »).{' '}
           <span className="font-medium text-ink">{mastered} / {chars.length} maîtrisés</span>
+          <span className="block italic opacity-70">{chars.length} character{chars.length > 1 ? 's' : ''} to know how to write (orange slides and 我会写 lists) · {mastered} mastered</span>
         </p>
         <div className="flex gap-2">
           {chars.length > 5 && <button onClick={() => setDictation({ size: 5, run: 1 })}
             className="px-4 py-2 border border-accent text-accent rounded-xl text-sm font-medium hover:bg-accent/5 transition-colors">
-            Dictée express (5)
+            Dictée express (5) · Quick dictation
           </button>}
           <button onClick={() => setDictation({ size: 0, run: 1 })}
             className="px-4 py-2 bg-accent text-white rounded-xl text-sm font-medium hover:bg-accent/90 transition-colors">
-            Dictée : {chars.length > 1 ? `les ${chars.length}` : 'le caractère'}
+            Dictée : {chars.length > 1 ? `les ${chars.length}` : 'le caractère'} · Dictation
           </button>
         </div>
       </div>
@@ -105,9 +106,9 @@ export default function HanziStudio({ chars = HANZI, onResult, grouped = true })
             <p className="text-sm text-muted">{current.fr}</p>
             <p className="text-sm text-muted/70 italic">{current.en}</p>
             {current.parts && (
-              <p className="mt-3 text-sm"><span className="text-muted">Composants : </span><span className="hanzi-display text-base">{current.char} = {current.parts}</span></p>
+              <p className="mt-3 text-sm"><span className="text-muted">Composants · Components : </span><span className="hanzi-display text-base">{current.char} = {current.parts}</span></p>
             )}
-            <p className="mt-2 text-sm"><span className="text-muted">Mot : </span><span className="hanzi-display text-base"><Zh text={current.word} pinyin={false} /></span> <span className="text-accent">{current.wordPinyin}</span></p>
+            <p className="mt-2 text-sm"><span className="text-muted">Mot · Word : </span><span className="hanzi-display text-base"><Zh text={current.word} pinyin={false} /></span> <span className="text-accent">{current.wordPinyin}</span></p>
             <p className="mt-2 text-sm hanzi-display leading-relaxed bg-accent/5 rounded-lg p-3"><Zh text={current.sentence} /></p>
           </div>
           <div className="flex flex-col items-center">

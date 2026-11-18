@@ -37,11 +37,11 @@ function useMistakes() {
 }
 
 const TABS = [
-  { id: 'exam', label: 'Examen blanc' },
-  { id: 'train', label: 'Entraînement' },
-  { id: 'hanzi', label: '汉字 à tracer' },
-  { id: 'mistakes', label: 'Mes erreurs' },
-  { id: 'program', label: 'Programme' },
+  { id: 'exam', label: 'Examen blanc', en: 'Mock exam' },
+  { id: 'train', label: 'Entraînement', en: 'Practice' },
+  { id: 'hanzi', label: '汉字 à tracer', en: 'Characters' },
+  { id: 'mistakes', label: 'Mes erreurs', en: 'My mistakes' },
+  { id: 'program', label: 'Programme', en: 'Syllabus' },
 ];
 
 export default function ExamPrepView({ data }) {
@@ -58,6 +58,7 @@ export default function ExamPrepView({ data }) {
           {daysLeft >= 0 ? 'Examen — semaines 1 à 5 · 1 heure' : `Révisions — ${data.lessons.length} leçons`}
         </p>
         <h2 className="text-2xl font-semibold">{daysLeft >= 0 ? 'Préparation à l\'examen du 14 octobre' : 'Révisions & entraînement'}</h2>
+        <p className="text-sm text-muted/70 italic">{daysLeft >= 0 ? 'Preparing for the 14 October exam' : 'Revision & practice'}</p>
         <p className="text-sm text-muted">
           Leçons L01 à L{String(data.lessons.length).padStart(2, '0')} et les {HANZI.length} caractères à savoir écrire
           {daysLeft >= 0 && <> ·{' '}
@@ -65,6 +66,10 @@ export default function ExamPrepView({ data }) {
               {daysLeft > 0 ? `J-${daysLeft}` : 'c\'est aujourd\'hui !'}
             </span></>}
           {daysLeft < 0 && ' · le sujet blanc suit le format du partiel du 14 octobre'}
+        </p>
+        <p className="text-sm text-muted/70 italic">
+          Lessons L01 to L{String(data.lessons.length).padStart(2, '0')} and the {HANZI.length} characters to write
+          {daysLeft < 0 && ' · the mock exam follows the format of the 14 October midterm'}
         </p>
       </div>
 
@@ -76,7 +81,7 @@ export default function ExamPrepView({ data }) {
                 ? 'bg-surface-alt text-accent border border-border border-b-transparent -mb-px'
                 : 'text-muted hover:text-primary'
             }`}>
-            {t.label}
+            {t.label}{t.en && <span className="block text-[10px] font-normal opacity-70 italic">{t.en}</span>}
             {t.id === 'mistakes' && mistakes.items.length > 0 && (
               <span className="ml-1.5 px-1.5 py-0.5 rounded-full bg-primary text-white text-[10px] tabular-nums">{mistakes.items.length}</span>
             )}
@@ -96,10 +101,10 @@ export default function ExamPrepView({ data }) {
 // ---------- Examen blanc ----------
 
 const EXAM_SECTIONS = [
-  ['完成句子', 'Remettre les mots dans l\'ordre', 5, 4],
-  ['用汉字填空', 'Écrire le caractère dans la phrase, d\'après le pinyin', 5, 4],
-  ['选词填空', 'Placer cinq mots dans cinq phrases', 5, 4],
-  ['Grammaire', 'Toutes les leçons', 10, 8],
+  ['完成句子', 'Remettre les mots dans l\'ordre', 5, 4, 'Put the words in order'],
+  ['用汉字填空', 'Écrire le caractère dans la phrase, d\'après le pinyin', 5, 4, 'Write the character in the sentence, from its pinyin'],
+  ['选词填空', 'Placer cinq mots dans cinq phrases', 5, 4, 'Place five words in five sentences'],
+  ['Grammaire', 'Toutes les leçons', 10, 8, 'Grammar — all lessons'],
 ];
 
 function formatClock(sec) {
@@ -155,7 +160,8 @@ function MockExamTab({ lessons, onResult }) {
       <div className="max-w-lg mx-auto space-y-4">
         <div className="bg-surface-alt border border-border rounded-2xl p-6">
           <h3 className="font-semibold mb-1">Sujet blanc — format du partiel du 14 octobre</h3>
-          <p className="text-sm text-muted mb-4">1 heure, 4 sections, 25 questions, comme le vrai sujet. Le chronomètre démarre avec le sujet ; chaque sujet est tiré au hasard dans toute la banque.</p>
+          <p className="text-sm text-muted mb-1">1 heure, 4 sections, 25 questions, comme le vrai sujet. Le chronomètre démarre avec le sujet ; chaque sujet est tiré au hasard dans toute la banque.</p>
+          <p className="text-sm text-muted/70 italic mb-4">1 hour, 4 sections, 25 questions, like the real paper. The timer starts with the paper; each paper is drawn at random from the whole bank.</p>
           <table className="w-full text-sm mb-5">
             <thead>
               <tr className="text-xs text-muted uppercase tracking-wider">
@@ -165,25 +171,25 @@ function MockExamTab({ lessons, onResult }) {
               </tr>
             </thead>
             <tbody>
-              {EXAM_SECTIONS.map(([name, desc, n, pts], i) => (
+              {EXAM_SECTIONS.map(([name, desc, n, pts, descEn], i) => (
                 <tr key={name} className="border-t border-border/60">
                   <td className="py-2 pr-2 text-muted tabular-nums align-top">{i + 1}</td>
-                  <td className="py-2 pr-3"><span className="font-medium hanzi-display">{name}</span><span className="block text-xs text-muted">{desc}</span></td>
+                  <td className="py-2 pr-3"><span className="font-medium hanzi-display">{name}</span><span className="block text-xs text-muted">{desc}</span><span className="block text-xs text-muted/70 italic">{descEn}</span></td>
                   <td className="py-2 text-right tabular-nums align-top">{n}</td>
                   <td className="py-2 text-right tabular-nums align-top font-medium">{pts}</td>
                 </tr>
               ))}
             </tbody>
           </table>
-          <p className="text-xs text-muted mb-4">Le barème réel n'est pas connu : les points suivent ici le nombre de questions.</p>
+          <p className="text-xs text-muted mb-4">Le barème réel n'est pas connu : les points suivent ici le nombre de questions.<br /><span className="italic opacity-70">The real marking scheme isn't known: points here follow the number of questions.</span></p>
           <button onClick={start}
             className="w-full py-3 bg-accent text-white rounded-xl font-medium hover:bg-accent/90 transition-colors">
-            Commencer un sujet (60 min)
+            Commencer un sujet (60 min) · Start a paper
           </button>
         </div>
         {history.length > 0 && (
           <div className="bg-surface-alt border border-border rounded-2xl p-5">
-            <h3 className="font-semibold mb-2 text-sm">Mes sujets blancs</h3>
+            <h3 className="font-semibold mb-2 text-sm">Mes sujets blancs <span className="font-normal text-muted italic opacity-70">· My mock exams</span></h3>
             <ul className="space-y-1.5">
               {history.slice(0, 8).map(h => (
                 <li key={h.at} className="flex items-center gap-3 text-sm">
@@ -236,8 +242,8 @@ function TrainingTab({ lessons, onResult }) {
     <div>
       <button onClick={() => setTopic('mix')}
         className="w-full mb-4 bg-ink text-white rounded-2xl p-4 text-left hover:opacity-90 transition-opacity">
-        <p className="font-semibold">Tout mélanger</p>
-        <p className="text-sm opacity-80">25 exercices tirés de tous les thèmes</p>
+        <p className="font-semibold">Tout mélanger <span className="font-normal opacity-70 italic">· Mix everything</span></p>
+        <p className="text-sm opacity-80">25 exercices tirés de tous les thèmes · <span className="italic">25 exercises from every topic</span></p>
       </button>
       <div className="grid gap-3 sm:grid-cols-2">
         {TOPICS.map(t => (
@@ -246,7 +252,9 @@ function TrainingTab({ lessons, onResult }) {
             <span className="w-10 h-10 shrink-0 rounded-lg bg-accent/10 text-accent hanzi-display text-xl font-semibold flex items-center justify-center">{t.badge}</span>
             <span className="flex-1 min-w-0">
               <span className="block font-medium hanzi-display">{t.title}</span>
+              {t.title_en && t.title_en !== t.title && <span className="block text-xs text-muted/70 italic">{t.title_en}</span>}
               <span className="block text-xs text-muted">{t.desc}</span>
+              {t.desc_en && <span className="block text-xs text-muted/70 italic">{t.desc_en}</span>}
             </span>
             {t.tag && <span className="text-[10px] font-semibold uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full shrink-0">{t.tag}</span>}
             {t.exam && <span className="text-[10px] font-semibold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full shrink-0">Examen</span>}
@@ -275,7 +283,7 @@ function MistakesTab({ mistakes }) {
       <div>
         <div className="flex items-center justify-between mb-3">
           <button onClick={() => setRunId(0)} className="text-sm text-accent hover:underline">&larr; Mes erreurs</button>
-          <p className="text-sm text-muted">Une bonne réponse retire l'exercice de la liste.</p>
+          <p className="text-sm text-muted">Une bonne réponse retire l'exercice de la liste. <span className="italic opacity-70">A correct answer removes it from the list.</span></p>
         </div>
         <LessonExercises key={`mist-${runId}`} buildSession={build} onResult={mistakes.onResult} />
       </div>
@@ -286,7 +294,9 @@ function MistakesTab({ mistakes }) {
     return (
       <div className="text-center py-12 text-muted">
         <p className="text-lg font-medium text-ink mb-1">Aucune erreur enregistrée</p>
+        <p className="text-sm italic opacity-70 mb-2">No mistakes recorded yet</p>
         <p className="text-sm">Chaque exercice raté dans l'examen blanc, l'entraînement ou la dictée arrive ici, pour être refait.</p>
+        <p className="text-sm italic opacity-70">Every exercise you miss in the mock exam, practice or dictation lands here so you can redo it.</p>
       </div>
     );
   }
@@ -296,7 +306,7 @@ function MistakesTab({ mistakes }) {
     <div className="max-w-lg mx-auto">
       <div className="bg-surface-alt border border-border rounded-2xl p-5 mb-4">
         <p className="text-3xl font-semibold tabular-nums">{items.length}</p>
-        <p className="text-sm text-muted mb-3">exercice{items.length > 1 ? 's' : ''} à revoir</p>
+        <p className="text-sm text-muted mb-3">exercice{items.length > 1 ? 's' : ''} à revoir · <span className="italic opacity-70">to review</span></p>
         <div className="flex flex-wrap gap-1.5 mb-4">
           {Object.entries(counts).map(([type, n]) => (
             <span key={type} className="text-xs px-2 py-1 rounded-full bg-border/60 hanzi-display">{TYPE_LABELS[type] || type} · {n}</span>
@@ -304,9 +314,9 @@ function MistakesTab({ mistakes }) {
         </div>
         <button onClick={() => { snapshot.current = shuffle(items); setRunId(r => r + 1); }}
           className="w-full py-3 bg-accent text-white rounded-xl font-medium hover:bg-accent/90 transition-colors">
-          Refaire mes erreurs {items.length > 20 ? '(20 au hasard)' : ''}
+          Refaire mes erreurs {items.length > 20 ? '(20 au hasard)' : ''} · Redo my mistakes
         </button>
-        <button onClick={mistakes.clear} className="w-full mt-2 py-2 text-sm text-muted hover:text-primary">Vider la liste</button>
+        <button onClick={mistakes.clear} className="w-full mt-2 py-2 text-sm text-muted hover:text-primary">Vider la liste · Clear the list</button>
       </div>
       <ul className="space-y-1.5">
         {items.slice(0, 12).map(q => (
@@ -340,7 +350,7 @@ function ProgramTab({ lessons }) {
     <div>
       <div className="mb-4">
         <div className="flex justify-between text-sm mb-1">
-          <span className="text-muted">Points de grammaire maîtrisés</span>
+          <span className="text-muted">Points de grammaire maîtrisés · <span className="italic opacity-70">Grammar points mastered</span></span>
           <span className="font-medium tabular-nums">{done} / {total}</span>
         </div>
         <div className="w-full bg-border rounded-full h-1.5">
@@ -350,7 +360,7 @@ function ProgramTab({ lessons }) {
       <div className="space-y-5">
         {lessons.map(l => (
           <section key={l.id}>
-            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Semaine {l.week} — {l.title_fr}</p>
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Semaine {l.week} — {l.title_fr}{l.title_en && <span className="normal-case font-normal text-muted italic opacity-70"> · {l.title_en}</span>}</p>
             <ul className="space-y-1">
               {l.grammar.map((g, i) => {
                 const key = `${l.id}-${i}`;
@@ -368,8 +378,9 @@ function ProgramTab({ lessons }) {
                     {isOpen && (
                       <div className="px-3 pb-3 text-sm border-t border-border/50 pt-2">
                         <p className="text-muted"><Zh text={g.explanation_fr} pinyin={false} /></p>
+                        {g.explanation_en && <p className="text-muted/70 italic mt-1"><Zh text={g.explanation_en} pinyin={false} /></p>}
                         {g.examples?.[0] && (
-                          <p className="mt-2 hanzi-display"><Zh text={g.examples[0].zh} /> <span className="text-xs text-muted">— {g.examples[0].fr}</span></p>
+                          <p className="mt-2 hanzi-display"><Zh text={g.examples[0].zh} /> <span className="text-xs text-muted">— {g.examples[0].fr}{g.examples[0].en && <span className="italic opacity-70"> / {g.examples[0].en}</span>}</span></p>
                         )}
                       </div>
                     )}

@@ -1,6 +1,8 @@
 // Banque d'exercices pour l'examen du 14 octobre (semaines 1 à 4, leçons L01–L05).
 // `l` = leçon d'origine, `topic` = thème d'entraînement.
 
+import { PROMPTS_EN, INSTRUCTIONS_EN, LABELS_EN, TOPICS_EN, BANK_TITLES_EN, MCQ_PROMPTS_EN } from './examPrepEn.js';
+
 export const EXAM_DATE = new Date(2026, 9, 14);
 
 // ---------- 汉字 à savoir tracer (diapositives orange + « 我会写下面的这些字 ») ----------
@@ -1254,3 +1256,14 @@ for (const id of ['shide', 'result', 'desc']) {
 const resultTopic = TOPICS.find(t => t.id === 'result');
 resultTopic.title = 'Résultatifs et potentiels, 比, 第';
 resultTopic.desc = '看见 / 买好 / 记不住, comparatif, ordinaux';
+
+// ---------- English versions (shown under the French) ----------
+
+for (const q of [...ORDERS, ...TRANSLATIONS]) q.en ??= PROMPTS_EN[q.fr];
+for (const q of OPEN_QUESTIONS) {
+  q.instruction_en ??= INSTRUCTIONS_EN[q.instruction_fr];
+  for (const c of q.checks) c.label_en ??= LABELS_EN[c.label];
+}
+for (const q of GRAMMAR_MCQ) q.prompt_en ??= MCQ_PROMPTS_EN[q.prompt];
+for (const t of TOPICS) if (TOPICS_EN[t.id]) [t.title_en, t.desc_en] = TOPICS_EN[t.id];
+for (const b of WORD_BANKS) b.title_en ??= BANK_TITLES_EN[b.id];

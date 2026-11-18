@@ -1376,6 +1376,7 @@ export default function LessonExercises({ lesson, buildSession, onResult, onFini
         <div>
           <p className="text-xs font-semibold text-accent uppercase tracking-wider">{round.title}</p>
           <p className="text-xs text-muted">{round.subtitle}</p>
+          {round.subtitle_en && <p className="text-xs text-muted/70 italic">{round.subtitle_en}</p>}
         </div>
         <span className="flex items-center gap-2">
           <PinyinToggle />
@@ -1437,8 +1438,9 @@ function VocabMCQ({ ex, state, onAnswer }) {
   const handlePick = (opt) => { if (state !== 'answering') return; onAnswer(opt === ex.correct); };
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Vocabulaire</p>
-      <p className="text-lg font-medium mb-6">{ex.prompt}</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Vocabulaire · Vocabulary</p>
+      <p className={`text-lg font-medium ${ex.prompt_en ? 'mb-0.5' : 'mb-6'}`}>{ex.prompt}</p>
+      {ex.prompt_en && <p className="text-sm text-muted/70 italic mb-6">{ex.prompt_en}</p>}
       <div className="grid grid-cols-2 gap-3">
         {ex.options.map((opt, i) => (
           <button key={i} onClick={() => handlePick(opt)} disabled={state !== 'answering'}
@@ -1463,7 +1465,7 @@ function TrueFalse({ ex, state, onAnswer }) {
   const handlePick = (val) => { if (state !== 'answering') return; onAnswer(val === ex.correct); };
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension — Vrai ou faux ?</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Vrai ou faux ? · True or false?</p>
       <p className="text-xl hanzi-display font-medium mb-6 leading-relaxed"><Zh text={ex.statement} /></p>
       {state === 'answering' ? (
         <div className="flex gap-3 justify-center">
@@ -1495,13 +1497,14 @@ function FillMCQ({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Complétez</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Complétez · Fill in the blank</p>
       <p className="text-xl hanzi-display font-medium mb-2 leading-relaxed">
         <Zh text={parts[0]} /><span className="inline-block min-w-[3em] border-b-2 border-accent mx-1 text-accent">
           {state !== 'answering' ? <Zh text={ex.correct} /> : picked || '　　'}
         </span><Zh text={parts[1]} />
       </p>
-      {ex.hint ? <p className="text-sm text-muted mb-6">{ex.hint}</p> : <div className="mb-6" />}
+      {ex.hint ? <p className={`text-sm text-muted ${ex.hint_en ? '' : 'mb-6'}`}>{ex.hint}</p> : !ex.hint_en && <div className="mb-6" />}
+      {ex.hint_en && <p className="text-sm text-muted/70 italic mb-6">{ex.hint_en}</p>}
       {state === 'answering' ? (
         <div className="flex flex-wrap gap-2 justify-center">
           {ex.options.map((opt, i) => (
@@ -1530,9 +1533,9 @@ function ErrorCorrection({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">改错 — Corrigez l'erreur</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">改错 — Corrigez l'erreur · Fix the mistake</p>
       <p className="text-2xl hanzi-display font-medium mb-2 text-primary leading-relaxed"><Zh text={ex.wrong} /></p>
-      <p className="text-xs text-muted mb-6">Cette phrase contient une erreur. Réécrivez-la correctement.</p>
+      <p className="text-xs text-muted mb-6">Cette phrase contient une erreur. Réécrivez-la correctement.<br /><span className="italic opacity-70">This sentence contains a mistake. Rewrite it correctly.</span></p>
       {state === 'answering' ? (
         <form onSubmit={handleSubmit} className="space-y-3">
           <input type="text" value={input} onChange={e => setInput(e.target.value)}
@@ -1562,8 +1565,9 @@ function TranslateExercise({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">{ex.label || 'Traduisez en chinois'}</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">{ex.label || 'Traduisez en chinois · Translate into Chinese'}</p>
       <p className={`text-lg font-medium mb-2 ${ex.label ? 'hanzi-display' : ''}`}><Zh text={ex.fr} /></p>
+      {ex.en && <p className="text-sm text-muted/70 italic -mt-1 mb-2">{ex.en}</p>}
       {ex.pattern ? <p className="text-xs text-accent mb-6">Structure : {ex.pattern}</p> : <div className="mb-6" />}
       {state === 'answering' ? (
         <form onSubmit={handleSubmit} className="space-y-3">
@@ -1586,7 +1590,7 @@ function ReadingMCQ({ ex, state, onAnswer }) {
   const handlePick = (opt) => { if (state !== 'answering') return; onAnswer(opt === ex.correct); };
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension du texte</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Compréhension du texte · Reading</p>
       {ex.passage && (
         <p className="text-left text-base hanzi-display leading-loose bg-border/20 rounded-xl p-4 mb-4"><Zh text={ex.passage} /></p>
       )}
@@ -1611,7 +1615,7 @@ function ClassifierExercise({ ex, state, onAnswer }) {
   const handlePick = (opt) => { if (state !== 'answering') return; onAnswer(opt === ex.correct); };
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Classificateur (量词)</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Classificateur (量词) · Classifier</p>
       <p className="text-sm text-muted mb-2">Quel classificateur utiliser avec :</p>
       <p className="text-3xl hanzi-display font-medium mb-6"><Zh text={ex.noun} /></p>
       {state === 'answering' ? (
@@ -1653,8 +1657,9 @@ function OrderExercise({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Remettez dans l'ordre</p>
-      <p className="text-base font-medium mb-6">{ex.fr}</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Remettez dans l'ordre · Put in order</p>
+      <p className={`text-base font-medium ${ex.en ? 'mb-0.5' : 'mb-6'}`}>{ex.fr}</p>
+      {ex.en && <p className="text-sm text-muted/70 italic mb-6">{ex.en}</p>}
 
       <div className={`flex flex-wrap gap-2 justify-center min-h-[56px] p-3 rounded-xl border-2 mb-4 transition-colors ${
         state === 'correct' ? 'bg-success/10 border-success/40' :
@@ -1700,7 +1705,8 @@ function GrammarMCQ({ ex, state, onAnswer }) {
   return (
     <div className="text-center">
       <p className="text-xs text-muted mb-1 uppercase tracking-wider">Grammaire — {ex.pattern}</p>
-      <p className="text-base font-medium mb-6">{ex.prompt}</p>
+      <p className={`text-base font-medium ${ex.prompt_en ? 'mb-0.5' : 'mb-6'}`}>{ex.prompt}</p>
+      {ex.prompt_en && <p className="text-sm text-muted/70 italic mb-6">{ex.prompt_en}</p>}
       {state === 'answering' ? (
         <div className="space-y-2">
           {ex.options.map((opt, i) => (
@@ -1793,8 +1799,9 @@ function DndFill({ ex, state, onAnswer }) {
 
   return (
     <div>
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider text-center">{ex.label || 'Glisser-déposer'}</p>
-      {ex.instruction && <p className="text-sm text-muted mb-4 text-center">{ex.instruction}</p>}
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider text-center">{ex.label || 'Glisser-déposer · Drag and drop'}</p>
+      {ex.instruction && <p className={`text-sm text-muted text-center ${ex.instruction_en ? '' : 'mb-4'}`}>{ex.instruction}</p>}
+      {ex.instruction_en && <p className="text-sm text-muted/70 italic mb-4 text-center">{ex.instruction_en}</p>}
 
       {!done && (
         <div className="flex flex-wrap gap-2 justify-center min-h-[48px] p-3 mb-4 rounded-xl bg-border/20 border border-dashed border-border">
@@ -1813,7 +1820,7 @@ function DndFill({ ex, state, onAnswer }) {
           ))}
         </div>
       )}
-      {!done && <p className="text-xs text-muted text-center -mt-2 mb-4">Glissez une étiquette, ou touchez-la puis touchez le blanc.</p>}
+      {!done && <p className="text-xs text-muted text-center -mt-2 mb-4">Glissez une étiquette, ou touchez-la puis touchez le blanc.<br /><span className="italic opacity-70">Drag a tile, or tap it and then tap the blank.</span></p>}
 
       <ol className="space-y-2">
         {ex.items.map((item, i) => {
@@ -1923,7 +1930,7 @@ function HanziWrite({ ex, state, onAnswer }) {
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">汉字 — Écrivez de mémoire</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">汉字 — Écrivez de mémoire · Write from memory</p>
       {contextParts ? (
         <p className="text-xl hanzi-display font-medium leading-relaxed mb-4">
           {contextParts[0]}<span className="text-accent">□（{ex.contextPinyin || ex.pinyin}）</span>{contextParts.slice(1).join('___')}
@@ -1931,7 +1938,8 @@ function HanziWrite({ ex, state, onAnswer }) {
       ) : (<>
         <p className="text-3xl hanzi-display font-medium mb-1">{prompt}</p>
         <p className="text-accent font-medium">{ex.wordPinyin}</p>
-        <p className="text-sm text-muted mb-4">□ = {ex.pinyin} · {ex.fr.split(ex.char).join('□')}</p>
+        <p className={`text-sm text-muted ${ex.en ? '' : 'mb-4'}`}>□ = {ex.pinyin} · {ex.fr.split(ex.char).join('□')}</p>
+        {ex.en && <p className="text-sm text-muted/70 italic mb-4">{ex.en.split(ex.char).join('□')}</p>}
       </>)}
 
       <div className="relative mx-auto w-[220px] h-[220px] rounded-xl border border-border bg-white">
@@ -1969,14 +1977,15 @@ function OpenAnswer({ ex, state, onAnswer }) {
   const answer = input.trim();
   const results = (ex.checks || []).map(c => {
     const hit = new RegExp(c.re).test(answer);
-    return { label: c.label, ok: c.absent ? !hit : hit };
+    return { label: c.label, label_en: c.label_en, ok: c.absent ? !hit : hit };
   });
 
   return (
     <div className="text-center">
-      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Répondez en chinois</p>
+      <p className="text-xs text-muted mb-1 uppercase tracking-wider">Répondez en chinois · Answer in Chinese</p>
       <p className="text-2xl hanzi-display font-medium mb-2 leading-relaxed"><Zh text={ex.question} /></p>
-      {ex.instruction_fr && <p className="text-sm text-muted mb-6">{ex.instruction_fr}</p>}
+      {ex.instruction_fr && <p className={`text-sm text-muted ${ex.instruction_en ? '' : 'mb-6'}`}>{ex.instruction_fr}</p>}
+      {ex.instruction_en && <p className="text-sm text-muted/70 italic mb-6">{ex.instruction_en}</p>}
       {!submitted ? (
         <form onSubmit={(e) => { e.preventDefault(); if (answer) setSubmitted(true); }} className="space-y-3">
           <textarea value={input} onChange={e => setInput(e.target.value)} rows={2} autoFocus
@@ -1990,27 +1999,27 @@ function OpenAnswer({ ex, state, onAnswer }) {
       ) : (
         <div className="text-left space-y-4">
           <div className="rounded-xl bg-border/20 p-4">
-            <p className="text-xs font-semibold text-muted uppercase tracking-wider mb-1">Votre réponse</p>
+            <p className="text-xs font-semibold text-muted uppercase tracking-wider mb-1">Votre réponse · Your answer</p>
             <p className="text-lg hanzi-display"><Zh text={answer} /></p>
           </div>
           {results.length > 0 && (
             <ul className="space-y-1">
               {results.map((r, i) => (
                 <li key={i} className={`text-sm flex gap-2 ${r.ok ? 'text-success' : 'text-primary'}`}>
-                  <span>{r.ok ? '✓' : '✗'}</span><span>{r.label}</span>
+                  <span>{r.ok ? '✓' : '✗'}</span><span>{r.label}{r.label_en && r.label_en !== r.label && <span className="italic opacity-70"> · {r.label_en}</span>}</span>
                 </li>
               ))}
             </ul>
           )}
           <div>
-            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Réponses modèles</p>
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Réponses modèles · Model answers</p>
             <ul className="space-y-1">
               {ex.models.map((m, i) => <li key={i} className="text-base hanzi-display"><Zh text={m} /></li>)}
             </ul>
           </div>
           {state === 'answering' ? (
             <div>
-              <p className="text-sm text-muted mb-2 text-center">Comparez avec les modèles : votre réponse est-elle correcte ?</p>
+              <p className="text-sm text-muted mb-2 text-center">Comparez avec les modèles : votre réponse est-elle correcte ?<br /><span className="italic opacity-70">Compare with the models: is your answer correct?</span></p>
               <div className="flex gap-3 justify-center">
                 <button onClick={() => onAnswer(true)}
                   className="flex-1 max-w-[180px] py-3 rounded-xl border border-border bg-surface-alt font-medium hover:border-success hover:bg-success/5 transition-colors">

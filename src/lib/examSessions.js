@@ -38,6 +38,7 @@ export function classifierDnd(n = 8, filter = () => true) {
     type: 'dnd-fill',
     label: '量词 — Glissez le bon classificateur',
     instruction: 'Chaque classificateur ne sert qu\'une fois ; deux sont en trop.',
+    instruction_en: 'Each classifier is used once; two are extra.',
     items,
     bank: shuffle([...items.map(i => i.answer), ...distractors]),
   };
@@ -48,6 +49,7 @@ export function wordBankDnd(set) {
     type: 'dnd-fill',
     label: `选词填空 — ${set.title}`,
     instruction: 'Placez chaque mot une seule fois.',
+    instruction_en: `${set.title_en ? set.title_en + ' — ' : ''}Use each word once.`,
     items: shuffle(set.items),
     bank: shuffle(set.items.map(i => i.answer)),
   };
@@ -57,7 +59,7 @@ export function classifierChoice(c) {
   const wrong = pick(ALL_CLASSIFIERS.filter(a => a !== c.answer && !(c.accept || []).includes(a)), 3);
   return {
     type: 'fill-mcq', sentence: c.sentence, correct: c.answer, accept: c.accept, options: shuffle([c.answer, ...wrong]),
-    hint: 'Quel classificateur ?', explanation_fr: c.explanation_fr, explanation_en: c.explanation_en,
+    hint: 'Quel classificateur ?', hint_en: 'Which classifier?', explanation_fr: c.explanation_fr, explanation_en: c.explanation_en,
   };
 }
 
@@ -85,6 +87,7 @@ export function vocabMcq(lessons, n) {
     return {
       type: 'vocab-mcq',
       prompt: v.gloss_fr.split('—')[0].split('(')[0].trim(),
+      prompt_en: v.gloss_en && v.gloss_en.split('—')[0].split('(')[0].trim(),
       correct: v.word,
       options: shuffle([v.word, ...distractors]),
       pinyin: v.pinyin,
@@ -101,7 +104,7 @@ function bankChoice(set, item) {
   const others = pick(set.items.filter(i => i.answer !== item.answer && !(item.accept || []).includes(i.answer)), 3).map(i => i.answer);
   return {
     type: 'fill-mcq', topic: 'vocabfill', l: set.l, sentence: item.sentence, correct: item.answer, accept: item.accept,
-    options: shuffle([item.answer, ...others]), hint: 'Choisissez le bon mot.',
+    options: shuffle([item.answer, ...others]), hint: 'Choisissez le bon mot.', hint_en: 'Choose the right word.',
   };
 }
 
@@ -122,6 +125,7 @@ function exampleChoices(lessons) {
         type: 'fill-mcq', topic: 'vocabfill', l: l.id, sentence: ex.replace(v.word, '___'), correct: v.word,
         options: shuffle([v.word, ...pick(pool, 3).map(x => x.word)]),
         hint: `Sens : ${v.gloss_fr.split('—')[0].split(';')[0].trim()}`,
+        hint_en: v.gloss_en && `Meaning: ${v.gloss_en.split('—')[0].split(';')[0].trim()}`,
         explanation_fr: `${v.word} (${v.pinyin}) : ${v.gloss_fr}`, explanation_en: v.gloss_en,
       });
     }
@@ -194,7 +198,7 @@ export function topicSession(topicId, lessons) {
   }
   const keepOrder = topicId === 'clf';
   return {
-    rounds: [{ title: topic.title, subtitle: topic.desc, exercises: keepOrder ? exercises : shuffle(exercises) }],
+    rounds: [{ title: topic.title, subtitle: topic.desc, subtitle_en: topic.desc_en, exercises: keepOrder ? exercises : shuffle(exercises) }],
   };
 }
 
@@ -202,7 +206,7 @@ export function topicSession(topicId, lessons) {
 function fiveWordBank() {
   const set = pick(WORD_BANKS, 1)[0];
   const items = pick(set.items, 5);
-  return { type: 'dnd-fill', label: `选词填空 — ${set.title}`, instruction: 'Chaque mot une fois.', items, bank: shuffle(items.map(i => i.answer)) };
+  return { type: 'dnd-fill', label: `选词填空 — ${set.title}`, instruction: 'Chaque mot une fois.', instruction_en: 'Use each word once.', items, bank: shuffle(items.map(i => i.answer)) };
 }
 
 // Mock exam in the format of the 14 October paper: word order ×5, characters in context ×5,
@@ -222,13 +226,13 @@ export function mockExam(lessons) {
   return {
     timeLimit: 60,
     rounds: [
-      { title: 'Section 1 — Ordre des mots', subtitle: 'Remettez les mots dans le bon ordre', points: 4,
+      { title: 'Section 1 — Ordre des mots', subtitle: 'Remettez les mots dans le bon ordre', subtitle_en: 'Put the words in the right order', points: 4,
         exercises: shuffle([...pick(ORDERS.filter(isNew), 2), ...pick(ORDERS.filter(q => !isNew(q)), 3)]).map(prepOrder) },
-      { title: 'Section 2 — 用汉字填空', subtitle: 'Écrivez le caractère dans la phrase', points: 4,
+      { title: 'Section 2 — 用汉字填空', subtitle: 'Écrivez le caractère dans la phrase', subtitle_en: 'Write the character in the sentence', points: 4,
         exercises: shuffle(hanzi).map(hanziInContext) },
-      { title: 'Section 3 — 选词填空', subtitle: 'Placez les mots de la liste', points: 4,
+      { title: 'Section 3 — 选词填空', subtitle: 'Placez les mots de la liste', subtitle_en: 'Place the words from the list', points: 4,
         exercises: [fiveWordBank()] },
-      { title: 'Section 4 — Grammaire', subtitle: 'Toutes les leçons', points: 8,
+      { title: 'Section 4 — Grammaire', subtitle: 'Toutes les leçons', subtitle_en: 'Grammar — all lessons', points: 8,
         exercises: shuffle(grammar) },
     ],
   };
